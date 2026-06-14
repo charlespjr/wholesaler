@@ -78,6 +78,9 @@
                             <i class="fa-solid fa-file-import text-emerald-500"></i> Import Apify CSV
                         </button>
                         <input type="file" id="apify-import-input" accept=".csv,text/csv" class="hidden" onchange="importApifyCSV(this)">
+                        <button onclick="exportCampaign()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Export the personalized texts (for leads with a phone) for the Google Voice sender script">
+                            <i class="fa-brands fa-google text-rose-500"></i> Export Campaign (GV)
+                        </button>
                         <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
                             <i class="fa-solid fa-file-csv text-blue-400"></i> Export Bulk CSV
                         </button>
@@ -614,6 +617,45 @@
                 alert(`Apify import complete.\n\nMatched ${matched} of ${leads.length} leads.\nAdded ${phonesAdded} phone${phonesAdded === 1 ? "" : "s"} and ${namesAdded} agent name${namesAdded === 1 ? "" : "s"}.\n\n(Existing contacts were kept; only blank fields were filled.)`);
             };
             reader.readAsText(file);
+        }
+
+        // Freeze one personalized text per lead that has a phone, for the Google Voice
+        // sender script (gv-texter/send.js). Messages are generated once here so they
+        // can be reviewed/edited before the script sends them.
+        function exportCampaign() {
+            const digits = p => (p || "").replace(/\D/g, "");
+            const messages = leads
+                .filter(l => (l.contact_phone || "").trim())
+                .map(l => {
+                    let d = digits(l.contact_phone);
+                    if (d.length === 10) d = "1" + d;          // assume US
+                    const phoneE164 = d ? "+" + d : "";
+                    return {
+                        id: l.id,
+                        name: l.contact_name || "",
+                        phone: phoneE164,
+                        phoneDisplay: l.contact_phone,
+                        address: l.address,
+                        city: l.city,
+                        message: buildSMS(l, calcOffer(l))
+                    };
+                })
+                .filter(m => m.phone);
+            const payload = {
+                generatedAt: new Date().toISOString(),
+                throttleSeconds: { min: 120, max: 180 },
+                count: messages.length,
+                messages
+            };
+            const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8;" });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = "gv_campaign.json";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
         }
 
         function exportOutreachCSV() {
