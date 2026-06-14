@@ -1183,7 +1183,10 @@
             return { state: st, stateName: STATE_NAMES[st] || st || "the state where the Property is located", zip: m && m[2] ? m[2] : "" };
         }
 
-        function buildPacketHTML(lead, preview) {
+        function buildPacketHTML(lead, preview, exit) {
+            exit = exit || {};
+            const isDoubleClose = exit.mode === 'double';
+            const useTransFunding = !!exit.transFunding;
             const loc = parsePropertyLocation(lead.address);
             const SL = STATE_LAW[loc.state] || STATE_LAW._default;
             const marketClause = SL.restrictMarketing
@@ -1273,6 +1276,78 @@ ${pcdRows}
 </div>`;
 
             const formsHtml = wholesalerForm + sellerDisclosureForm + leadPaintForm;
+
+            const assignmentAddendum = `
+<!-- ================= ASSIGNMENT ADDENDUM ================= -->
+<div class="page-break"></div>
+<h1>Assignment of Real Estate Purchase and Sale Agreement</h1>
+<div class="sub">(${lead.address})</div>
+
+<p>This Assignment (the &ldquo;Assignment&rdquo;) is made as of <span class="fill">&nbsp;${blank}&nbsp;</span>, 20<span class="fill">&nbsp;&nbsp;</span>, between
+<strong>${PARAGON.name}</strong> (&ldquo;Assignor&rdquo;) and <span class="fill">&nbsp;${wideBlank}&nbsp;</span> (&ldquo;Assignee&rdquo;).</p>
+
+<p><strong>Recitals.</strong> Assignor is the Buyer under that certain Real Estate Purchase and Sale Agreement dated <span class="fill">&nbsp;${blank}&nbsp;</span> (the &ldquo;Purchase Agreement&rdquo;) for the property located at <strong>${lead.address}</strong> (the &ldquo;Property&rdquo;). Assignor desires to assign all of its rights and interest in the Purchase Agreement to Assignee.</p>
+
+<h2>1. Assignment</h2>
+<p>Assignor hereby assigns, transfers, and conveys to Assignee all of Assignor&rsquo;s right, title, interest, and equitable interest in and to the Purchase Agreement and the Property. Assignee accepts the assignment and assumes and agrees to perform all of Buyer&rsquo;s obligations under the Purchase Agreement arising from and after the date of this Assignment.</p>
+
+<h2>2. Assignment Fee</h2>
+<p>In consideration of this Assignment, Assignee shall pay Assignor a non-refundable assignment fee of <strong>$<span class="fill">&nbsp;${blank}&nbsp;</span></strong> (the &ldquo;Assignment Fee&rdquo;), payable as follows: a non-refundable deposit of <strong>$<span class="fill">&nbsp;${blank}&nbsp;</span></strong> upon execution of this Assignment, with the balance paid to Assignor through the Closing Agent at, and as a condition of, closing. The Assignment Fee is fully earned upon execution and is non-refundable except for Assignor&rsquo;s failure to deliver the assigned rights.</p>
+
+<h2>3. No Warranty; Indemnification</h2>
+<p>Assignor assigns its interest <strong>AS-IS</strong> and makes no representation or warranty regarding the Property or the Purchase Agreement. Assignee has performed its own due diligence. Assignee shall indemnify, defend, and hold harmless Assignor from any claims, damages, or liabilities arising from the Property or Assignee&rsquo;s performance of the Purchase Agreement after the date hereof.</p>
+
+<h2>4. Failure to Close</h2>
+<p>If Assignee fails to close under the Purchase Agreement, Assignee shall forfeit the deposit and Assignment Fee paid, and Assignor may, at its option, re-assign or enforce the Purchase Agreement. Assignee&rsquo;s default shall not create liability for Assignor to the Seller.</p>
+
+<h2>5. General</h2>
+<p>This Assignment is governed by the laws of ${loc.stateName}, binds the parties&rsquo; successors and assigns, may be executed in counterparts and by electronic signature, and constitutes the entire agreement regarding its subject matter. The prevailing party in any dispute shall recover reasonable attorneys&rsquo; fees.</p>
+
+<div class="sigrow">
+  <div class="sigbox">
+    <div class="sigline">ASSIGNOR — ${PARAGON.name}</div>
+    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Name: ${PARAGON.signer}, ${PARAGON.signerTitle}<br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+  <div class="sigbox">
+    <div class="sigline">ASSIGNEE</div>
+    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Printed name: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+</div>`;
+
+            const doubleCloseAddendum = `
+<!-- ================= DOUBLE CLOSING ADDENDUM ================= -->
+<div class="page-break"></div>
+<h1>Double Closing Memorandum</h1>
+<div class="sub">(${lead.address})</div>
+
+<p>This Memorandum supplements the Real Estate Purchase and Sale Agreement (the &ldquo;Purchase Agreement&rdquo;) between Seller and <strong>${PARAGON.name}</strong> (&ldquo;Buyer&rdquo;) for the Property at <strong>${lead.address}</strong>. Buyer intends to resell the Property through two successive closings (a &ldquo;double close&rdquo;) rather than by assignment.</p>
+
+<h2>1. A&ndash;B Closing (Seller &rarr; Buyer)</h2>
+<p>Buyer shall purchase the Property from Seller under the Purchase Agreement (the &ldquo;A&ndash;B Closing&rdquo;).</p>
+
+<h2>2. B&ndash;C Closing (Buyer &rarr; End Buyer)</h2>
+<p>Immediately following the A&ndash;B Closing &mdash; typically the same business day &mdash; Buyer shall resell and convey the Property to a third-party purchaser (&ldquo;End Buyer&rdquo;) under a separate agreement (the &ldquo;B&ndash;C Closing&rdquo;). Buyer&rsquo;s profit is the spread between the B&ndash;C and A&ndash;B prices and is not a charge to Seller.</p>
+${useTransFunding ? `
+<h2>3. Transactional Funding</h2>
+<p>Buyer intends to fund the A&ndash;B Closing using short-term transactional (same-day) financing from a third-party funder, repaid from the proceeds of the B&ndash;C Closing. This remains a cash purchase to Seller with no financing contingency; Buyer&rsquo;s use of transactional funding does not condition or delay the A&ndash;B Closing, and Buyer shall furnish proof of funds upon Seller&rsquo;s request.</p>` : ``}
+<h2>${useTransFunding ? '4' : '3'}. As-Is; No Warranty</h2>
+<p>Each closing is on an AS-IS basis. The End Buyer&rsquo;s performance (or non-performance) under the B&ndash;C agreement shall not create any liability for Seller, and Buyer makes no warranty to the End Buyer beyond those stated in the B&ndash;C agreement.</p>
+
+<h2>${useTransFunding ? '5' : '4'}. General</h2>
+<p>This Memorandum is governed by the laws of ${loc.stateName}, may be executed in counterparts and by electronic signature, and documents the parties&rsquo; intended double-closing structure for their records.</p>
+
+<div class="sigrow">
+  <div class="sigbox">
+    <div class="sigline">BUYER — ${PARAGON.name}</div>
+    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Name: ${PARAGON.signer}, ${PARAGON.signerTitle}<br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+  <div class="sigbox">
+    <div class="sigline">Acknowledged</div>
+    <p>Name: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+</div>`;
+
+            const addendum = isDoubleClose ? doubleCloseAddendum : assignmentAddendum;
 
             const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
 <title>Wholesale Agreement — ${lead.address}</title>
@@ -1377,41 +1452,7 @@ legally described in <strong>Exhibit A</strong> attached hereto. The Property is
 <p>[Insert the full legal description of the Property from the deed / title commitment.]</p>
 <p style="min-height:90px;border:1px solid #ccc"></p>
 
-<!-- ================= ASSIGNMENT ADDENDUM ================= -->
-<div class="page-break"></div>
-<h1>Assignment of Real Estate Purchase and Sale Agreement</h1>
-<div class="sub">(${lead.address})</div>
-
-<p>This Assignment (the &ldquo;Assignment&rdquo;) is made as of <span class="fill">&nbsp;${blank}&nbsp;</span>, 20<span class="fill">&nbsp;&nbsp;</span>, between
-<strong>${PARAGON.name}</strong> (&ldquo;Assignor&rdquo;) and <span class="fill">&nbsp;${wideBlank}&nbsp;</span> (&ldquo;Assignee&rdquo;).</p>
-
-<p><strong>Recitals.</strong> Assignor is the Buyer under that certain Real Estate Purchase and Sale Agreement dated <span class="fill">&nbsp;${blank}&nbsp;</span> (the &ldquo;Purchase Agreement&rdquo;) for the property located at <strong>${lead.address}</strong> (the &ldquo;Property&rdquo;). Assignor desires to assign all of its rights and interest in the Purchase Agreement to Assignee.</p>
-
-<h2>1. Assignment</h2>
-<p>Assignor hereby assigns, transfers, and conveys to Assignee all of Assignor&rsquo;s right, title, interest, and equitable interest in and to the Purchase Agreement and the Property. Assignee accepts the assignment and assumes and agrees to perform all of Buyer&rsquo;s obligations under the Purchase Agreement arising from and after the date of this Assignment.</p>
-
-<h2>2. Assignment Fee</h2>
-<p>In consideration of this Assignment, Assignee shall pay Assignor a non-refundable assignment fee of <strong>$<span class="fill">&nbsp;${blank}&nbsp;</span></strong> (the &ldquo;Assignment Fee&rdquo;), payable as follows: a non-refundable deposit of <strong>$<span class="fill">&nbsp;${blank}&nbsp;</span></strong> upon execution of this Assignment, with the balance paid to Assignor through the Closing Agent at, and as a condition of, closing. The Assignment Fee is fully earned upon execution and is non-refundable except for Assignor&rsquo;s failure to deliver the assigned rights.</p>
-
-<h2>3. No Warranty; Indemnification</h2>
-<p>Assignor assigns its interest <strong>AS-IS</strong> and makes no representation or warranty regarding the Property or the Purchase Agreement. Assignee has performed its own due diligence. Assignee shall indemnify, defend, and hold harmless Assignor from any claims, damages, or liabilities arising from the Property or Assignee&rsquo;s performance of the Purchase Agreement after the date hereof.</p>
-
-<h2>4. Failure to Close</h2>
-<p>If Assignee fails to close under the Purchase Agreement, Assignee shall forfeit the deposit and Assignment Fee paid, and Assignor may, at its option, re-assign or enforce the Purchase Agreement. Assignee&rsquo;s default shall not create liability for Assignor to the Seller.</p>
-
-<h2>5. General</h2>
-<p>This Assignment is governed by the laws of ${loc.stateName}, binds the parties&rsquo; successors and assigns, may be executed in counterparts and by electronic signature, and constitutes the entire agreement regarding its subject matter. The prevailing party in any dispute shall recover reasonable attorneys&rsquo; fees.</p>
-
-<div class="sigrow">
-  <div class="sigbox">
-    <div class="sigline">ASSIGNOR — ${PARAGON.name}</div>
-    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Name: ${PARAGON.signer}, ${PARAGON.signerTitle}<br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
-  </div>
-  <div class="sigbox">
-    <div class="sigline">ASSIGNEE</div>
-    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Printed name: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
-  </div>
-</div>
+${addendum}
 
 ${formsHtml}
 
@@ -1424,9 +1465,16 @@ ${formsHtml}
         function generateAgreement(id) {
             const lead = leads.find(l => l.id === id);
             if (!lead) { alert("Open a deal first, then generate its agreement."); return; }
+            // Choose exit strategy for this deal.
+            const exit = {};
+            const doubleClose = confirm(`Exit strategy for ${lead.address}:\n\nOK = Double close (you buy, then resell)\nCancel = Assignment (assign the contract)`);
+            if (doubleClose) {
+                exit.mode = "double";
+                exit.transFunding = confirm("Use transactional funding for the double close?\n\nOK = Yes (adds a transactional-funding clause)\nCancel = No");
+            }
             const w = window.open("", "_blank");
             if (!w) { alert("Pop-up blocked — allow pop-ups for this site to open the agreement."); return; }
-            w.document.write(buildPacketHTML(lead, true));
+            w.document.write(buildPacketHTML(lead, true, exit));
             w.document.close();
         }
 
