@@ -78,7 +78,7 @@
                             <i class="fa-solid fa-file-import text-emerald-500"></i> Import Apify CSV
                         </button>
                         <input type="file" id="apify-import-input" accept=".csv,text/csv" class="hidden" onchange="importApifyCSV(this)">
-                        <button onclick="exportCampaign()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Export the personalized texts (for leads with a phone) for the Google Voice sender script">
+                        <button onclick="exportCampaign()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Export the personalized texts (CSV + JSON) for the CoWork Google Voice run">
                             <i class="fa-brands fa-google text-rose-500"></i> Export Campaign (GV)
                         </button>
                         <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
@@ -619,43 +619,62 @@
             reader.readAsText(file);
         }
 
-        // Freeze one personalized text per lead that has a phone, for the Google Voice
-        // sender script (gv-texter/send.js). Messages are generated once here so they
-        // can be reviewed/edited before the script sends them.
-        function exportCampaign() {
-            const digits = p => (p || "").replace(/\D/g, "");
-            const messages = leads
-                .filter(l => (l.contact_phone || "").trim())
-                .map(l => {
-                    let d = digits(l.contact_phone);
-                    if (d.length === 10) d = "1" + d;          // assume US
-                    const phoneE164 = d ? "+" + d : "";
-                    return {
-                        id: l.id,
-                        name: l.contact_name || "",
-                        phone: phoneE164,
-                        phoneDisplay: l.contact_phone,
-                        address: l.address,
-                        city: l.city,
-                        message: buildSMS(l, calcOffer(l))
-                    };
-                })
-                .filter(m => m.phone);
-            const payload = {
-                generatedAt: new Date().toISOString(),
-                throttleSeconds: { min: 120, max: 180 },
-                count: messages.length,
-                messages
-            };
-            const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8;" });
+        function downloadFile(filename, content, mime) {
+            const blob = new Blob([content], { type: mime + ";charset=utf-8;" });
             const url = URL.createObjectURL(blob);
             const link = document.createElement("a");
             link.href = url;
-            link.download = "gv_campaign.json";
+            link.download = filename;
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
             URL.revokeObjectURL(url);
+        }
+
+        // US toll-free prefixes — Google Voice usually can't text these, so flag them.
+        const TOLL_FREE = /^\+1(800|888|877|866|855|844|833)/;
+
+        // Freeze one personalized text per lead that has a phone, for the CoWork
+        // Google Voice run (see COWORK_PLAYBOOK.md). Messages are generated once here
+        // so they can be reviewed/edited before CoWork sends them. Downloads both a
+        // readable CSV (the sheet CoWork follows) and the same data as JSON.
+        function exportCampaign() {
+            const digits = p => (p || "").replace(/\D/g, "");
+            const rows = leads
+                .filter(l => (l.contact_phone || "").trim())
+                .map(l => {
+                    let d = digits(l.contact_phone);
+                    if (d.length === 10) d = "1" + d;          // assume US
+                    const phone = d ? "+" + d : "";
+                    return {
+                        id: l.id,
+                        name: l.contact_name || "",
+                        phone,
+                        phoneDisplay: l.contact_phone,
+                        address: l.address,
+                        city: l.city,
+                        tollFree: TOLL_FREE.test(phone),
+                        message: buildSMS(l, calcOffer(l))
+                    };
+                })
+                .filter(m => m.phone);
+
+            // JSON (structured data)
+            downloadFile("gv_campaign.json", JSON.stringify({
+                generatedAt: new Date().toISOString(),
+                throttleSeconds: { min: 120, max: 180 },
+                count: rows.length,
+                messages: rows
+            }, null, 2), "application/json");
+
+            // CSV (the sheet CoWork works through; sent_at left blank for it to fill)
+            const esc = v => `"${String(v).replace(/"/g, '""')}"`;
+            const header = ["id", "agent", "phone", "phoneDisplay", "address", "city", "toll_free", "message", "sent_at"];
+            const lines = [header.map(esc).join(",")];
+            rows.forEach(r => lines.push(
+                [r.id, r.name, r.phone, r.phoneDisplay, r.address, r.city, r.tollFree ? "YES" : "", r.message, ""].map(esc).join(",")
+            ));
+            downloadFile("gv_campaign.csv", lines.join("\r\n"), "text/csv");
         }
 
         function exportOutreachCSV() {
