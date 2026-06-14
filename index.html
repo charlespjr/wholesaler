@@ -222,6 +222,9 @@
                     </button>
                 </div>
             </div>
+            <button onclick="generateAgreement(currentLead && currentLead.id)" class="w-full mt-6 bg-gradient-to-r from-emerald-700 to-emerald-600 text-white py-5 rounded-2xl font-bold text-lg hover:from-emerald-800 hover:to-emerald-700 shadow-lg transition-all flex items-center justify-center gap-3">
+                <i class="fa-solid fa-file-contract"></i> Generate Wholesale Agreement (PDF)
+            </button>
         </div>
     </div>
 
@@ -675,6 +678,193 @@
                 [r.id, r.name, r.phone, r.phoneDisplay, r.address, r.city, r.tollFree ? "YES" : "", r.message, ""].map(esc).join(",")
             ));
             downloadFile("gv_campaign.csv", lines.join("\r\n"), "text/csv");
+        }
+
+        // ----- Wholesale agreement generator -----
+        const PARAGON = {
+            name: "Paragon Government Solutions LLC",
+            addr: "11166 Fairfax, STE 500, Fairfax, VA 22030",
+            phone: "888.495.6935",
+            email: "charles@paragongovsolutions.net",
+            signer: "Charles Pleasant",
+            signerTitle: "Authorized Member / Manager"
+        };
+        const STATE_NAMES = {
+            AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California", CO: "Colorado",
+            CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho",
+            IL: "Illinois", IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana",
+            ME: "Maine", MD: "Maryland", MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi",
+            MO: "Missouri", MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
+            NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio", OK: "Oklahoma",
+            OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota",
+            TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont", VA: "Virginia", WA: "Washington",
+            WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming", DC: "District of Columbia"
+        };
+        function parsePropertyLocation(addr) {
+            const m = (addr || "").match(/,\s*([A-Z]{2})\s*(\d{5})?\s*$/);
+            const st = m ? m[1] : "";
+            return { state: st, stateName: STATE_NAMES[st] || st || "the state where the Property is located", zip: m && m[2] ? m[2] : "" };
+        }
+
+        function generateAgreement(id) {
+            const lead = leads.find(l => l.id === id);
+            if (!lead) { alert("Open a deal first, then generate its agreement."); return; }
+            const loc = parsePropertyLocation(lead.address);
+            const offer = calcOffer(lead);
+            const price = offer != null ? money(offer) : "$________________";
+            const blank = "________________";
+            const wideBlank = "______________________________";
+            const contact = lead.contact_name ? `${lead.contact_name}${lead.contact_phone ? " — " + lead.contact_phone : ""}` : "(see listing)";
+            const today = new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+
+            const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Wholesale Agreement — ${lead.address}</title>
+<style>
+  @media print { .no-print { display:none } @page { margin: 0.9in } }
+  body { font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.55; color:#111; max-width: 8.5in; margin: 0 auto; padding: 28px; }
+  h1 { font-size: 15pt; text-align:center; margin: 4px 0; text-transform: uppercase; letter-spacing:.5px; }
+  h2 { font-size: 11.5pt; margin: 22px 0 6px; border-bottom: 1px solid #000; padding-bottom: 3px; }
+  p, li { margin: 7px 0; text-align: justify; }
+  .sub { text-align:center; font-size: 10pt; color:#333; margin-bottom: 18px; }
+  .fill { border-bottom: 1px solid #000; display:inline-block; min-width: 120px; }
+  .sigrow { display:flex; gap: 40px; margin-top: 34px; }
+  .sigbox { flex:1; }
+  .sigline { border-top: 1px solid #000; padding-top: 4px; font-size: 9.5pt; }
+  .page-break { page-break-before: always; }
+  .disclaimer { font-size: 9pt; color:#222; border: 1px solid #888; background:#f6f6f6; padding: 12px; margin: 20px 0; }
+  .toolbar { position: sticky; top:0; background:#0f172a; color:#fff; padding: 12px 18px; display:flex; justify-content:space-between; align-items:center; border-radius: 10px; margin-bottom: 22px; }
+  .toolbar button { background:#2563eb; color:#fff; border:0; padding: 9px 18px; border-radius: 8px; font-weight:700; cursor:pointer; font-family: system-ui, sans-serif; }
+  ol { padding-left: 20px; }
+</style></head>
+<body>
+<div class="toolbar no-print">
+  <strong>${lead.address}</strong>
+  <button onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+<div class="disclaimer">
+  <strong>TEMPLATE — NOT LEGAL ADVICE.</strong> This document is a starting template generated for ${PARAGON.name}.
+  It has not been reviewed by an attorney. Real estate, assignment, and wholesaling rules vary by state, and some states
+  restrict assignment/wholesaling or require specific disclosures. Have a licensed attorney in ${loc.stateName} review and
+  adapt this before signing or relying on it.
+</div>
+
+<h1>Real Estate Purchase and Sale Agreement</h1>
+<div class="sub">(Assignable Contract)</div>
+
+<p>This Real Estate Purchase and Sale Agreement (the &ldquo;Agreement&rdquo;) is made and entered into as of
+<span class="fill">&nbsp;${blank}&nbsp;</span>, 20<span class="fill">&nbsp;&nbsp;</span> (the &ldquo;Effective Date&rdquo;), by and between:</p>
+
+<p><strong>SELLER:</strong> <span class="fill">&nbsp;${wideBlank}&nbsp;</span> (&ldquo;Seller&rdquo;), and<br>
+<strong>BUYER:</strong> ${PARAGON.name}, a Virginia limited liability company, and/or its assigns (&ldquo;Buyer&rdquo;).</p>
+
+<p style="font-size:10pt;color:#333"><em>Listing/owner contact of record: ${contact}.</em></p>
+
+<h2>1. Property</h2>
+<p>Seller agrees to sell and Buyer agrees to buy the real property and all improvements, fixtures, and appurtenances located at
+<strong>${lead.address}</strong>, ${loc.state ? loc.state + " " : ""}${loc.zip} (County of <span class="fill">&nbsp;${blank}&nbsp;</span>) (the &ldquo;Property&rdquo;),
+legally described in <strong>Exhibit A</strong> attached hereto. The Property is sold together with all mineral, water, and similar rights owned by Seller.</p>
+
+<h2>2. Purchase Price</h2>
+<p>The total purchase price for the Property shall be <strong>${price}</strong> (the &ldquo;Purchase Price&rdquo;), payable in cash or certified funds at Closing.</p>
+
+<h2>3. Earnest Money Deposit</h2>
+<p>Within five (5) business days after the Effective Date, Buyer shall deposit earnest money of <strong>$100.00</strong> (the &ldquo;Deposit&rdquo;) with the Closing Agent. The Deposit shall be credited to the Purchase Price at Closing and is refundable to Buyer if this Agreement is terminated during the Inspection Period or for any Seller default or failure of a condition.</p>
+
+<h2>4. Closing</h2>
+<p>Closing shall occur on or before <span class="fill">&nbsp;${blank}&nbsp;</span> (and in any event within thirty (30) days after the Effective Date, unless extended in writing) at a title company or closing attorney selected by Buyer (the &ldquo;Closing Agent&rdquo;). Seller shall convey marketable, insurable title by general warranty deed, free of liens and encumbrances except those approved by Buyer. Seller shall pay for the owner&rsquo;s title policy and the release of existing liens; remaining customary costs allocated per local practice.</p>
+
+<h2>5. Assignment</h2>
+<p><strong>Buyer may freely assign, transfer, or convey this Agreement and all of Buyer&rsquo;s rights, title, and equitable interest hereunder, in whole or in part, to any person or entity, without the consent of Seller.</strong> Seller acknowledges that Buyer is a real estate investor/wholesaler, that Buyer is acquiring an equitable interest in the Property for the purpose of resale or assignment, and that Buyer may profit from such assignment. Upon an assignment and the assignee&rsquo;s assumption of Buyer&rsquo;s obligations, the assigning Buyer shall be released from all liability under this Agreement. This Agreement binds and benefits the parties and their respective heirs, successors, and assigns.</p>
+
+<h2>6. Marketing &amp; Equitable Interest</h2>
+<p>Seller agrees that Buyer holds an equitable interest in the Property upon execution of this Agreement and may market the Property and/or Buyer&rsquo;s contractual interest to prospective assignees and end buyers. Buyer may record a memorandum or affidavit of this Agreement to provide notice of Buyer&rsquo;s equitable interest, and Seller consents to such recording.</p>
+
+<h2>7. Inspection / Due Diligence Period</h2>
+<p>Buyer shall have a period of <span class="fill">&nbsp;ten (10)&nbsp;</span> days after the Effective Date (the &ldquo;Inspection Period&rdquo;) to inspect the Property, title, and all matters Buyer deems relevant. Seller shall provide reasonable access. <strong>Buyer may terminate this Agreement for any reason or no reason during the Inspection Period by written notice, in which case the Deposit shall be promptly refunded to Buyer and neither party shall have further obligation.</strong></p>
+
+<h2>8. Condition of Property / &ldquo;As-Is&rdquo;</h2>
+<p>The Property is sold strictly <strong>&ldquo;AS-IS, WHERE-IS,&rdquo;</strong> with all faults. Buyer relies solely on its own inspections and not on any statement of Seller except the express representations herein. Seller shall maintain the Property in its current condition through Closing and deliver it free of debris and personal property not conveyed.</p>
+
+<h2>9. Seller&rsquo;s Representations and Warranties</h2>
+<p>Seller represents and warrants that: (a) Seller has full authority to sell the Property; (b) there are no undisclosed liens, leases, tenancies, or litigation affecting the Property; (c) Seller has received no notice of code violations, special assessments, or pending governmental actions except as disclosed; and (d) Seller is not a &ldquo;foreign person&rdquo; under FIRPTA (IRC &sect;1445). These representations survive Closing.</p>
+
+<h2>10. Default and Remedies</h2>
+<p>If Buyer defaults, Seller&rsquo;s <strong>sole and exclusive remedy</strong> shall be to terminate this Agreement and retain the Deposit as full and agreed liquidated damages, the parties acknowledging that actual damages would be difficult to determine; Seller waives all other remedies, including specific performance and consequential damages. If Seller defaults or fails to convey marketable title, Buyer may, at its option, (i) terminate and recover the Deposit plus Buyer&rsquo;s actual costs, or (ii) pursue specific performance.</p>
+
+<h2>11. Prorations, Risk of Loss, Possession</h2>
+<p>Real estate taxes, assessments, and similar items shall be prorated as of Closing. Risk of loss remains with Seller until Closing. Possession shall be delivered to Buyer at Closing, free of occupants unless otherwise agreed in writing.</p>
+
+<h2>12. Disclosures</h2>
+<p>Seller shall provide all disclosures required by law, including, for any dwelling built before 1978, the federal Lead-Based Paint Disclosure and pamphlet, and any property-condition or other disclosures required by ${loc.stateName} law.</p>
+
+<h2>13. Notices</h2>
+<p>Notices shall be in writing and delivered by hand, mail, or email to the parties at the addresses below. Buyer&rsquo;s notice address: ${PARAGON.name}, ${PARAGON.addr}; phone ${PARAGON.phone}; email ${PARAGON.email}.</p>
+
+<h2>14. General Provisions</h2>
+<p>Time is of the essence. This Agreement is governed by the laws of <strong>${loc.stateName}</strong>. In any dispute, the prevailing party shall recover reasonable attorneys&rsquo; fees and costs. This Agreement constitutes the entire agreement, supersedes all prior understandings, and may be amended only in a writing signed by both parties. It may be executed in counterparts and by electronic signature, each of which is deemed an original. If any provision is unenforceable, the remainder shall remain in effect.</p>
+
+<div class="sigrow">
+  <div class="sigbox">
+    <div class="sigline">SELLER signature</div>
+    <p>Printed name: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+  <div class="sigbox">
+    <div class="sigline">BUYER — ${PARAGON.name}</div>
+    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Name: ${PARAGON.signer}, ${PARAGON.signerTitle}<br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+</div>
+
+<h2 style="margin-top:34px">Exhibit A — Legal Description</h2>
+<p>[Insert the full legal description of the Property from the deed / title commitment.]</p>
+<p style="min-height:90px;border:1px solid #ccc"></p>
+
+<!-- ================= ASSIGNMENT ADDENDUM ================= -->
+<div class="page-break"></div>
+<h1>Assignment of Real Estate Purchase and Sale Agreement</h1>
+<div class="sub">(${lead.address})</div>
+
+<p>This Assignment (the &ldquo;Assignment&rdquo;) is made as of <span class="fill">&nbsp;${blank}&nbsp;</span>, 20<span class="fill">&nbsp;&nbsp;</span>, between
+<strong>${PARAGON.name}</strong> (&ldquo;Assignor&rdquo;) and <span class="fill">&nbsp;${wideBlank}&nbsp;</span> (&ldquo;Assignee&rdquo;).</p>
+
+<p><strong>Recitals.</strong> Assignor is the Buyer under that certain Real Estate Purchase and Sale Agreement dated <span class="fill">&nbsp;${blank}&nbsp;</span> (the &ldquo;Purchase Agreement&rdquo;) for the property located at <strong>${lead.address}</strong> (the &ldquo;Property&rdquo;). Assignor desires to assign all of its rights and interest in the Purchase Agreement to Assignee.</p>
+
+<h2>1. Assignment</h2>
+<p>Assignor hereby assigns, transfers, and conveys to Assignee all of Assignor&rsquo;s right, title, interest, and equitable interest in and to the Purchase Agreement and the Property. Assignee accepts the assignment and assumes and agrees to perform all of Buyer&rsquo;s obligations under the Purchase Agreement arising from and after the date of this Assignment.</p>
+
+<h2>2. Assignment Fee</h2>
+<p>In consideration of this Assignment, Assignee shall pay Assignor a non-refundable assignment fee of <strong>$<span class="fill">&nbsp;${blank}&nbsp;</span></strong> (the &ldquo;Assignment Fee&rdquo;), payable as follows: a non-refundable deposit of <strong>$<span class="fill">&nbsp;${blank}&nbsp;</span></strong> upon execution of this Assignment, with the balance paid to Assignor through the Closing Agent at, and as a condition of, closing. The Assignment Fee is fully earned upon execution and is non-refundable except for Assignor&rsquo;s failure to deliver the assigned rights.</p>
+
+<h2>3. No Warranty; Indemnification</h2>
+<p>Assignor assigns its interest <strong>AS-IS</strong> and makes no representation or warranty regarding the Property or the Purchase Agreement. Assignee has performed its own due diligence. Assignee shall indemnify, defend, and hold harmless Assignor from any claims, damages, or liabilities arising from the Property or Assignee&rsquo;s performance of the Purchase Agreement after the date hereof.</p>
+
+<h2>4. Failure to Close</h2>
+<p>If Assignee fails to close under the Purchase Agreement, Assignee shall forfeit the deposit and Assignment Fee paid, and Assignor may, at its option, re-assign or enforce the Purchase Agreement. Assignee&rsquo;s default shall not create liability for Assignor to the Seller.</p>
+
+<h2>5. General</h2>
+<p>This Assignment is governed by the laws of ${loc.stateName}, binds the parties&rsquo; successors and assigns, may be executed in counterparts and by electronic signature, and constitutes the entire agreement regarding its subject matter. The prevailing party in any dispute shall recover reasonable attorneys&rsquo; fees.</p>
+
+<div class="sigrow">
+  <div class="sigbox">
+    <div class="sigline">ASSIGNOR — ${PARAGON.name}</div>
+    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Name: ${PARAGON.signer}, ${PARAGON.signerTitle}<br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+  <div class="sigbox">
+    <div class="sigline">ASSIGNEE</div>
+    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Printed name: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+</div>
+
+<div class="disclaimer" style="margin-top:30px">
+  Generated ${today} by the Paragon deal desk for internal use. Not legal advice — confirm enforceability, licensing, and required disclosures with counsel in ${loc.stateName} before use.
+</div>
+
+</body></html>`;
+
+            const w = window.open("", "_blank");
+            if (!w) { alert("Pop-up blocked — allow pop-ups for this site to open the agreement."); return; }
+            w.document.write(html);
+            w.document.close();
         }
 
         function exportOutreachCSV() {
