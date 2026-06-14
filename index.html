@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipster Lite • Wholesale Deal Machine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+        :root { --primary: #2563eb; }
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .font-display { font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 600; }
+        .nav-active { background-color: #dbeafe; color: #1e40af; border-radius: 8px; }
+        .section { display: none; }
+        .section.active { display: block; }
+        .lead-row:hover { background-color: #f8fafc; }
+    </style>
+</head>
+<body class="bg-slate-50">
+    <!-- Top Navbar -->
+    <nav class="bg-white border-b border-slate-200 sticky top-0 z-40">
+        <div class="max-w-screen-2xl mx-auto px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center">
+                    <i class="fa-solid fa-home text-white text-2xl"></i>
+                </div>
+                <div>
+                    <span class="font-display text-3xl font-semibold tracking-tighter text-slate-900">Flipster</span>
+                    <span class="text-blue-600 font-bold text-sm ml-1">PRO</span>
+                </div>
+            </div>
+            <div class="flex items-center gap-x-4">
+                <div class="flex items-center gap-x-2 bg-emerald-50 px-4 py-2 rounded-full border border-emerald-100">
+                    <div class="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-pulse"></div>
+                    <span id="lead-count" class="text-sm font-bold text-emerald-700">0 deals active</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-screen-2xl mx-auto flex">
+        <!-- Sidebar -->
+        <div class="w-72 bg-white border-r border-slate-200 min-h-screen p-4 sticky top-[73px]">
+            <div class="px-3 mb-2 text-[10px] font-bold text-slate-400 tracking-widest uppercase">Deal Flow</div>
+            <div onclick="showSection('dashboard')" class="nav-item flex items-center gap-x-3 px-4 py-3 text-slate-700 hover:bg-slate-100 rounded-2xl mb-1 cursor-pointer nav-active" id="nav-dashboard">
+                <i class="fa-solid fa-chart-line w-5"></i><span class="font-semibold">Leads Dashboard</span>
+            </div>
+            <div onclick="showSection('deep-search')" class="nav-item flex items-center gap-x-3 px-4 py-3 text-slate-700 hover:bg-slate-100 rounded-2xl mb-1 cursor-pointer" id="nav-deep-search">
+                <i class="fa-solid fa-bullseye w-5 text-red-500"></i><span class="font-semibold">Lead Finder</span>
+            </div>
+            <div onclick="showSection('analyzer')" class="nav-item flex items-center gap-x-3 px-4 py-3 text-slate-700 hover:bg-slate-100 rounded-2xl mb-1 cursor-pointer" id="nav-analyzer">
+                <i class="fa-solid fa-calculator w-5"></i><span class="font-semibold">MAO Calculator</span>
+            </div>
+            <div class="mt-8 px-3">
+                <div class="bg-blue-600 rounded-3xl p-6 text-white shadow-xl shadow-blue-200">
+                    <div class="font-bold mb-1 uppercase text-[10px] tracking-widest opacity-80">Pro Status</div>
+                    <div class="font-bold text-lg leading-tight">32 Markets Loaded</div>
+                    <div class="text-xs mt-2 opacity-90">Sample dataset — verify agent contacts before outreach.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-8">
+            <!-- DASHBOARD -->
+            <div id="dashboard" class="section active">
+                <div class="flex justify-between items-end mb-8">
+                    <div>
+                        <h1 class="text-4xl font-bold tracking-tight text-slate-900">Wholesale Dashboard</h1>
+                        <p class="text-slate-500 mt-1">Sample listings across 32 major US cities — replace with verified leads before sending.</p>
+                    </div>
+                    <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
+                        <i class="fa-solid fa-file-csv text-blue-400"></i> Export Bulk CSV
+                    </button>
+                </div>
+
+                <!-- Search bar -->
+                <div class="mb-6 relative max-w-xl">
+                    <i class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                    <input type="text" id="lead-search" oninput="renderLeads()" placeholder="Search by city, address, agent, or motivation…"
+                        class="w-full bg-white border border-slate-200 pl-12 pr-5 py-3.5 rounded-2xl font-medium focus:ring-2 ring-blue-500 outline-none shadow-sm transition-all">
+                </div>
+
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+                    <table class="w-full">
+                        <thead class="bg-slate-50 border-b border-slate-200">
+                            <tr>
+                                <th class="text-left px-6 py-5 text-[10px] font-bold text-slate-400 uppercase tracking-widest">Property / City</th>
+                                <th class="text-left px-6 py-5 text-[10px] font-bold text-slate-400 uppercase tracking-widest">Motivation</th>
+                                <th class="text-left px-6 py-5 text-[10px] font-bold text-slate-400 uppercase tracking-widest">Listing Agent</th>
+                                <th class="text-right px-6 py-5 text-[10px] font-bold text-slate-400 uppercase tracking-widest">Ask Price</th>
+                                <th class="text-left px-6 py-5 text-[10px] font-bold text-slate-400 uppercase tracking-widest">Wholesale MAO</th>
+                                <th class="text-center px-6 py-5 text-[10px] font-bold text-slate-400 uppercase tracking-widest">Tools</th>
+                            </tr>
+                        </thead>
+                        <tbody id="leads-table">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- DEEP SEARCH (LINK GENERATOR) -->
+            <div id="deep-search" class="section">
+                <h1 class="text-4xl font-bold tracking-tight text-slate-900 mb-2">Google Lead Finder</h1>
+                <p class="text-slate-500 mb-8 font-medium">Generate Google dork search strings to find Zillow listings for any zip code or city.</p>
+                <div class="bg-white p-10 rounded-[40px] border border-slate-200 shadow-sm max-w-3xl">
+                    <div class="mb-8">
+                        <label class="block text-sm font-bold text-slate-700 mb-3">Target Location</label>
+                        <input type="text" id="deep-location" class="w-full border border-slate-200 bg-slate-50 px-6 py-4 rounded-2xl text-lg font-medium focus:ring-2 ring-blue-500 transition-all outline-none" placeholder="Zip code or City, State">
+                    </div>
+                    <button onclick="generateDeepLinks()" class="w-full bg-blue-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-blue-700 shadow-lg shadow-blue-100 transition-all">Generate Search Strings</button>
+                    <div id="deep-links-container" class="mt-10 hidden border-t border-slate-100 pt-8">
+                        <div class="space-y-4" id="deep-links-list"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ANALYZER -->
+            <div id="analyzer" class="section">
+                <h1 class="text-4xl font-bold tracking-tight text-slate-900 mb-8">Wholesale Deal Analyzer</h1>
+                <div class="bg-white p-10 rounded-[40px] border border-slate-200 shadow-sm max-w-2xl">
+                    <div class="grid grid-cols-3 gap-6 mb-8">
+                        <div><label class="block text-xs font-bold text-slate-400 uppercase mb-2">After Repair Value</label><input type="number" id="arv" value="275000" class="w-full border-b-2 border-slate-100 py-3 text-2xl font-bold focus:border-blue-600 outline-none transition-all"></div>
+                        <div><label class="block text-xs font-bold text-slate-400 uppercase mb-2">Est. Repairs</label><input type="number" id="repairs" value="45000" class="w-full border-b-2 border-slate-100 py-3 text-2xl font-bold focus:border-red-600 outline-none transition-all"></div>
+                        <div><label class="block text-xs font-bold text-slate-400 uppercase mb-2">Wholesale Fee</label><input type="number" id="fee" value="10000" class="w-full border-b-2 border-slate-100 py-3 text-2xl font-bold focus:border-emerald-600 outline-none transition-all"></div>
+                    </div>
+                    <button onclick="calculateDeal()" class="w-full bg-emerald-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-emerald-700 transition-all">Run MAO Analysis</button>
+                    <div id="deal-result" class="mt-10 hidden bg-emerald-50 p-8 rounded-3xl border border-emerald-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deal Detail Modal -->
+    <div id="property-modal" onclick="if (event.target.id === 'property-modal') hideModal()" class="hidden fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+        <div onclick="event.stopImmediatePropagation()" class="bg-white w-full max-w-2xl rounded-[40px] overflow-hidden shadow-2xl">
+            <div class="px-10 py-8 border-b border-slate-50 flex justify-between items-start">
+                <div>
+                    <div id="modal-address" class="font-bold text-3xl text-slate-900 tracking-tight"></div>
+                    <div id="modal-motivation" class="text-xs font-bold text-blue-600 uppercase tracking-widest mt-1"></div>
+                </div>
+                <button onclick="hideModal()" class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center text-slate-400 hover:text-slate-900 transition-all text-xl">&times;</button>
+            </div>
+            <div class="p-10">
+                <!-- Price vs Offer -->
+                <div class="grid grid-cols-3 gap-4 mb-8">
+                    <div class="bg-slate-50 p-5 rounded-3xl border border-slate-100 text-center">
+                        <div class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1">List Price</div>
+                        <div id="modal-list" class="text-2xl font-bold text-slate-900"></div>
+                    </div>
+                    <div class="bg-emerald-50 p-5 rounded-3xl border border-emerald-100 text-center">
+                        <div class="text-[10px] text-emerald-600 font-bold uppercase tracking-widest mb-1">Wholesale Offer</div>
+                        <div id="modal-offer" class="text-2xl font-bold text-emerald-700"></div>
+                    </div>
+                    <div class="bg-blue-50 p-5 rounded-3xl border border-blue-100 text-center">
+                        <div class="text-[10px] text-blue-600 font-bold uppercase tracking-widest mb-1">Est. ARV</div>
+                        <div id="modal-arv" class="text-2xl font-bold text-blue-700"></div>
+                    </div>
+                </div>
+
+                <div class="bg-blue-50 p-6 rounded-3xl border border-blue-100 flex items-center justify-between mb-8">
+                    <div>
+                        <div class="text-[10px] text-blue-600 font-bold uppercase tracking-widest mb-1">Listing Agent / Broker</div>
+                        <div id="modal-owner" class="text-2xl font-bold text-blue-900"></div>
+                        <div id="modal-phone" class="text-lg font-semibold text-blue-800 mt-0.5 opacity-80"></div>
+                    </div>
+                    <a id="modal-call-btn" href="#" class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl shadow-xl shadow-blue-200 hover:scale-110 transition-all"><i class="fa-solid fa-phone"></i></a>
+                </div>
+
+                <div class="p-8 bg-slate-900 rounded-[32px] text-white shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl"><i class="fa-solid fa-comment-sms"></i></div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-[10px] font-bold text-blue-400 uppercase tracking-widest">Auto-Generated Offer SMS</span>
+                        <button onclick="regenerateSMS()" class="text-[10px] font-bold text-slate-400 hover:text-white transition-colors flex items-center gap-1"><i class="fa-solid fa-rotate"></i> Shuffle</button>
+                    </div>
+                    <div id="modal-sms" class="text-sm font-medium leading-relaxed mb-6 border-l-4 border-blue-600 pl-4 py-2 italic opacity-90"></div>
+                    <button onclick="copyCurrentSMS()" class="w-full bg-blue-600 hover:bg-blue-500 py-4 rounded-2xl font-bold transition-all flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-copy"></i> Copy Message to Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EMBEDDED DATA AND LOGIC FOR MAX RELIABILITY -->
+    <script>
+        // ----- Sample dataset (32 cities) -----
+        // NOTE: phone numbers use the 555-01xx reserved range and agent names are
+        // placeholders. Skip-trace / verify each contact before any real outreach.
+        const FLIPSTER_LEADS = [
+            {"id":"AUS01","city":"Austin, TX","address":"2401 E 12th St, Austin, TX 78702","contact_name":"Marcus Realty","contact_phone":"(512) 555-0101","motivation":"Needs TLC","listing_price":325000,"est_arv":485000,"repairs":60000,"wholesale_fee":10000},
+            {"id":"DAL01","city":"Dallas, TX","address":"4557 Image Pl, Dallas, TX 75211","contact_name":"Dallas Inv Team","contact_phone":"(214) 555-0922","motivation":"Fixer Upper","listing_price":215000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"HOU01","city":"Houston, TX","address":"6155 Ridgeway Dr, Houston, TX 77033","contact_name":"Nan & Company","contact_phone":"(713) 555-0188","motivation":"As-Is Fixer","listing_price":195000,"est_arv":315000,"repairs":50000,"wholesale_fee":10000},
+            {"id":"SAN01","city":"San Antonio, TX","address":"1202 S Alamo St, San Antonio, TX 78210","contact_name":"Alamo Brokers","contact_phone":"(210) 555-0104","motivation":"Needs TLC","listing_price":175000,"est_arv":285000,"repairs":40000,"wholesale_fee":10000},
+            {"id":"FTW01","city":"Fort Worth, TX","address":"3528 Kellis St, Fort Worth, TX 76119","contact_name":"Cowtown Realty","contact_phone":"(817) 555-0105","motivation":"Fixer Upper","listing_price":219900,"est_arv":345000,"repairs":50000,"wholesale_fee":10000},
+            {"id":"ORL01","city":"Orlando, FL","address":"4022 Shellman St, Orlando, FL 32811","contact_name":"Susan Wilkinson","contact_phone":"(407) 555-0106","motivation":"Investor Special","listing_price":199999,"est_arv":325000,"repairs":50000,"wholesale_fee":10000},
+            {"id":"TAM01","city":"Tampa, FL","address":"880 Oak Dr, Tampa, FL 33602","contact_name":"Bay Area Sales","contact_phone":"(813) 555-0107","motivation":"Needs TLC","listing_price":275000,"est_arv":415000,"repairs":60000,"wholesale_fee":15000},
+            {"id":"JAX01","city":"Jacksonville, FL","address":"1502 River Rd, Jacksonville, FL 32207","contact_name":"River City Realty","contact_phone":"(904) 555-0108","motivation":"Fixer Upper","listing_price":165000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"MIA01","city":"Miami, FL","address":"4821 Ocean Blvd, Miami, FL 33101","contact_name":"Miami Invest","contact_phone":"(305) 555-0109","motivation":"As-Is Sale","listing_price":425000,"est_arv":685000,"repairs":85000,"wholesale_fee":25000},
+            {"id":"STP01","city":"St. Petersburg, FL","address":"900 Central Ave, St. Petersburg, FL 33705","contact_name":"Sunshine City","contact_phone":"(727) 555-0110","motivation":"Fixer Upper","listing_price":315000,"est_arv":465000,"repairs":65000,"wholesale_fee":15000},
+            {"id":"PHX01","city":"Phoenix, AZ","address":"6707 N 10th St, Phoenix, AZ 85014","contact_name":"Rob Madden","contact_phone":"(480) 555-1234","motivation":"Needs TLC","listing_price":500000,"est_arv":725000,"repairs":85000,"wholesale_fee":20000},
+            {"id":"TUC01","city":"Tucson, AZ","address":"500 E Broadway, Tucson, AZ 85701","contact_name":"Old Pueblo Sales","contact_phone":"(520) 555-0112","motivation":"Investor Deal","listing_price":225000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"MES01","city":"Mesa, AZ","address":"100 W Main St, Mesa, AZ 85201","contact_name":"Desert Sky Realty","contact_phone":"(480) 555-0113","motivation":"Fixer Upper","listing_price":265000,"est_arv":395000,"repairs":50000,"wholesale_fee":10000},
+            {"id":"COL01","city":"Columbia, SC","address":"704 Congaree Church Rd, Gadsden, SC 29052","contact_name":"Denisha Richardson","contact_phone":"(803) 555-0114","motivation":"As-Is Fixer","listing_price":115000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000},
+            {"id":"CHA01","city":"Charleston, SC","address":"1240 Oakcrest Dr, Charleston, SC 29412","contact_name":"Holy City Realty","contact_phone":"(843) 555-0115","motivation":"Needs TLC","listing_price":575000,"est_arv":825000,"repairs":95000,"wholesale_fee":25000},
+            {"id":"GRE01","city":"Greenville, SC","address":"100 N Main St, Greenville, SC 29601","contact_name":"Upstate Brokers","contact_phone":"(864) 555-0116","motivation":"Fixer Upper","listing_price":245000,"est_arv":365000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"ATL01","city":"Atlanta, GA","address":"1038 Delaware Ave SE, Atlanta, GA 30316","contact_name":"Peach State Sales","contact_phone":"(404) 555-0117","motivation":"Fixer Upper","listing_price":450000,"est_arv":675000,"repairs":85000,"wholesale_fee":20000},
+            {"id":"AUG01","city":"Augusta, GA","address":"700 Broad St, Augusta, GA 30901","contact_name":"Augusta Brokers","contact_phone":"(706) 555-0118","motivation":"Investor Special","listing_price":125000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000},
+            {"id":"SAV01","city":"Savannah, GA","address":"100 Broughton St, Savannah, GA 31401","contact_name":"Lowcountry Invest","contact_phone":"(912) 555-0119","motivation":"As-Is Deal","listing_price":295000,"est_arv":445000,"repairs":60000,"wholesale_fee":15000},
+            {"id":"CLT01","city":"Charlotte, NC","address":"9111 Brocklehurst Ln, Charlotte, NC 28215","contact_name":"Queen City Sales","contact_phone":"(704) 555-0120","motivation":"Needs TLC","listing_price":525000,"est_arv":785000,"repairs":95000,"wholesale_fee":25000},
+            {"id":"RAL01","city":"Raleigh, NC","address":"400 Fayetteville St, Raleigh, NC 27601","contact_name":"Triangle Invest","contact_phone":"(919) 555-0121","motivation":"Fixer Upper","listing_price":355000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000},
+            {"id":"GSO01","city":"Greensboro, NC","address":"100 S Elm St, Greensboro, NC 27401","contact_name":"Gate City Realty","contact_phone":"(336) 555-0122","motivation":"Investor Special","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"MEM01","city":"Memphis, TN","address":"3245 Newberry Ave, Memphis, TN 38115","contact_name":"Bluff City Invest","contact_phone":"(901) 555-0123","motivation":"Fixer Upper","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"BHM01","city":"Birmingham, AL","address":"2000 1st Ave N, Birmingham, AL 35203","contact_name":"Magic City Realty","contact_phone":"(205) 555-0124","motivation":"Needs TLC","listing_price":135000,"est_arv":245000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"IND01","city":"Indianapolis, IN","address":"100 Monument Cir, Indianapolis, IN 46204","contact_name":"Hoosier Sales","contact_phone":"(317) 555-0125","motivation":"As-Is Deal","listing_price":195000,"est_arv":325000,"repairs":55000,"wholesale_fee":10000},
+            {"id":"CLE01","city":"Cleveland, OH","address":"600 Superior Ave, Cleveland, OH 44114","contact_name":"Forest City Invest","contact_phone":"(216) 555-0126","motivation":"Fixer Upper","listing_price":105000,"est_arv":215000,"repairs":40000,"wholesale_fee":10000},
+            {"id":"DET01","city":"Detroit, MI","address":"2245 W Boston Blvd, Detroit, MI 48206","contact_name":"Motor City Realty","contact_phone":"(313) 555-0127","motivation":"Needs TLC","listing_price":145000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"BAL01","city":"Baltimore, MD","address":"2000 W Baltimore St, Baltimore, MD 21223","contact_name":"Charm City Invest","contact_phone":"(410) 555-0128","motivation":"Fixer Upper","listing_price":95000,"est_arv":215000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"KAN01","city":"Kansas City, MO","address":"1000 Main St, Kansas City, MO 64105","contact_name":"Fountain City Realty","contact_phone":"(816) 555-0129","motivation":"Investor Special","listing_price":165000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000},
+            {"id":"LAS01","city":"Las Vegas, NV","address":"100 E Fremont St, Las Vegas, NV 89101","contact_name":"Vegas Invest Team","contact_phone":"(702) 555-0130","motivation":"As-Is Sale","listing_price":375000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000},
+            {"id":"DEN01","city":"Denver, CO","address":"2501 Champa St, Denver, CO 80205","contact_name":"Mile High Brokers","contact_phone":"(303) 555-0131","motivation":"Fixer Upper","listing_price":485000,"est_arv":725000,"repairs":85000,"wholesale_fee":25000},
+            {"id":"OKC01","city":"Oklahoma City, OK","address":"5400 N Eagle Ln, Oklahoma City, OK 73162","contact_name":"Sooner Realty","contact_phone":"(405) 555-0132","motivation":"Needs TLC","listing_price":160272,"est_arv":275000,"repairs":45000,"wholesale_fee":10000}
+        ];
+
+        const leads = [...FLIPSTER_LEADS];
+        let currentSmsText = "";
+        let currentLead = null;
+
+        // ----- 12 SMS templates (anti-repetition / personalization) -----
+        const SMS_TEMPLATES = [
+            "Hi [Agent], I'm interested in [Address]. Would your seller consider a cash offer around $[Offer]? I can close quickly.",
+            "Hey [Agent], saw the listing at [Address]. I'm looking for a fixer-upper in [City]. Any chance they'd take $[Offer] as-is?",
+            "Hello! Regarding [Address], I'm a local investor. My numbers work at $[Offer] for a quick close. Let me know if that's a conversation worth having.",
+            "Hi [Agent], is [Address] still available? I'm interested in an as-is purchase. My max offer is $[Offer]. Thoughts?",
+            "Greetings, I'm reaching out about the property on [Address]. We're looking for our next project. Would a $[Offer] cash offer be of interest?",
+            "Hey! Just saw [Address]. It fits my criteria perfectly. I can do $[Offer] cash with no contingencies. Does that work for the seller?",
+            "Hi [Agent], quick question on [Address]. Would they be open to a $[Offer] offer? We handle all repairs and close on your timeline.",
+            "Hello, I'm an investor interested in [Address]. Based on the work needed, I'm at $[Offer] for a fast cash closing. Thanks!",
+            "Hi there, regarding [Address] in [City]. I'd like to submit a cash offer for $[Offer]. Can we chat about the seller's situation?",
+            "Hey [Agent], love the potential of [Address]. I can offer $[Offer] net to the seller. We're ready to move if they are.",
+            "Hi [Agent], I buy homes in [City] in any condition. For [Address] I can offer $[Offer] cash, no repairs needed on your end. Open to it?",
+            "Hello [Agent], following up on [Address]. My all-cash number is $[Offer] with a flexible close date. Happy to send proof of funds."
+        ];
+
+        // ----- Helpers -----
+        function money(n) { return "$" + Math.round(n).toLocaleString(); }
+
+        function calcOffer(lead) {
+            // MAO = (ARV * 0.70) - Repairs - Wholesale Fee, clamped at 0
+            const mao = (lead.est_arv * 0.70) - lead.repairs - lead.wholesale_fee;
+            return Math.max(0, Math.round(mao));
+        }
+
+        function zillowUrl(address) {
+            // Search-query style URL that lands on the listing: zillow.com/homes/<address>_rb/
+            return `https://www.zillow.com/homes/${encodeURIComponent(address.replace(/ /g, '-'))}_rb/`;
+        }
+
+        function buildSMS(lead, offer) {
+            const template = SMS_TEMPLATES[Math.floor(Math.random() * SMS_TEMPLATES.length)];
+            return template
+                .replaceAll("[Agent]", (lead.contact_name || "there").split(' ')[0])
+                .replaceAll("[Address]", lead.address)
+                .replaceAll("[City]", lead.city.split(',')[0])
+                .replaceAll("[Offer]", offer.toLocaleString());
+        }
+
+        // ----- Rendering -----
+        function renderLeads() {
+            const tbody = document.getElementById('leads-table');
+            const q = (document.getElementById('lead-search').value || "").toLowerCase().trim();
+
+            const filtered = leads.filter(l => {
+                if (!q) return true;
+                return [l.address, l.city, l.contact_name, l.motivation]
+                    .join(' ').toLowerCase().includes(q);
+            });
+
+            tbody.innerHTML = '';
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" class="p-12 text-center text-slate-400">No leads match your search.</td></tr>';
+            }
+
+            filtered.forEach(lead => {
+                const offer = calcOffer(lead);
+                const searchUrl = zillowUrl(lead.address);
+                const row = document.createElement('tr');
+                row.className = 'lead-row border-b border-slate-100 cursor-pointer hover:bg-slate-50 transition-colors';
+                row.innerHTML = `
+                    <td class="px-6 py-5">
+                        <div class="font-bold text-slate-900 leading-tight">${lead.address}</div>
+                        <div class="text-[11px] text-blue-600 font-bold uppercase tracking-tighter mt-1">${lead.city}</div>
+                    </td>
+                    <td class="px-6 py-5"><span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-[10px] font-bold uppercase whitespace-nowrap">${lead.motivation}</span></td>
+                    <td class="px-6 py-5">
+                        <div class="font-bold text-slate-700">${lead.contact_name}</div>
+                        <div class="text-[10px] text-slate-400 font-bold tracking-wide">${lead.contact_phone}</div>
+                    </td>
+                    <td class="px-6 py-5 text-right">
+                        <div class="text-slate-900 font-bold text-base leading-none">${money(lead.listing_price)}</div>
+                        <div class="text-[9px] text-slate-400 font-medium mt-1 uppercase">Ask Price</div>
+                    </td>
+                    <td class="px-6 py-5">
+                        <div class="text-emerald-700 font-bold text-lg leading-none">${money(offer)}</div>
+                        <div class="text-[9px] text-slate-400 font-medium mt-1 uppercase">Wholesale Offer</div>
+                    </td>
+                    <td class="px-6 py-5 text-center">
+                        <div class="flex items-center justify-center gap-2">
+                            <button onclick="event.stopImmediatePropagation(); showModal('${lead.id}')" class="bg-slate-900 text-white px-5 py-2 rounded-xl text-xs font-bold hover:bg-black shadow-md transition-all whitespace-nowrap">View Deal</button>
+                            <a href="${searchUrl}" target="_blank" rel="noopener" onclick="event.stopImmediatePropagation()" class="bg-white border border-slate-200 text-blue-600 p-2 rounded-xl hover:bg-slate-50 shadow-sm" title="Open on Zillow"><i class="fa-solid fa-external-link"></i></a>
+                        </div>
+                    </td>
+                `;
+                row.onclick = () => showModal(lead.id);
+                tbody.appendChild(row);
+            });
+
+            const countEl = document.getElementById('lead-count');
+            if (countEl) countEl.textContent = `${filtered.length} deals active`;
+        }
+
+        function showModal(id) {
+            const lead = leads.find(l => l.id === id);
+            if (!lead) return;
+            currentLead = lead;
+            const offer = calcOffer(lead);
+            currentSmsText = buildSMS(lead, offer);
+
+            document.getElementById('modal-address').innerText = lead.address;
+            document.getElementById('modal-owner').innerText = lead.contact_name;
+            document.getElementById('modal-phone').innerText = lead.contact_phone;
+            document.getElementById('modal-motivation').innerText = lead.motivation;
+            document.getElementById('modal-list').innerText = money(lead.listing_price);
+            document.getElementById('modal-offer').innerText = money(offer);
+            document.getElementById('modal-arv').innerText = money(lead.est_arv);
+            document.getElementById('modal-sms').innerText = `"${currentSmsText}"`;
+            document.getElementById('modal-call-btn').href = `tel:${lead.contact_phone.replace(/[^0-9+]/g, '')}`;
+
+            document.getElementById('property-modal').classList.remove('hidden');
+        }
+
+        function regenerateSMS() {
+            if (!currentLead) return;
+            currentSmsText = buildSMS(currentLead, calcOffer(currentLead));
+            document.getElementById('modal-sms').innerText = `"${currentSmsText}"`;
+        }
+
+        function hideModal() {
+            document.getElementById('property-modal').classList.add('hidden');
+        }
+
+        function copyCurrentSMS() {
+            navigator.clipboard.writeText(currentSmsText).then(() => {
+                alert("Message copied! Paste into Google Voice.");
+            }).catch(() => {
+                alert("Copy failed — please select and copy the message manually.");
+            });
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            const target = document.getElementById(id);
+            if (target) target.classList.add('active');
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('nav-active'));
+            const nav = document.getElementById('nav-' + id);
+            if (nav) nav.classList.add('nav-active');
+        }
+
+        function calculateDeal() {
+            const arv = parseFloat(document.getElementById('arv').value) || 0;
+            const repairs = parseFloat(document.getElementById('repairs').value) || 0;
+            const fee = parseFloat(document.getElementById('fee').value) || 0;
+            const mao = Math.max(0, (arv * 0.70) - repairs - fee);
+            const el = document.getElementById('deal-result');
+            el.innerHTML = `
+                <div class="text-xs font-bold text-emerald-600 uppercase tracking-widest mb-2">Maximum Allowable Offer</div>
+                <div class="text-4xl font-bold text-emerald-700 mb-4">${money(mao)}</div>
+                <div class="space-y-1 text-sm text-emerald-800/80 font-medium">
+                    <div class="flex justify-between"><span>ARV &times; 70%</span><span>${money(arv * 0.70)}</span></div>
+                    <div class="flex justify-between"><span>&minus; Estimated Repairs</span><span>${money(repairs)}</span></div>
+                    <div class="flex justify-between"><span>&minus; Wholesale Fee</span><span>${money(fee)}</span></div>
+                </div>
+                <div class="text-xs text-emerald-600 italic mt-3">Based on the 70% ARV rule.</div>
+            `;
+            el.classList.remove('hidden');
+        }
+
+        function exportOutreachCSV() {
+            const headers = ["Property Address","City","Agent Name","Agent Phone","Listing Price","Est ARV","Wholesale Offer","Motivation","Zillow URL","Ready-to-Send SMS"];
+            const escape = v => `"${String(v).replace(/"/g, '""')}"`;
+            const rows = [headers.map(escape).join(",")];
+
+            leads.forEach(lead => {
+                const offer = calcOffer(lead);
+                const msg = buildSMS(lead, offer);
+                rows.push([
+                    lead.address,
+                    lead.city,
+                    lead.contact_name,
+                    lead.contact_phone,
+                    lead.listing_price,
+                    lead.est_arv,
+                    offer,
+                    lead.motivation,
+                    zillowUrl(lead.address),
+                    msg
+                ].map(escape).join(","));
+            });
+
+            const blob = new Blob([rows.join("\r\n")], { type: "text/csv;charset=utf-8;" });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = "flipster_bulk_outreach.csv";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+
+        function generateDeepLinks() {
+            const loc = (document.getElementById('deep-location').value || "").trim();
+            if (!loc) { alert("Enter a zip code or City, State."); return; }
+            const list = document.getElementById('deep-links-list');
+            document.getElementById('deep-links-container').classList.remove('hidden');
+            list.innerHTML = '<div class="text-xs font-bold text-slate-400 mb-4 uppercase tracking-widest">Targeting Zillow listings via Google…</div>';
+
+            const keywords = ["fixer upper", "TLC", "handyman special", "as-is", "investor special", "probate", "must sell"];
+            keywords.forEach(keyword => {
+                const query = `site:zillow.com "${keyword}" "${loc}"`;
+                const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+                const div = document.createElement('div');
+                div.className = 'group flex items-center justify-between p-5 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-400 hover:bg-white transition-all';
+                div.innerHTML = `
+                    <div class="flex items-center gap-x-4">
+                        <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center border shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-house-chimney-crack text-sm"></i>
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-slate-800 capitalize tracking-tight">${keyword} in ${loc}</div>
+                            <div class="text-[10px] text-slate-400 font-medium font-mono">${query}</div>
+                        </div>
+                    </div>
+                    <a href="${url}" target="_blank" rel="noopener" class="text-xs font-bold text-blue-600 bg-white px-6 py-2.5 rounded-full border border-blue-100 shadow-sm hover:bg-blue-600 hover:text-white transition-all whitespace-nowrap">
+                        Search Results
+                    </a>
+                `;
+                list.appendChild(div);
+            });
+        }
+
+        // Close modal on Escape
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') hideModal(); });
+
+        document.addEventListener('DOMContentLoaded', renderLeads);
+    </script>
+</body>
+</html>
