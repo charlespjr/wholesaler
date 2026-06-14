@@ -791,7 +791,36 @@ ____ (d) Purchaser has received the pamphlet <em>Protect Your Family from Lead i
   <div class="sigbox"><div class="sigline">Purchaser (${PARAGON.name}) &mdash; signature &amp; date</div></div>
 </div>`;
 
-            const formsHtml = wholesalerForm + leadPaintForm;
+            const PCD_SECTIONS = [
+                ["Structural & Roof", ["Roof leaks or roof repair/replacement", "Foundation, slab, or footing problems", "Settling, movement, or cracking in walls/floors", "Basement or crawl space water or moisture", "Damage from fire, flood, wind, hail, or storm"]],
+                ["Systems & Utilities", ["Electrical system, wiring, or panel", "Plumbing system, pipes, or fixtures", "Heating system", "Air conditioning / cooling system", "Water heater", "Water supply (public / well / other)", "Sewer system (public / septic / lagoon)"]],
+                ["Water, Drainage & Environmental", ["Drainage, grading, or standing water", "Located in a flood plain or flood zone", "Prior flooding or water intrusion", "Mold or mildew", "Radon gas", "Asbestos-containing materials", "Lead-based paint or lead plumbing", "Underground storage tanks", "Soil or groundwater contamination"]],
+                ["Pests", ["Termites or other wood-destroying insects/organisms", "Pest damage or prior treatment"]],
+                ["Appliances & Safety (included items in working order)", ["Built-in appliances", "Smoke and carbon-monoxide detectors", "Pool / spa equipment", "Lawn sprinkler system"]],
+                ["Title, Legal & Other", ["Liens, judgments, or unpaid assessments", "Easements, encroachments, or boundary disputes", "HOA, covenants, or mandatory fees", "Additions or work done without a permit", "Code violations or governmental notices", "Pending litigation affecting the Property", "Any other known material defect"]]
+            ];
+            const pcdRows = PCD_SECTIONS.map(([sec, items]) =>
+                `<tr><th class="sec" colspan="4">${sec}</th></tr>` +
+                items.map(it => `<tr><td>${it}</td><td class="c">&#9744;</td><td class="c">&#9744;</td><td class="c">&#9744;</td></tr>`).join("")
+            ).join("");
+            const sellerDisclosureForm = `
+<div class="page-break"></div>
+<h1>Seller&rsquo;s Property Condition Disclosure Statement</h1>
+<div class="sub">${lead.address} &mdash; ${loc.stateName}</div>
+<p style="font-size:9.5pt">${SL.disclosure} This statement is Seller&rsquo;s representation of the condition of the Property and is not a warranty of any kind. For each item, mark <strong>Yes</strong> (a problem or condition is known), <strong>No</strong> (no known problem), or <strong>Unknown</strong>, and explain every &ldquo;Yes&rdquo; below.</p>
+<table class="pcd">
+<tr><th>Does Seller know of any problem, past or present, with:</th><th class="c">Yes</th><th class="c">No</th><th class="c">Unk.</th></tr>
+${pcdRows}
+</table>
+<h2>Explanation of &ldquo;Yes&rdquo; answers</h2>
+<p style="border:1px solid #ccc; min-height:90px"></p>
+<p style="font-size:9.5pt">Seller certifies the above is true and correct to the best of Seller&rsquo;s knowledge as of the date signed and will promptly notify Buyer of any change before Closing. Buyer acknowledges receipt of this statement and that Buyer is purchasing the Property AS-IS in reliance on Buyer&rsquo;s own inspections.</p>
+<div class="sigrow">
+  <div class="sigbox"><div class="sigline">Seller &mdash; signature &amp; date</div></div>
+  <div class="sigbox"><div class="sigline">Buyer (${PARAGON.name}) &mdash; signature &amp; date</div></div>
+</div>`;
+
+            const formsHtml = wholesalerForm + sellerDisclosureForm + leadPaintForm;
 
             const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
 <title>Wholesale Agreement — ${lead.address}</title>
@@ -811,6 +840,10 @@ ____ (d) Purchaser has received the pamphlet <em>Protect Your Family from Lead i
   .toolbar { position: sticky; top:0; background:#0f172a; color:#fff; padding: 12px 18px; display:flex; justify-content:space-between; align-items:center; border-radius: 10px; margin-bottom: 22px; }
   .toolbar button { background:#2563eb; color:#fff; border:0; padding: 9px 18px; border-radius: 8px; font-weight:700; cursor:pointer; font-family: system-ui, sans-serif; }
   ol { padding-left: 20px; }
+  table.pcd { width:100%; border-collapse: collapse; font-size: 9.5pt; margin-top: 8px; }
+  table.pcd th, table.pcd td { border: 1px solid #999; padding: 4px 7px; text-align: left; vertical-align: top; }
+  table.pcd td.c, table.pcd th.c { text-align: center; width: 9%; }
+  table.pcd th.sec { background: #eee; }
 </style></head>
 <body>
 <div class="toolbar no-print">
