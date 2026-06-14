@@ -287,8 +287,12 @@
         }
 
         function zillowUrl(address) {
-            // Search-query style URL that lands on the listing: zillow.com/homes/<address>_rb/
-            return `https://www.zillow.com/homes/${encodeURIComponent(address.replace(/ /g, '-'))}_rb/`;
+            // Zillow address slug: drop commas/periods/#, collapse spaces to hyphens.
+            // e.g. "2401 E 12th St, Austin, TX 78702" -> ".../homes/2401-E-12th-St-Austin-TX-78702_rb/"
+            const slug = address.trim()
+                .replace(/[.,#]/g, '')
+                .replace(/\s+/g, '-');
+            return `https://www.zillow.com/homes/${slug}_rb/`;
         }
 
         function buildSMS(lead, offer) {
