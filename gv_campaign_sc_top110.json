@@ -1,0 +1,982 @@
+{
+  "generatedAt": "2026-06-14T20:27:10.903Z",
+  "throttleSeconds": {
+    "min": 120,
+    "max": 180
+  },
+  "count": 108,
+  "messages": [
+    {
+      "id": "SC0051",
+      "name": "Brad Dampier",
+      "phone": "+18034773930",
+      "phoneDisplay": "803-477-3930",
+      "address": "1515 Hatcher Dr, Columbia, SC 29203",
+      "offer": "$9,300",
+      "message": "Hello! Regarding 1515 Hatcher Dr, Columbia, SC 29203, I'm a local investor. My numbers work at $9,300 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0402",
+      "name": "Hannah Norman",
+      "phone": "+18033535510",
+      "phoneDisplay": "803-353-5510",
+      "address": "466 Robins Egg Dr, Columbia, SC 29229",
+      "offer": "$202,620",
+      "message": "Hello! Regarding 466 Robins Egg Dr, Columbia, SC 29229, I'm a local investor. My numbers work at $202,620 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0221",
+      "name": "Thomas Shoupe",
+      "phone": "+14804625392",
+      "phoneDisplay": "480-462-5392",
+      "address": "249 Knight Valley Cir, Columbia, SC 29209",
+      "offer": "$191,700",
+      "message": "Hello! Regarding 249 Knight Valley Cir, Columbia, SC 29209, I'm a local investor. My numbers work at $191,700 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0275",
+      "name": "Haleigh Robbins",
+      "phone": "+18037791844",
+      "phoneDisplay": "803-779-1844",
+      "address": "25 Heatherlaurel Ct, Columbia, SC 29223",
+      "offer": "$195,600",
+      "message": "Hey Haleigh, saw the listing at 25 Heatherlaurel Ct, Columbia, SC 29223. I'm looking for a fixer-upper in Columbia. Any chance they'd take $195,600 as-is?"
+    },
+    {
+      "id": "SC0098",
+      "name": "Amber Wingard",
+      "phone": "+18037562966",
+      "phoneDisplay": "803-756-2966",
+      "address": "314 Leton Dr, Columbia, SC 29210",
+      "offer": "$172,200",
+      "message": "Hi Amber, is 314 Leton Dr, Columbia, SC 29210 still available? I'm interested in an as-is purchase. My max offer is $172,200. Thoughts?"
+    },
+    {
+      "id": "SC0104",
+      "name": "Inga Black",
+      "phone": "+18773662213",
+      "phoneDisplay": "877-366-2213",
+      "address": "412 Bombing Range Rd, Columbia, SC 29229",
+      "offer": "$187,020",
+      "message": "Hello, I'm an investor interested in 412 Bombing Range Rd, Columbia, SC 29229. Based on the work needed, I'm at $187,020 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0179",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "200 Kingston Trace Rd, Columbia, SC 29229",
+      "offer": "$138,122",
+      "message": "Greetings, I'm reaching out about the property on 200 Kingston Trace Rd, Columbia, SC 29229. We're looking for our next project. Would a $138,122 cash offer be of interest?"
+    },
+    {
+      "id": "SC0400",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "1826 Overhill Rd, Columbia, SC 29223",
+      "offer": "$118,622",
+      "message": "Hello! Regarding 1826 Overhill Rd, Columbia, SC 29223, I'm a local investor. My numbers work at $118,622 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0144",
+      "name": "Edward Chappell",
+      "phone": "+18039490577",
+      "phoneDisplay": "803-949-0577",
+      "address": "217 S Shields Rd, Columbia, SC 29223",
+      "offer": "$179,922",
+      "message": "Hi Edward, I buy homes in Columbia in any condition. For 217 S Shields Rd, Columbia, SC 29223 I can offer $179,922 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "SC0253",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "517 Johnson Ave, Columbia, SC 29203",
+      "offer": "$83,522",
+      "message": "Hey Constance, love the potential of 517 Johnson Ave, Columbia, SC 29203. I can offer $83,522 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0334",
+      "name": "Dena B Thomas",
+      "phone": "+18036130000",
+      "phoneDisplay": "803-613-0000",
+      "address": "301 Squire Rd, Columbia, SC 29223",
+      "offer": "$162,450",
+      "message": "Hi Dena, I'm interested in 301 Squire Rd, Columbia, SC 29223. Would your seller consider a cash offer around $162,450? I can close quickly."
+    },
+    {
+      "id": "SC0308",
+      "name": "Coby Jennings",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "3652 Hoyt St, Columbia, SC 29223",
+      "offer": "$155,820",
+      "message": "Hi there, regarding 3652 Hoyt St, Columbia, SC 29223 in Columbia. I'd like to submit a cash offer for $155,820. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "SC0289",
+      "name": "Kenny McCuien",
+      "phone": "+18773662213",
+      "phoneDisplay": "877-366-2213",
+      "address": "9194 Windsor Lake Blvd, Columbia, SC 29223",
+      "offer": "$203,400",
+      "message": "Hi Kenny, I buy homes in Columbia in any condition. For 9194 Windsor Lake Blvd, Columbia, SC 29223 I can offer $203,400 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "SC0224",
+      "name": "Carl Vollmer",
+      "phone": "+18037221900",
+      "phoneDisplay": "803-722-1900",
+      "address": "2815 Wesley Dr, Columbia, SC 29204",
+      "offer": "$110,900",
+      "message": "Greetings, I'm reaching out about the property on 2815 Wesley Dr, Columbia, SC 29204. We're looking for our next project. Would a $110,900 cash offer be of interest?"
+    },
+    {
+      "id": "SC0290",
+      "name": "Thomas Shoupe",
+      "phone": "+14804625392",
+      "phoneDisplay": "480-462-5392",
+      "address": "217 Branchview Dr, Columbia, SC 29229",
+      "offer": "$196,380",
+      "message": "Hey! Just saw 217 Branchview Dr, Columbia, SC 29229. It fits my criteria perfectly. I can do $196,380 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0389",
+      "name": "Rayner Rojas Chavez",
+      "phone": "+18884556040",
+      "phoneDisplay": "888-455-6040",
+      "address": "1022 Sandpiper Ln, Columbia, SC 29203",
+      "offer": "$160,492",
+      "message": "Hi there, regarding 1022 Sandpiper Ln, Columbia, SC 29203 in Columbia. I'd like to submit a cash offer for $160,492. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "SC0257",
+      "name": "Henrietta Gadson",
+      "phone": "+18037712424",
+      "phoneDisplay": "803-771-2424",
+      "address": "205 Twin Oaks Ln, Columbia, SC 29209",
+      "offer": "$144,900",
+      "message": "Hi Henrietta, is 205 Twin Oaks Ln, Columbia, SC 29209 still available? I'm interested in an as-is purchase. My max offer is $144,900. Thoughts?"
+    },
+    {
+      "id": "SC0381",
+      "name": "Lauren Small",
+      "phone": "+18034090830",
+      "phoneDisplay": "803-409-0830",
+      "address": "1531 Alma Rd, Columbia, SC 29209",
+      "offer": "$164,400",
+      "message": "Hello, I'm an investor interested in 1531 Alma Rd, Columbia, SC 29209. Based on the work needed, I'm at $164,400 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0259",
+      "name": "Renard Perry",
+      "phone": "+18033888798",
+      "phoneDisplay": "803-388-8798",
+      "address": "5525 Randall Ave, Columbia, SC 29203",
+      "offer": "$95,300",
+      "message": "Hey Renard, love the potential of 5525 Randall Ave, Columbia, SC 29203. I can offer $95,300 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0325",
+      "name": "Lesa Darnell",
+      "phone": "+18037804536",
+      "phoneDisplay": "803-780-4536",
+      "address": "146 Dunham Rd, Columbia, SC 29209",
+      "offer": "$218,220",
+      "message": "Hey! Just saw 146 Dunham Rd, Columbia, SC 29209. It fits my criteria perfectly. I can do $218,220 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0197",
+      "name": "Chad Williams",
+      "phone": "+18034901877",
+      "phoneDisplay": "803-490-1877",
+      "address": "6006 McMillan Cir, Columbia, SC 29212",
+      "offer": "$141,000",
+      "message": "Greetings, I'm reaching out about the property on 6006 McMillan Cir, Columbia, SC 29212. We're looking for our next project. Would a $141,000 cash offer be of interest?"
+    },
+    {
+      "id": "SC0299",
+      "name": "Liz Anderson",
+      "phone": "+18037882811",
+      "phoneDisplay": "803-788-2811",
+      "address": "48 Castle Cary Ct, Columbia, SC 29209",
+      "offer": "$163,620",
+      "message": "Hi Liz, I buy homes in Columbia in any condition. For 48 Castle Cary Ct, Columbia, SC 29209 I can offer $163,620 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "SC0276",
+      "name": "Adam Bedenbaugh",
+      "phone": "+18033580888",
+      "phoneDisplay": "803-358-0888",
+      "address": "3408 Belvedere Dr, Columbia, SC 29204",
+      "offer": "$101,540",
+      "message": "Greetings, I'm reaching out about the property on 3408 Belvedere Dr, Columbia, SC 29204. We're looking for our next project. Would a $101,540 cash offer be of interest?"
+    },
+    {
+      "id": "SC0451",
+      "name": "Kira Person",
+      "phone": "+18036104121",
+      "phoneDisplay": "803-610-4121",
+      "address": "420 Pitchling Dr, Columbia, SC 29223",
+      "offer": "$141,000",
+      "message": "Hello Kira, following up on 420 Pitchling Dr, Columbia, SC 29223. My all-cash number is $141,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "SC0230",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "5 Larkin Ct, Columbia, SC 29203",
+      "offer": "$144,822",
+      "message": "Hey Constance, love the potential of 5 Larkin Ct, Columbia, SC 29203. I can offer $144,822 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0449",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "804 Winslow Way, Columbia, SC 29229",
+      "offer": "$148,722",
+      "message": "Hey! Just saw 804 Winslow Way, Columbia, SC 29229. It fits my criteria perfectly. I can do $148,722 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0192",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "324 Trowbridge Rd, Columbia, SC 29229",
+      "offer": "$148,722",
+      "message": "Hey! Just saw 324 Trowbridge Rd, Columbia, SC 29229. It fits my criteria perfectly. I can do $148,722 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0315",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "3821 Trotter Rd, Columbia, SC 29209",
+      "offer": "$110,822",
+      "message": "Greetings, I'm reaching out about the property on 3821 Trotter Rd, Columbia, SC 29209. We're looking for our next project. Would a $110,822 cash offer be of interest?"
+    },
+    {
+      "id": "SC0248",
+      "name": "Mark Baatz",
+      "phone": "+18037322200",
+      "phoneDisplay": "803-732-2200",
+      "address": "2309 Cunningham Rd, Columbia, SC 29210",
+      "offer": "$199,422",
+      "message": "Hello! Regarding 2309 Cunningham Rd, Columbia, SC 29210, I'm a local investor. My numbers work at $199,422 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0280",
+      "name": "Julius Washington",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "2930 English Ave, Columbia, SC 29204",
+      "offer": "$156,444",
+      "message": "Hi Julius, is 2930 English Ave, Columbia, SC 29204 still available? I'm interested in an as-is purchase. My max offer is $156,444. Thoughts?"
+    },
+    {
+      "id": "SC0123",
+      "name": "Jeannette Womble",
+      "phone": "+18884402798",
+      "phoneDisplay": "888-440-2798",
+      "address": "230 Bishopgate Rd, Columbia, SC 29212",
+      "offer": "$211,122",
+      "message": "Greetings, I'm reaching out about the property on 230 Bishopgate Rd, Columbia, SC 29212. We're looking for our next project. Would a $211,122 cash offer be of interest?"
+    },
+    {
+      "id": "SC0314",
+      "name": "Antoinette Bolton",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "16 Sessile Ct, Columbia, SC 29203",
+      "offer": "$195,600",
+      "message": "Hi Antoinette, I buy homes in Columbia in any condition. For 16 Sessile Ct, Columbia, SC 29203 I can offer $195,600 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "SC0342",
+      "name": "Amanda Farwick",
+      "phone": "+18037804536",
+      "phoneDisplay": "803-780-4536",
+      "address": "9829 Highgate Rd, Columbia, SC 29223",
+      "offer": "$180,000",
+      "message": "Hi there, regarding 9829 Highgate Rd, Columbia, SC 29223 in Columbia. I'd like to submit a cash offer for $180,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "SC0387",
+      "name": "Kelli Carson",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "5711 Miramar Dr, Columbia, SC 29203",
+      "offer": "$138,200",
+      "message": "Hello, I'm an investor interested in 5711 Miramar Dr, Columbia, SC 29203. Based on the work needed, I'm at $138,200 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0125",
+      "name": "Ponce Realty Group",
+      "phone": "+18648097710",
+      "phoneDisplay": "864-809-7710",
+      "address": "12 Sea Hawk Ct, Columbia, SC 29203",
+      "offer": "$126,499",
+      "message": "Hey! Just saw 12 Sea Hawk Ct, Columbia, SC 29203. It fits my criteria perfectly. I can do $126,499 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0345",
+      "name": "Kelly Greer",
+      "phone": "+18884402798",
+      "phoneDisplay": "888-440-2798",
+      "address": "108 Waterford Dr, Columbia, SC 29203",
+      "offer": "$126,499",
+      "message": "Hello! Regarding 108 Waterford Dr, Columbia, SC 29203, I'm a local investor. My numbers work at $126,499 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0033",
+      "name": "Tammy D Davis",
+      "phone": "+18036026500",
+      "phoneDisplay": "803-602-6500",
+      "address": "4724 Leaf Crest Ct, Columbia, SC 29210",
+      "offer": "$33,702",
+      "message": "Hey Tammy, love the potential of 4724 Leaf Crest Ct, Columbia, SC 29210. I can offer $33,702 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0135",
+      "name": "Voncie Sutton",
+      "phone": "+18036026500",
+      "phoneDisplay": "803-602-6500",
+      "address": "38 Dovecreek, Columbia, SC 29229",
+      "offer": "$180,000",
+      "message": "Hi Voncie, I'm interested in 38 Dovecreek, Columbia, SC 29229. Would your seller consider a cash offer around $180,000? I can close quickly."
+    },
+    {
+      "id": "SC0250",
+      "name": "Kelli Tutsie",
+      "phone": "+18033580888",
+      "phoneDisplay": "803-358-0888",
+      "address": "272 Bassett Loop, Columbia, SC 29229",
+      "offer": "$203,205",
+      "message": "Hi Kelli, quick question on 272 Bassett Loop, Columbia, SC 29229. Would they be open to a $203,205 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "SC0274",
+      "name": "Jamila Anderson",
+      "phone": "+18036832210",
+      "phoneDisplay": "803-683-2210",
+      "address": "103 Village Way, Columbia, SC 29209",
+      "offer": "$164,400",
+      "message": "Hi Jamila, quick question on 103 Village Way, Columbia, SC 29209. Would they be open to a $164,400 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "SC0442",
+      "name": "Tinara Exume",
+      "phone": "+18038322404",
+      "phoneDisplay": "803-832-2404",
+      "address": "2201 Kennedy St, Columbia, SC 29205",
+      "offer": "$187,020",
+      "message": "Hi Tinara, quick question on 2201 Kennedy St, Columbia, SC 29205. Would they be open to a $187,020 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "SC0401",
+      "name": "Thomas Shoupe",
+      "phone": "+14804625392",
+      "phoneDisplay": "480-462-5392",
+      "address": "1 Newcourt Pl, Columbia, SC 29229",
+      "offer": "$192,480",
+      "message": "Hey! Just saw 1 Newcourt Pl, Columbia, SC 29229. It fits my criteria perfectly. I can do $192,480 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0356",
+      "name": "Lesa Darnell",
+      "phone": "+18037804536",
+      "phoneDisplay": "803-780-4536",
+      "address": "2054 Elmridge Rd, Columbia, SC 29209",
+      "offer": "$218,220",
+      "message": "Hi Lesa, I'm interested in 2054 Elmridge Rd, Columbia, SC 29209. Would your seller consider a cash offer around $218,220? I can close quickly."
+    },
+    {
+      "id": "SC0235",
+      "name": "Benjamin Johnson",
+      "phone": "+18032566295",
+      "phoneDisplay": "803-256-6295",
+      "address": "1005 Wildwood Ave, Columbia, SC 29203",
+      "offer": "$218,220",
+      "message": "Hey Benjamin, love the potential of 1005 Wildwood Ave, Columbia, SC 29203. I can offer $218,220 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0306",
+      "name": "David Kafitz",
+      "phone": "+18036787110",
+      "phoneDisplay": "803-678-7110",
+      "address": "6 Crescent Ln, Columbia, SC 29212",
+      "offer": "$126,500",
+      "message": "Hey! Just saw 6 Crescent Ln, Columbia, SC 29212. It fits my criteria perfectly. I can do $126,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0017",
+      "name": "Jeffrey P Emmerling",
+      "phone": "+18033456713",
+      "phoneDisplay": "803-345-6713",
+      "address": "4137 Shorecrest Dr, Columbia, SC 29209",
+      "offer": "$75,722",
+      "message": "Hi Jeffrey, quick question on 4137 Shorecrest Dr, Columbia, SC 29209. Would they be open to a $75,722 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "SC0067",
+      "name": "Ashley Carter",
+      "phone": "+18038322404",
+      "phoneDisplay": "803-832-2404",
+      "address": "112 Chippenham Cir, Columbia, SC 29210",
+      "offer": "$203,400",
+      "message": "Hi Ashley, quick question on 112 Chippenham Cir, Columbia, SC 29210. Would they be open to a $203,400 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "SC0110",
+      "name": "Thomas Shoupe",
+      "phone": "+14804625392",
+      "phoneDisplay": "480-462-5392",
+      "address": "254 Sorrel Tree Dr, Columbia, SC 29223",
+      "offer": "$173,760",
+      "message": "Hey! Just saw 254 Sorrel Tree Dr, Columbia, SC 29223. It fits my criteria perfectly. I can do $173,760 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0332",
+      "name": "Randal Longo",
+      "phone": "+18437376347",
+      "phoneDisplay": "843-737-6347",
+      "address": "1201 Sycamore Ave, Columbia, SC 29203",
+      "offer": "$134,222",
+      "message": "Hi Randal, I'm interested in 1201 Sycamore Ave, Columbia, SC 29203. Would your seller consider a cash offer around $134,222? I can close quickly."
+    },
+    {
+      "id": "SC0134",
+      "name": "Holly Lennox",
+      "phone": "+18037804536",
+      "phoneDisplay": "803-780-4536",
+      "address": "2350 Center St, Columbia, SC 29204",
+      "offer": "$207,300",
+      "message": "Hello! Regarding 2350 Center St, Columbia, SC 29204, I'm a local investor. My numbers work at $207,300 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0136",
+      "name": "Marie H Stokes",
+      "phone": "+18034206493",
+      "phoneDisplay": "803-420-6493",
+      "address": "351 Elders Pond Cir, Columbia, SC 29229",
+      "offer": "$142,022",
+      "message": "Hi Marie, I buy homes in Columbia in any condition. For 351 Elders Pond Cir, Columbia, SC 29229 I can offer $142,022 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "SC0156",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "6740 Frances St, Columbia, SC 29209",
+      "offer": "$144,822",
+      "message": "Hello, I'm an investor interested in 6740 Frances St, Columbia, SC 29209. Based on the work needed, I'm at $144,822 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0271",
+      "name": "Laura Moye",
+      "phone": "+18033818950",
+      "phoneDisplay": "803-381-8950",
+      "address": "9 Twin Oaks Cir, Columbia, SC 29209",
+      "offer": "$201,060",
+      "message": "Hey! Just saw 9 Twin Oaks Cir, Columbia, SC 29209. It fits my criteria perfectly. I can do $201,060 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0206",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "7528 Terry St, Columbia, SC 29209",
+      "offer": "$110,822",
+      "message": "Hello, I'm an investor interested in 7528 Terry St, Columbia, SC 29209. Based on the work needed, I'm at $110,822 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0190",
+      "name": "Celia Means",
+      "phone": "+18038146002",
+      "phoneDisplay": "803-814-6002",
+      "address": "2530 Marling Dr, Columbia, SC 29204",
+      "offer": "$142,100",
+      "message": "Hi Celia, is 2530 Marling Dr, Columbia, SC 29204 still available? I'm interested in an as-is purchase. My max offer is $142,100. Thoughts?"
+    },
+    {
+      "id": "SC0101",
+      "name": "Erica Frasier",
+      "phone": "+18033535510",
+      "phoneDisplay": "803-353-5510",
+      "address": "1960 Drexel Lake Dr, Columbia, SC 29223",
+      "offer": "$187,800",
+      "message": "Hey Erica, saw the listing at 1960 Drexel Lake Dr, Columbia, SC 29223. I'm looking for a fixer-upper in Columbia. Any chance they'd take $187,800 as-is?"
+    },
+    {
+      "id": "SC0111",
+      "name": "Alexandra Leal",
+      "phone": "+18439990119",
+      "phoneDisplay": "843-999-0119",
+      "address": "219 Dixon Dr, Columbia, SC 29203",
+      "offer": "$129,620",
+      "message": "Hey Alexandra, love the potential of 219 Dixon Dr, Columbia, SC 29203. I can offer $129,620 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0168",
+      "name": "Roderick Fluellen",
+      "phone": "+18647705243",
+      "phoneDisplay": "864-770-5243",
+      "address": "924 Stebondale Rd, Columbia, SC 29203",
+      "offer": "$141,000",
+      "message": "Hello, I'm an investor interested in 924 Stebondale Rd, Columbia, SC 29203. Based on the work needed, I'm at $141,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0026",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "137 Green Tree Dr, Columbia, SC 29203",
+      "offer": "$103,022",
+      "message": "Hello! Regarding 137 Green Tree Dr, Columbia, SC 29203, I'm a local investor. My numbers work at $103,022 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0005",
+      "name": "Wendy Weeden",
+      "phone": "+18037998035",
+      "phoneDisplay": "803-799-8035",
+      "address": "117 Lambeth Dr, Columbia, SC 29209",
+      "offer": "$144,440",
+      "message": "Hello Wendy, following up on 117 Lambeth Dr, Columbia, SC 29209. My all-cash number is $144,440 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "SC0284",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "409 Todd Branch Dr, Columbia, SC 29223",
+      "offer": "$106,922",
+      "message": "Hey Constance, love the potential of 409 Todd Branch Dr, Columbia, SC 29223. I can offer $106,922 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0326",
+      "name": "Julie Chrisman",
+      "phone": "+18037811623",
+      "phoneDisplay": "803-781-1623",
+      "address": "7626 Terry St, Columbia, SC 29209",
+      "offer": "$81,650",
+      "message": "Hello! Regarding 7626 Terry St, Columbia, SC 29209, I'm a local investor. My numbers work at $81,650 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0244",
+      "name": "Mack Ouzts",
+      "phone": "+18037998035",
+      "phoneDisplay": "803-799-8035",
+      "address": "40 Brooksby Ct, Columbia, SC 29209",
+      "offer": "$172,122",
+      "message": "Hello! Regarding 40 Brooksby Ct, Columbia, SC 29209, I'm a local investor. My numbers work at $172,122 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0411",
+      "name": "Isabella Frazier",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "6 Elders Pond Ct, Columbia, SC 29229",
+      "offer": "$156,522",
+      "message": "Hey Isabella, saw the listing at 6 Elders Pond Ct, Columbia, SC 29229. I'm looking for a fixer-upper in Columbia. Any chance they'd take $156,522 as-is?"
+    },
+    {
+      "id": "SC0048",
+      "name": "Sarah Wang",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "729 Wild Duck Ln, Columbia, SC 29210",
+      "offer": "$146,070",
+      "message": "Hello! Regarding 729 Wild Duck Ln, Columbia, SC 29210, I'm a local investor. My numbers work at $146,070 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0440",
+      "name": "Doug Copeland",
+      "phone": "+18033888798",
+      "phoneDisplay": "803-388-8798",
+      "address": "1002 Benton St, Columbia, SC 29201",
+      "offer": "$219,000",
+      "message": "Hi Doug, I'm interested in 1002 Benton St, Columbia, SC 29201. Would your seller consider a cash offer around $219,000? I can close quickly."
+    },
+    {
+      "id": "SC0434",
+      "name": "Nadia M Boyd",
+      "phone": "+18033562455",
+      "phoneDisplay": "803-356-2455",
+      "address": "1009 Gardendale Dr, Columbia, SC 29210",
+      "offer": "$134,300",
+      "message": "Hey Nadia, saw the listing at 1009 Gardendale Dr, Columbia, SC 29210. I'm looking for a fixer-upper in Columbia. Any chance they'd take $134,300 as-is?"
+    },
+    {
+      "id": "SC0058",
+      "name": "Elizabeth Webber Akre",
+      "phone": "+18033888798",
+      "phoneDisplay": "803-388-8798",
+      "address": "3944 Hickory St, Columbia, SC 29205",
+      "offer": "$203,400",
+      "message": "Hi Elizabeth, is 3944 Hickory St, Columbia, SC 29205 still available? I'm interested in an as-is purchase. My max offer is $203,400. Thoughts?"
+    },
+    {
+      "id": "SC0229",
+      "name": "Ying Chen",
+      "phone": "+18884402798",
+      "phoneDisplay": "888-440-2798",
+      "address": "515 Summit Terrace Ct, Columbia, SC 29229",
+      "offer": "$110,822",
+      "message": "Greetings, I'm reaching out about the property on 515 Summit Terrace Ct, Columbia, SC 29229. We're looking for our next project. Would a $110,822 cash offer be of interest?"
+    },
+    {
+      "id": "SC0030",
+      "name": "JT Livingston",
+      "phone": "+18037725858",
+      "phoneDisplay": "803-772-5858",
+      "address": "1925 Shadowood Dr, Columbia, SC 29212",
+      "offer": "$162,450",
+      "message": "Greetings, I'm reaching out about the property on 1925 Shadowood Dr, Columbia, SC 29212. We're looking for our next project. Would a $162,450 cash offer be of interest?"
+    },
+    {
+      "id": "SC0073",
+      "name": "Damian Burris",
+      "phone": "+18033535510",
+      "phoneDisplay": "803-353-5510",
+      "address": "7504 Teague Rd, Columbia, SC 29209",
+      "offer": "$126,500",
+      "message": "Hi Damian, is 7504 Teague Rd, Columbia, SC 29209 still available? I'm interested in an as-is purchase. My max offer is $126,500. Thoughts?"
+    },
+    {
+      "id": "SC0093",
+      "name": "Michael Bass",
+      "phone": "+18037365711",
+      "phoneDisplay": "803-736-5711",
+      "address": "120 Curvewood Rd, Columbia, SC 29229",
+      "offer": "$138,200",
+      "message": "Hi Michael, is 120 Curvewood Rd, Columbia, SC 29229 still available? I'm interested in an as-is purchase. My max offer is $138,200. Thoughts?"
+    },
+    {
+      "id": "SC0003",
+      "name": "Mary Twitty",
+      "phone": "+18033030390",
+      "phoneDisplay": "803-303-0390",
+      "address": "3961 Live Oak St, Columbia, SC 29205",
+      "offer": "$122,600",
+      "message": "Hi Mary, I'm interested in 3961 Live Oak St, Columbia, SC 29205. Would your seller consider a cash offer around $122,600? I can close quickly."
+    },
+    {
+      "id": "SC0226",
+      "name": "Jeanna Farley",
+      "phone": "+18037882811",
+      "phoneDisplay": "803-788-2811",
+      "address": "1731 Cermack St, Columbia, SC 29223",
+      "offer": "$138,122",
+      "message": "Hey Jeanna, saw the listing at 1731 Cermack St, Columbia, SC 29223. I'm looking for a fixer-upper in Columbia. Any chance they'd take $138,122 as-is?"
+    },
+    {
+      "id": "SC0204",
+      "name": "Julian Hays",
+      "phone": "+18038146363",
+      "phoneDisplay": "803-814-6363",
+      "address": "2532 Parkwood Dr, Columbia, SC 29204",
+      "offer": "$215,100",
+      "message": "Hey Julian, love the potential of 2532 Parkwood Dr, Columbia, SC 29204. I can offer $215,100 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0056",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "134 Hester Woods Dr, Columbia, SC 29223",
+      "offer": "$145,922",
+      "message": "Hello Constance, following up on 134 Hester Woods Dr, Columbia, SC 29223. My all-cash number is $145,922 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "SC0199",
+      "name": "Yoshiko Cantey",
+      "phone": "+18037650211",
+      "phoneDisplay": "803-765-0211",
+      "address": "398 Fox Squirrel Cir, Columbia, SC 29209",
+      "offer": "$177,660",
+      "message": "Hey Yoshiko, love the potential of 398 Fox Squirrel Cir, Columbia, SC 29209. I can offer $177,660 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0117",
+      "name": "Denny Horton",
+      "phone": "+18884402798",
+      "phoneDisplay": "888-440-2798",
+      "address": "118 Long Ridge Dr, Columbia, SC 29229",
+      "offer": "$191,700",
+      "message": "Hey Denny, love the potential of 118 Long Ridge Dr, Columbia, SC 29229. I can offer $191,700 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0075",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "2039 Cheltenham Ln, Columbia, SC 29223",
+      "offer": "$148,722",
+      "message": "Hey Constance, love the potential of 2039 Cheltenham Ln, Columbia, SC 29223. I can offer $148,722 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0399",
+      "name": "Brian L Faltus",
+      "phone": "+18037725858",
+      "phoneDisplay": "803-772-5858",
+      "address": "1311 Means Ave, Columbia, SC 29210",
+      "offer": "$87,500",
+      "message": "Greetings, I'm reaching out about the property on 1311 Means Ave, Columbia, SC 29210. We're looking for our next project. Would a $87,500 cash offer be of interest?"
+    },
+    {
+      "id": "SC0246",
+      "name": "Kirsten Hauge",
+      "phone": "+18036832210",
+      "phoneDisplay": "803-683-2210",
+      "address": "407 Sesqui Trl, Columbia, SC 29223",
+      "offer": "$179,922",
+      "message": "Greetings, I'm reaching out about the property on 407 Sesqui Trl, Columbia, SC 29223. We're looking for our next project. Would a $179,922 cash offer be of interest?"
+    },
+    {
+      "id": "SC0291",
+      "name": "Carrie Waring",
+      "phone": "+18035998400",
+      "phoneDisplay": "803-599-8400",
+      "address": "4243 Mandel Dr, Columbia, SC 29210",
+      "offer": "$142,100",
+      "message": "Hey Carrie, saw the listing at 4243 Mandel Dr, Columbia, SC 29210. I'm looking for a fixer-upper in Columbia. Any chance they'd take $142,100 as-is?"
+    },
+    {
+      "id": "SC0383",
+      "name": "Kodee Weipert",
+      "phone": "+18034692100",
+      "phoneDisplay": "803-469-2100",
+      "address": "311 Lockner Rd, Columbia, SC 29212",
+      "offer": "$218,922",
+      "message": "Hi there, regarding 311 Lockner Rd, Columbia, SC 29212 in Columbia. I'd like to submit a cash offer for $218,922. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "SC0272",
+      "name": "JT Livingston",
+      "phone": "+18037725858",
+      "phoneDisplay": "803-772-5858",
+      "address": "135 Waterville Dr, Columbia, SC 29229",
+      "offer": "$218,922",
+      "message": "Hi JT, is 135 Waterville Dr, Columbia, SC 29229 still available? I'm interested in an as-is purchase. My max offer is $218,922. Thoughts?"
+    },
+    {
+      "id": "SC0330",
+      "name": "Marcy M Glover",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "1115 Belmont Green Rd, Columbia, SC 29209",
+      "offer": "$218,220",
+      "message": "Hey Marcy, love the potential of 1115 Belmont Green Rd, Columbia, SC 29209. I can offer $218,220 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0301",
+      "name": "Greg Newman",
+      "phone": "+18037882811",
+      "phoneDisplay": "803-788-2811",
+      "address": "125 Deer Hound Trl, Columbia, SC 29223",
+      "offer": "$130,322",
+      "message": "Hello! Regarding 125 Deer Hound Trl, Columbia, SC 29223, I'm a local investor. My numbers work at $130,322 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0007",
+      "name": "Brian Hunt",
+      "phone": "+18037882811",
+      "phoneDisplay": "803-788-2811",
+      "address": "616 Amberley Rd, Columbia, SC 29203",
+      "offer": "$130,322",
+      "message": "Hello, I'm an investor interested in 616 Amberley Rd, Columbia, SC 29203. Based on the work needed, I'm at $130,322 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0390",
+      "name": "Isabella Frazier",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "2304 Pelican Dr, Columbia, SC 29203",
+      "offer": "$87,422",
+      "message": "Hello! Regarding 2304 Pelican Dr, Columbia, SC 29203, I'm a local investor. My numbers work at $87,422 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0148",
+      "name": "Vince Pace",
+      "phone": "+18037643243",
+      "phoneDisplay": "803-764-3243",
+      "address": "517 Windjammer Ln, Columbia, SC 29229",
+      "offer": "$213,930",
+      "message": "Greetings, I'm reaching out about the property on 517 Windjammer Ln, Columbia, SC 29229. We're looking for our next project. Would a $213,930 cash offer be of interest?"
+    },
+    {
+      "id": "SC0420",
+      "name": "Samuel Negrin",
+      "phone": "+18884402798",
+      "phoneDisplay": "888-440-2798",
+      "address": "2112 Academy St, Columbia, SC 29203",
+      "offer": "$86,720",
+      "message": "Hello, I'm an investor interested in 2112 Academy St, Columbia, SC 29203. Based on the work needed, I'm at $86,720 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0044",
+      "name": "Khali Gallman",
+      "phone": "+18037998035",
+      "phoneDisplay": "803-799-8035",
+      "address": "1522 Jerome Dr, Columbia, SC 29203",
+      "offer": "$52,400",
+      "message": "Hello Khali, following up on 1522 Jerome Dr, Columbia, SC 29203. My all-cash number is $52,400 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "SC0238",
+      "name": "Heather Butler",
+      "phone": "+18884556040",
+      "phoneDisplay": "888-455-6040",
+      "address": "2000 Elmridge Rd, Columbia, SC 29209",
+      "offer": "$203,322",
+      "message": "Hello, I'm an investor interested in 2000 Elmridge Rd, Columbia, SC 29209. Based on the work needed, I'm at $203,322 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0448",
+      "name": "Kevin Fields",
+      "phone": "+18034660031",
+      "phoneDisplay": "803-466-0031",
+      "address": "1223 Harvey St, Columbia, SC 29201",
+      "offer": "$152,622",
+      "message": "Hello, I'm an investor interested in 1223 Harvey St, Columbia, SC 29201. Based on the work needed, I'm at $152,622 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0106",
+      "name": "Lisa Harris",
+      "phone": "+18884402798",
+      "phoneDisplay": "888-440-2798",
+      "address": "19 Autumn Run Way, Columbia, SC 29229",
+      "offer": "$148,800",
+      "message": "Hi Lisa, I'm interested in 19 Autumn Run Way, Columbia, SC 29229. Would your seller consider a cash offer around $148,800? I can close quickly."
+    },
+    {
+      "id": "SC0281",
+      "name": "Aaron Richardson",
+      "phone": "+18039575566",
+      "phoneDisplay": "803-957-5566",
+      "address": "213 Greemount Cir, Columbia, SC 29209",
+      "offer": "$164,400",
+      "message": "Hey Aaron, love the potential of 213 Greemount Cir, Columbia, SC 29209. I can offer $164,400 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0422",
+      "name": "Sally Newell",
+      "phone": "+18039575566",
+      "phoneDisplay": "803-957-5566",
+      "address": "8206 Bayfield Rd, Columbia, SC 29223",
+      "offer": "$167,949",
+      "message": "Hello, I'm an investor interested in 8206 Bayfield Rd, Columbia, SC 29223. Based on the work needed, I'm at $167,949 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0171",
+      "name": "Deonna M Wylie",
+      "phone": "+18033888798",
+      "phoneDisplay": "803-388-8798",
+      "address": "146 Brook Hollow Dr, Columbia, SC 29229",
+      "offer": "$205,350",
+      "message": "Hey! Just saw 146 Brook Hollow Dr, Columbia, SC 29229. It fits my criteria perfectly. I can do $205,350 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "SC0222",
+      "name": "Constance Bennett",
+      "phone": "+18036135083",
+      "phoneDisplay": "803-613-5083",
+      "address": "304 Glen Knoll Dr, Columbia, SC 29229",
+      "offer": "$145,922",
+      "message": "Hello! Regarding 304 Glen Knoll Dr, Columbia, SC 29229, I'm a local investor. My numbers work at $145,922 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "SC0391",
+      "name": "Eddie Adamson",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "25 Saint Andrews Place Ct, Columbia, SC 29210",
+      "offer": "$141,000",
+      "message": "Greetings, I'm reaching out about the property on 25 Saint Andrews Place Ct, Columbia, SC 29210. We're looking for our next project. Would a $141,000 cash offer be of interest?"
+    },
+    {
+      "id": "SC0102",
+      "name": "Michelle Frazier",
+      "phone": "+18884556040",
+      "phoneDisplay": "888-455-6040",
+      "address": "130 Thorn Tree Ln, Columbia, SC 29212",
+      "offer": "$131,960",
+      "message": "Hey Michelle, saw the listing at 130 Thorn Tree Ln, Columbia, SC 29212. I'm looking for a fixer-upper in Columbia. Any chance they'd take $131,960 as-is?"
+    },
+    {
+      "id": "SC0438",
+      "name": "Gabby Thomas",
+      "phone": "+18037882811",
+      "phoneDisplay": "803-788-2811",
+      "address": "6 Shadow Creek Ct, Columbia, SC 29209",
+      "offer": "$152,700",
+      "message": "Hello, I'm an investor interested in 6 Shadow Creek Ct, Columbia, SC 29209. Based on the work needed, I'm at $152,700 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0268",
+      "name": "Ruslan Roberts",
+      "phone": "+18036026500",
+      "phoneDisplay": "803-602-6500",
+      "address": "4100 Highland Park Dr, Columbia, SC 29204",
+      "offer": "$131,180",
+      "message": "Hey Ruslan, saw the listing at 4100 Highland Park Dr, Columbia, SC 29204. I'm looking for a fixer-upper in Columbia. Any chance they'd take $131,180 as-is?"
+    },
+    {
+      "id": "SC0296",
+      "name": "Jesse Stephenson",
+      "phone": "+18032207405",
+      "phoneDisplay": "803-220-7405",
+      "address": "33 Heritage Village Ln, Columbia, SC 29212",
+      "offer": "$126,110",
+      "message": "Hi Jesse, I'm interested in 33 Heritage Village Ln, Columbia, SC 29212. Would your seller consider a cash offer around $126,110? I can close quickly."
+    },
+    {
+      "id": "SC0084",
+      "name": "Shannon Albers",
+      "phone": "+18035675300",
+      "phoneDisplay": "803-567-5300",
+      "address": "400 Green Tree Cir, Columbia, SC 29203",
+      "offer": "$67,220",
+      "message": "Hi Shannon, I'm interested in 400 Green Tree Cir, Columbia, SC 29203. Would your seller consider a cash offer around $67,220? I can close quickly."
+    },
+    {
+      "id": "SC0453",
+      "name": "Thomas Shoupe",
+      "phone": "+14804625392",
+      "phoneDisplay": "480-462-5392",
+      "address": "154 Ashewicke Dr, Columbia, SC 29229",
+      "offer": "$199,500",
+      "message": "Hi Thomas, quick question on 154 Ashewicke Dr, Columbia, SC 29229. Would they be open to a $199,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "SC0319",
+      "name": "Julius Washington",
+      "phone": "+18033997239",
+      "phoneDisplay": "803-399-7239",
+      "address": "663 Wooster Dr, Columbia, SC 29223",
+      "offer": "$179,922",
+      "message": "Hello, I'm an investor interested in 663 Wooster Dr, Columbia, SC 29223. Based on the work needed, I'm at $179,922 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "SC0328",
+      "name": "Caleb Jones",
+      "phone": "+18642304769",
+      "phoneDisplay": "864-230-4769",
+      "address": "822 Apache Dr, Columbia, SC 29203",
+      "offer": "$145,220",
+      "message": "Hey Caleb, love the potential of 822 Apache Dr, Columbia, SC 29203. I can offer $145,220 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "SC0157",
+      "name": "LaToya Latimore",
+      "phone": "+18036697142",
+      "phoneDisplay": "803-669-7142",
+      "address": "1253 Rabon Pond Dr, Columbia, SC 29223",
+      "offer": "$152,700",
+      "message": "Hey LaToya, love the potential of 1253 Rabon Pond Dr, Columbia, SC 29223. I can offer $152,700 net to the seller. We're ready to move if they are."
+    }
+  ]
+}
