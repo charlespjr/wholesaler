@@ -56,7 +56,7 @@
                 <div class="bg-blue-600 rounded-3xl p-6 text-white shadow-xl shadow-blue-200">
                     <div class="font-bold mb-1 uppercase text-[10px] tracking-widest opacity-80">Pro Status</div>
                     <div class="font-bold text-lg leading-tight">32 Markets Loaded</div>
-                    <div class="text-xs mt-2 opacity-90">Sample dataset — verify agent contacts before outreach.</div>
+                    <div class="text-xs mt-2 opacity-90">Real listings pulled Jun 2026 — open each Zillow link for live status & agent.</div>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                 <div class="flex justify-between items-end mb-8">
                     <div>
                         <h1 class="text-4xl font-bold tracking-tight text-slate-900">Wholesale Dashboard</h1>
-                        <p class="text-slate-500 mt-1">Sample listings across 32 major US cities — replace with verified leads before sending.</p>
+                        <p class="text-slate-500 mt-1">Real distressed/investor listings across 32 major US cities (pulled Jun 2026). Open the Zillow link for live price, status & agent contact.</p>
                     </div>
                     <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
                         <i class="fa-solid fa-file-csv text-blue-400"></i> Export Bulk CSV
@@ -204,38 +204,38 @@
         // NOTE: phone numbers use the 555-01xx reserved range and agent names are
         // placeholders. Skip-trace / verify each contact before any real outreach.
         const FLIPSTER_LEADS = [
-            {"id":"AUS01","city":"Austin, TX","address":"2401 E 12th St, Austin, TX 78702","contact_name":"Marcus Realty","contact_phone":"(512) 555-0101","motivation":"Needs TLC","listing_price":325000,"est_arv":485000,"repairs":60000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"DAL01","city":"Dallas, TX","address":"4557 Image Pl, Dallas, TX 75211","contact_name":"Dallas Inv Team","contact_phone":"(214) 555-0922","motivation":"Fixer Upper","listing_price":215000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"HOU01","city":"Houston, TX","address":"6155 Ridgeway Dr, Houston, TX 77033","contact_name":"Nan & Company","contact_phone":"(713) 555-0188","motivation":"As-Is Fixer","listing_price":195000,"est_arv":315000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"SAN01","city":"San Antonio, TX","address":"1202 S Alamo St, San Antonio, TX 78210","contact_name":"Alamo Brokers","contact_phone":"(210) 555-0104","motivation":"Needs TLC","listing_price":175000,"est_arv":285000,"repairs":40000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"FTW01","city":"Fort Worth, TX","address":"3528 Kellis St, Fort Worth, TX 76119","contact_name":"Cowtown Realty","contact_phone":"(817) 555-0105","motivation":"Fixer Upper","listing_price":219900,"est_arv":345000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"ORL01","city":"Orlando, FL","address":"4022 Shellman St, Orlando, FL 32811","contact_name":"Susan Wilkinson","contact_phone":"(407) 555-0106","motivation":"Investor Special","listing_price":199999,"est_arv":325000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"TAM01","city":"Tampa, FL","address":"880 Oak Dr, Tampa, FL 33602","contact_name":"Bay Area Sales","contact_phone":"(813) 555-0107","motivation":"Needs TLC","listing_price":275000,"est_arv":415000,"repairs":60000,"wholesale_fee":15000,"zillow_url":""},
-            {"id":"JAX01","city":"Jacksonville, FL","address":"1502 River Rd, Jacksonville, FL 32207","contact_name":"River City Realty","contact_phone":"(904) 555-0108","motivation":"Fixer Upper","listing_price":165000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"MIA01","city":"Miami, FL","address":"4821 Ocean Blvd, Miami, FL 33101","contact_name":"Miami Invest","contact_phone":"(305) 555-0109","motivation":"As-Is Sale","listing_price":425000,"est_arv":685000,"repairs":85000,"wholesale_fee":25000,"zillow_url":""},
-            {"id":"STP01","city":"St. Petersburg, FL","address":"900 Central Ave, St. Petersburg, FL 33705","contact_name":"Sunshine City","contact_phone":"(727) 555-0110","motivation":"Fixer Upper","listing_price":315000,"est_arv":465000,"repairs":65000,"wholesale_fee":15000,"zillow_url":""},
-            {"id":"PHX01","city":"Phoenix, AZ","address":"6707 N 10th St, Phoenix, AZ 85014","contact_name":"Rob Madden","contact_phone":"(480) 555-1234","motivation":"Needs TLC","listing_price":500000,"est_arv":725000,"repairs":85000,"wholesale_fee":20000,"zillow_url":""},
-            {"id":"TUC01","city":"Tucson, AZ","address":"500 E Broadway, Tucson, AZ 85701","contact_name":"Old Pueblo Sales","contact_phone":"(520) 555-0112","motivation":"Investor Deal","listing_price":225000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"MES01","city":"Mesa, AZ","address":"100 W Main St, Mesa, AZ 85201","contact_name":"Desert Sky Realty","contact_phone":"(480) 555-0113","motivation":"Fixer Upper","listing_price":265000,"est_arv":395000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"COL01","city":"Columbia, SC","address":"704 Congaree Church Rd, Gadsden, SC 29052","contact_name":"Denisha Richardson","contact_phone":"(803) 555-0114","motivation":"As-Is Fixer","listing_price":115000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"CHA01","city":"Charleston, SC","address":"1240 Oakcrest Dr, Charleston, SC 29412","contact_name":"Holy City Realty","contact_phone":"(843) 555-0115","motivation":"Needs TLC","listing_price":575000,"est_arv":825000,"repairs":95000,"wholesale_fee":25000,"zillow_url":""},
-            {"id":"GRE01","city":"Greenville, SC","address":"100 N Main St, Greenville, SC 29601","contact_name":"Upstate Brokers","contact_phone":"(864) 555-0116","motivation":"Fixer Upper","listing_price":245000,"est_arv":365000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"ATL01","city":"Atlanta, GA","address":"1038 Delaware Ave SE, Atlanta, GA 30316","contact_name":"Peach State Sales","contact_phone":"(404) 555-0117","motivation":"Fixer Upper","listing_price":450000,"est_arv":675000,"repairs":85000,"wholesale_fee":20000,"zillow_url":""},
-            {"id":"AUG01","city":"Augusta, GA","address":"700 Broad St, Augusta, GA 30901","contact_name":"Augusta Brokers","contact_phone":"(706) 555-0118","motivation":"Investor Special","listing_price":125000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"SAV01","city":"Savannah, GA","address":"100 Broughton St, Savannah, GA 31401","contact_name":"Lowcountry Invest","contact_phone":"(912) 555-0119","motivation":"As-Is Deal","listing_price":295000,"est_arv":445000,"repairs":60000,"wholesale_fee":15000,"zillow_url":""},
-            {"id":"CLT01","city":"Charlotte, NC","address":"9111 Brocklehurst Ln, Charlotte, NC 28215","contact_name":"Queen City Sales","contact_phone":"(704) 555-0120","motivation":"Needs TLC","listing_price":525000,"est_arv":785000,"repairs":95000,"wholesale_fee":25000,"zillow_url":""},
-            {"id":"RAL01","city":"Raleigh, NC","address":"400 Fayetteville St, Raleigh, NC 27601","contact_name":"Triangle Invest","contact_phone":"(919) 555-0121","motivation":"Fixer Upper","listing_price":355000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000,"zillow_url":""},
-            {"id":"GSO01","city":"Greensboro, NC","address":"100 S Elm St, Greensboro, NC 27401","contact_name":"Gate City Realty","contact_phone":"(336) 555-0122","motivation":"Investor Special","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"MEM01","city":"Memphis, TN","address":"3245 Newberry Ave, Memphis, TN 38115","contact_name":"Bluff City Invest","contact_phone":"(901) 555-0123","motivation":"Fixer Upper","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"BHM01","city":"Birmingham, AL","address":"2000 1st Ave N, Birmingham, AL 35203","contact_name":"Magic City Realty","contact_phone":"(205) 555-0124","motivation":"Needs TLC","listing_price":135000,"est_arv":245000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"IND01","city":"Indianapolis, IN","address":"100 Monument Cir, Indianapolis, IN 46204","contact_name":"Hoosier Sales","contact_phone":"(317) 555-0125","motivation":"As-Is Deal","listing_price":195000,"est_arv":325000,"repairs":55000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"CLE01","city":"Cleveland, OH","address":"600 Superior Ave, Cleveland, OH 44114","contact_name":"Forest City Invest","contact_phone":"(216) 555-0126","motivation":"Fixer Upper","listing_price":105000,"est_arv":215000,"repairs":40000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"DET01","city":"Detroit, MI","address":"2245 W Boston Blvd, Detroit, MI 48206","contact_name":"Motor City Realty","contact_phone":"(313) 555-0127","motivation":"Needs TLC","listing_price":145000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"BAL01","city":"Baltimore, MD","address":"2000 W Baltimore St, Baltimore, MD 21223","contact_name":"Charm City Invest","contact_phone":"(410) 555-0128","motivation":"Fixer Upper","listing_price":95000,"est_arv":215000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"KAN01","city":"Kansas City, MO","address":"1000 Main St, Kansas City, MO 64105","contact_name":"Fountain City Realty","contact_phone":"(816) 555-0129","motivation":"Investor Special","listing_price":165000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
-            {"id":"LAS01","city":"Las Vegas, NV","address":"100 E Fremont St, Las Vegas, NV 89101","contact_name":"Vegas Invest Team","contact_phone":"(702) 555-0130","motivation":"As-Is Sale","listing_price":375000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000,"zillow_url":""},
-            {"id":"DEN01","city":"Denver, CO","address":"2501 Champa St, Denver, CO 80205","contact_name":"Mile High Brokers","contact_phone":"(303) 555-0131","motivation":"Fixer Upper","listing_price":485000,"est_arv":725000,"repairs":85000,"wholesale_fee":25000,"zillow_url":""},
-            {"id":"OKC01","city":"Oklahoma City, OK","address":"5400 N Eagle Ln, Oklahoma City, OK 73162","contact_name":"Sooner Realty","contact_phone":"(405) 555-0132","motivation":"Needs TLC","listing_price":160272,"est_arv":275000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""}
+            {"id":"AUS01","city":"Austin, TX","address":"606 Springdale Rd, Austin, TX 78702","contact_name":"","contact_phone":"","motivation":"As-Is / Estate","listing_price":499900,"zillow_url":"https://www.zillow.com/homedetails/606-Springdale-Rd-Austin-TX-78702/29383517_zpid/"},
+            {"id":"DAL01","city":"Dallas, TX","address":"623 Parkview Ave, Dallas, TX 75223","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":249000,"zillow_url":"https://www.zillow.com/homedetails/623-Parkview-Ave-Dallas-TX-75223/26684876_zpid/"},
+            {"id":"HOU01","city":"Houston, TX","address":"5021 Malmedy Rd, Houston, TX 77033","contact_name":"NB Elite Realty","contact_phone":"","motivation":"Investor Special","listing_price":119900,"zillow_url":""},
+            {"id":"SAN01","city":"San Antonio, TX","address":"211 Isabel St, San Antonio, TX 78210","contact_name":"Full Spectrum Realty","contact_phone":"","motivation":"Investor Special","listing_price":130000,"zillow_url":"https://www.zillow.com/homedetails/211-Isabel-St-San-Antonio-TX-78210/26142159_zpid/"},
+            {"id":"FTW01","city":"Fort Worth, TX","address":"4108 Pate Dr, Fort Worth, TX 76119","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":189000,"zillow_url":"https://www.zillow.com/homedetails/4108-Pate-Dr-Fort-Worth-TX-76119/61882237_zpid/"},
+            {"id":"ORL01","city":"Orlando, FL","address":"4448 King Cole Blvd, Orlando, FL 32811","contact_name":"Beacon Real Estate & Assoc","contact_phone":"","motivation":"Foreclosure","listing_price":168000,"zillow_url":"https://www.zillow.com/homedetails/4448-King-Cole-Blvd-Orlando-FL-32811/46064334_zpid/"},
+            {"id":"TAM01","city":"Tampa, FL","address":"209 S 24th St, Tampa, FL 33605","contact_name":"Charles Rutenberg Realty Inc","contact_phone":"","motivation":"Handyman Special","listing_price":150000,"zillow_url":""},
+            {"id":"JAX01","city":"Jacksonville, FL","address":"3659 Cedar Dr, Jacksonville, FL 32207","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":235000,"zillow_url":""},
+            {"id":"MIA01","city":"Miami, FL","address":"2295 NW 64th St, Miami, FL 33147","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/2295-NW-64th-St-Miami-FL-33147/44159089_zpid/"},
+            {"id":"STP01","city":"St. Petersburg, FL","address":"340 14th St N, Saint Petersburg, FL 33705","contact_name":"","contact_phone":"","motivation":"Fixer Upper","listing_price":225000,"zillow_url":"https://www.zillow.com/homedetails/340-14th-St-N-Saint-Petersburg-FL-33705/47170109_zpid/"},
+            {"id":"PHX01","city":"Phoenix, AZ","address":"5120 N 10th Way, Phoenix, AZ 85014","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/5120-N-10th-Way-Phoenix-AZ-85014/316019148_zpid/"},
+            {"id":"TUC01","city":"Tucson, AZ","address":"519 S 5th Ave, Tucson, AZ 85701","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/519-S-5th-Ave-Tucson-AZ-85701/239060771_zpid/"},
+            {"id":"MES01","city":"Mesa, AZ","address":"2220 W Dora St APT 114, Mesa, AZ 85201","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":175000,"zillow_url":"https://www.zillow.com/homedetails/2220-W-Dora-St-APT-114-Mesa-AZ-85201/7610275_zpid/"},
+            {"id":"COL01","city":"Columbia, SC","address":"226 Northwood St, Columbia, SC 29201","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/226-Northwood-St-Columbia-SC-29201/117707427_zpid/"},
+            {"id":"CHA01","city":"Charleston, SC","address":"205 Key Ct, Charleston, SC 29412","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/205-Key-Ct-Charleston-SC-29412/68392125_zpid/"},
+            {"id":"GRE01","city":"Greenville, SC","address":"206 Cook St, Greenville, SC 29601","contact_name":"ListWithFreedom.com (Ralph Harvey)","contact_phone":"","motivation":"Investor Special","listing_price":250000,"zillow_url":"https://www.zillow.com/homedetails/206-Cook-St-Greenville-SC-29601/96467861_zpid/"},
+            {"id":"ATL01","city":"Atlanta, GA","address":"1011 Ormewood Ave SE, Atlanta, GA 30316","contact_name":"Compass","contact_phone":"","motivation":"Investor Special","listing_price":269900,"zillow_url":"https://www.zillow.com/homedetails/1011-Ormewood-Ave-SE-Atlanta-GA-30316/35832654_zpid/"},
+            {"id":"AUG01","city":"Augusta, GA","address":"2133 Grand Blvd, Augusta, GA 30901","contact_name":"Century 21 Larry Miller Realty","contact_phone":"","motivation":"Investor Special","listing_price":69900,"zillow_url":""},
+            {"id":"SAV01","city":"Savannah, GA","address":"514 E Oglethorpe Ave, Savannah, GA 31401","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":1548000,"zillow_url":"https://www.zillow.com/homedetails/514-E-Oglethorpe-Ave-Savannah-GA-31401/54472010_zpid/"},
+            {"id":"CLT01","city":"Charlotte, NC","address":"8128 Tiburon Cir, Charlotte, NC 28215","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":229900,"zillow_url":"https://www.zillow.com/homedetails/8128-Tiburon-Cir-Charlotte-NC-28215/6207754_zpid/"},
+            {"id":"RAL01","city":"Raleigh, NC","address":"202 N State St, Raleigh, NC 27601","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":595000,"zillow_url":"https://www.zillow.com/homedetails/202-N-State-St-Raleigh-NC-27601/6422921_zpid/"},
+            {"id":"GSO01","city":"Greensboro, NC","address":"518 Pine St, Greensboro, NC 27401","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":70000,"zillow_url":"https://www.zillow.com/homedetails/518-Pine-St-Greensboro-NC-27401/5920327_zpid/"},
+            {"id":"MEM01","city":"Memphis, TN","address":"2968 New London Pl, Memphis, TN 38115","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/2968-New-London-Pl-Memphis-TN-38115/161755657_zpid/"},
+            {"id":"BHM01","city":"Birmingham, AL","address":"1705 33rd Ave N, Birmingham, AL 35207","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":58000,"zillow_url":"https://www.zillow.com/homedetails/1705-33rd-Ave-N-Birmingham-AL-35207/931685_zpid/"},
+            {"id":"IND01","city":"Indianapolis, IN","address":"2517 E 13th St, Indianapolis, IN 46201","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":100000,"zillow_url":"https://www.zillow.com/homedetails/2517-E-13th-St-Indianapolis-IN-46201/1103379_zpid/"},
+            {"id":"CLE01","city":"Cleveland, OH","address":"2897 E 117th St, Cleveland, OH 44120","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":32000,"zillow_url":"https://www.zillow.com/homedetails/2897-E-117th-St-Cleveland-OH-44120/33418059_zpid/"},
+            {"id":"DET01","city":"Detroit, MI","address":"1690 Burlingame St, Detroit, MI 48206","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":40000,"zillow_url":"https://www.zillow.com/homedetails/1690-Burlingame-St-Detroit-MI-48206/88257139_zpid/"},
+            {"id":"BAL01","city":"Baltimore, MD","address":"2708 Wilkens Ave, Baltimore, MD 21223","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":65500,"zillow_url":"https://www.zillow.com/homedetails/2708-Wilkens-Ave-Baltimore-MD-21223/36525658_zpid/"},
+            {"id":"KAN01","city":"Kansas City, MO","address":"3714 Benton Blvd, Kansas City, MO 64128","contact_name":"","contact_phone":"","motivation":"Fixer Upper","listing_price":85000,"zillow_url":"https://www.zillow.com/homedetails/3714-Benton-Blvd-Kansas-City-MO-64128/2355907_zpid/"},
+            {"id":"LAS01","city":"Las Vegas, NV","address":"1700 Marlin Ave, Las Vegas, NV 89101","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/1700-Marlin-Ave-Las-Vegas-NV-89101/7015963_zpid/"},
+            {"id":"DEN01","city":"Denver, CO","address":"2831 Lawrence St, Denver, CO 80205","contact_name":"","contact_phone":"","motivation":"Fixer Upper","listing_price":879000,"zillow_url":"https://www.zillow.com/homedetails/2831-Lawrence-St-Denver-CO-80205/13307630_zpid/"},
+            {"id":"OKC01","city":"Oklahoma City, OK","address":"731 SE Grand Blvd, Oklahoma City, OK 73129","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/731-SE-Grand-Blvd-Oklahoma-City-OK-73129/118614024_zpid/"}
         ];
 
         const leads = [...FLIPSTER_LEADS];
@@ -279,11 +279,25 @@
 
         // ----- Helpers -----
         function money(n) { return "$" + Math.round(n).toLocaleString(); }
+        function priceText(n) { return n ? money(n) : "See listing"; }
+
+        // Derive wholesale numbers from the real list price.
+        // ARV = 1.4x list price; repairs and fee scale with price tier.
+        function deriveDeal(lead) {
+            const price = Number(lead.listing_price) || 0;
+            const arv = Math.round(price * 1.4);
+            // Repairs ~20% of price, floored at $15k and capped at $100k.
+            const repairs = Math.max(15000, Math.min(100000, Math.round(price * 0.20)));
+            const fee = price < 200000 ? 10000 : price < 500000 ? 15000 : 25000;
+            return { price, arv, repairs, fee };
+        }
 
         function calcOffer(lead) {
-            // MAO = (ARV * 0.70) - Repairs - Wholesale Fee, clamped at 0
-            const mao = (lead.est_arv * 0.70) - lead.repairs - lead.wholesale_fee;
-            return Math.max(0, Math.round(mao));
+            // MAO = (ARV * 0.70) - Repairs - Wholesale Fee, clamped at 0.
+            // Returns null when the list price is unknown.
+            const d = deriveDeal(lead);
+            if (!d.price) return null;
+            return Math.max(0, Math.round((d.arv * 0.70) - d.repairs - d.fee));
         }
 
         function zillowUrl(address) {
@@ -301,13 +315,22 @@
             return u ? u : zillowUrl(lead.address);
         }
 
+        // Use a first name only when contact_name looks like a person, not a brokerage.
+        function agentGreeting(name) {
+            if (!name) return "there";
+            if (/realty|real estate|compass|inc\b|llc|realtors|assoc|group|freedom|century|properties|brokers|team|company|\bco\b|homes|keller|remax|re\/max/i.test(name)) return "there";
+            return name.split(' ')[0];
+        }
+
         function buildSMS(lead, offer) {
             const template = SMS_TEMPLATES[Math.floor(Math.random() * SMS_TEMPLATES.length)];
+            const offerStr = offer != null ? `$${offer.toLocaleString()}` : "a strong cash offer";
             return template
-                .replaceAll("[Agent]", (lead.contact_name || "there").split(' ')[0])
+                .replaceAll("[Agent]", agentGreeting(lead.contact_name))
                 .replaceAll("[Address]", lead.address)
                 .replaceAll("[City]", lead.city.split(',')[0])
-                .replaceAll("[Offer]", offer.toLocaleString());
+                .replaceAll("$[Offer]", offerStr)
+                .replaceAll("[Offer]", offer != null ? offer.toLocaleString() : "a strong cash offer");
         }
 
         // ----- Rendering -----
@@ -339,15 +362,15 @@
                     </td>
                     <td class="px-6 py-5"><span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-[10px] font-bold uppercase whitespace-nowrap">${lead.motivation}</span></td>
                     <td class="px-6 py-5">
-                        <div class="font-bold text-slate-700">${lead.contact_name}</div>
-                        <div class="text-[10px] text-slate-400 font-bold tracking-wide">${lead.contact_phone}</div>
+                        <div class="font-bold text-slate-700">${lead.contact_name || '<span class="text-blue-600">View on Zillow</span>'}</div>
+                        <div class="text-[10px] text-slate-400 font-bold tracking-wide">${lead.contact_phone || 'Tap Zillow for agent'}</div>
                     </td>
                     <td class="px-6 py-5 text-right">
-                        <div class="text-slate-900 font-bold text-base leading-none">${money(lead.listing_price)}</div>
+                        <div class="text-slate-900 font-bold text-base leading-none">${priceText(lead.listing_price)}</div>
                         <div class="text-[9px] text-slate-400 font-medium mt-1 uppercase">Ask Price</div>
                     </td>
                     <td class="px-6 py-5">
-                        <div class="text-emerald-700 font-bold text-lg leading-none">${money(offer)}</div>
+                        <div class="text-emerald-700 font-bold text-lg leading-none">${offer != null ? money(offer) : '<span class="text-slate-400 text-sm">See listing</span>'}</div>
                         <div class="text-[9px] text-slate-400 font-medium mt-1 uppercase">Wholesale Offer</div>
                     </td>
                     <td class="px-6 py-5 text-center">
@@ -372,15 +395,28 @@
             const offer = calcOffer(lead);
             currentSmsText = buildSMS(lead, offer);
 
+            const d = deriveDeal(lead);
             document.getElementById('modal-address').innerText = lead.address;
-            document.getElementById('modal-owner').innerText = lead.contact_name;
-            document.getElementById('modal-phone').innerText = lead.contact_phone;
+            document.getElementById('modal-owner').innerText = lead.contact_name || "View agent on Zillow";
+            document.getElementById('modal-phone').innerText = lead.contact_phone || "Phone not listed — open the Zillow listing to contact the agent";
             document.getElementById('modal-motivation').innerText = lead.motivation;
-            document.getElementById('modal-list').innerText = money(lead.listing_price);
-            document.getElementById('modal-offer').innerText = money(offer);
-            document.getElementById('modal-arv').innerText = money(lead.est_arv);
+            document.getElementById('modal-list').innerText = priceText(lead.listing_price);
+            document.getElementById('modal-offer').innerText = offer != null ? money(offer) : "See listing";
+            document.getElementById('modal-arv').innerText = d.price ? money(d.arv) : "See listing";
             document.getElementById('modal-sms').innerText = `"${currentSmsText}"`;
-            document.getElementById('modal-call-btn').href = `tel:${lead.contact_phone.replace(/[^0-9+]/g, '')}`;
+
+            // Call button: dial a real phone if we have one, otherwise open the Zillow listing.
+            const callBtn = document.getElementById('modal-call-btn');
+            if (lead.contact_phone) {
+                callBtn.href = `tel:${lead.contact_phone.replace(/[^0-9+]/g, '')}`;
+                callBtn.removeAttribute('target');
+                callBtn.innerHTML = '<i class="fa-solid fa-phone"></i>';
+            } else {
+                callBtn.href = leadZillowUrl(lead);
+                callBtn.target = '_blank';
+                callBtn.rel = 'noopener';
+                callBtn.innerHTML = '<i class="fa-solid fa-up-right-from-square"></i>';
+            }
 
             document.getElementById('property-modal').classList.remove('hidden');
         }
@@ -437,16 +473,17 @@
             const rows = [headers.map(escape).join(",")];
 
             leads.forEach(lead => {
+                const d = deriveDeal(lead);
                 const offer = calcOffer(lead);
                 const msg = buildSMS(lead, offer);
                 rows.push([
                     lead.address,
                     lead.city,
-                    lead.contact_name,
-                    lead.contact_phone,
-                    lead.listing_price,
-                    lead.est_arv,
-                    offer,
+                    lead.contact_name || "View on Zillow",
+                    lead.contact_phone || "See Zillow listing",
+                    lead.listing_price || "",
+                    d.price ? d.arv : "",
+                    offer != null ? offer : "",
                     lead.motivation,
                     leadZillowUrl(lead),
                     msg
