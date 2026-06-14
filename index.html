@@ -111,7 +111,16 @@
                         <input type="text" id="deep-location" class="w-full border border-slate-200 bg-slate-50 px-6 py-4 rounded-2xl text-lg font-medium focus:ring-2 ring-blue-500 transition-all outline-none" placeholder="Zip code or City, State">
                     </div>
                     <button onclick="generateDeepLinks()" class="w-full bg-blue-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-blue-700 shadow-lg shadow-blue-100 transition-all">Generate Search Strings</button>
+                    <button onclick="exportAllCitiesCSV()" class="w-full mt-3 bg-white border border-slate-200 text-slate-700 py-4 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-file-csv text-emerald-500"></i> Export All 32 Cities (CSV)
+                    </button>
                     <div id="deep-links-container" class="mt-10 hidden border-t border-slate-100 pt-8">
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="text-xs font-bold text-slate-400 uppercase tracking-widest">Generated Search Links</div>
+                            <button onclick="exportLocationCSV()" class="text-xs font-bold text-blue-600 bg-blue-50 px-5 py-2.5 rounded-full hover:bg-blue-100 transition-all flex items-center gap-2">
+                                <i class="fa-solid fa-download"></i> Download CSV
+                            </button>
+                        </div>
                         <div class="space-y-4" id="deep-links-list"></div>
                     </div>
                 </div>
@@ -243,6 +252,25 @@
             "Hi [Agent], I buy homes in [City] in any condition. For [Address] I can offer $[Offer] cash, no repairs needed on your end. Open to it?",
             "Hello [Agent], following up on [Address]. My all-cash number is $[Offer] with a flexible close date. Happy to send proof of funds."
         ];
+
+        // ----- Lead Finder: shared keyword library (15 distressed-property terms) -----
+        const SEARCH_KEYWORDS = [
+            "fixer upper", "TLC", "handyman special", "as-is", "investor special",
+            "probate", "must sell", "needs work", "cash only", "motivated seller",
+            "estate sale", "bring offers", "distressed", "tear down", "sold as-is"
+        ];
+
+        function dorkQuery(keyword, location) {
+            return `site:zillow.com "${keyword}" "${location}"`;
+        }
+        function googleUrl(query) {
+            return "https://www.google.com/search?q=" + encodeURIComponent(query);
+        }
+        // Pull the 5-digit zip out of an address string
+        function zipOf(address) {
+            const m = address.match(/\b(\d{5})(?:-\d{4})?\b/);
+            return m ? m[1] : "";
+        }
 
         // ----- Helpers -----
         function money(n) { return "$" + Math.round(n).toLocaleString(); }
@@ -421,17 +449,58 @@
             URL.revokeObjectURL(url);
         }
 
+        // Build a CSV of search links for one or more locations and download it
+        function downloadSearchLinksCSV(locations, filename) {
+            const esc = v => `"${String(v).replace(/"/g, '""')}"`;
+            const rows = [["City","State","Zip","Keyword","Google Dork Query","Google Search URL"].map(esc).join(",")];
+            locations.forEach(({ city, state, zip, location }) => {
+                SEARCH_KEYWORDS.forEach(kw => {
+                    const query = dorkQuery(kw, location);
+                    rows.push([city, state, zip, kw, query, googleUrl(query)].map(esc).join(","));
+                });
+            });
+            const blob = new Blob([rows.join("\r\n")], { type: "text/csv;charset=utf-8;" });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+
+        // Download links for whatever location is currently typed in the Lead Finder
+        function exportLocationCSV() {
+            const loc = (document.getElementById('deep-location').value || "").trim();
+            if (!loc) { alert("Enter a zip code or City, State first."); return; }
+            const safe = loc.replace(/[^a-z0-9]+/gi, "_");
+            downloadSearchLinksCSV(
+                [{ city: loc, state: "", zip: zipOf(loc), location: loc }],
+                `zillow_search_links_${safe}.csv`
+            );
+        }
+
+        // Download links for all 32 cities in the dataset (zip-targeted, like the example)
+        function exportAllCitiesCSV() {
+            const locations = leads.map(l => {
+                const [city, state] = l.city.split(",").map(s => s.trim());
+                const zip = zipOf(l.address);
+                return { city, state: state || "", zip, location: zip || l.city };
+            });
+            downloadSearchLinksCSV(locations, "zillow_search_links_all_cities.csv");
+        }
+
         function generateDeepLinks() {
             const loc = (document.getElementById('deep-location').value || "").trim();
             if (!loc) { alert("Enter a zip code or City, State."); return; }
             const list = document.getElementById('deep-links-list');
             document.getElementById('deep-links-container').classList.remove('hidden');
-            list.innerHTML = '<div class="text-xs font-bold text-slate-400 mb-4 uppercase tracking-widest">Targeting Zillow listings via Google…</div>';
+            list.innerHTML = '';
 
-            const keywords = ["fixer upper", "TLC", "handyman special", "as-is", "investor special", "probate", "must sell"];
-            keywords.forEach(keyword => {
-                const query = `site:zillow.com "${keyword}" "${loc}"`;
-                const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+            SEARCH_KEYWORDS.forEach(keyword => {
+                const query = dorkQuery(keyword, loc);
+                const url = googleUrl(query);
                 const div = document.createElement('div');
                 div.className = 'group flex items-center justify-between p-5 bg-slate-50 rounded-2xl border border-slate-100 hover:border-blue-400 hover:bg-white transition-all';
                 div.innerHTML = `
