@@ -74,6 +74,10 @@
                         <button onclick="exportZillowUrls()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Download a CSV of all Zillow URLs for the Apify actor">
                             <i class="fa-solid fa-link text-blue-500"></i> Zillow URLs (CSV)
                         </button>
+                        <button onclick="document.getElementById('apify-import-input').click()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Import an Apify Zillow Detail Scraper CSV to fill in agent names & phones">
+                            <i class="fa-solid fa-file-import text-emerald-500"></i> Import Apify CSV
+                        </button>
+                        <input type="file" id="apify-import-input" accept=".csv,text/csv" class="hidden" onchange="importApifyCSV(this)">
                         <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
                             <i class="fa-solid fa-file-csv text-blue-400"></i> Export Bulk CSV
                         </button>
@@ -225,33 +229,33 @@
         // placeholders. Skip-trace / verify each contact before any real outreach.
         const FLIPSTER_LEADS = [
             {"id":"AUS01","city":"Austin, TX","address":"606 Springdale Rd, Austin, TX 78702","contact_name":"Cheryl Chavarria","contact_phone":"","motivation":"As-Is / Estate","listing_price":499900,"zillow_url":"https://www.zillow.com/homedetails/606-Springdale-Rd-Austin-TX-78702/29383517_zpid/"},
-            {"id":"DAL01","city":"Dallas, TX","address":"623 Parkview Ave, Dallas, TX 75223","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":249000,"zillow_url":"https://www.zillow.com/homedetails/623-Parkview-Ave-Dallas-TX-75223/26684876_zpid/"},
+            {"id":"DAL01","city":"Dallas, TX","address":"623 Parkview Ave, Dallas, TX 75223","contact_name":"Shawna King","contact_phone":"214-697-1742","motivation":"Investor Special","listing_price":249000,"zillow_url":"https://www.zillow.com/homedetails/623-Parkview-Ave-Dallas-TX-75223/26684876_zpid/"},
             {"id":"HOU01","city":"Houston, TX","address":"5021 Malmedy Rd, Houston, TX 77033","contact_name":"NB Elite Realty","contact_phone":"","motivation":"Investor Special","listing_price":119900,"zillow_url":""},
-            {"id":"SAN01","city":"San Antonio, TX","address":"211 Isabel St, San Antonio, TX 78210","contact_name":"Terry Todd","contact_phone":"","motivation":"Investor Special","listing_price":130000,"zillow_url":"https://www.zillow.com/homedetails/211-Isabel-St-San-Antonio-TX-78210/26142159_zpid/"},
-            {"id":"FTW01","city":"Fort Worth, TX","address":"4108 Pate Dr, Fort Worth, TX 76119","contact_name":"Marissa Brett","contact_phone":"","motivation":"Investor Special","listing_price":189000,"zillow_url":"https://www.zillow.com/homedetails/4108-Pate-Dr-Fort-Worth-TX-76119/61882237_zpid/"},
-            {"id":"ORL01","city":"Orlando, FL","address":"4448 King Cole Blvd, Orlando, FL 32811","contact_name":"Al Spry","contact_phone":"","motivation":"Foreclosure","listing_price":168000,"zillow_url":"https://www.zillow.com/homedetails/4448-King-Cole-Blvd-Orlando-FL-32811/46064334_zpid/"},
+            {"id":"SAN01","city":"San Antonio, TX","address":"211 Isabel St, San Antonio, TX 78210","contact_name":"Terry Todd","contact_phone":"(210) 287-5982","motivation":"Investor Special","listing_price":130000,"zillow_url":"https://www.zillow.com/homedetails/211-Isabel-St-San-Antonio-TX-78210/26142159_zpid/"},
+            {"id":"FTW01","city":"Fort Worth, TX","address":"4108 Pate Dr, Fort Worth, TX 76119","contact_name":"Marissa Brett","contact_phone":"214-814-8100","motivation":"Investor Special","listing_price":189000,"zillow_url":"https://www.zillow.com/homedetails/4108-Pate-Dr-Fort-Worth-TX-76119/61882237_zpid/"},
+            {"id":"ORL01","city":"Orlando, FL","address":"4448 King Cole Blvd, Orlando, FL 32811","contact_name":"Al Spry","contact_phone":"407-207-2220","motivation":"Foreclosure","listing_price":168000,"zillow_url":"https://www.zillow.com/homedetails/4448-King-Cole-Blvd-Orlando-FL-32811/46064334_zpid/"},
             {"id":"TAM01","city":"Tampa, FL","address":"209 S 24th St, Tampa, FL 33605","contact_name":"Charles Rutenberg Realty Inc","contact_phone":"","motivation":"Handyman Special","listing_price":150000,"zillow_url":""},
             {"id":"JAX01","city":"Jacksonville, FL","address":"3659 Cedar Dr, Jacksonville, FL 32207","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":235000,"zillow_url":""},
             {"id":"MIA01","city":"Miami, FL","address":"2295 NW 64th St, Miami, FL 33147","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/2295-NW-64th-St-Miami-FL-33147/44159089_zpid/"},
             {"id":"STP01","city":"St. Petersburg, FL","address":"340 14th St N, Saint Petersburg, FL 33705","contact_name":"Torrie Tiernan Jasuwan","contact_phone":"","motivation":"Fixer Upper","listing_price":225000,"zillow_url":"https://www.zillow.com/homedetails/340-14th-St-N-Saint-Petersburg-FL-33705/47170109_zpid/"},
             {"id":"PHX01","city":"Phoenix, AZ","address":"5120 N 10th Way, Phoenix, AZ 85014","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/5120-N-10th-Way-Phoenix-AZ-85014/316019148_zpid/"},
             {"id":"TUC01","city":"Tucson, AZ","address":"519 S 5th Ave, Tucson, AZ 85701","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/519-S-5th-Ave-Tucson-AZ-85701/239060771_zpid/"},
-            {"id":"MES01","city":"Mesa, AZ","address":"2220 W Dora St APT 114, Mesa, AZ 85201","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":175000,"zillow_url":"https://www.zillow.com/homedetails/2220-W-Dora-St-APT-114-Mesa-AZ-85201/7610275_zpid/"},
+            {"id":"MES01","city":"Mesa, AZ","address":"2220 W Dora St APT 114, Mesa, AZ 85201","contact_name":"Jared A English","contact_phone":"888-881-4118","motivation":"Investor Special","listing_price":175000,"zillow_url":"https://www.zillow.com/homedetails/2220-W-Dora-St-APT-114-Mesa-AZ-85201/7610275_zpid/"},
             {"id":"COL01","city":"Columbia, SC","address":"226 Northwood St, Columbia, SC 29201","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/226-Northwood-St-Columbia-SC-29201/117707427_zpid/"},
             {"id":"CHA01","city":"Charleston, SC","address":"205 Key Ct, Charleston, SC 29412","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/205-Key-Ct-Charleston-SC-29412/68392125_zpid/"},
             {"id":"GRE01","city":"Greenville, SC","address":"206 Cook St, Greenville, SC 29601","contact_name":"Ralph Harvey","contact_phone":"(855) 456-4945","motivation":"Investor Special","listing_price":250000,"zillow_url":"https://www.zillow.com/homedetails/206-Cook-St-Greenville-SC-29601/96467861_zpid/"},
-            {"id":"ATL01","city":"Atlanta, GA","address":"1011 Ormewood Ave SE, Atlanta, GA 30316","contact_name":"Compass","contact_phone":"","motivation":"Investor Special","listing_price":269900,"zillow_url":"https://www.zillow.com/homedetails/1011-Ormewood-Ave-SE-Atlanta-GA-30316/35832654_zpid/"},
+            {"id":"ATL01","city":"Atlanta, GA","address":"1011 Ormewood Ave SE, Atlanta, GA 30316","contact_name":"Compass","contact_phone":"404-202-1444","motivation":"Investor Special","listing_price":269900,"zillow_url":"https://www.zillow.com/homedetails/1011-Ormewood-Ave-SE-Atlanta-GA-30316/35832654_zpid/"},
             {"id":"AUG01","city":"Augusta, GA","address":"2133 Grand Blvd, Augusta, GA 30901","contact_name":"Century 21 Larry Miller Realty","contact_phone":"","motivation":"Investor Special","listing_price":69900,"zillow_url":""},
-            {"id":"SAV01","city":"Savannah, GA","address":"514 E Oglethorpe Ave, Savannah, GA 31401","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":1548000,"zillow_url":"https://www.zillow.com/homedetails/514-E-Oglethorpe-Ave-Savannah-GA-31401/54472010_zpid/"},
-            {"id":"CLT01","city":"Charlotte, NC","address":"8128 Tiburon Cir, Charlotte, NC 28215","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":229900,"zillow_url":"https://www.zillow.com/homedetails/8128-Tiburon-Cir-Charlotte-NC-28215/6207754_zpid/"},
+            {"id":"SAV01","city":"Savannah, GA","address":"514 E Oglethorpe Ave, Savannah, GA 31401","contact_name":"Joseph D. Shields","contact_phone":"912-631-0616","motivation":"Investor Special","listing_price":1548000,"zillow_url":"https://www.zillow.com/homedetails/514-E-Oglethorpe-Ave-Savannah-GA-31401/54472010_zpid/"},
+            {"id":"CLT01","city":"Charlotte, NC","address":"8128 Tiburon Cir, Charlotte, NC 28215","contact_name":"Michelle Pentecost","contact_phone":"704-968-8865","motivation":"Investor Special","listing_price":229900,"zillow_url":"https://www.zillow.com/homedetails/8128-Tiburon-Cir-Charlotte-NC-28215/6207754_zpid/"},
             {"id":"RAL01","city":"Raleigh, NC","address":"202 N State St, Raleigh, NC 27601","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":595000,"zillow_url":"https://www.zillow.com/homedetails/202-N-State-St-Raleigh-NC-27601/6422921_zpid/"},
             {"id":"GSO01","city":"Greensboro, NC","address":"518 Pine St, Greensboro, NC 27401","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":70000,"zillow_url":"https://www.zillow.com/homedetails/518-Pine-St-Greensboro-NC-27401/5920327_zpid/"},
             {"id":"MEM01","city":"Memphis, TN","address":"2968 New London Pl, Memphis, TN 38115","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/2968-New-London-Pl-Memphis-TN-38115/161755657_zpid/"},
-            {"id":"BHM01","city":"Birmingham, AL","address":"1705 33rd Ave N, Birmingham, AL 35207","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":58000,"zillow_url":"https://www.zillow.com/homedetails/1705-33rd-Ave-N-Birmingham-AL-35207/931685_zpid/"},
+            {"id":"BHM01","city":"Birmingham, AL","address":"1705 33rd Ave N, Birmingham, AL 35207","contact_name":"Ashanti Seals","contact_phone":"205-734-6106","motivation":"Investor Special","listing_price":58000,"zillow_url":"https://www.zillow.com/homedetails/1705-33rd-Ave-N-Birmingham-AL-35207/931685_zpid/"},
             {"id":"IND01","city":"Indianapolis, IN","address":"2517 E 13th St, Indianapolis, IN 46201","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":100000,"zillow_url":"https://www.zillow.com/homedetails/2517-E-13th-St-Indianapolis-IN-46201/1103379_zpid/"},
             {"id":"CLE01","city":"Cleveland, OH","address":"2897 E 117th St, Cleveland, OH 44120","contact_name":"Ebony Davis","contact_phone":"(440) 723-0793","motivation":"Investor Special","listing_price":45000,"zillow_url":"https://www.zillow.com/homedetails/2897-E-117th-St-Cleveland-OH-44120/33418059_zpid/"},
             {"id":"DET01","city":"Detroit, MI","address":"1690 Burlingame St, Detroit, MI 48206","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":40000,"zillow_url":"https://www.zillow.com/homedetails/1690-Burlingame-St-Detroit-MI-48206/88257139_zpid/"},
-            {"id":"BAL01","city":"Baltimore, MD","address":"2708 Wilkens Ave, Baltimore, MD 21223","contact_name":"","contact_phone":"(410) 531-0321","motivation":"Investor Special","listing_price":54900,"zillow_url":"https://www.zillow.com/homedetails/2708-Wilkens-Ave-Baltimore-MD-21223/36525658_zpid/"},
+            {"id":"BAL01","city":"Baltimore, MD","address":"2708 Wilkens Ave, Baltimore, MD 21223","contact_name":"Danny Register","contact_phone":"(410) 531-0321","motivation":"Investor Special","listing_price":54900,"zillow_url":"https://www.zillow.com/homedetails/2708-Wilkens-Ave-Baltimore-MD-21223/36525658_zpid/"},
             {"id":"KAN01","city":"Kansas City, MO","address":"3714 Benton Blvd, Kansas City, MO 64128","contact_name":"","contact_phone":"","motivation":"Fixer Upper","listing_price":85000,"zillow_url":"https://www.zillow.com/homedetails/3714-Benton-Blvd-Kansas-City-MO-64128/2355907_zpid/"},
             {"id":"LAS01","city":"Las Vegas, NV","address":"1700 Marlin Ave, Las Vegas, NV 89101","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/1700-Marlin-Ave-Las-Vegas-NV-89101/7015963_zpid/"},
             {"id":"DEN01","city":"Denver, CO","address":"2831 Lawrence St, Denver, CO 80205","contact_name":"Teal Nipp Hagan","contact_phone":"720-984-0419","motivation":"Fixer Upper","listing_price":879000,"zillow_url":"https://www.zillow.com/homedetails/2831-Lawrence-St-Denver-CO-80205/13307630_zpid/"},
@@ -536,6 +540,80 @@
             link.click();
             document.body.removeChild(link);
             URL.revokeObjectURL(url);
+        }
+
+        // ----- Import an Apify "Zillow Detail Scraper" CSV -----
+        // Matches each row to a lead by Zillow URL (falling back to address) and fills in
+        // agent name / phone where the lead is still missing them. Saved to the same
+        // localStorage override store as manual edits, so it survives reloads.
+        function parseCSV(text) {
+            const rows = []; let i = 0, field = "", row = [], q = false;
+            while (i < text.length) {
+                const c = text[i];
+                if (q) {
+                    if (c === '"') { if (text[i + 1] === '"') { field += '"'; i += 2; continue; } q = false; i++; continue; }
+                    field += c; i++; continue;
+                }
+                if (c === '"') { q = true; i++; continue; }
+                if (c === ",") { row.push(field); field = ""; i++; continue; }
+                if (c === "\r") { i++; continue; }
+                if (c === "\n") { row.push(field); rows.push(row); row = []; field = ""; i++; continue; }
+                field += c; i++;
+            }
+            if (field.length || row.length) { row.push(field); rows.push(row); }
+            return rows;
+        }
+        const normUrl = u => (u || "").trim().toLowerCase().replace(/\/$/, "");
+        const looksEmail = v => /@/.test(v || "");
+        const looksPhone = v => /\d/.test(v || "") && !looksEmail(v);
+
+        function importApifyCSV(input) {
+            const file = input.files && input.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = e => {
+                input.value = ""; // allow re-importing the same file
+                let rows;
+                try { rows = parseCSV(e.target.result); } catch (err) { alert("Could not read that CSV."); return; }
+                if (!rows.length) { alert("That CSV is empty."); return; }
+                const H = rows[0].map(h => (h || "").replace(/^﻿/, "").trim());
+                const col = n => H.indexOf(n);
+                const ci = {
+                    url: col("addressOrUrlFromInput"),
+                    agent: col("attributionInfo/agentName"), agentPhone: col("attributionInfo/agentPhoneNumber"),
+                    broker: col("attributionInfo/brokerName"), brokerPhone: col("attributionInfo/brokerPhoneNumber"),
+                };
+                if (ci.url < 0) { alert("This doesn't look like an Apify Zillow export (no addressOrUrlFromInput column)."); return; }
+                const NONPERSON = /nonmember|nonmls/i;
+                // Build a URL -> {name, phone} map from the export.
+                const byUrl = {};
+                for (let r = 1; r < rows.length; r++) {
+                    const row = rows[r];
+                    const get = idx => idx >= 0 ? (row[idx] || "").trim() : "";
+                    let agentPhone = get(ci.agentPhone);
+                    if (looksEmail(agentPhone)) agentPhone = ""; // some rows put an email in the phone field
+                    const phone = (looksPhone(agentPhone) && agentPhone) || (looksPhone(get(ci.brokerPhone)) && get(ci.brokerPhone)) || "";
+                    const agent = get(ci.agent), broker = get(ci.broker);
+                    const name = (agent && !NONPERSON.test(agent)) ? agent : ((broker && !NONPERSON.test(broker)) ? broker : "");
+                    byUrl[normUrl(get(ci.url))] = { name, phone };
+                }
+                const saved = loadContacts();
+                let matched = 0, namesAdded = 0, phonesAdded = 0;
+                leads.forEach(l => {
+                    const d = byUrl[normUrl(leadZillowUrl(l))];
+                    if (!d) return;
+                    matched++;
+                    const o = saved[l.id] || { name: l.contact_name || "", phone: l.contact_phone || "" };
+                    if (d.name && !(o.name || "").trim()) { o.name = d.name; namesAdded++; }
+                    if (d.phone && !(o.phone || "").trim()) { o.phone = d.phone; phonesAdded++; }
+                    saved[l.id] = o;
+                });
+                localStorage.setItem(CONTACTS_KEY, JSON.stringify(saved));
+                applyContactOverrides();
+                renderLeads();
+                alert(`Apify import complete.\n\nMatched ${matched} of ${leads.length} leads.\nAdded ${phonesAdded} phone${phonesAdded === 1 ? "" : "s"} and ${namesAdded} agent name${namesAdded === 1 ? "" : "s"}.\n\n(Existing contacts were kept; only blank fields were filled.)`);
+            };
+            reader.readAsText(file);
         }
 
         function exportOutreachCSV() {
