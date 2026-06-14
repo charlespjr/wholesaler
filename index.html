@@ -70,9 +70,14 @@
                         <h1 class="text-4xl font-bold tracking-tight text-slate-900">Wholesale Dashboard</h1>
                         <p class="text-slate-500 mt-1">Real distressed/investor listings across 32 major US cities (pulled Jun 2026). Open the Zillow link for live price, status & agent contact.</p>
                     </div>
-                    <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
-                        <i class="fa-solid fa-file-csv text-blue-400"></i> Export Bulk CSV
-                    </button>
+                    <div class="flex items-center gap-3">
+                        <button onclick="exportZillowUrls()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Download startUrls JSON for an Apify Zillow actor">
+                            <i class="fa-solid fa-link text-blue-500"></i> Zillow URLs (Apify)
+                        </button>
+                        <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
+                            <i class="fa-solid fa-file-csv text-blue-400"></i> Export Bulk CSV
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Search bar -->
@@ -515,6 +520,20 @@
                 <div class="text-xs text-emerald-600 italic mt-3">Based on the 70% ARV rule.</div>
             `;
             el.classList.remove('hidden');
+        }
+
+        // Download a startUrls JSON of every lead's Zillow URL, ready to paste into an Apify actor.
+        function exportZillowUrls() {
+            const payload = { startUrls: leads.map(l => ({ url: leadZillowUrl(l) })) };
+            const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8;" });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = "zillow_urls_apify.json";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
         }
 
         function exportOutreachCSV() {
