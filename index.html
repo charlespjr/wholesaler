@@ -183,6 +183,21 @@
                     <a id="modal-call-btn" href="#" class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl shadow-xl shadow-blue-200 hover:scale-110 transition-all"><i class="fa-solid fa-phone"></i></a>
                 </div>
 
+                <!-- Capture agent contact from the open Zillow listing (saved in this browser) -->
+                <div class="bg-slate-50 border border-slate-200 rounded-3xl p-5 mb-8">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Capture agent contact from Zillow</span>
+                        <a id="modal-open-zillow" href="#" target="_blank" rel="noopener" class="text-[11px] font-bold text-blue-600 hover:underline flex items-center gap-1"><i class="fa-solid fa-up-right-from-square text-[10px]"></i> Open listing</a>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 mb-3">
+                        <input id="edit-agent-name" placeholder="Listed by (agent name)" class="w-full border border-slate-200 bg-white px-4 py-2.5 rounded-xl text-sm font-medium focus:ring-2 ring-blue-500 outline-none transition-all">
+                        <input id="edit-agent-phone" placeholder="Agent phone" class="w-full border border-slate-200 bg-white px-4 py-2.5 rounded-xl text-sm font-medium focus:ring-2 ring-blue-500 outline-none transition-all">
+                    </div>
+                    <button onclick="saveContact()" class="w-full bg-slate-900 text-white py-2.5 rounded-xl text-xs font-bold hover:bg-black transition-all flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-floppy-disk"></i> Save contact
+                    </button>
+                </div>
+
                 <div class="p-8 bg-slate-900 rounded-[32px] text-white shadow-2xl relative overflow-hidden">
                     <div class="absolute top-0 right-0 p-4 opacity-10 text-6xl"><i class="fa-solid fa-comment-sms"></i></div>
                     <div class="flex justify-between items-center mb-4">
@@ -234,13 +249,43 @@
             {"id":"BAL01","city":"Baltimore, MD","address":"2708 Wilkens Ave, Baltimore, MD 21223","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":65500,"zillow_url":"https://www.zillow.com/homedetails/2708-Wilkens-Ave-Baltimore-MD-21223/36525658_zpid/"},
             {"id":"KAN01","city":"Kansas City, MO","address":"3714 Benton Blvd, Kansas City, MO 64128","contact_name":"","contact_phone":"","motivation":"Fixer Upper","listing_price":85000,"zillow_url":"https://www.zillow.com/homedetails/3714-Benton-Blvd-Kansas-City-MO-64128/2355907_zpid/"},
             {"id":"LAS01","city":"Las Vegas, NV","address":"1700 Marlin Ave, Las Vegas, NV 89101","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/1700-Marlin-Ave-Las-Vegas-NV-89101/7015963_zpid/"},
-            {"id":"DEN01","city":"Denver, CO","address":"2831 Lawrence St, Denver, CO 80205","contact_name":"","contact_phone":"","motivation":"Fixer Upper","listing_price":879000,"zillow_url":"https://www.zillow.com/homedetails/2831-Lawrence-St-Denver-CO-80205/13307630_zpid/"},
+            {"id":"DEN01","city":"Denver, CO","address":"2831 Lawrence St, Denver, CO 80205","contact_name":"Teal Nipp Hagan","contact_phone":"720-984-0419","motivation":"Fixer Upper","listing_price":879000,"zillow_url":"https://www.zillow.com/homedetails/2831-Lawrence-St-Denver-CO-80205/13307630_zpid/"},
             {"id":"OKC01","city":"Oklahoma City, OK","address":"731 SE Grand Blvd, Oklahoma City, OK 73129","contact_name":"","contact_phone":"","motivation":"Investor Special","listing_price":0,"zillow_url":"https://www.zillow.com/homedetails/731-SE-Grand-Blvd-Oklahoma-City-OK-73129/118614024_zpid/"}
         ];
 
         const leads = [...FLIPSTER_LEADS];
         let currentSmsText = "";
         let currentLead = null;
+
+        // ----- Agent contact overrides (saved in this browser) -----
+        // Zillow blocks scraping agent name/phone, so you capture them once from the
+        // listing and we persist them here so they flow into the table, SMS, and CSV.
+        const CONTACTS_KEY = "flipster_contacts_v1";
+        function loadContacts() {
+            try { return JSON.parse(localStorage.getItem(CONTACTS_KEY)) || {}; }
+            catch (e) { return {}; }
+        }
+        function applyContactOverrides() {
+            const saved = loadContacts();
+            leads.forEach(l => {
+                const o = saved[l.id];
+                if (!o) return;
+                if (o.name) l.contact_name = o.name;
+                if (o.phone) l.contact_phone = o.phone;
+            });
+        }
+        function saveContact() {
+            if (!currentLead) return;
+            const name = document.getElementById('edit-agent-name').value.trim();
+            const phone = document.getElementById('edit-agent-phone').value.trim();
+            const saved = loadContacts();
+            saved[currentLead.id] = { name, phone };
+            localStorage.setItem(CONTACTS_KEY, JSON.stringify(saved));
+            currentLead.contact_name = name;
+            currentLead.contact_phone = phone;
+            showModal(currentLead.id); // refresh modal (agent block, call button, SMS)
+            renderLeads();              // refresh table cell
+        }
 
         // ----- 12 SMS templates (anti-repetition / personalization) -----
         const SMS_TEMPLATES = [
@@ -417,6 +462,11 @@
                 callBtn.rel = 'noopener';
                 callBtn.innerHTML = '<i class="fa-solid fa-up-right-from-square"></i>';
             }
+
+            // Prefill the capture box and point "Open listing" at the real Zillow URL.
+            document.getElementById('edit-agent-name').value = lead.contact_name || "";
+            document.getElementById('edit-agent-phone').value = lead.contact_phone || "";
+            document.getElementById('modal-open-zillow').href = leadZillowUrl(lead);
 
             document.getElementById('property-modal').classList.remove('hidden');
         }
@@ -615,7 +665,7 @@
         // Close modal on Escape
         document.addEventListener('keydown', e => { if (e.key === 'Escape') hideModal(); });
 
-        document.addEventListener('DOMContentLoaded', renderLeads);
+        document.addEventListener('DOMContentLoaded', () => { applyContactOverrides(); renderLeads(); });
     </script>
 </body>
 </html>
