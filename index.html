@@ -710,7 +710,7 @@
             AZ: { closing: "Arizona is an escrow-closing state; the Closing Agent shall be an Arizona escrow/title company.", disclosure: "Seller shall provide a Seller's Property Disclosure Statement (SPDS) per custom and disclose all known material latent defects.", wholesale: "Assignment is permitted; disclose equitable interest and avoid unlicensed brokerage by marketing the contract, not the Property." },
             CO: { closing: "Colorado closings are customarily handled by a title company; the Closing Agent shall be a Colorado title company.", disclosure: "Seller shall provide a Seller's Property Disclosure and disclose known material latent defects affecting the Property.", wholesale: "Assignment is permitted; disclose Buyer's investor status and market Buyer's contractual interest." },
             GA: { closing: "Georgia is an attorney-closing state; the closing must be conducted by a licensed Georgia attorney, who shall serve as Closing Agent/escrow.", disclosure: "Georgia follows caveat emptor, but Seller must disclose known latent defects and may not actively conceal them; a Seller's Property Disclosure Statement is customary.", wholesale: "Assignment is permitted; disclose equitable interest and, absent a license, market the contract rather than the Property." },
-            SC: { closing: "South Carolina is an attorney-closing state; the closing must be supervised by a licensed South Carolina attorney.", disclosure: "Seller shall deliver the South Carolina Residential Property Condition Disclosure Statement required by S.C. Code §27-50-10 et seq. (subject to exemptions).", wholesale: "South Carolina restricts wholesaling: a person marketing real property in which they hold only an equitable interest generally must be a licensed broker, or must limit activity to assigning the contract and disclosing that equitable interest. Verify compliance with counsel before any marketing.", restrictMarketing: true },
+            SC: { closing: "South Carolina is an attorney-closing state; the closing must be supervised by a licensed South Carolina attorney.", disclosure: "Seller shall deliver the South Carolina Residential Property Condition Disclosure Statement required by S.C. Code §27-50-10 et seq. (subject to exemptions).", wholesale: "South Carolina restricts wholesaling: a person marketing real property in which they hold only an equitable interest generally must be a licensed broker, or must limit activity to assigning the contract and disclosing that equitable interest. Verify compliance with counsel before any marketing.", restrictMarketing: true, wholesaleDisclosure: "In accordance with South Carolina law governing the marketing and sale of equitable interests in real property, Buyer (the &ldquo;Wholesaler&rdquo;) discloses that: (1) Buyer holds or will hold only an equitable interest in the Property under a purchase contract and does not hold legal title; (2) Buyer is not a licensed South Carolina real estate broker or salesperson and does not represent Seller; (3) Buyer is offering to assign its equitable/contractual interest &mdash; not the Property itself &mdash; to a third party and may profit from the assignment; and (4) transfer to an end buyer will occur by assignment of the contract." },
             NC: { closing: "North Carolina is an attorney-closing state; the closing must be handled by a licensed North Carolina attorney.", disclosure: "Seller shall deliver the North Carolina Residential Property and Owners' Association Disclosure Statement required by N.C.G.S. Chapter 47E, plus the Mineral and Oil and Gas Rights Disclosure (subject to exemptions).", wholesale: "Assignment is permitted; disclose Buyer's equitable interest and market the contract rather than the Property to avoid unlicensed brokerage." },
             TN: { closing: "Tennessee closings are customarily handled by a title company or closing attorney selected by Buyer.", disclosure: "Seller shall provide the disclosure required by the Tennessee Residential Property Disclosure Act, T.C.A. §66-5-201 et seq. (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
             AL: { closing: "Alabama closings are customarily handled by an attorney or title company; an Alabama attorney commonly conducts closing.", disclosure: "Alabama generally follows caveat emptor; Seller must disclose known defects affecting health or safety and may not misrepresent, but no statutory disclosure form is mandated for most resales.", wholesale: "Assignment is permitted; disclose equitable interest and avoid acting as an unlicensed broker." },
@@ -719,7 +719,7 @@
             MI: { closing: "Michigan closings are customarily handled by a title company; the Closing Agent shall be a Michigan title company.", disclosure: "Seller shall provide the Seller's Disclosure Statement required by the Michigan Seller Disclosure Act, MCL §565.951 et seq. (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
             MO: { closing: "Missouri closings are customarily handled by a title company; the Closing Agent shall be a Missouri title company.", disclosure: "Missouri mandates no statutory form, but Seller must disclose known material latent defects; a Seller's Disclosure Statement is customary.", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
             NV: { closing: "Nevada is an escrow-closing state; the Closing Agent shall be a Nevada escrow/title company.", disclosure: "Seller shall deliver the Seller's Real Property Disclosure Form required by NRS §113.130 at least 10 days before conveyance (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract rather than the Property to avoid unlicensed brokerage." },
-            OK: { closing: "Oklahoma closings are customarily handled by a title company; the Closing Agent shall be an Oklahoma title company.", disclosure: "Seller shall deliver the disclosure required by the Oklahoma Residential Property Condition Disclosure Act, Okla. Stat. tit. 60, §831 et seq. (subject to exemptions).", wholesale: "Oklahoma's Predatory Real Estate Wholesaler Prohibition Act requires an unlicensed wholesaler to disclose in writing that Buyer holds only an equitable interest, is not a licensed broker, and may assign that interest — and not to market the Property itself. Provide this written disclosure and verify compliance.", restrictMarketing: true },
+            OK: { closing: "Oklahoma closings are customarily handled by a title company; the Closing Agent shall be an Oklahoma title company.", disclosure: "Seller shall deliver the disclosure required by the Oklahoma Residential Property Condition Disclosure Act, Okla. Stat. tit. 60, §831 et seq. (subject to exemptions).", wholesale: "Oklahoma's Predatory Real Estate Wholesaler Prohibition Act requires an unlicensed wholesaler to disclose in writing that Buyer holds only an equitable interest, is not a licensed broker, and may assign that interest — and not to market the Property itself. Provide this written disclosure and verify compliance.", restrictMarketing: true, wholesaleDisclosure: "Pursuant to the Oklahoma Predatory Real Estate Wholesaler Prohibition Act, Buyer (the &ldquo;Wholesaler&rdquo;) discloses that: (1) Buyer holds or will hold only an equitable interest in the Property arising under a purchase contract and does not hold legal title; (2) Buyer is not a licensed Oklahoma real estate broker or sales associate and is not acting as one; (3) Buyer is marketing and intends to assign its equitable interest in the contract &mdash; not the Property itself &mdash; to a third party and may profit from the assignment; and (4) any statutory right of Seller to cancel shall apply as provided by law." },
             MD: { closing: "Maryland closings are customarily handled by a title company or settlement attorney selected by Buyer.", disclosure: "Seller shall deliver the Maryland Residential Property Disclosure and Disclaimer Statement required by Md. Code, Real Prop. §10-702 (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
             _default: { closing: "Closing shall be handled by a title company or settlement attorney selected by Buyer, as customary in the Property's jurisdiction.", disclosure: "Seller shall provide all property-condition and other disclosures required by applicable state law.", wholesale: "Assignment is permitted in most jurisdictions; disclose Buyer's equitable interest and confirm any licensing or disclosure requirements with local counsel." }
         };
@@ -743,6 +743,55 @@
             const wideBlank = "______________________________";
             const contact = lead.contact_name ? `${lead.contact_name}${lead.contact_phone ? " — " + lead.contact_phone : ""}` : "(see listing)";
             const today = new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+
+            // ----- Standalone signable disclosure forms appended to the packet -----
+            const wholesaleDisc = SL.wholesaleDisclosure ||
+                "Buyer (the &ldquo;Wholesaler&rdquo;) discloses to Seller that: (1) Buyer is a real estate investor acquiring an equitable interest in the Property under a purchase contract; (2) Buyer is not a licensed real estate broker or salesperson and does not represent Seller; (3) Buyer intends to assign its contract to a third-party buyer and may realize a profit on the assignment; and (4) Buyer is purchasing for investment and the price may be below retail market value.";
+
+            const wholesalerForm = `
+<div class="page-break"></div>
+<h1>Buyer&rsquo;s Equitable Interest &amp; Wholesaler Disclosure</h1>
+<div class="sub">${lead.address} &mdash; ${loc.stateName}</div>
+<p>${wholesaleDisc}</p>
+<p>Seller acknowledges that Seller has read and received this written disclosure before entering into the Real Estate Purchase and Sale Agreement for the Property, and enters into the transaction voluntarily.</p>
+<div class="sigrow">
+  <div class="sigbox">
+    <div class="sigline">SELLER</div>
+    <p>Signature: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Printed name: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+  <div class="sigbox">
+    <div class="sigline">BUYER &mdash; ${PARAGON.name}</div>
+    <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Name: ${PARAGON.signer}, ${PARAGON.signerTitle}<br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
+  </div>
+</div>`;
+
+            const leadPaintForm = `
+<div class="page-break"></div>
+<h1>Disclosure of Information on Lead-Based Paint and/or Lead-Based Paint Hazards</h1>
+<div class="sub">${lead.address} &mdash; complete only if the dwelling was built before 1978</div>
+<h2>Lead Warning Statement</h2>
+<p>Every purchaser of any interest in residential real property on which a residential dwelling was built prior to 1978 is notified that such property may present exposure to lead from lead-based paint that may place young children at risk of developing lead poisoning. Lead poisoning in young children may produce permanent neurological damage, including learning disabilities, reduced intelligence quotient, behavioral problems, and impaired memory. Lead poisoning also poses a particular risk to pregnant women. The seller of any interest in residential real property is required to provide the buyer with any information on lead-based paint hazards from risk assessments or inspections in the seller&rsquo;s possession and notify the buyer of any known lead-based paint hazards. A risk assessment or inspection for possible lead-based paint hazards is recommended prior to purchase.</p>
+<h2>Seller&rsquo;s Disclosure</h2>
+<p>(a) Presence of lead-based paint and/or lead-based paint hazards <em>(check one)</em>:<br>
+&#9744;&nbsp; Known lead-based paint and/or lead-based paint hazards are present in the housing (explain): <span class="fill">&nbsp;${wideBlank}&nbsp;</span><br>
+&#9744;&nbsp; Seller has no knowledge of lead-based paint and/or lead-based paint hazards in the housing.</p>
+<p>(b) Records and reports available to the seller <em>(check one)</em>:<br>
+&#9744;&nbsp; Seller has provided the purchaser with all available records and reports pertaining to lead-based paint and/or hazards (list): <span class="fill">&nbsp;${wideBlank}&nbsp;</span><br>
+&#9744;&nbsp; Seller has no reports or records pertaining to lead-based paint and/or lead-based paint hazards in the housing.</p>
+<h2>Purchaser&rsquo;s Acknowledgment <em>(initial)</em></h2>
+<p>____ (c) Purchaser has received copies of all information listed above.<br>
+____ (d) Purchaser has received the pamphlet <em>Protect Your Family from Lead in Your Home.</em><br>
+(e) Purchaser has <em>(check one)</em>: &#9744; received a 10-day opportunity (or mutually agreed period) to conduct a risk assessment or inspection for the presence of lead-based paint hazards; &#9744; waived the opportunity to conduct a risk assessment or inspection.</p>
+<h2>Agent&rsquo;s Acknowledgment <em>(initial)</em></h2>
+<p>____ (f) Agent has informed the seller of the seller&rsquo;s obligations under 42 U.S.C. 4852d and is aware of his/her responsibility to ensure compliance.</p>
+<h2>Certification of Accuracy</h2>
+<p>The following parties have reviewed the information above and certify, to the best of their knowledge, that the information they have provided is true and accurate.</p>
+<div class="sigrow">
+  <div class="sigbox"><div class="sigline">Seller &mdash; signature &amp; date</div></div>
+  <div class="sigbox"><div class="sigline">Purchaser (${PARAGON.name}) &mdash; signature &amp; date</div></div>
+</div>`;
+
+            const formsHtml = wholesalerForm + leadPaintForm;
 
             const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
 <title>Wholesale Agreement — ${lead.address}</title>
@@ -885,6 +934,8 @@ legally described in <strong>Exhibit A</strong> attached hereto. The Property is
     <p>By: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Printed name: <span class="fill">&nbsp;${blank}&nbsp;</span><br>Date: <span class="fill">&nbsp;${blank}&nbsp;</span></p>
   </div>
 </div>
+
+${formsHtml}
 
 <div class="disclaimer" style="margin-top:30px">
   Generated ${today} by the Paragon deal desk for internal use. Not legal advice — confirm enforceability, licensing, and required disclosures with counsel in ${loc.stateName} before use.
