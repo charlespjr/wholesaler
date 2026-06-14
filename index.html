@@ -700,6 +700,29 @@
             TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont", VA: "Virginia", WA: "Washington",
             WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming", DC: "District of Columbia"
         };
+        // Curated, state-specific provisions injected into each agreement. Accurate as a
+        // drafting aid, NOT a substitute for counsel — wholesaling/disclosure law changes.
+        // restrictMarketing => the state limits marketing property you only hold under contract,
+        // so the contract markets the equitable/contract interest only.
+        const STATE_LAW = {
+            TX: { closing: "Texas closings are customarily handled by a title company acting as escrow agent; the Closing Agent shall be a Texas title company.", disclosure: "Seller shall deliver the Seller's Disclosure Notice required for residential resales under Texas Property Code §5.008 (subject to statutory exemptions such as estate or foreclosure sales).", wholesale: "Texas permits contract assignment. Disclose Buyer's status as an investor/assignor and, absent a license, market Buyer's equitable interest in this Agreement rather than the Property itself." },
+            FL: { closing: "Florida closings are customarily handled by a title company or licensed closing agent acting as escrow; the Closing Agent shall be a Florida title company or attorney.", disclosure: "Under Florida law (Johnson v. Davis), Seller must disclose facts materially affecting value that are not readily observable; a written seller disclosure is customary.", wholesale: "Assignment is permitted. Disclose Buyer's role as buyer/assignor and market the contract interest; confirm current law, as deceptive-wholesaling measures have been proposed." },
+            AZ: { closing: "Arizona is an escrow-closing state; the Closing Agent shall be an Arizona escrow/title company.", disclosure: "Seller shall provide a Seller's Property Disclosure Statement (SPDS) per custom and disclose all known material latent defects.", wholesale: "Assignment is permitted; disclose equitable interest and avoid unlicensed brokerage by marketing the contract, not the Property." },
+            CO: { closing: "Colorado closings are customarily handled by a title company; the Closing Agent shall be a Colorado title company.", disclosure: "Seller shall provide a Seller's Property Disclosure and disclose known material latent defects affecting the Property.", wholesale: "Assignment is permitted; disclose Buyer's investor status and market Buyer's contractual interest." },
+            GA: { closing: "Georgia is an attorney-closing state; the closing must be conducted by a licensed Georgia attorney, who shall serve as Closing Agent/escrow.", disclosure: "Georgia follows caveat emptor, but Seller must disclose known latent defects and may not actively conceal them; a Seller's Property Disclosure Statement is customary.", wholesale: "Assignment is permitted; disclose equitable interest and, absent a license, market the contract rather than the Property." },
+            SC: { closing: "South Carolina is an attorney-closing state; the closing must be supervised by a licensed South Carolina attorney.", disclosure: "Seller shall deliver the South Carolina Residential Property Condition Disclosure Statement required by S.C. Code §27-50-10 et seq. (subject to exemptions).", wholesale: "South Carolina restricts wholesaling: a person marketing real property in which they hold only an equitable interest generally must be a licensed broker, or must limit activity to assigning the contract and disclosing that equitable interest. Verify compliance with counsel before any marketing.", restrictMarketing: true },
+            NC: { closing: "North Carolina is an attorney-closing state; the closing must be handled by a licensed North Carolina attorney.", disclosure: "Seller shall deliver the North Carolina Residential Property and Owners' Association Disclosure Statement required by N.C.G.S. Chapter 47E, plus the Mineral and Oil and Gas Rights Disclosure (subject to exemptions).", wholesale: "Assignment is permitted; disclose Buyer's equitable interest and market the contract rather than the Property to avoid unlicensed brokerage." },
+            TN: { closing: "Tennessee closings are customarily handled by a title company or closing attorney selected by Buyer.", disclosure: "Seller shall provide the disclosure required by the Tennessee Residential Property Disclosure Act, T.C.A. §66-5-201 et seq. (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
+            AL: { closing: "Alabama closings are customarily handled by an attorney or title company; an Alabama attorney commonly conducts closing.", disclosure: "Alabama generally follows caveat emptor; Seller must disclose known defects affecting health or safety and may not misrepresent, but no statutory disclosure form is mandated for most resales.", wholesale: "Assignment is permitted; disclose equitable interest and avoid acting as an unlicensed broker." },
+            IN: { closing: "Indiana closings are customarily handled by a title company; the Closing Agent shall be an Indiana title company.", disclosure: "Seller shall provide the Seller's Residential Real Estate Sales Disclosure required by Ind. Code §32-21-5 (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
+            OH: { closing: "Ohio closings are customarily handled by a title company; the Closing Agent shall be an Ohio title company.", disclosure: "Seller shall provide the Ohio Residential Property Disclosure Form required by R.C. §5302.30 (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract rather than the Property to avoid unlicensed brokerage." },
+            MI: { closing: "Michigan closings are customarily handled by a title company; the Closing Agent shall be a Michigan title company.", disclosure: "Seller shall provide the Seller's Disclosure Statement required by the Michigan Seller Disclosure Act, MCL §565.951 et seq. (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
+            MO: { closing: "Missouri closings are customarily handled by a title company; the Closing Agent shall be a Missouri title company.", disclosure: "Missouri mandates no statutory form, but Seller must disclose known material latent defects; a Seller's Disclosure Statement is customary.", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
+            NV: { closing: "Nevada is an escrow-closing state; the Closing Agent shall be a Nevada escrow/title company.", disclosure: "Seller shall deliver the Seller's Real Property Disclosure Form required by NRS §113.130 at least 10 days before conveyance (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract rather than the Property to avoid unlicensed brokerage." },
+            OK: { closing: "Oklahoma closings are customarily handled by a title company; the Closing Agent shall be an Oklahoma title company.", disclosure: "Seller shall deliver the disclosure required by the Oklahoma Residential Property Condition Disclosure Act, Okla. Stat. tit. 60, §831 et seq. (subject to exemptions).", wholesale: "Oklahoma's Predatory Real Estate Wholesaler Prohibition Act requires an unlicensed wholesaler to disclose in writing that Buyer holds only an equitable interest, is not a licensed broker, and may assign that interest — and not to market the Property itself. Provide this written disclosure and verify compliance.", restrictMarketing: true },
+            MD: { closing: "Maryland closings are customarily handled by a title company or settlement attorney selected by Buyer.", disclosure: "Seller shall deliver the Maryland Residential Property Disclosure and Disclaimer Statement required by Md. Code, Real Prop. §10-702 (subject to exemptions).", wholesale: "Assignment is permitted; disclose equitable interest and market the contract interest." },
+            _default: { closing: "Closing shall be handled by a title company or settlement attorney selected by Buyer, as customary in the Property's jurisdiction.", disclosure: "Seller shall provide all property-condition and other disclosures required by applicable state law.", wholesale: "Assignment is permitted in most jurisdictions; disclose Buyer's equitable interest and confirm any licensing or disclosure requirements with local counsel." }
+        };
         function parsePropertyLocation(addr) {
             const m = (addr || "").match(/,\s*([A-Z]{2})\s*(\d{5})?\s*$/);
             const st = m ? m[1] : "";
@@ -710,6 +733,10 @@
             const lead = leads.find(l => l.id === id);
             if (!lead) { alert("Open a deal first, then generate its agreement."); return; }
             const loc = parsePropertyLocation(lead.address);
+            const SL = STATE_LAW[loc.state] || STATE_LAW._default;
+            const marketClause = SL.restrictMarketing
+                ? "market and assign Buyer’s equitable and contractual interest in this Agreement (but not the Property itself)"
+                : "market the Property and/or Buyer’s contractual and equitable interest";
             const offer = calcOffer(lead);
             const price = offer != null ? money(offer) : "$________________";
             const blank = "________________";
@@ -778,7 +805,7 @@ legally described in <strong>Exhibit A</strong> attached hereto. The Property is
 <p><strong>Buyer may freely assign, transfer, or convey this Agreement and all of Buyer&rsquo;s rights, title, and equitable interest hereunder, in whole or in part, to any person or entity, without the consent of Seller.</strong> Seller acknowledges that Buyer is a real estate investor/wholesaler, that Buyer is acquiring an equitable interest in the Property for the purpose of resale or assignment, and that Buyer may profit from such assignment. Upon an assignment and the assignee&rsquo;s assumption of Buyer&rsquo;s obligations, the assigning Buyer shall be released from all liability under this Agreement. This Agreement binds and benefits the parties and their respective heirs, successors, and assigns.</p>
 
 <h2>6. Marketing &amp; Equitable Interest</h2>
-<p>Seller agrees that Buyer holds an equitable interest in the Property upon execution of this Agreement and may market the Property and/or Buyer&rsquo;s contractual interest to prospective assignees and end buyers. Buyer may record a memorandum or affidavit of this Agreement to provide notice of Buyer&rsquo;s equitable interest, and Seller consents to such recording.</p>
+<p>Seller agrees that Buyer holds an equitable interest in the Property upon execution of this Agreement and may ${marketClause} to prospective assignees and end buyers. Buyer may record a memorandum or affidavit of this Agreement to provide notice of Buyer&rsquo;s equitable interest, and Seller consents to such recording.</p>
 
 <h2>7. Inspection / Due Diligence Period</h2>
 <p>Buyer shall have a period of <span class="fill">&nbsp;ten (10)&nbsp;</span> days after the Effective Date (the &ldquo;Inspection Period&rdquo;) to inspect the Property, title, and all matters Buyer deems relevant. Seller shall provide reasonable access. <strong>Buyer may terminate this Agreement for any reason or no reason during the Inspection Period by written notice, in which case the Deposit shall be promptly refunded to Buyer and neither party shall have further obligation.</strong></p>
@@ -796,12 +823,16 @@ legally described in <strong>Exhibit A</strong> attached hereto. The Property is
 <p>Real estate taxes, assessments, and similar items shall be prorated as of Closing. Risk of loss remains with Seller until Closing. Possession shall be delivered to Buyer at Closing, free of occupants unless otherwise agreed in writing.</p>
 
 <h2>12. Disclosures</h2>
-<p>Seller shall provide all disclosures required by law, including, for any dwelling built before 1978, the federal Lead-Based Paint Disclosure and pamphlet, and any property-condition or other disclosures required by ${loc.stateName} law.</p>
+<p>${SL.disclosure} For any dwelling built before 1978, Seller shall additionally provide the federal Lead-Based Paint Disclosure and EPA pamphlet. Seller shall make all other disclosures required by ${loc.stateName} law.</p>
 
-<h2>13. Notices</h2>
+<h2>13. State-Specific Provisions — ${loc.stateName}</h2>
+<p><strong>Closing practice.</strong> ${SL.closing}</p>
+<p><strong>Wholesaling &amp; assignment compliance.</strong> ${SL.wholesale} Buyer represents it will comply with all ${loc.stateName} licensing and disclosure requirements applicable to its acquisition and assignment of this Agreement.</p>
+
+<h2>14. Notices</h2>
 <p>Notices shall be in writing and delivered by hand, mail, or email to the parties at the addresses below. Buyer&rsquo;s notice address: ${PARAGON.name}, ${PARAGON.addr}; phone ${PARAGON.phone}; email ${PARAGON.email}.</p>
 
-<h2>14. General Provisions</h2>
+<h2>15. General Provisions</h2>
 <p>Time is of the essence. This Agreement is governed by the laws of <strong>${loc.stateName}</strong>. In any dispute, the prevailing party shall recover reasonable attorneys&rsquo; fees and costs. This Agreement constitutes the entire agreement, supersedes all prior understandings, and may be amended only in a writing signed by both parties. It may be executed in counterparts and by electronic signature, each of which is deemed an original. If any provision is unenforceable, the remainder shall remain in effect.</p>
 
 <div class="sigrow">
