@@ -1,0 +1,397 @@
+{
+  "generatedAt": "2026-06-14T20:51:37.396Z",
+  "throttleSeconds": {
+    "min": 120,
+    "max": 180
+  },
+  "count": 43,
+  "messages": [
+    {
+      "id": "BR045",
+      "name": "",
+      "phone": "+18444009663",
+      "phoneDisplay": "844-400-9663",
+      "address": "3115 Toulon Dr #1, Baton Rouge, LA 70816",
+      "offer": "$23,500",
+      "message": "Hi there, quick question on 3115 Toulon Dr #1, Baton Rouge, LA 70816. Would they be open to a $23,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "BR008",
+      "name": "Kurt Clements",
+      "phone": "+18554564945",
+      "phoneDisplay": "855-456-4945",
+      "address": "14747 W Beaver Dr, Pride, LA 70770",
+      "offer": "$45,500",
+      "message": "Hello! Regarding 14747 W Beaver Dr, Pride, LA 70770, I'm a local investor. My numbers work at $45,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "BR010",
+      "name": "Albert Nolan",
+      "phone": "+12256032661",
+      "phoneDisplay": "225-603-2661",
+      "address": "2321 Shadowbrook Dr, Baton Rouge, LA 70816",
+      "offer": "$175,000",
+      "message": "Hello Albert, following up on 2321 Shadowbrook Dr, Baton Rouge, LA 70816. My all-cash number is $175,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "BR028",
+      "name": "Brittany Harvey",
+      "phone": "+12259393936",
+      "phoneDisplay": "225-939-3936",
+      "address": "2614 Bartlett St, Baton Rouge, LA 70805",
+      "offer": "$38,500",
+      "message": "Hi Brittany, I buy homes in Baton Rouge in any condition. For 2614 Bartlett St, Baton Rouge, LA 70805 I can offer $38,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "BR031",
+      "name": "Ms Gwen Dorsey",
+      "phone": "+12257331034",
+      "phoneDisplay": "225-733-1034",
+      "address": "635 Marilyn Dr, Baton Rouge, LA 70815",
+      "offer": "$124,000",
+      "message": "Hey! Just saw 635 Marilyn Dr, Baton Rouge, LA 70815. It fits my criteria perfectly. I can do $124,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "BR032",
+      "name": "Brittany Harvey",
+      "phone": "+12259393936",
+      "phoneDisplay": "225-939-3936",
+      "address": "2065 Missouri St, Baton Rouge, LA 70802",
+      "offer": "$0",
+      "message": "Hi Brittany, I'm interested in 2065 Missouri St, Baton Rouge, LA 70802. Would your seller consider a cash offer around $0? I can close quickly."
+    },
+    {
+      "id": "BR007",
+      "name": "Tawanda Eddings",
+      "phone": "+15013504527",
+      "phoneDisplay": "501-350-4527",
+      "address": "4410 Greenwood Ln, Baker, LA 70714",
+      "offer": "$77,000",
+      "message": "Hi Tawanda, is 4410 Greenwood Ln, Baker, LA 70714 still available? I'm interested in an as-is purchase. My max offer is $77,000. Thoughts?"
+    },
+    {
+      "id": "BR046",
+      "name": "Brenda Temple",
+      "phone": "+12257158303",
+      "phoneDisplay": "225-715-8303",
+      "address": "2431 Aubin Ln, Baton Rouge, LA 70816",
+      "offer": "$77,500",
+      "message": "Hi Brenda, is 2431 Aubin Ln, Baton Rouge, LA 70816 still available? I'm interested in an as-is purchase. My max offer is $77,500. Thoughts?"
+    },
+    {
+      "id": "BR033",
+      "name": "Donna Harris",
+      "phone": "+12254136186",
+      "phoneDisplay": "225-413-6186",
+      "address": "735 Marcellious Ln, Baton Rouge, LA 70802",
+      "offer": "$0",
+      "message": "Hi Donna, quick question on 735 Marcellious Ln, Baton Rouge, LA 70802. Would they be open to a $0 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "BR005",
+      "name": "Nardu Castillo",
+      "phone": "+12253616750",
+      "phoneDisplay": "225-361-6750",
+      "address": "3250 Elm Dr, Baton Rouge, LA 70805",
+      "offer": "$0",
+      "message": "Hey Nardu, love the potential of 3250 Elm Dr, Baton Rouge, LA 70805. I can offer $0 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "BR039",
+      "name": "Billy Way",
+      "phone": "+12253351155",
+      "phoneDisplay": "225-335-1155",
+      "address": "536 Fall River Dr, Baton Rouge, LA 70815",
+      "offer": "$162,000",
+      "message": "Hi there, regarding 536 Fall River Dr, Baton Rouge, LA 70815 in Baton Rouge. I'd like to submit a cash offer for $162,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "BR044",
+      "name": "Nakashia Snowten",
+      "phone": "+12254451091",
+      "phoneDisplay": "225-445-1091",
+      "address": "9937 Golden Gate Ave, Baton Rouge, LA 70818",
+      "offer": "$158,500",
+      "message": "Hello! Regarding 9937 Golden Gate Ave, Baton Rouge, LA 70818, I'm a local investor. My numbers work at $158,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "BR011",
+      "name": "Ruba Thomas-Anderson",
+      "phone": "+12259331341",
+      "phoneDisplay": "225-933-1341",
+      "address": "5555 San Juan Dr, Baton Rouge, LA 70811",
+      "offer": "$87,500",
+      "message": "Hi there, regarding 5555 San Juan Dr, Baton Rouge, LA 70811 in Baton Rouge. I'd like to submit a cash offer for $87,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "BR020",
+      "name": "D.R. Horton",
+      "phone": "+12254167915",
+      "phoneDisplay": "225-416-7915",
+      "address": "Ledoux Plan, Zachary Trails at Meadow View, Zachary, LA 70791",
+      "offer": "$192,000",
+      "message": "Hi there, regarding Ledoux Plan, Zachary Trails at Meadow View, Zachary, LA 70791 in Zachary. I'd like to submit a cash offer for $192,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "BR022",
+      "name": "Emma Scott",
+      "phone": "+12254002122",
+      "phoneDisplay": "225-400-2122",
+      "address": "5885 Lavey Ln #94, Baker, LA 70714",
+      "offer": "$51,000",
+      "message": "Hi Emma, I buy homes in Baker in any condition. For 5885 Lavey Ln #94, Baker, LA 70714 I can offer $51,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "BR029",
+      "name": "CJ Johnson",
+      "phone": "+12256102729",
+      "phoneDisplay": "225-610-2729",
+      "address": "6526 Martin Dr, Zachary, LA 70791",
+      "offer": "$128,500",
+      "message": "Hey CJ, saw the listing at 6526 Martin Dr, Zachary, LA 70791. I'm looking for a fixer-upper in Zachary. Any chance they'd take $128,500 as-is?"
+    },
+    {
+      "id": "BR021",
+      "name": "Melissa Bonnee Duncan",
+      "phone": "+12257729236",
+      "phoneDisplay": "225-772-9236",
+      "address": "2133 Clark Ave, Zachary, LA 70791",
+      "offer": "$192,000",
+      "message": "Hi Melissa, is 2133 Clark Ave, Zachary, LA 70791 still available? I'm interested in an as-is purchase. My max offer is $192,000. Thoughts?"
+    },
+    {
+      "id": "BR037",
+      "name": "Laurie Rush",
+      "phone": "+12252665125",
+      "phoneDisplay": "225-266-5125",
+      "address": "6006 Groom Rd, Baker, LA 70714",
+      "offer": "$42,500",
+      "message": "Hello, I'm an investor interested in 6006 Groom Rd, Baker, LA 70714. Based on the work needed, I'm at $42,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "BR025",
+      "name": "Robyn Eunice",
+      "phone": "+12254135381",
+      "phoneDisplay": "225-413-5381",
+      "address": "15212 Crystal Dr, Pride, LA 70770",
+      "offer": "$94,000",
+      "message": "Hi Robyn, I'm interested in 15212 Crystal Dr, Pride, LA 70770. Would your seller consider a cash offer around $94,000? I can close quickly."
+    },
+    {
+      "id": "BR035",
+      "name": "Brad Welsh",
+      "phone": "+12252709639",
+      "phoneDisplay": "225-270-9639",
+      "address": "5765 Kleinpeter Rd, Baton Rouge, LA 70811",
+      "offer": "$158,500",
+      "message": "Hi Brad, quick question on 5765 Kleinpeter Rd, Baton Rouge, LA 70811. Would they be open to a $158,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "BR013",
+      "name": "LaRicca Robinson",
+      "phone": "+12252415453",
+      "phoneDisplay": "225-241-5453",
+      "address": "3760 Uncas St, Baton Rouge, LA 70805",
+      "offer": "$42,500",
+      "message": "Hey LaRicca, saw the listing at 3760 Uncas St, Baton Rouge, LA 70805. I'm looking for a fixer-upper in Baton Rouge. Any chance they'd take $42,500 as-is?"
+    },
+    {
+      "id": "BR006",
+      "name": "Donna Harris",
+      "phone": "+12254136186",
+      "phoneDisplay": "225-413-6186",
+      "address": "1032 N 30th St, Baton Rouge, LA 70802",
+      "offer": "$10,500",
+      "message": "Hello Donna, following up on 1032 N 30th St, Baton Rouge, LA 70802. My all-cash number is $10,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "BR034",
+      "name": "Donna Harris",
+      "phone": "+12254136186",
+      "phoneDisplay": "225-413-6186",
+      "address": "2612 Illinois St, Baton Rouge, LA 70802",
+      "offer": "$4,000",
+      "message": "Hey Donna, love the potential of 2612 Illinois St, Baton Rouge, LA 70802. I can offer $4,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "BR043",
+      "name": "Donna Harris",
+      "phone": "+12254136186",
+      "phoneDisplay": "225-413-6186",
+      "address": "5540 Lavey Ln, Baker, LA 70714",
+      "offer": "$21,000",
+      "message": "Hello, I'm an investor interested in 5540 Lavey Ln, Baker, LA 70714. Based on the work needed, I'm at $21,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "BR018",
+      "name": "Melissa Bonnee Duncan",
+      "phone": "+12257729236",
+      "phoneDisplay": "225-772-9236",
+      "address": "2128 Clark Ave, Zachary, LA 70791",
+      "offer": "$192,000",
+      "message": "Hey! Just saw 2128 Clark Ave, Zachary, LA 70791. It fits my criteria perfectly. I can do $192,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "BR040",
+      "name": "Lisa Smith",
+      "phone": "+12254397406",
+      "phoneDisplay": "225-439-7406",
+      "address": "5109 Cumberland Cove Dr, Baton Rouge, LA 70817",
+      "offer": "$80,500",
+      "message": "Hi Lisa, I'm interested in 5109 Cumberland Cove Dr, Baton Rouge, LA 70817. Would your seller consider a cash offer around $80,500? I can close quickly."
+    },
+    {
+      "id": "BR012",
+      "name": "Stephanie Black",
+      "phone": "+12253620891",
+      "phoneDisplay": "225-362-0891",
+      "address": "5223 Everett Ln APT D, Baton Rouge, LA 70809",
+      "offer": "$107,500",
+      "message": "Hey Stephanie, saw the listing at 5223 Everett Ln APT D, Baton Rouge, LA 70809. I'm looking for a fixer-upper in Baton Rouge. Any chance they'd take $107,500 as-is?"
+    },
+    {
+      "id": "BR023",
+      "name": "Kevin Doiron",
+      "phone": "+12252819819",
+      "phoneDisplay": "225-281-9819",
+      "address": "6127 Pontotoc St, Baton Rouge, LA 70812",
+      "offer": "$25,500",
+      "message": "Hi there, regarding 6127 Pontotoc St, Baton Rouge, LA 70812 in Baton Rouge. I'd like to submit a cash offer for $25,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "BR038",
+      "name": "Shemika Mayfield",
+      "phone": "+12258926500",
+      "phoneDisplay": "225-892-6500",
+      "address": "2764 Dalton St, Baton Rouge, LA 70805",
+      "offer": "$42,500",
+      "message": "Hey Shemika, saw the listing at 2764 Dalton St, Baton Rouge, LA 70805. I'm looking for a fixer-upper in Baton Rouge. Any chance they'd take $42,500 as-is?"
+    },
+    {
+      "id": "BR017",
+      "name": "Donna Harris",
+      "phone": "+12254136186",
+      "phoneDisplay": "225-413-6186",
+      "address": "5710 Byron St, Baton Rouge, LA 70805",
+      "offer": "$0",
+      "message": "Hello, I'm an investor interested in 5710 Byron St, Baton Rouge, LA 70805. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "BR027",
+      "name": "Stephanie Lathers",
+      "phone": "+12257557022",
+      "phoneDisplay": "225-755-7022",
+      "address": "6106 Sandy Creek Ln, Zachary, LA 70791",
+      "offer": "$179,000",
+      "message": "Hi Stephanie, is 6106 Sandy Creek Ln, Zachary, LA 70791 still available? I'm interested in an as-is purchase. My max offer is $179,000. Thoughts?"
+    },
+    {
+      "id": "BR030",
+      "name": "Darius Henry",
+      "phone": "+15046817085",
+      "phoneDisplay": "504-681-7085",
+      "address": "1825 N 17th St, Baton Rouge, LA 70802",
+      "offer": "$8,000",
+      "message": "Hi Darius, quick question on 1825 N 17th St, Baton Rouge, LA 70802. Would they be open to a $8,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "BR049",
+      "name": "Don Henagan",
+      "phone": "+12259213222",
+      "phoneDisplay": "225-921-3222",
+      "address": "13159 Todd Ave, Baton Rouge, LA 70815",
+      "offer": "$148,000",
+      "message": "Hi Don, is 13159 Todd Ave, Baton Rouge, LA 70815 still available? I'm interested in an as-is purchase. My max offer is $148,000. Thoughts?"
+    },
+    {
+      "id": "BR042",
+      "name": "Anthony Giglio",
+      "phone": "+15132706100",
+      "phoneDisplay": "513-270-6100",
+      "address": "4141 Country Hill Dr, Baton Rouge, LA 70816",
+      "offer": "$137,500",
+      "message": "Hi Anthony, quick question on 4141 Country Hill Dr, Baton Rouge, LA 70816. Would they be open to a $137,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "BR016",
+      "name": "D.R. Horton",
+      "phone": "+12254168792",
+      "phoneDisplay": "225-416-8792",
+      "address": "Ledoux Plan, Trivento, Baker, LA 70714",
+      "offer": "$182,500",
+      "message": "Hello D.R., following up on Ledoux Plan, Trivento, Baker, LA 70714. My all-cash number is $182,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "BR014",
+      "name": "Melissa Bonnee Duncan",
+      "phone": "+12257729236",
+      "phoneDisplay": "225-772-9236",
+      "address": "15534 Rocco Dr, Baker, LA 70714",
+      "offer": "$182,500",
+      "message": "Hello, I'm an investor interested in 15534 Rocco Dr, Baker, LA 70714. Based on the work needed, I'm at $182,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "BR036",
+      "name": "Ijella Hannon",
+      "phone": "+12254422923",
+      "phoneDisplay": "225-442-2923",
+      "address": "9627 Scotswood Dr, Baton Rouge, LA 70818",
+      "offer": "$114,000",
+      "message": "Hello, I'm an investor interested in 9627 Scotswood Dr, Baton Rouge, LA 70818. Based on the work needed, I'm at $114,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "BR047",
+      "name": "Phyllis Nola",
+      "phone": "+12252055559",
+      "phoneDisplay": "225-205-5559",
+      "address": "847 Glenmore Ave, Baton Rouge, LA 70806",
+      "offer": "$124,000",
+      "message": "Hello Phyllis, following up on 847 Glenmore Ave, Baton Rouge, LA 70806. My all-cash number is $124,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "BR026",
+      "name": "TLeice Beaulieu",
+      "phone": "+12259551225",
+      "phoneDisplay": "225-955-1225",
+      "address": "2684 Iroquois St, Baton Rouge, LA 70805",
+      "offer": "$34,000",
+      "message": "Hey TLeice, love the potential of 2684 Iroquois St, Baton Rouge, LA 70805. I can offer $34,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "BR019",
+      "name": "Vickie Barcelona",
+      "phone": "+12259378331",
+      "phoneDisplay": "225-937-8331",
+      "address": "(Undisclosed Address), Baton Rouge, LA 70802",
+      "offer": "$121,500",
+      "message": "Hello Vickie, following up on (Undisclosed Address), Baton Rouge, LA 70802. My all-cash number is $121,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "BR041",
+      "name": "Michelle Knobloch",
+      "phone": "+12259217477",
+      "phoneDisplay": "225-921-7477",
+      "address": "16438 Vermillion Dr, Baton Rouge, LA 70819",
+      "offer": "$46,000",
+      "message": "Hey Michelle, love the potential of 16438 Vermillion Dr, Baton Rouge, LA 70819. I can offer $46,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "BR050",
+      "name": "Heather Cutrer",
+      "phone": "+12252057203",
+      "phoneDisplay": "225-205-7203",
+      "address": "5235 Cumberland Cove Dr, Baton Rouge, LA 70817",
+      "offer": "$66,500",
+      "message": "Hey Heather, saw the listing at 5235 Cumberland Cove Dr, Baton Rouge, LA 70817. I'm looking for a fixer-upper in Baton Rouge. Any chance they'd take $66,500 as-is?"
+    },
+    {
+      "id": "BR048",
+      "name": "Tosh Major",
+      "phone": "+12259781660",
+      "phoneDisplay": "225-978-1660",
+      "address": "1735 N Sherwood Forest Dr, Baton Rouge, LA 70814",
+      "offer": "$27,500",
+      "message": "Hi there, regarding 1735 N Sherwood Forest Dr, Baton Rouge, LA 70814 in Baton Rouge. I'd like to submit a cash offer for $27,500. Can we chat about the seller's situation?"
+    }
+  ]
+}
