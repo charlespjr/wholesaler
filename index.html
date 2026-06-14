@@ -204,38 +204,38 @@
         // NOTE: phone numbers use the 555-01xx reserved range and agent names are
         // placeholders. Skip-trace / verify each contact before any real outreach.
         const FLIPSTER_LEADS = [
-            {"id":"AUS01","city":"Austin, TX","address":"2401 E 12th St, Austin, TX 78702","contact_name":"Marcus Realty","contact_phone":"(512) 555-0101","motivation":"Needs TLC","listing_price":325000,"est_arv":485000,"repairs":60000,"wholesale_fee":10000},
-            {"id":"DAL01","city":"Dallas, TX","address":"4557 Image Pl, Dallas, TX 75211","contact_name":"Dallas Inv Team","contact_phone":"(214) 555-0922","motivation":"Fixer Upper","listing_price":215000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"HOU01","city":"Houston, TX","address":"6155 Ridgeway Dr, Houston, TX 77033","contact_name":"Nan & Company","contact_phone":"(713) 555-0188","motivation":"As-Is Fixer","listing_price":195000,"est_arv":315000,"repairs":50000,"wholesale_fee":10000},
-            {"id":"SAN01","city":"San Antonio, TX","address":"1202 S Alamo St, San Antonio, TX 78210","contact_name":"Alamo Brokers","contact_phone":"(210) 555-0104","motivation":"Needs TLC","listing_price":175000,"est_arv":285000,"repairs":40000,"wholesale_fee":10000},
-            {"id":"FTW01","city":"Fort Worth, TX","address":"3528 Kellis St, Fort Worth, TX 76119","contact_name":"Cowtown Realty","contact_phone":"(817) 555-0105","motivation":"Fixer Upper","listing_price":219900,"est_arv":345000,"repairs":50000,"wholesale_fee":10000},
-            {"id":"ORL01","city":"Orlando, FL","address":"4022 Shellman St, Orlando, FL 32811","contact_name":"Susan Wilkinson","contact_phone":"(407) 555-0106","motivation":"Investor Special","listing_price":199999,"est_arv":325000,"repairs":50000,"wholesale_fee":10000},
-            {"id":"TAM01","city":"Tampa, FL","address":"880 Oak Dr, Tampa, FL 33602","contact_name":"Bay Area Sales","contact_phone":"(813) 555-0107","motivation":"Needs TLC","listing_price":275000,"est_arv":415000,"repairs":60000,"wholesale_fee":15000},
-            {"id":"JAX01","city":"Jacksonville, FL","address":"1502 River Rd, Jacksonville, FL 32207","contact_name":"River City Realty","contact_phone":"(904) 555-0108","motivation":"Fixer Upper","listing_price":165000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"MIA01","city":"Miami, FL","address":"4821 Ocean Blvd, Miami, FL 33101","contact_name":"Miami Invest","contact_phone":"(305) 555-0109","motivation":"As-Is Sale","listing_price":425000,"est_arv":685000,"repairs":85000,"wholesale_fee":25000},
-            {"id":"STP01","city":"St. Petersburg, FL","address":"900 Central Ave, St. Petersburg, FL 33705","contact_name":"Sunshine City","contact_phone":"(727) 555-0110","motivation":"Fixer Upper","listing_price":315000,"est_arv":465000,"repairs":65000,"wholesale_fee":15000},
-            {"id":"PHX01","city":"Phoenix, AZ","address":"6707 N 10th St, Phoenix, AZ 85014","contact_name":"Rob Madden","contact_phone":"(480) 555-1234","motivation":"Needs TLC","listing_price":500000,"est_arv":725000,"repairs":85000,"wholesale_fee":20000},
-            {"id":"TUC01","city":"Tucson, AZ","address":"500 E Broadway, Tucson, AZ 85701","contact_name":"Old Pueblo Sales","contact_phone":"(520) 555-0112","motivation":"Investor Deal","listing_price":225000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"MES01","city":"Mesa, AZ","address":"100 W Main St, Mesa, AZ 85201","contact_name":"Desert Sky Realty","contact_phone":"(480) 555-0113","motivation":"Fixer Upper","listing_price":265000,"est_arv":395000,"repairs":50000,"wholesale_fee":10000},
-            {"id":"COL01","city":"Columbia, SC","address":"704 Congaree Church Rd, Gadsden, SC 29052","contact_name":"Denisha Richardson","contact_phone":"(803) 555-0114","motivation":"As-Is Fixer","listing_price":115000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000},
-            {"id":"CHA01","city":"Charleston, SC","address":"1240 Oakcrest Dr, Charleston, SC 29412","contact_name":"Holy City Realty","contact_phone":"(843) 555-0115","motivation":"Needs TLC","listing_price":575000,"est_arv":825000,"repairs":95000,"wholesale_fee":25000},
-            {"id":"GRE01","city":"Greenville, SC","address":"100 N Main St, Greenville, SC 29601","contact_name":"Upstate Brokers","contact_phone":"(864) 555-0116","motivation":"Fixer Upper","listing_price":245000,"est_arv":365000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"ATL01","city":"Atlanta, GA","address":"1038 Delaware Ave SE, Atlanta, GA 30316","contact_name":"Peach State Sales","contact_phone":"(404) 555-0117","motivation":"Fixer Upper","listing_price":450000,"est_arv":675000,"repairs":85000,"wholesale_fee":20000},
-            {"id":"AUG01","city":"Augusta, GA","address":"700 Broad St, Augusta, GA 30901","contact_name":"Augusta Brokers","contact_phone":"(706) 555-0118","motivation":"Investor Special","listing_price":125000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000},
-            {"id":"SAV01","city":"Savannah, GA","address":"100 Broughton St, Savannah, GA 31401","contact_name":"Lowcountry Invest","contact_phone":"(912) 555-0119","motivation":"As-Is Deal","listing_price":295000,"est_arv":445000,"repairs":60000,"wholesale_fee":15000},
-            {"id":"CLT01","city":"Charlotte, NC","address":"9111 Brocklehurst Ln, Charlotte, NC 28215","contact_name":"Queen City Sales","contact_phone":"(704) 555-0120","motivation":"Needs TLC","listing_price":525000,"est_arv":785000,"repairs":95000,"wholesale_fee":25000},
-            {"id":"RAL01","city":"Raleigh, NC","address":"400 Fayetteville St, Raleigh, NC 27601","contact_name":"Triangle Invest","contact_phone":"(919) 555-0121","motivation":"Fixer Upper","listing_price":355000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000},
-            {"id":"GSO01","city":"Greensboro, NC","address":"100 S Elm St, Greensboro, NC 27401","contact_name":"Gate City Realty","contact_phone":"(336) 555-0122","motivation":"Investor Special","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"MEM01","city":"Memphis, TN","address":"3245 Newberry Ave, Memphis, TN 38115","contact_name":"Bluff City Invest","contact_phone":"(901) 555-0123","motivation":"Fixer Upper","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"BHM01","city":"Birmingham, AL","address":"2000 1st Ave N, Birmingham, AL 35203","contact_name":"Magic City Realty","contact_phone":"(205) 555-0124","motivation":"Needs TLC","listing_price":135000,"est_arv":245000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"IND01","city":"Indianapolis, IN","address":"100 Monument Cir, Indianapolis, IN 46204","contact_name":"Hoosier Sales","contact_phone":"(317) 555-0125","motivation":"As-Is Deal","listing_price":195000,"est_arv":325000,"repairs":55000,"wholesale_fee":10000},
-            {"id":"CLE01","city":"Cleveland, OH","address":"600 Superior Ave, Cleveland, OH 44114","contact_name":"Forest City Invest","contact_phone":"(216) 555-0126","motivation":"Fixer Upper","listing_price":105000,"est_arv":215000,"repairs":40000,"wholesale_fee":10000},
-            {"id":"DET01","city":"Detroit, MI","address":"2245 W Boston Blvd, Detroit, MI 48206","contact_name":"Motor City Realty","contact_phone":"(313) 555-0127","motivation":"Needs TLC","listing_price":145000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"BAL01","city":"Baltimore, MD","address":"2000 W Baltimore St, Baltimore, MD 21223","contact_name":"Charm City Invest","contact_phone":"(410) 555-0128","motivation":"Fixer Upper","listing_price":95000,"est_arv":215000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"KAN01","city":"Kansas City, MO","address":"1000 Main St, Kansas City, MO 64105","contact_name":"Fountain City Realty","contact_phone":"(816) 555-0129","motivation":"Investor Special","listing_price":165000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000},
-            {"id":"LAS01","city":"Las Vegas, NV","address":"100 E Fremont St, Las Vegas, NV 89101","contact_name":"Vegas Invest Team","contact_phone":"(702) 555-0130","motivation":"As-Is Sale","listing_price":375000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000},
-            {"id":"DEN01","city":"Denver, CO","address":"2501 Champa St, Denver, CO 80205","contact_name":"Mile High Brokers","contact_phone":"(303) 555-0131","motivation":"Fixer Upper","listing_price":485000,"est_arv":725000,"repairs":85000,"wholesale_fee":25000},
-            {"id":"OKC01","city":"Oklahoma City, OK","address":"5400 N Eagle Ln, Oklahoma City, OK 73162","contact_name":"Sooner Realty","contact_phone":"(405) 555-0132","motivation":"Needs TLC","listing_price":160272,"est_arv":275000,"repairs":45000,"wholesale_fee":10000}
+            {"id":"AUS01","city":"Austin, TX","address":"2401 E 12th St, Austin, TX 78702","contact_name":"Marcus Realty","contact_phone":"(512) 555-0101","motivation":"Needs TLC","listing_price":325000,"est_arv":485000,"repairs":60000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"DAL01","city":"Dallas, TX","address":"4557 Image Pl, Dallas, TX 75211","contact_name":"Dallas Inv Team","contact_phone":"(214) 555-0922","motivation":"Fixer Upper","listing_price":215000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"HOU01","city":"Houston, TX","address":"6155 Ridgeway Dr, Houston, TX 77033","contact_name":"Nan & Company","contact_phone":"(713) 555-0188","motivation":"As-Is Fixer","listing_price":195000,"est_arv":315000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"SAN01","city":"San Antonio, TX","address":"1202 S Alamo St, San Antonio, TX 78210","contact_name":"Alamo Brokers","contact_phone":"(210) 555-0104","motivation":"Needs TLC","listing_price":175000,"est_arv":285000,"repairs":40000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"FTW01","city":"Fort Worth, TX","address":"3528 Kellis St, Fort Worth, TX 76119","contact_name":"Cowtown Realty","contact_phone":"(817) 555-0105","motivation":"Fixer Upper","listing_price":219900,"est_arv":345000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"ORL01","city":"Orlando, FL","address":"4022 Shellman St, Orlando, FL 32811","contact_name":"Susan Wilkinson","contact_phone":"(407) 555-0106","motivation":"Investor Special","listing_price":199999,"est_arv":325000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"TAM01","city":"Tampa, FL","address":"880 Oak Dr, Tampa, FL 33602","contact_name":"Bay Area Sales","contact_phone":"(813) 555-0107","motivation":"Needs TLC","listing_price":275000,"est_arv":415000,"repairs":60000,"wholesale_fee":15000,"zillow_url":""},
+            {"id":"JAX01","city":"Jacksonville, FL","address":"1502 River Rd, Jacksonville, FL 32207","contact_name":"River City Realty","contact_phone":"(904) 555-0108","motivation":"Fixer Upper","listing_price":165000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"MIA01","city":"Miami, FL","address":"4821 Ocean Blvd, Miami, FL 33101","contact_name":"Miami Invest","contact_phone":"(305) 555-0109","motivation":"As-Is Sale","listing_price":425000,"est_arv":685000,"repairs":85000,"wholesale_fee":25000,"zillow_url":""},
+            {"id":"STP01","city":"St. Petersburg, FL","address":"900 Central Ave, St. Petersburg, FL 33705","contact_name":"Sunshine City","contact_phone":"(727) 555-0110","motivation":"Fixer Upper","listing_price":315000,"est_arv":465000,"repairs":65000,"wholesale_fee":15000,"zillow_url":""},
+            {"id":"PHX01","city":"Phoenix, AZ","address":"6707 N 10th St, Phoenix, AZ 85014","contact_name":"Rob Madden","contact_phone":"(480) 555-1234","motivation":"Needs TLC","listing_price":500000,"est_arv":725000,"repairs":85000,"wholesale_fee":20000,"zillow_url":""},
+            {"id":"TUC01","city":"Tucson, AZ","address":"500 E Broadway, Tucson, AZ 85701","contact_name":"Old Pueblo Sales","contact_phone":"(520) 555-0112","motivation":"Investor Deal","listing_price":225000,"est_arv":345000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"MES01","city":"Mesa, AZ","address":"100 W Main St, Mesa, AZ 85201","contact_name":"Desert Sky Realty","contact_phone":"(480) 555-0113","motivation":"Fixer Upper","listing_price":265000,"est_arv":395000,"repairs":50000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"COL01","city":"Columbia, SC","address":"704 Congaree Church Rd, Gadsden, SC 29052","contact_name":"Denisha Richardson","contact_phone":"(803) 555-0114","motivation":"As-Is Fixer","listing_price":115000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"CHA01","city":"Charleston, SC","address":"1240 Oakcrest Dr, Charleston, SC 29412","contact_name":"Holy City Realty","contact_phone":"(843) 555-0115","motivation":"Needs TLC","listing_price":575000,"est_arv":825000,"repairs":95000,"wholesale_fee":25000,"zillow_url":""},
+            {"id":"GRE01","city":"Greenville, SC","address":"100 N Main St, Greenville, SC 29601","contact_name":"Upstate Brokers","contact_phone":"(864) 555-0116","motivation":"Fixer Upper","listing_price":245000,"est_arv":365000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"ATL01","city":"Atlanta, GA","address":"1038 Delaware Ave SE, Atlanta, GA 30316","contact_name":"Peach State Sales","contact_phone":"(404) 555-0117","motivation":"Fixer Upper","listing_price":450000,"est_arv":675000,"repairs":85000,"wholesale_fee":20000,"zillow_url":""},
+            {"id":"AUG01","city":"Augusta, GA","address":"700 Broad St, Augusta, GA 30901","contact_name":"Augusta Brokers","contact_phone":"(706) 555-0118","motivation":"Investor Special","listing_price":125000,"est_arv":215000,"repairs":35000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"SAV01","city":"Savannah, GA","address":"100 Broughton St, Savannah, GA 31401","contact_name":"Lowcountry Invest","contact_phone":"(912) 555-0119","motivation":"As-Is Deal","listing_price":295000,"est_arv":445000,"repairs":60000,"wholesale_fee":15000,"zillow_url":""},
+            {"id":"CLT01","city":"Charlotte, NC","address":"9111 Brocklehurst Ln, Charlotte, NC 28215","contact_name":"Queen City Sales","contact_phone":"(704) 555-0120","motivation":"Needs TLC","listing_price":525000,"est_arv":785000,"repairs":95000,"wholesale_fee":25000,"zillow_url":""},
+            {"id":"RAL01","city":"Raleigh, NC","address":"400 Fayetteville St, Raleigh, NC 27601","contact_name":"Triangle Invest","contact_phone":"(919) 555-0121","motivation":"Fixer Upper","listing_price":355000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000,"zillow_url":""},
+            {"id":"GSO01","city":"Greensboro, NC","address":"100 S Elm St, Greensboro, NC 27401","contact_name":"Gate City Realty","contact_phone":"(336) 555-0122","motivation":"Investor Special","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"MEM01","city":"Memphis, TN","address":"3245 Newberry Ave, Memphis, TN 38115","contact_name":"Bluff City Invest","contact_phone":"(901) 555-0123","motivation":"Fixer Upper","listing_price":185000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"BHM01","city":"Birmingham, AL","address":"2000 1st Ave N, Birmingham, AL 35203","contact_name":"Magic City Realty","contact_phone":"(205) 555-0124","motivation":"Needs TLC","listing_price":135000,"est_arv":245000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"IND01","city":"Indianapolis, IN","address":"100 Monument Cir, Indianapolis, IN 46204","contact_name":"Hoosier Sales","contact_phone":"(317) 555-0125","motivation":"As-Is Deal","listing_price":195000,"est_arv":325000,"repairs":55000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"CLE01","city":"Cleveland, OH","address":"600 Superior Ave, Cleveland, OH 44114","contact_name":"Forest City Invest","contact_phone":"(216) 555-0126","motivation":"Fixer Upper","listing_price":105000,"est_arv":215000,"repairs":40000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"DET01","city":"Detroit, MI","address":"2245 W Boston Blvd, Detroit, MI 48206","contact_name":"Motor City Realty","contact_phone":"(313) 555-0127","motivation":"Needs TLC","listing_price":145000,"est_arv":275000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"BAL01","city":"Baltimore, MD","address":"2000 W Baltimore St, Baltimore, MD 21223","contact_name":"Charm City Invest","contact_phone":"(410) 555-0128","motivation":"Fixer Upper","listing_price":95000,"est_arv":215000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"KAN01","city":"Kansas City, MO","address":"1000 Main St, Kansas City, MO 64105","contact_name":"Fountain City Realty","contact_phone":"(816) 555-0129","motivation":"Investor Special","listing_price":165000,"est_arv":295000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""},
+            {"id":"LAS01","city":"Las Vegas, NV","address":"100 E Fremont St, Las Vegas, NV 89101","contact_name":"Vegas Invest Team","contact_phone":"(702) 555-0130","motivation":"As-Is Sale","listing_price":375000,"est_arv":545000,"repairs":75000,"wholesale_fee":20000,"zillow_url":""},
+            {"id":"DEN01","city":"Denver, CO","address":"2501 Champa St, Denver, CO 80205","contact_name":"Mile High Brokers","contact_phone":"(303) 555-0131","motivation":"Fixer Upper","listing_price":485000,"est_arv":725000,"repairs":85000,"wholesale_fee":25000,"zillow_url":""},
+            {"id":"OKC01","city":"Oklahoma City, OK","address":"5400 N Eagle Ln, Oklahoma City, OK 73162","contact_name":"Sooner Realty","contact_phone":"(405) 555-0132","motivation":"Needs TLC","listing_price":160272,"est_arv":275000,"repairs":45000,"wholesale_fee":10000,"zillow_url":""}
         ];
 
         const leads = [...FLIPSTER_LEADS];
@@ -287,12 +287,18 @@
         }
 
         function zillowUrl(address) {
-            // Zillow address slug: drop commas/periods/#, collapse spaces to hyphens.
+            // Fallback address slug: drop commas/periods/#, collapse spaces to hyphens.
             // e.g. "2401 E 12th St, Austin, TX 78702" -> ".../homes/2401-E-12th-St-Austin-TX-78702_rb/"
             const slug = address.trim()
                 .replace(/[.,#]/g, '')
                 .replace(/\s+/g, '-');
             return `https://www.zillow.com/homes/${slug}_rb/`;
+        }
+
+        // Prefer the real listing URL stored on the lead; fall back to the address search.
+        function leadZillowUrl(lead) {
+            const u = (lead.zillow_url || "").trim();
+            return u ? u : zillowUrl(lead.address);
         }
 
         function buildSMS(lead, offer) {
@@ -323,7 +329,7 @@
 
             filtered.forEach(lead => {
                 const offer = calcOffer(lead);
-                const searchUrl = zillowUrl(lead.address);
+                const searchUrl = leadZillowUrl(lead);
                 const row = document.createElement('tr');
                 row.className = 'lead-row border-b border-slate-100 cursor-pointer hover:bg-slate-50 transition-colors';
                 row.innerHTML = `
@@ -442,7 +448,7 @@
                     lead.est_arv,
                     offer,
                     lead.motivation,
-                    zillowUrl(lead.address),
+                    leadZillowUrl(lead),
                     msg
                 ].map(escape).join(","));
             });
