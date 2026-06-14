@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipster Lite • Wholesale Deal Machine</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
@@ -80,6 +81,9 @@
                         <input type="file" id="apify-import-input" accept=".csv,text/csv" class="hidden" onchange="importApifyCSV(this)">
                         <button onclick="exportCampaign()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Export the personalized texts (CSV + JSON) for the CoWork Google Voice run">
                             <i class="fa-brands fa-google text-rose-500"></i> Export Campaign (GV)
+                        </button>
+                        <button onclick="generateAllPackets()" class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-2xl font-bold hover:bg-slate-50 shadow-sm transition-all flex items-center gap-2" title="Download a ZIP of one DocuSign-ready agreement packet (HTML) per deal">
+                            <i class="fa-solid fa-file-signature text-emerald-600"></i> Generate All Packets
                         </button>
                         <button onclick="exportOutreachCSV()" class="bg-slate-900 text-white px-8 py-3 rounded-2xl font-bold hover:bg-black shadow-xl transition-all flex items-center gap-2">
                             <i class="fa-solid fa-file-csv text-blue-400"></i> Export Bulk CSV
@@ -729,9 +733,7 @@
             return { state: st, stateName: STATE_NAMES[st] || st || "the state where the Property is located", zip: m && m[2] ? m[2] : "" };
         }
 
-        function generateAgreement(id) {
-            const lead = leads.find(l => l.id === id);
-            if (!lead) { alert("Open a deal first, then generate its agreement."); return; }
+        function buildPacketHTML(lead, preview) {
             const loc = parsePropertyLocation(lead.address);
             const SL = STATE_LAW[loc.state] || STATE_LAW._default;
             const marketClause = SL.restrictMarketing
@@ -846,10 +848,10 @@ ${pcdRows}
   table.pcd th.sec { background: #eee; }
 </style></head>
 <body>
-<div class="toolbar no-print">
+${preview ? `<div class="toolbar no-print">
   <strong>${lead.address}</strong>
   <button onclick="window.print()">Print / Save as PDF</button>
-</div>
+</div>` : ""}
 
 <div class="disclaimer">
   <strong>TEMPLATE — NOT LEGAL ADVICE.</strong> This document is a starting template generated for ${PARAGON.name}.
@@ -976,10 +978,44 @@ ${formsHtml}
 
 </body></html>`;
 
+            return html;
+        }
+
+        // Single-deal preview (opens in a tab; can be printed/saved if desired).
+        function generateAgreement(id) {
+            const lead = leads.find(l => l.id === id);
+            if (!lead) { alert("Open a deal first, then generate its agreement."); return; }
             const w = window.open("", "_blank");
             if (!w) { alert("Pop-up blocked — allow pop-ups for this site to open the agreement."); return; }
-            w.document.write(html);
+            w.document.write(buildPacketHTML(lead, true));
             w.document.close();
+        }
+
+        // Bulk: one DocuSign-ready HTML packet per deal, delivered as a single ZIP.
+        // DocuSign converts uploaded .html documents to PDF on the server side.
+        async function generateAllPackets() {
+            const safe = s => s.replace(/[^a-z0-9]+/gi, "_").replace(/^_+|_+$/g, "");
+            const files = leads.map(l => ({ name: `${l.id}_${safe(l.address)}.html`, html: buildPacketHTML(l, false) }));
+            if (window.JSZip) {
+                const zip = new JSZip();
+                files.forEach(f => zip.file(f.name, f.html));
+                const blob = await zip.generateAsync({ type: "blob" });
+                downloadBlob("paragon_packets.zip", blob);
+                return;
+            }
+            // Fallback if the ZIP library didn't load: stagger individual downloads.
+            if (!confirm(`Download ${files.length} packet files individually? Allow multiple downloads if your browser prompts.`)) return;
+            for (const f of files) {
+                downloadFile(f.name, f.html, "text/html");
+                await new Promise(r => setTimeout(r, 350));
+            }
+        }
+        function downloadBlob(filename, blob) {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url; a.download = filename;
+            document.body.appendChild(a); a.click(); document.body.removeChild(a);
+            URL.revokeObjectURL(url);
         }
 
         function exportOutreachCSV() {
