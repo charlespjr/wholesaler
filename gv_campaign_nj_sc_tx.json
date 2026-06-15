@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-06-15T04:16:23.743Z",
+  "throttleSeconds": {
+    "min": 120,
+    "max": 180
+  },
+  "count": 23,
+  "messages": [
+    {
+      "id": "2666 Olympia Ave, ",
+      "name": "Steve Richardson",
+      "phone": "+18434574668",
+      "phoneDisplay": "843-457-4668",
+      "address": "2666 Olympia Ave, North Charleston, SC 29405",
+      "offer": "$118,000",
+      "message": "Hi Steve, I'm interested in 2666 Olympia Ave, North Charleston, SC 29405. Would your seller consider a cash offer around $118,000? I can close quickly."
+    },
+    {
+      "id": "155 Locust Ave W, ",
+      "name": "Juliana Knazek",
+      "phone": "+16094962791",
+      "phoneDisplay": "609-496-2791",
+      "address": "155 Locust Ave W, Hamilton, NJ 08610",
+      "offer": "$256,000",
+      "message": "Hello, I'm an investor interested in 155 Locust Ave W, Hamilton, NJ 08610. Based on the work needed, I'm at $256,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "90 Grandview Ave, ",
+      "name": "Marcia Warfel",
+      "phone": "+16099544551",
+      "phoneDisplay": "609-954-4551",
+      "address": "90 Grandview Ave, Hamilton, NJ 08620",
+      "offer": "$282,000",
+      "message": "Hi Marcia, is 90 Grandview Ave, Hamilton, NJ 08620 still available? I'm interested in an as-is purchase. My max offer is $282,000. Thoughts?"
+    },
+    {
+      "id": "189 Mercer St, Ham",
+      "name": "Iris Nitzan",
+      "phone": "+16092735550",
+      "phoneDisplay": "609-273-5550",
+      "address": "189 Mercer St, Hamilton, NJ 08690",
+      "offer": "$244,000",
+      "message": "Hi Iris, I buy homes in Hamilton in any condition. For 189 Mercer St, Hamilton, NJ 08690 I can offer $244,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "13 Winding Way, Tr",
+      "name": "Edward Levin",
+      "phone": "+12155461717",
+      "phoneDisplay": "215-546-1717",
+      "address": "13 Winding Way, Trenton, NJ 08620",
+      "offer": "$244,500",
+      "message": "Hi Edward, is 13 Winding Way, Trenton, NJ 08620 still available? I'm interested in an as-is purchase. My max offer is $244,500. Thoughts?"
+    },
+    {
+      "id": "1521 Hamilton Ave,",
+      "name": "Jessica Berger",
+      "phone": "+16095568473",
+      "phoneDisplay": "609-556-8473",
+      "address": "1521 Hamilton Ave, Hamilton, NJ 08629",
+      "offer": "$210,000",
+      "message": "Hi Jessica, I'm interested in 1521 Hamilton Ave, Hamilton, NJ 08629. Would your seller consider a cash offer around $210,000? I can close quickly."
+    },
+    {
+      "id": "83 Bryn Mawr Ave, ",
+      "name": "Tom Raikes",
+      "phone": "+18569126850",
+      "phoneDisplay": "856-912-6850",
+      "address": "83 Bryn Mawr Ave, Trenton, NJ 08618",
+      "offer": "$108,000",
+      "message": "Hello Tom, following up on 83 Bryn Mawr Ave, Trenton, NJ 08618. My all-cash number is $108,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "218 Sanhican Dr, T",
+      "name": "Shonda McCallum",
+      "phone": "+16093468649",
+      "phoneDisplay": "609-346-8649",
+      "address": "218 Sanhican Dr, Trenton, NJ 08618",
+      "offer": "$216,500",
+      "message": "Hi Shonda, I buy homes in Trenton in any condition. For 218 Sanhican Dr, Trenton, NJ 08618 I can offer $216,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "27 Marshall Ave W,",
+      "name": "Tatyane Teixeira",
+      "phone": "+19089373373",
+      "phoneDisplay": "908-937-3373",
+      "address": "27 Marshall Ave W, Hamilton, NJ 08610",
+      "offer": "$206,000",
+      "message": "Hi Tatyane, quick question on 27 Marshall Ave W, Hamilton, NJ 08610. Would they be open to a $206,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "10 Stacey Ave, Tre",
+      "name": "Linda Reid",
+      "phone": "+16092734152",
+      "phoneDisplay": "609-273-4152",
+      "address": "10 Stacey Ave, Trenton, NJ 08618",
+      "offer": "$237,000",
+      "message": "Hi Linda, quick question on 10 Stacey Ave, Trenton, NJ 08618. Would they be open to a $237,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "240 Mason Ave, Ham",
+      "name": "Jasmin Elalfy",
+      "phone": "+17325230757",
+      "phoneDisplay": "732-523-0757",
+      "address": "240 Mason Ave, Hamilton, NJ 08610",
+      "offer": "$295,500",
+      "message": "Hello! Regarding 240 Mason Ave, Hamilton, NJ 08610, I'm a local investor. My numbers work at $295,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "609 Chestnut Ave, ",
+      "name": "Patrick Gorman",
+      "phone": "+18562008320",
+      "phoneDisplay": "856-200-8320",
+      "address": "609 Chestnut Ave, Trenton, NJ 08611",
+      "offer": "$60,000",
+      "message": "Hello! Regarding 609 Chestnut Ave, Trenton, NJ 08611, I'm a local investor. My numbers work at $60,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "131 Hoffman Ave, T",
+      "name": "Mr. Ralph Thomas Patrone III",
+      "phone": "+16095015977",
+      "phoneDisplay": "609-501-5977",
+      "address": "131 Hoffman Ave, Trenton, NJ 08618",
+      "offer": "$118,000",
+      "message": "Hey Mr., saw the listing at 131 Hoffman Ave, Trenton, NJ 08618. I'm looking for a fixer-upper in Trenton. Any chance they'd take $118,000 as-is?"
+    },
+    {
+      "id": "153 Knapp Ave, Ham",
+      "name": "ARMANDO PINA",
+      "phone": "+19733332959",
+      "phoneDisplay": "973-333-2959",
+      "address": "153 Knapp Ave, Hamilton, NJ 08610",
+      "offer": "$278,500",
+      "message": "Hey ARMANDO, love the potential of 153 Knapp Ave, Hamilton, NJ 08610. I can offer $278,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "189 Regina Ave, Ha",
+      "name": "Teresa Cunningham",
+      "phone": "+16098023564",
+      "phoneDisplay": "609-802-3564",
+      "address": "189 Regina Ave, Hamilton, NJ 08619",
+      "offer": "$281,500",
+      "message": "Hi Teresa, is 189 Regina Ave, Hamilton, NJ 08619 still available? I'm interested in an as-is purchase. My max offer is $281,500. Thoughts?"
+    },
+    {
+      "id": "16 Carroll St, Tre",
+      "name": "Angela Bullock",
+      "phone": "+19083385641",
+      "phoneDisplay": "908-338-5641",
+      "address": "16 Carroll St, Trenton, NJ 08609",
+      "offer": "$206,500",
+      "message": "Hi Angela, I buy homes in Trenton in any condition. For 16 Carroll St, Trenton, NJ 08609 I can offer $206,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "9 Vicky Ct, Hamilt",
+      "name": "Lee Raphael",
+      "phone": "+18455642800",
+      "phoneDisplay": "845-564-2800",
+      "address": "9 Vicky Ct, Hamilton, NJ 08610",
+      "offer": "$165,500",
+      "message": "Hello! Regarding 9 Vicky Ct, Hamilton, NJ 08610, I'm a local investor. My numbers work at $165,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "784 Yardville Hami",
+      "name": "ROBERT DEKANSKI",
+      "phone": "+17328275344",
+      "phoneDisplay": "732-827-5344",
+      "address": "784 Yardville Hamilton Sq, Trenton, NJ 08691",
+      "offer": "$321,000",
+      "message": "Hello, I'm an investor interested in 784 Yardville Hamilton Sq, Trenton, NJ 08691. Based on the work needed, I'm at $321,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "20 Doreen Rd, Hami",
+      "name": "Kimberley D. Witkowski",
+      "phone": "+16092163127",
+      "phoneDisplay": "609-216-3127",
+      "address": "20 Doreen Rd, Hamilton, NJ 08690",
+      "offer": "$260,500",
+      "message": "Hello Kimberley, following up on 20 Doreen Rd, Hamilton, NJ 08690. My all-cash number is $260,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "24 Evans Ave, Tren",
+      "name": "Tamie McSweeney Pettiford",
+      "phone": "+18569527679",
+      "phoneDisplay": "856-952-7679",
+      "address": "24 Evans Ave, Trenton, NJ 08638",
+      "offer": "$94,000",
+      "message": "Hi Tamie, I buy homes in Trenton in any condition. For 24 Evans Ave, Trenton, NJ 08638 I can offer $94,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "156 Washington St,",
+      "name": "BRIGIDA J. SUQUILANDA",
+      "phone": "+16098903300",
+      "phoneDisplay": "609-890-3300",
+      "address": "156 Washington St, Trenton, NJ 08611",
+      "offer": "$134,500",
+      "message": "Hey BRIGIDA, love the potential of 156 Washington St, Trenton, NJ 08611. I can offer $134,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "133 Cornwall Ave, ",
+      "name": "Vanessa Kieling",
+      "phone": "+18564184153",
+      "phoneDisplay": "856-418-4153",
+      "address": "133 Cornwall Ave, Trenton, NJ 08618",
+      "offer": "$261,500",
+      "message": "Hello! Regarding 133 Cornwall Ave, Trenton, NJ 08618, I'm a local investor. My numbers work at $261,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "78 Liberty St, Tre",
+      "name": "Gino Hernandez-Villavizar",
+      "phone": "+16098155979",
+      "phoneDisplay": "609-815-5979",
+      "address": "78 Liberty St, Trenton, NJ 08611",
+      "offer": "$210,000",
+      "message": "Hi Gino, is 78 Liberty St, Trenton, NJ 08611 still available? I'm interested in an as-is purchase. My max offer is $210,000. Thoughts?"
+    }
+  ]
+}
