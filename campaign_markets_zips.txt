@@ -1,0 +1,104 @@
+MULTI-STATE WHOLESALE CAMPAIGN MARKETS
+Cities & ZIP codes pulled from all active offer-campaign files
+============================================================
+
+
+## Alabama (AL) — 1 cities, 1 zips
+  Birmingham, AL: 35207
+
+## Arizona (AZ) — 3 cities, 22 zips
+  Mesa, AZ: 85201
+  Phoenix, AZ: 85003, 85006, 85007, 85009, 85013, 85014, 85015, 85018, 85019, 85020, 85021, 85022, 85031, 85032, 85033, 85034, 85035, 85041, 85048, 85051
+  Tucson, AZ: 85701
+
+## California (CA) — 1 cities, 6 zips
+  Bakersfield, CA: 93304, 93305, 93307, 93309, 93311, 93313
+
+## Colorado (CO) — 1 cities, 1 zips
+  Denver, CO: 80205
+
+## Florida (FL) — 8 cities, 36 zips
+  Cape Coral, FL: 33904, 33909, 33914, 33993
+  Coral, FL: 33909
+  Jacksonville, FL: 32204, 32205, 32206, 32207, 32208, 32209, 32210, 32211, 32216, 32217, 32218, 32219, 32220, 32221, 32222, 32223, 32233, 32234, 32244, 32250, 32254, 32258, 32277
+  Lakeland, FL: 33801, 33803, 33805, 33809, 33810
+  Miami, FL: 33147
+  Orlando, FL: 32811
+  Saint Petersburg, FL: 33705
+  Tampa, FL: 33605
+
+## Georgia (GA) — 3 cities, 3 zips
+  Atlanta, GA: 30316
+  Augusta, GA: 30901
+  Savannah, GA: 31401
+
+## Illinois (IL) — 1 cities, 20 zips
+  Chicago, IL: 60609, 60617, 60619, 60620, 60621, 60623, 60624, 60628, 60629, 60632, 60633, 60636, 60637, 60638, 60643, 60644, 60649, 60651, 60652, 60827
+
+## Indiana (IN) — 1 cities, 1 zips
+  Indianapolis, IN: 46201
+
+## Louisiana (LA) — 4 cities, 15 zips
+  Baker, LA: 70714
+  Baton Rouge, LA: 70802, 70805, 70806, 70809, 70811, 70812, 70814, 70815, 70816, 70817, 70818, 70819
+  Pride, LA: 70770
+  Zachary, LA: 70791
+
+## Maryland (MD) — 2 cities, 13 zips
+  Baltimore, MD: 21206, 21210, 21214, 21215, 21216, 21217, 21218, 21223, 21224, 21225, 21229, 21230, 21234
+  Parkville, MD: 21234
+
+## Michigan (MI) — 3 cities, 26 zips
+  Detroit, MI: 48202, 48203, 48204, 48205, 48206, 48207, 48208, 48209, 48210, 48211, 48212, 48213, 48214, 48215, 48216, 48217, 48219, 48221, 48223, 48224, 48227, 48228, 48234, 48235, 48236, 48238
+  Grosse Pointe, MI: 48224
+  Highland Park, MI: 48203
+
+## Missouri (MO) — 1 cities, 1 zips
+  Kansas City, MO: 64128
+
+## Nevada (NV) — 1 cities, 1 zips
+  Las Vegas, NV: 89101
+
+## New Jersey (NJ) — 2 cities, 10 zips
+  Hamilton, NJ: 08610, 08619, 08620, 08629, 08690
+  Trenton, NJ: 08609, 08611, 08618, 08620, 08638, 08691
+
+## New Mexico (NM) — 1 cities, 9 zips
+  Albuquerque, NM: 87102, 87104, 87105, 87108, 87111, 87112, 87114, 87120, 87123
+
+## North Carolina (NC) — 5 cities, 11 zips
+  Charlotte, NC: 28215
+  Eastover, NC: 28312
+  Fayetteville, NC: 28301, 28303, 28304, 28305, 28306, 28311, 28314
+  Greensboro, NC: 27401
+  Raleigh, NC: 27601
+
+## Ohio (OH) — 2 cities, 17 zips
+  Cleveland, OH: 44102, 44103, 44104, 44105, 44108, 44109, 44110, 44111, 44112, 44113, 44115, 44119, 44120, 44127, 44128, 44135, 44144
+  Shaker Heights, OH: 44120
+
+## Oklahoma (OK) — 1 cities, 1 zips
+  Oklahoma City, OK: 73129
+
+## South Carolina (SC) — 8 cities, 19 zips
+  Anderson, SC: 29621
+  Charleston, SC: 29407, 29412
+  Columbia, SC: 29201, 29203, 29204, 29205, 29206, 29209, 29210, 29212, 29223, 29229
+  Gaffney, SC: 29340
+  Greenville, SC: 29601, 29617
+  Hollywood, SC: 29449
+  Johns Island, SC: 29455
+  North Charleston, SC: 29405
+
+## Tennessee (TN) — 1 cities, 1 zips
+  Memphis, TN: 38115
+
+## Texas (TX) — 8 cities, 61 zips
+  Austin, TX: 78702
+  Dallas, TX: 75203, 75208, 75210, 75211, 75212, 75215, 75216, 75217, 75218, 75223, 75224, 75227, 75228, 75232, 75233, 75236, 75237, 75241, 75253
+  Fort Worth, TX: 76119
+  Grand Prairie, TX: 75051
+  Houston, TX: 77009, 77011, 77012, 77014, 77016, 77017, 77020, 77021, 77026, 77028, 77029, 77033, 77035, 77044, 77045, 77047, 77051, 77062, 77063, 77064, 77067, 77070, 77071, 77072, 77074, 77075, 77078, 77080, 77082, 77083, 77084, 77088, 77092, 77093, 77095, 77099
+  Humble, TX: 77339
+  San Antonio, TX: 78210
+  Webster, TX: 77598
