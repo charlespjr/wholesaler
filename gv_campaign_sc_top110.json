@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 108,
+  "count": 107,
   "messages": [
     {
       "id": "SC0051",
@@ -455,15 +455,6 @@
       "address": "2350 Center St, Columbia, SC 29204",
       "offer": "$182,500",
       "message": "Hello! Regarding 2350 Center St, Columbia, SC 29204, I'm a local investor. My numbers work at $182,500 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "SC0136",
-      "name": "Marie H Stokes",
-      "phone": "+18034206493",
-      "phoneDisplay": "803-420-6493",
-      "address": "351 Elders Pond Cir, Columbia, SC 29229",
-      "offer": "$125,000",
-      "message": "Hi Marie, is 351 Elders Pond Cir, Columbia, SC 29229 still available? I'm interested in an as-is purchase. My max offer is $125,000. Thoughts?"
     },
     {
       "id": "SC0156",
