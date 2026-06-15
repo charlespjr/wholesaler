@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 43,
+  "count": 42,
   "messages": [
     {
       "id": "BR045",
@@ -68,15 +68,6 @@
       "address": "4410 Greenwood Ln, Baker, LA 70714",
       "offer": "$77,000",
       "message": "Hi Tawanda, is 4410 Greenwood Ln, Baker, LA 70714 still available? I'm interested in an as-is purchase. My max offer is $77,000. Thoughts?"
-    },
-    {
-      "id": "BR046",
-      "name": "Brenda Temple",
-      "phone": "+12257158303",
-      "phoneDisplay": "225-715-8303",
-      "address": "2431 Aubin Ln, Baton Rouge, LA 70816",
-      "offer": "$77,500",
-      "message": "Hi Brenda, is 2431 Aubin Ln, Baton Rouge, LA 70816 still available? I'm interested in an as-is purchase. My max offer is $77,500. Thoughts?"
     },
     {
       "id": "BR033",
