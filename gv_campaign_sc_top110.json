@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 107,
+  "count": 106,
   "messages": [
     {
       "id": "SC0051",
@@ -437,15 +437,6 @@
       "address": "254 Sorrel Tree Dr, Columbia, SC 29223",
       "offer": "$153,000",
       "message": "Hi Thomas, quick question on 254 Sorrel Tree Dr, Columbia, SC 29223. Would they be open to a $153,000 offer? We handle all repairs and close on your timeline."
-    },
-    {
-      "id": "SC0332",
-      "name": "Randal Longo",
-      "phone": "+18437376347",
-      "phoneDisplay": "843-737-6347",
-      "address": "1201 Sycamore Ave, Columbia, SC 29203",
-      "offer": "$118,000",
-      "message": "Greetings, I'm reaching out about the property on 1201 Sycamore Ave, Columbia, SC 29203. We're looking for our next project. Would a $118,000 cash offer be of interest?"
     },
     {
       "id": "SC0134",
