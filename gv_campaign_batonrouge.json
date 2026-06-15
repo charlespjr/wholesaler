@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 41,
+  "count": 40,
   "messages": [
     {
       "id": "BR045",
@@ -86,15 +86,6 @@
       "address": "3250 Elm Dr, Baton Rouge, LA 70805",
       "offer": "$0",
       "message": "Hey Nardu, love the potential of 3250 Elm Dr, Baton Rouge, LA 70805. I can offer $0 net to the seller. We're ready to move if they are."
-    },
-    {
-      "id": "BR039",
-      "name": "Billy Way",
-      "phone": "+12253351155",
-      "phoneDisplay": "225-335-1155",
-      "address": "536 Fall River Dr, Baton Rouge, LA 70815",
-      "offer": "$162,000",
-      "message": "Hi there, regarding 536 Fall River Dr, Baton Rouge, LA 70815 in Baton Rouge. I'd like to submit a cash offer for $162,000. Can we chat about the seller's situation?"
     },
     {
       "id": "BR044",
