@@ -1,0 +1,901 @@
+{
+  "generatedAt": "2026-06-15T03:49:42.440Z",
+  "throttleSeconds": {
+    "min": 120,
+    "max": 180
+  },
+  "count": 99,
+  "messages": [
+    {
+      "id": "Ciruela Rd NW, Albuq",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "Ciruela Rd NW, Albuquerque, NM 87120",
+      "offer": "$151,500",
+      "message": "Hey! Just saw Ciruela Rd NW, Albuquerque, NM 87120. It fits my criteria perfectly. I can do $151,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "7443 Snowy Egret Pl ",
+      "name": "Jean A Chavez",
+      "phone": "+15056205326",
+      "phoneDisplay": "505-620-5326",
+      "address": "7443 Snowy Egret Pl NW, Albuquerque, NM 87114",
+      "offer": "$186,000",
+      "message": "Greetings, I'm reaching out about the property on 7443 Snowy Egret Pl NW, Albuquerque, NM 87114. We're looking for our next project. Would a $186,000 cash offer be of interest?"
+    },
+    {
+      "id": "2 Prime Lots Volcano",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "2 Prime Lots Volcano Clfs, Albuquerque, NM 87120",
+      "offer": "$118,000",
+      "message": "Hey Amar, saw the listing at 2 Prime Lots Volcano Clfs, Albuquerque, NM 87120. I'm looking for a fixer-upper in Albuquerque. Any chance they'd take $118,000 as-is?"
+    },
+    {
+      "id": "Arcilla Volcano Clif",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "Arcilla Volcano Cliffs Pl NW, Albuquerque, NM 87120",
+      "offer": "$151,500",
+      "message": "Hello, I'm an investor interested in Arcilla Volcano Cliffs Pl NW, Albuquerque, NM 87120. Based on the work needed, I'm at $151,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "Township Road 18b Vo",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "Township Road 18b Volcano Cliffs Ac #1.95, Albuquerque, NM 87120",
+      "offer": "$42,500",
+      "message": "Hello, I'm an investor interested in Township Road 18b Volcano Cliffs Ac #1.95, Albuquerque, NM 87120. Based on the work needed, I'm at $42,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "2009 Blake Rd SW, Al",
+      "name": "Ralph M. Harvey",
+      "phone": "+18554564945",
+      "phoneDisplay": "855-456-4945",
+      "address": "2009 Blake Rd SW, Albuquerque, NM 87105",
+      "offer": "$137,500",
+      "message": "Hi there, regarding 2009 Blake Rd SW, Albuquerque, NM 87105 in Albuquerque. I'd like to submit a cash offer for $137,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "1401 Kirby St NE, Al",
+      "name": "Dan J Cash",
+      "phone": "+15054804532",
+      "phoneDisplay": "505-480-4532",
+      "address": "1401 Kirby St NE, Albuquerque, NM 87112",
+      "offer": "$163,000",
+      "message": "Hey! Just saw 1401 Kirby St NE, Albuquerque, NM 87112. It fits my criteria perfectly. I can do $163,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "1800 Walter St SE, A",
+      "name": "Medina Real Estate Inc",
+      "phone": "+15053752062",
+      "phoneDisplay": "505-375-2062",
+      "address": "1800 Walter St SE, Albuquerque, NM 87102",
+      "offer": "$114,500",
+      "message": "Hey there, saw the listing at 1800 Walter St SE, Albuquerque, NM 87102. I'm looking for a fixer-upper in Albuquerque. Any chance they'd take $114,500 as-is?"
+    },
+    {
+      "id": "4701 Morris St NE AP",
+      "name": "Justin Ray Segura",
+      "phone": "+19707129333",
+      "phoneDisplay": "970-712-9333",
+      "address": "4701 Morris St NE APT 2604, Albuquerque, NM 87111",
+      "offer": "$108,000",
+      "message": "Hi Justin, I buy homes in Albuquerque in any condition. For 4701 Morris St NE APT 2604, Albuquerque, NM 87111 I can offer $108,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "2426 Dora Ave NW, Al",
+      "name": "Chad R. Werenko",
+      "phone": "+15057206324",
+      "phoneDisplay": "505-720-6324",
+      "address": "2426 Dora Ave NW, Albuquerque, NM 87104",
+      "offer": "$178,500",
+      "message": "Hi Chad, is 2426 Dora Ave NW, Albuquerque, NM 87104 still available? I'm interested in an as-is purchase. My max offer is $178,500. Thoughts?"
+    },
+    {
+      "id": "3078 Benny Rd SW, Al",
+      "name": "Yvette V Lozoya",
+      "phone": "+15053285011",
+      "phoneDisplay": "505-328-5011",
+      "address": "3078 Benny Rd SW, Albuquerque, NM 87105",
+      "offer": "$87,500",
+      "message": "Hi Yvette, I'm interested in 3078 Benny Rd SW, Albuquerque, NM 87105. Would your seller consider a cash offer around $87,500? I can close quickly."
+    },
+    {
+      "id": "530 Utah St SE Trail",
+      "name": "Liliana Martinez",
+      "phone": "+15052260166",
+      "phoneDisplay": "505-226-0166",
+      "address": "530 Utah St SE Trailer 14A, Albuquerque, NM 87108",
+      "offer": "$0",
+      "message": "Hello, I'm an investor interested in 530 Utah St SE Trailer 14A, Albuquerque, NM 87108. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "316 General Bradley ",
+      "name": "Nancy Sharon Apodaca",
+      "phone": "+15055079953",
+      "phoneDisplay": "505-507-9953",
+      "address": "316 General Bradley St NE, Albuquerque, NM 87123",
+      "offer": "$151,500",
+      "message": "Hey Nancy, love the potential of 316 General Bradley St NE, Albuquerque, NM 87123. I can offer $151,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "1040 Kentucky St SE,",
+      "name": "Karen Brown",
+      "phone": "+15055501447",
+      "phoneDisplay": "505-550-1447",
+      "address": "1040 Kentucky St SE, Albuquerque, NM 87108",
+      "offer": "$131,000",
+      "message": "Hi Karen, I buy homes in Albuquerque in any condition. For 1040 Kentucky St SE, Albuquerque, NM 87108 I can offer $131,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "712 Thaxton Ave SE, ",
+      "name": "David R Vazquez",
+      "phone": "+15058350779",
+      "phoneDisplay": "505-835-0779",
+      "address": "712 Thaxton Ave SE, Albuquerque, NM 87102",
+      "offer": "$111,500",
+      "message": "Hello, I'm an investor interested in 712 Thaxton Ave SE, Albuquerque, NM 87102. Based on the work needed, I'm at $111,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1204 Edith Blvd SE, ",
+      "name": "Kameo Layce Rodriguez",
+      "phone": "+15754189137",
+      "phoneDisplay": "575-418-9137",
+      "address": "1204 Edith Blvd SE, Albuquerque, NM 87102",
+      "offer": "$138,000",
+      "message": "Greetings, I'm reaching out about the property on 1204 Edith Blvd SE, Albuquerque, NM 87102. We're looking for our next project. Would a $138,000 cash offer be of interest?"
+    },
+    {
+      "id": "1015 Barelas St SW, ",
+      "name": "Maria G. Zamarripa",
+      "phone": "+15057302619",
+      "phoneDisplay": "505-730-2619",
+      "address": "1015 Barelas St SW, Albuquerque, NM 87102",
+      "offer": "$158,500",
+      "message": "Hi Maria, is 1015 Barelas St SW, Albuquerque, NM 87102 still available? I'm interested in an as-is purchase. My max offer is $158,500. Thoughts?"
+    },
+    {
+      "id": "3809 Santa Anita Rd ",
+      "name": "NM Home Deals Inc.",
+      "phone": "+15054331636",
+      "phoneDisplay": "505-433-1636",
+      "address": "3809 Santa Anita Rd SW, Albuquerque, NM 87105",
+      "offer": "$151,500",
+      "message": "Hi there, quick question on 3809 Santa Anita Rd SW, Albuquerque, NM 87105. Would they be open to a $151,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "2 Package 6509/6513 ",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "2 Package 6509/6513 Arcilla Pl NW, Albuquerque, NM 87120",
+      "offer": "$101,000",
+      "message": "Hi Amar, I buy homes in Albuquerque in any condition. For 2 Package 6509/6513 Arcilla Pl NW, Albuquerque, NM 87120 I can offer $101,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "10504 Olympic St NW,",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "10504 Olympic St NW, Albuquerque, NM 87114",
+      "offer": "$103,500",
+      "message": "Hello, I'm an investor interested in 10504 Olympic St NW, Albuquerque, NM 87114. Based on the work needed, I'm at $103,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "6305 Camino Alto Rd ",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "6305 Camino Alto Rd NW, Albuquerque, NM 87120",
+      "offer": "$138,000",
+      "message": "Hi Amar, I buy homes in Albuquerque in any condition. For 6305 Camino Alto Rd NW, Albuquerque, NM 87120 I can offer $138,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "3920 Bryan Ave NW, A",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "3920 Bryan Ave NW, Albuquerque, NM 87114",
+      "offer": "$111,500",
+      "message": "Hey Amar, love the potential of 3920 Bryan Ave NW, Albuquerque, NM 87114. I can offer $111,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "4000 Bryan Ave NW, A",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "4000 Bryan Ave NW, Albuquerque, NM 87114",
+      "offer": "$111,500",
+      "message": "Greetings, I'm reaching out about the property on 4000 Bryan Ave NW, Albuquerque, NM 87114. We're looking for our next project. Would a $111,500 cash offer be of interest?"
+    },
+    {
+      "id": "7827 Urraca St NW, A",
+      "name": "Amar Tesch",
+      "phone": "+15059007203",
+      "phoneDisplay": "505-900-7203",
+      "address": "7827 Urraca St NW, Albuquerque, NM 87120",
+      "offer": "$138,000",
+      "message": "Hey! Just saw 7827 Urraca St NW, Albuquerque, NM 87120. It fits my criteria perfectly. I can do $138,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "13420 Chico Rd NE, A",
+      "name": "Orlando R. Gonzales",
+      "phone": "+15058044204",
+      "phoneDisplay": "505-804-4204",
+      "address": "13420 Chico Rd NE, Albuquerque, NM 87123",
+      "offer": "$175,500",
+      "message": "Hi Orlando, is 13420 Chico Rd NE, Albuquerque, NM 87123 still available? I'm interested in an as-is purchase. My max offer is $175,500. Thoughts?"
+    },
+    {
+      "id": "5732 Wood Dr SW, Alb",
+      "name": "Jason Lieberman",
+      "phone": "+15057153505",
+      "phoneDisplay": "505-715-3505",
+      "address": "5732 Wood Dr SW, Albuquerque, NM 87105",
+      "offer": "$143,500",
+      "message": "Greetings, I'm reaching out about the property on 5732 Wood Dr SW, Albuquerque, NM 87105. We're looking for our next project. Would a $143,500 cash offer be of interest?"
+    },
+    {
+      "id": "314 49th St NW, Albu",
+      "name": "Medina Real Estate Inc",
+      "phone": "+15053752062",
+      "phoneDisplay": "505-375-2062",
+      "address": "314 49th St NW, Albuquerque, NM 87105",
+      "offer": "$158,500",
+      "message": "Hi there, is 314 49th St NW, Albuquerque, NM 87105 still available? I'm interested in an as-is purchase. My max offer is $158,500. Thoughts?"
+    },
+    {
+      "id": "6541 W OSBORN Road, ",
+      "name": "Stephanie P Vogel",
+      "phone": "+16239106199",
+      "phoneDisplay": "623-910-6199",
+      "address": "6541 W OSBORN Road, Phoenix, AZ 85033",
+      "offer": "$148,000",
+      "message": "Greetings, I'm reaching out about the property on 6541 W OSBORN Road, Phoenix, AZ 85033. We're looking for our next project. Would a $148,000 cash offer be of interest?"
+    },
+    {
+      "id": "3830 E LAKEWOOD Park",
+      "name": "Becky Hansen",
+      "phone": "+16026923248",
+      "phoneDisplay": "602-692-3248",
+      "address": "3830 E LAKEWOOD Parkway E #2057, Phoenix, AZ 85048",
+      "offer": "$186,000",
+      "message": "Hey Becky, saw the listing at 3830 E LAKEWOOD Parkway E #2057, Phoenix, AZ 85048. I'm looking for a fixer-upper in Phoenix. Any chance they'd take $186,000 as-is?"
+    },
+    {
+      "id": "8243 N 34TH Drive, P",
+      "name": "Mike Schude",
+      "phone": "+14802019593",
+      "phoneDisplay": "480-201-9593",
+      "address": "8243 N 34TH Drive, Phoenix, AZ 85051",
+      "offer": "$94,000",
+      "message": "Hi Mike, quick question on 8243 N 34TH Drive, Phoenix, AZ 85051. Would they be open to a $94,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "5308 W LEWIS Avenue ",
+      "name": "Mladenka Trifonova",
+      "phone": "+16028107469",
+      "phoneDisplay": "602-810-7469",
+      "address": "5308 W LEWIS Avenue W, Phoenix, AZ 85035",
+      "offer": "$186,000",
+      "message": "Greetings, I'm reaching out about the property on 5308 W LEWIS Avenue W, Phoenix, AZ 85035. We're looking for our next project. Would a $186,000 cash offer be of interest?"
+    },
+    {
+      "id": "7630 W AVALON Drive,",
+      "name": "Mladenka Trifonova",
+      "phone": "+16028107469",
+      "phoneDisplay": "602-810-7469",
+      "address": "7630 W AVALON Drive, Phoenix, AZ 85033",
+      "offer": "$192,500",
+      "message": "Hi there, regarding 7630 W AVALON Drive, Phoenix, AZ 85033 in Phoenix. I'd like to submit a cash offer for $192,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "5525 E THOMAS Road #",
+      "name": "Lindsey Brumagin",
+      "phone": "+16237428889",
+      "phoneDisplay": "623-742-8889",
+      "address": "5525 E THOMAS Road #R9, Phoenix, AZ 85018",
+      "offer": "$158,500",
+      "message": "Hello Lindsey, following up on 5525 E THOMAS Road #R9, Phoenix, AZ 85018. My all-cash number is $158,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "950 W ROMA Avenue, P",
+      "name": "D David Lee",
+      "phone": "+16235214009",
+      "phoneDisplay": "623-521-4009",
+      "address": "950 W ROMA Avenue, Phoenix, AZ 85013",
+      "offer": "$192,000",
+      "message": "Hello! Regarding 950 W ROMA Avenue, Phoenix, AZ 85013, I'm a local investor. My numbers work at $192,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "8910 N 10TH Street, ",
+      "name": "Hector Hernandez",
+      "phone": "+16233266906",
+      "phoneDisplay": "623-326-6906",
+      "address": "8910 N 10TH Street, Phoenix, AZ 85020",
+      "offer": "$128,500",
+      "message": "Hi Hector, I'm interested in 8910 N 10TH Street, Phoenix, AZ 85020. Would your seller consider a cash offer around $128,500? I can close quickly."
+    },
+    {
+      "id": "2032 W STATE Avenue,",
+      "name": "Sinan Zakaria",
+      "phone": "+18009955879",
+      "phoneDisplay": "800-995-5879",
+      "address": "2032 W STATE Avenue, Phoenix, AZ 85021",
+      "offer": "$179,000",
+      "message": "Hi Sinan, quick question on 2032 W STATE Avenue, Phoenix, AZ 85021. Would they be open to a $179,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "8410 N 32ND Avenue, ",
+      "name": "Robert Babineau",
+      "phone": "+17082688125",
+      "phoneDisplay": "708-268-8125",
+      "address": "8410 N 32ND Avenue, Phoenix, AZ 85051",
+      "offer": "$175,500",
+      "message": "Greetings, I'm reaching out about the property on 8410 N 32ND Avenue, Phoenix, AZ 85051. We're looking for our next project. Would a $175,500 cash offer be of interest?"
+    },
+    {
+      "id": "1010 N 18TH Street, ",
+      "name": "Mark St. Peter",
+      "phone": "+17072172428",
+      "phoneDisplay": "707-217-2428",
+      "address": "1010 N 18TH Street, Phoenix, AZ 85006",
+      "offer": "$171,500",
+      "message": "Hi Mark, quick question on 1010 N 18TH Street, Phoenix, AZ 85006. Would they be open to a $171,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "4030 W MARICOPA Stre",
+      "name": "Karina Segovia-Garcia",
+      "phone": "+16023910139",
+      "phoneDisplay": "602-391-0139",
+      "address": "4030 W MARICOPA Street, Phoenix, AZ 85009",
+      "offer": "$158,500",
+      "message": "Hi Karina, I'm interested in 4030 W MARICOPA Street, Phoenix, AZ 85009. Would your seller consider a cash offer around $158,500? I can close quickly."
+    },
+    {
+      "id": "2412 E MARMORA Stree",
+      "name": "R Carl Cunningham",
+      "phone": "+16026474900",
+      "phoneDisplay": "602-647-4900",
+      "address": "2412 E MARMORA Street, Phoenix, AZ 85032",
+      "offer": "$158,500",
+      "message": "Hey! Just saw 2412 E MARMORA Street, Phoenix, AZ 85032. It fits my criteria perfectly. I can do $158,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "921 S 3RD Avenue, Ph",
+      "name": "Francisco J Martinez",
+      "phone": "+16024020791",
+      "phoneDisplay": "602-402-0791",
+      "address": "921 S 3RD Avenue, Phoenix, AZ 85003",
+      "offer": "$165,500",
+      "message": "Hello! Regarding 921 S 3RD Avenue, Phoenix, AZ 85003, I'm a local investor. My numbers work at $165,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "1021 E TAYLOR Street",
+      "name": "Scott Porambo",
+      "phone": "+16029803446",
+      "phoneDisplay": "602-980-3446",
+      "address": "1021 E TAYLOR Street, Phoenix, AZ 85006",
+      "offer": "$192,500",
+      "message": "Hi there, regarding 1021 E TAYLOR Street, Phoenix, AZ 85006 in Phoenix. I'd like to submit a cash offer for $192,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "1638 W MOHAVE Street",
+      "name": "Maico S Olivares",
+      "phone": "+14807819716",
+      "phoneDisplay": "480-781-9716",
+      "address": "1638 W MOHAVE Street, Phoenix, AZ 85007",
+      "offer": "$101,000",
+      "message": "Greetings, I'm reaching out about the property on 1638 W MOHAVE Street, Phoenix, AZ 85007. We're looking for our next project. Would a $101,000 cash offer be of interest?"
+    },
+    {
+      "id": "1630 E ADAMS Street,",
+      "name": "Kelley Norton",
+      "phone": "+16023305856",
+      "phoneDisplay": "602-330-5856",
+      "address": "1630 E ADAMS Street, Phoenix, AZ 85034",
+      "offer": "$186,000",
+      "message": "Hi Kelley, quick question on 1630 E ADAMS Street, Phoenix, AZ 85034. Would they be open to a $186,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "13050 N 19TH Street ",
+      "name": "Suzy Lieber",
+      "phone": "+16235875745",
+      "phoneDisplay": "623-587-5745",
+      "address": "13050 N 19TH Street #50, Phoenix, AZ 85022",
+      "offer": "$70,000",
+      "message": "Hey Suzy, love the potential of 13050 N 19TH Street #50, Phoenix, AZ 85022. I can offer $70,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "725 W SOUTHGATE Aven",
+      "name": "Gonzalo Moreno",
+      "phone": "+16022144488",
+      "phoneDisplay": "602-214-4488",
+      "address": "725 W SOUTHGATE Avenue W, Phoenix, AZ 85041",
+      "offer": "$151,500",
+      "message": "Hi Gonzalo, is 725 W SOUTHGATE Avenue W, Phoenix, AZ 85041 still available? I'm interested in an as-is purchase. My max offer is $151,500. Thoughts?"
+    },
+    {
+      "id": "1802 E Campo Bello D",
+      "name": "Heather Macpherson",
+      "phone": "+14802038712",
+      "phoneDisplay": "480-203-8712",
+      "address": "1802 E Campo Bello Drive #92, Phoenix, AZ 85022",
+      "offer": "$6,500",
+      "message": "Hello! Regarding 1802 E Campo Bello Drive #92, Phoenix, AZ 85022, I'm a local investor. My numbers work at $6,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "1816 N 37th Avenue, ",
+      "name": "Matthew R Firek",
+      "phone": "+16029310801",
+      "phoneDisplay": "602-931-0801",
+      "address": "1816 N 37th Avenue, Phoenix, AZ 85009",
+      "offer": "$162,000",
+      "message": "Hello Matthew, following up on 1816 N 37th Avenue, Phoenix, AZ 85009. My all-cash number is $162,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "3507 E SANDRA Terrac",
+      "name": "Darrin M Fox",
+      "phone": "+16028829700",
+      "phoneDisplay": "602-882-9700",
+      "address": "3507 E SANDRA Terrace, Phoenix, AZ 85032",
+      "offer": "$148,000",
+      "message": "Greetings, I'm reaching out about the property on 3507 E SANDRA Terrace, Phoenix, AZ 85032. We're looking for our next project. Would a $148,000 cash offer be of interest?"
+    },
+    {
+      "id": "520 W CLARENDON Aven",
+      "name": "Pamela A. Huggins",
+      "phone": "+16023175959",
+      "phoneDisplay": "602-317-5959",
+      "address": "520 W CLARENDON Avenue #C3, Phoenix, AZ 85013",
+      "offer": "$110,500",
+      "message": "Hello, I'm an investor interested in 520 W CLARENDON Avenue #C3, Phoenix, AZ 85013. Based on the work needed, I'm at $110,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "5201 W Camelback Rd ",
+      "name": "Crystal Takacs",
+      "phone": "+16238467230",
+      "phoneDisplay": "623-846-7230",
+      "address": "5201 W Camelback Rd Lot A174, Phoenix, AZ 85031",
+      "offer": "$0",
+      "message": "Hi Crystal, quick question on 5201 W Camelback Rd Lot A174, Phoenix, AZ 85031. Would they be open to a $0 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "4009 W ORANGE Drive ",
+      "name": "Natalie Matthews",
+      "phone": "+14803640949",
+      "phoneDisplay": "480-364-0949",
+      "address": "4009 W ORANGE Drive #36, Phoenix, AZ 85019",
+      "offer": "$150,000",
+      "message": "Hi Natalie, is 4009 W ORANGE Drive #36, Phoenix, AZ 85019 still available? I'm interested in an as-is purchase. My max offer is $150,000. Thoughts?"
+    },
+    {
+      "id": "1921 W WHITTON Avenu",
+      "name": "Jason Shinn",
+      "phone": "+19283018063",
+      "phoneDisplay": "928-301-8063",
+      "address": "1921 W WHITTON Avenue, Phoenix, AZ 85015",
+      "offer": "$182,500",
+      "message": "Hi Jason, I'm interested in 1921 W WHITTON Avenue, Phoenix, AZ 85015. Would your seller consider a cash offer around $182,500? I can close quickly."
+    },
+    {
+      "id": "2222 Detroit Ave APT",
+      "name": "Tera Somogyi",
+      "phone": "+15619019331",
+      "phoneDisplay": "561-901-9331",
+      "address": "2222 Detroit Ave APT 504, Cleveland, OH 44113",
+      "offer": "$141,000",
+      "message": "Hi Tera, quick question on 2222 Detroit Ave APT 504, Cleveland, OH 44113. Would they be open to a $141,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "18310 La Salle Ave, ",
+      "name": "Asa A Cox",
+      "phone": "+14404793100",
+      "phoneDisplay": "440-479-3100",
+      "address": "18310 La Salle Ave, Cleveland, OH 44119",
+      "offer": "$65,500",
+      "message": "Hi Asa, I buy homes in Cleveland in any condition. For 18310 La Salle Ave, Cleveland, OH 44119 I can offer $65,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "3237 W 30th St, Clev",
+      "name": "Ebony B Davis",
+      "phone": "+14407230793",
+      "phoneDisplay": "440-723-0793",
+      "address": "3237 W 30th St, Cleveland, OH 44109",
+      "offer": "$55,000",
+      "message": "Hello, I'm an investor interested in 3237 W 30th St, Cleveland, OH 44109. Based on the work needed, I'm at $55,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "3419 Woodbridge Ave,",
+      "name": "Scott Fader",
+      "phone": "+18882271009",
+      "phoneDisplay": "888-227-1009",
+      "address": "3419 Woodbridge Ave, Cleveland, OH 44109",
+      "offer": "$100,500",
+      "message": "Hello, I'm an investor interested in 3419 Woodbridge Ave, Cleveland, OH 44109. Based on the work needed, I'm at $100,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "3419 E 70th St, Clev",
+      "name": "Jeffrey Schultheis",
+      "phone": "+14192956771",
+      "phoneDisplay": "419-295-6771",
+      "address": "3419 E 70th St, Cleveland, OH 44127",
+      "offer": "$500",
+      "message": "Hi Jeffrey, quick question on 3419 E 70th St, Cleveland, OH 44127. Would they be open to a $500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "5911 Lexington Ave, ",
+      "name": "Daniel S Reid",
+      "phone": "+12163870757",
+      "phoneDisplay": "216-387-0757",
+      "address": "5911 Lexington Ave, Cleveland, OH 44103",
+      "offer": "$24,500",
+      "message": "Hi Daniel, is 5911 Lexington Ave, Cleveland, OH 44103 still available? I'm interested in an as-is purchase. My max offer is $24,500. Thoughts?"
+    },
+    {
+      "id": "9702 Parkview Ave, C",
+      "name": "Steven Koleno",
+      "phone": "+18046565007",
+      "phoneDisplay": "804-656-5007",
+      "address": "9702 Parkview Ave, Cleveland, OH 44104",
+      "offer": "$38,500",
+      "message": "Hello, I'm an investor interested in 9702 Parkview Ave, Cleveland, OH 44104. Based on the work needed, I'm at $38,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1356 W 112th St, Cle",
+      "name": "Elizabeth F Paskin",
+      "phone": "+12164074727",
+      "phoneDisplay": "216-407-4727",
+      "address": "1356 W 112th St, Cleveland, OH 44102",
+      "offer": "$91,500",
+      "message": "Hey Elizabeth, love the potential of 1356 W 112th St, Cleveland, OH 44102. I can offer $91,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "3357 W 30th St, Clev",
+      "name": "Daniel S Reid",
+      "phone": "+12163870757",
+      "phoneDisplay": "216-387-0757",
+      "address": "3357 W 30th St, Cleveland, OH 44109",
+      "offer": "$53,000",
+      "message": "Hi there, regarding 3357 W 30th St, Cleveland, OH 44109 in Cleveland. I'd like to submit a cash offer for $53,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "1141 E 140th St, Cle",
+      "name": "Camellia R Dabney",
+      "phone": "+12168829171",
+      "phoneDisplay": "216-882-9171",
+      "address": "1141 E 140th St, Cleveland, OH 44110",
+      "offer": "$101,000",
+      "message": "Hello, I'm an investor interested in 1141 E 140th St, Cleveland, OH 44110. Based on the work needed, I'm at $101,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "2166 W 93rd St, Clev",
+      "name": "Tal Tamir",
+      "phone": "+12168708687",
+      "phoneDisplay": "216-870-8687",
+      "address": "2166 W 93rd St, Cleveland, OH 44102",
+      "offer": "$66,500",
+      "message": "Hi Tal, I buy homes in Cleveland in any condition. For 2166 W 93rd St, Cleveland, OH 44102 I can offer $66,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "4403 Fenwick Ave, Cl",
+      "name": "Charles D Medalie",
+      "phone": "+18554564945",
+      "phoneDisplay": "855-456-4945",
+      "address": "4403 Fenwick Ave, Cleveland, OH 44113",
+      "offer": "$59,000",
+      "message": "Hey! Just saw 4403 Fenwick Ave, Cleveland, OH 44113. It fits my criteria perfectly. I can do $59,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "3810 Biddulph Ave, C",
+      "name": "Jeff Glover",
+      "phone": "+12163180231",
+      "phoneDisplay": "216-318-0231",
+      "address": "3810 Biddulph Ave, Cleveland, OH 44109",
+      "offer": "$121,000",
+      "message": "Hi there, regarding 3810 Biddulph Ave, Cleveland, OH 44109 in Cleveland. I'd like to submit a cash offer for $121,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "3879 W 21st St, Clev",
+      "name": "Ashley N Schultz",
+      "phone": "+12162649898",
+      "phoneDisplay": "216-264-9898",
+      "address": "3879 W 21st St, Cleveland, OH 44109",
+      "offer": "$66,500",
+      "message": "Hello Ashley, following up on 3879 W 21st St, Cleveland, OH 44109. My all-cash number is $66,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "12621 Hirst Ave, Cle",
+      "name": "Abe M Abdulla",
+      "phone": "+12162105091",
+      "phoneDisplay": "216-210-5091",
+      "address": "12621 Hirst Ave, Cleveland, OH 44135",
+      "offer": "$94,000",
+      "message": "Hi Abe, is 12621 Hirst Ave, Cleveland, OH 44135 still available? I'm interested in an as-is purchase. My max offer is $94,000. Thoughts?"
+    },
+    {
+      "id": "9016 Harris Ave, Cle",
+      "name": "Johnny Kincaid",
+      "phone": "+17025140318",
+      "phoneDisplay": "702-514-0318",
+      "address": "9016 Harris Ave, Cleveland, OH 44104",
+      "offer": "$37,500",
+      "message": "Hello, I'm an investor interested in 9016 Harris Ave, Cleveland, OH 44104. Based on the work needed, I'm at $37,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "12607 Oakfield Ave, ",
+      "name": "Jamila Smith",
+      "phone": "+13309062107",
+      "phoneDisplay": "330-906-2107",
+      "address": "12607 Oakfield Ave, Cleveland, OH 44105",
+      "offer": "$19,500",
+      "message": "Hello Jamila, following up on 12607 Oakfield Ave, Cleveland, OH 44105. My all-cash number is $19,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "1346 W 54th St, Clev",
+      "name": "Leilani M Bowersock",
+      "phone": "+14405709514",
+      "phoneDisplay": "440-570-9514",
+      "address": "1346 W 54th St, Cleveland, OH 44102",
+      "offer": "$128,000",
+      "message": "Hello, I'm an investor interested in 1346 W 54th St, Cleveland, OH 44102. Based on the work needed, I'm at $128,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "11905 Shadeland Ave,",
+      "name": "David S Sharkey",
+      "phone": "+12165331617",
+      "phoneDisplay": "216-533-1617",
+      "address": "11905 Shadeland Ave, Cleveland, OH 44108",
+      "offer": "$38,500",
+      "message": "Hi David, quick question on 11905 Shadeland Ave, Cleveland, OH 44108. Would they be open to a $38,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "8018 Platt Ave, Clev",
+      "name": "Gregory A Scott",
+      "phone": "+12167981938",
+      "phoneDisplay": "216-798-1938",
+      "address": "8018 Platt Ave, Cleveland, OH 44104",
+      "offer": "$25,500",
+      "message": "Hi Gregory, is 8018 Platt Ave, Cleveland, OH 44104 still available? I'm interested in an as-is purchase. My max offer is $25,500. Thoughts?"
+    },
+    {
+      "id": "12125 Angelus Ave, C",
+      "name": "Judith E Lesesne",
+      "phone": "+14405743461",
+      "phoneDisplay": "440-574-3461",
+      "address": "12125 Angelus Ave, Cleveland, OH 44105",
+      "offer": "$34,000",
+      "message": "Hello! Regarding 12125 Angelus Ave, Cleveland, OH 44105, I'm a local investor. My numbers work at $34,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "18011 Windward Rd, C",
+      "name": "Dulcey Barr",
+      "phone": "+12162355241",
+      "phoneDisplay": "216-235-5241",
+      "address": "18011 Windward Rd, Cleveland, OH 44119",
+      "offer": "$66,500",
+      "message": "Hey Dulcey, saw the listing at 18011 Windward Rd, Cleveland, OH 44119. I'm looking for a fixer-upper in Cleveland. Any chance they'd take $66,500 as-is?"
+    },
+    {
+      "id": "6211 Fullerton Ave, ",
+      "name": "William M Davis",
+      "phone": "+12167121314",
+      "phoneDisplay": "216-712-1314",
+      "address": "6211 Fullerton Ave, Cleveland, OH 44105",
+      "offer": "$37,500",
+      "message": "Hi William, I buy homes in Cleveland in any condition. For 6211 Fullerton Ave, Cleveland, OH 44105 I can offer $37,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "10121 Jasper Ave, Cl",
+      "name": "Eileen A Hawkins",
+      "phone": "+12165240424",
+      "phoneDisplay": "216-524-0424",
+      "address": "10121 Jasper Ave, Cleveland, OH 44111",
+      "offer": "$121,500",
+      "message": "Hello, I'm an investor interested in 10121 Jasper Ave, Cleveland, OH 44111. Based on the work needed, I'm at $121,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "3497 W 46th St, Clev",
+      "name": "Dean Fygetakes",
+      "phone": "+13304723750",
+      "phoneDisplay": "330-472-3750",
+      "address": "3497 W 46th St, Cleveland, OH 44102",
+      "offer": "$0",
+      "message": "Hey! Just saw 3497 W 46th St, Cleveland, OH 44102. It fits my criteria perfectly. I can do $0 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "5906 Bower Ave, Clev",
+      "name": "Coby Socher",
+      "phone": "+12162589951",
+      "phoneDisplay": "216-258-9951",
+      "address": "5906 Bower Ave, Cleveland, OH 44127",
+      "offer": "$25,500",
+      "message": "Hi Coby, quick question on 5906 Bower Ave, Cleveland, OH 44127. Would they be open to a $25,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "4137 W 157th St, Cle",
+      "name": "Drew Vaneck",
+      "phone": "+14408995044",
+      "phoneDisplay": "440-899-5044",
+      "address": "4137 W 157th St, Cleveland, OH 44135",
+      "offer": "$60,000",
+      "message": "Hi Drew, quick question on 4137 W 157th St, Cleveland, OH 44135. Would they be open to a $60,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "10712 Grantwood Ave,",
+      "name": "Leilani M Bowersock",
+      "phone": "+14405709514",
+      "phoneDisplay": "440-570-9514",
+      "address": "10712 Grantwood Ave, Cleveland, OH 44108",
+      "offer": "$29,000",
+      "message": "Hello, I'm an investor interested in 10712 Grantwood Ave, Cleveland, OH 44108. Based on the work needed, I'm at $29,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "16321 Stockbridge Av",
+      "name": "Alexander Vinokur",
+      "phone": "+14406661900",
+      "phoneDisplay": "440-666-1900",
+      "address": "16321 Stockbridge Ave, Cleveland, OH 44128",
+      "offer": "$38,500",
+      "message": "Hello! Regarding 16321 Stockbridge Ave, Cleveland, OH 44128, I'm a local investor. My numbers work at $38,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "3194 W 95th St, Clev",
+      "name": "Glen G Whitten",
+      "phone": "+14197903106",
+      "phoneDisplay": "419-790-3106",
+      "address": "3194 W 95th St, Cleveland, OH 44102",
+      "offer": "$23,500",
+      "message": "Greetings, I'm reaching out about the property on 3194 W 95th St, Cleveland, OH 44102. We're looking for our next project. Would a $23,500 cash offer be of interest?"
+    },
+    {
+      "id": "889 E 128th St, Clev",
+      "name": "Shane Reid",
+      "phone": "+13305777080",
+      "phoneDisplay": "330-577-7080",
+      "address": "889 E 128th St, Cleveland, OH 44108",
+      "offer": "$42,000",
+      "message": "Hi Shane, I buy homes in Cleveland in any condition. For 889 E 128th St, Cleveland, OH 44108 I can offer $42,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "987 E 129th St, Clev",
+      "name": "Doxie M Jelks",
+      "phone": "+12164703492",
+      "phoneDisplay": "216-470-3492",
+      "address": "987 E 129th St, Cleveland, OH 44108",
+      "offer": "$21,000",
+      "message": "Hey Doxie, saw the listing at 987 E 129th St, Cleveland, OH 44108. I'm looking for a fixer-upper in Cleveland. Any chance they'd take $21,000 as-is?"
+    },
+    {
+      "id": "4535 W 157th St, Cle",
+      "name": "Karelin Bruno",
+      "phone": "+12167694056",
+      "phoneDisplay": "216-769-4056",
+      "address": "4535 W 157th St, Cleveland, OH 44135",
+      "offer": "$80,500",
+      "message": "Hello! Regarding 4535 W 157th St, Cleveland, OH 44135, I'm a local investor. My numbers work at $80,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "3309 E 146th St, Cle",
+      "name": "De'Chella Woodruff",
+      "phone": "+12164038180",
+      "phoneDisplay": "216-403-8180",
+      "address": "3309 E 146th St, Cleveland, OH 44120",
+      "offer": "$38,500",
+      "message": "Hi De'Chella, I buy homes in Cleveland in any condition. For 3309 E 146th St, Cleveland, OH 44120 I can offer $38,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "1861 Torbenson Dr, C",
+      "name": "Dustin Hepburn",
+      "phone": "+16157522122",
+      "phoneDisplay": "615-752-2122",
+      "address": "1861 Torbenson Dr, Cleveland, OH 44112",
+      "offer": "$4,000",
+      "message": "Hello! Regarding 1861 Torbenson Dr, Cleveland, OH 44112, I'm a local investor. My numbers work at $4,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "9601 Silk Ave, Cleve",
+      "name": "Gabe Mercado",
+      "phone": "+12167853225",
+      "phoneDisplay": "216-785-3225",
+      "address": "9601 Silk Ave, Cleveland, OH 44102",
+      "offer": "$80,500",
+      "message": "Hi there, regarding 9601 Silk Ave, Cleveland, OH 44102 in Cleveland. I'd like to submit a cash offer for $80,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "4386 W 48th St, Clev",
+      "name": "John H Fitch",
+      "phone": "+14402136556",
+      "phoneDisplay": "440-213-6556",
+      "address": "4386 W 48th St, Cleveland, OH 44144",
+      "offer": "$73,500",
+      "message": "Hi John, I buy homes in Cleveland in any condition. For 4386 W 48th St, Cleveland, OH 44144 I can offer $73,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "3196 W 116th St, Cle",
+      "name": "Jeffrey Whitaker",
+      "phone": "+14407730584",
+      "phoneDisplay": "440-773-0584",
+      "address": "3196 W 116th St, Cleveland, OH 44111",
+      "offer": "$101,000",
+      "message": "Hello Jeffrey, following up on 3196 W 116th St, Cleveland, OH 44111. My all-cash number is $101,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "628 E 131st St, Clev",
+      "name": "Milton Williams",
+      "phone": "+13305029090",
+      "phoneDisplay": "330-502-9090",
+      "address": "628 E 131st St, Cleveland, OH 44108",
+      "offer": "$38,500",
+      "message": "Hi Milton, I'm interested in 628 E 131st St, Cleveland, OH 44108. Would your seller consider a cash offer around $38,500? I can close quickly."
+    },
+    {
+      "id": "1257 E 170th St, Cle",
+      "name": "Daniel S Reid",
+      "phone": "+12163870757",
+      "phoneDisplay": "216-387-0757",
+      "address": "1257 E 170th St, Cleveland, OH 44110",
+      "offer": "$21,000",
+      "message": "Greetings, I'm reaching out about the property on 1257 E 170th St, Cleveland, OH 44110. We're looking for our next project. Would a $21,000 cash offer be of interest?"
+    },
+    {
+      "id": "3698 Menlo Rd, Shake",
+      "name": "Valerie A Couch",
+      "phone": "+14405840003",
+      "phoneDisplay": "440-584-0003",
+      "address": "3698 Menlo Rd, Shaker Heights, OH 44120",
+      "offer": "$137,500",
+      "message": "Hey Valerie, love the potential of 3698 Menlo Rd, Shaker Heights, OH 44120. I can offer $137,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "7901 New York Ave, C",
+      "name": "Elliot A Stone",
+      "phone": "+12165700750",
+      "phoneDisplay": "216-570-0750",
+      "address": "7901 New York Ave, Cleveland, OH 44105",
+      "offer": "$46,000",
+      "message": "Hi Elliot, is 7901 New York Ave, Cleveland, OH 44105 still available? I'm interested in an as-is purchase. My max offer is $46,000. Thoughts?"
+    },
+    {
+      "id": "4440 Sexton Rd, Clev",
+      "name": "Gregory A Scott",
+      "phone": "+12167981938",
+      "phoneDisplay": "216-798-1938",
+      "address": "4440 Sexton Rd, Cleveland, OH 44105",
+      "offer": "$84,000",
+      "message": "Hi Gregory, quick question on 4440 Sexton Rd, Cleveland, OH 44105. Would they be open to a $84,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "11604 Tuscora Ave, C",
+      "name": "Cliff Louis",
+      "phone": "+12035549020",
+      "phoneDisplay": "203-554-9020",
+      "address": "11604 Tuscora Ave, Cleveland, OH 44108",
+      "offer": "$84,000",
+      "message": "Hi there, regarding 11604 Tuscora Ave, Cleveland, OH 44108 in Cleveland. I'd like to submit a cash offer for $84,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "4144 E 120th St, Cle",
+      "name": "Alana Vovk",
+      "phone": "+12164101948",
+      "phoneDisplay": "216-410-1948",
+      "address": "4144 E 120th St, Cleveland, OH 44105",
+      "offer": "$17,000",
+      "message": "Hi Alana, is 4144 E 120th St, Cleveland, OH 44105 still available? I'm interested in an as-is purchase. My max offer is $17,000. Thoughts?"
+    },
+    {
+      "id": "3319 Fulton Rd, Clev",
+      "name": "Alexander Vinokur",
+      "phone": "+14406661900",
+      "phoneDisplay": "440-666-1900",
+      "address": "3319 Fulton Rd, Cleveland, OH 44109",
+      "offer": "$21,000",
+      "message": "Hello Alexander, following up on 3319 Fulton Rd, Cleveland, OH 44109. My all-cash number is $21,000 with a flexible close date. Happy to send proof of funds."
+    }
+  ]
+}
