@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 39,
+  "count": 38,
   "messages": [
     {
       "id": "BR045",
@@ -104,15 +104,6 @@
       "address": "Ledoux Plan, Zachary Trails at Meadow View, Zachary, LA 70791",
       "offer": "$192,000",
       "message": "Hi there, regarding Ledoux Plan, Zachary Trails at Meadow View, Zachary, LA 70791 in Zachary. I'd like to submit a cash offer for $192,000. Can we chat about the seller's situation?"
-    },
-    {
-      "id": "BR029",
-      "name": "CJ Johnson",
-      "phone": "+12256102729",
-      "phoneDisplay": "225-610-2729",
-      "address": "6526 Martin Dr, Zachary, LA 70791",
-      "offer": "$128,500",
-      "message": "Hey CJ, saw the listing at 6526 Martin Dr, Zachary, LA 70791. I'm looking for a fixer-upper in Zachary. Any chance they'd take $128,500 as-is?"
     },
     {
       "id": "BR021",
