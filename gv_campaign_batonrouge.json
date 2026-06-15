@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 42,
+  "count": 41,
   "messages": [
     {
       "id": "BR045",
@@ -122,15 +122,6 @@
       "address": "Ledoux Plan, Zachary Trails at Meadow View, Zachary, LA 70791",
       "offer": "$192,000",
       "message": "Hi there, regarding Ledoux Plan, Zachary Trails at Meadow View, Zachary, LA 70791 in Zachary. I'd like to submit a cash offer for $192,000. Can we chat about the seller's situation?"
-    },
-    {
-      "id": "BR022",
-      "name": "Emma Scott",
-      "phone": "+12254002122",
-      "phoneDisplay": "225-400-2122",
-      "address": "5885 Lavey Ln #94, Baker, LA 70714",
-      "offer": "$51,000",
-      "message": "Hi Emma, I buy homes in Baker in any condition. For 5885 Lavey Ln #94, Baker, LA 70714 I can offer $51,000 cash, no repairs needed on your end. Open to it?"
     },
     {
       "id": "BR029",
