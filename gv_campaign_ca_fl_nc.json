@@ -1,0 +1,1837 @@
+{
+  "generatedAt": "2026-06-15T03:58:12.793Z",
+  "throttleSeconds": {
+    "min": 120,
+    "max": 180
+  },
+  "count": 203,
+  "messages": [
+    {
+      "id": "230 Sterling Rd, B",
+      "name": "Timothy Franklin McCrary",
+      "phone": "+16614960848",
+      "phoneDisplay": "661-496-0848",
+      "address": "230 Sterling Rd, Bakersfield, CA 93307",
+      "offer": "$124,000",
+      "message": "Hello Timothy, following up on 230 Sterling Rd, Bakersfield, CA 93307. My all-cash number is $124,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "2600 Brookside Dr ",
+      "name": "Jason Rodriguez",
+      "phone": "+16612209773",
+      "phoneDisplay": "661-220-9773",
+      "address": "2600 Brookside Dr APT 41, Bakersfield, CA 93311",
+      "offer": "$162,000",
+      "message": "Hello Jason, following up on 2600 Brookside Dr APT 41, Bakersfield, CA 93311. My all-cash number is $162,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "514 L St, Bakersfi",
+      "name": "Sonia Hernandez",
+      "phone": "+16262618577",
+      "phoneDisplay": "626-261-8577",
+      "address": "514 L St, Bakersfield, CA 93304",
+      "offer": "$124,000",
+      "message": "Hi Sonia, quick question on 514 L St, Bakersfield, CA 93304. Would they be open to a $124,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "3718 Barbara Ave, ",
+      "name": "Khaula Luna Kassas",
+      "phone": "+16613317268",
+      "phoneDisplay": "661-331-7268",
+      "address": "3718 Barbara Ave, Bakersfield, CA 93309",
+      "offer": "$192,500",
+      "message": "Hey Khaula, love the potential of 3718 Barbara Ave, Bakersfield, CA 93309. I can offer $192,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "228 Haybert Ct, Ba",
+      "name": "Michael Izik Melendez",
+      "phone": "+16614320604",
+      "phoneDisplay": "661-432-0604",
+      "address": "228 Haybert Ct, Bakersfield, CA 93304",
+      "offer": "$165,500",
+      "message": "Hello Michael, following up on 228 Haybert Ct, Bakersfield, CA 93304. My all-cash number is $165,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "4500 Blossom Valle",
+      "name": "Shelly A. Trahan",
+      "phone": "+16617470731",
+      "phoneDisplay": "661-747-0731",
+      "address": "4500 Blossom Valley Ln, Bakersfield, CA 93313",
+      "offer": "$170,500",
+      "message": "Hi Shelly, I'm interested in 4500 Blossom Valley Ln, Bakersfield, CA 93313. Would your seller consider a cash offer around $170,500? I can close quickly."
+    },
+    {
+      "id": "1401 El Sereno Dr,",
+      "name": "Hilda Muniz",
+      "phone": "+12092773303",
+      "phoneDisplay": "209-277-3303",
+      "address": "1401 El Sereno Dr, Bakersfield, CA 93304",
+      "offer": "$191,000",
+      "message": "Greetings, I'm reaching out about the property on 1401 El Sereno Dr, Bakersfield, CA 93304. We're looking for our next project. Would a $191,000 cash offer be of interest?"
+    },
+    {
+      "id": "213 T St, Bakersfi",
+      "name": "Veronica Hotchkiss",
+      "phone": "+18052765504",
+      "phoneDisplay": "805-276-5504",
+      "address": "213 T St, Bakersfield, CA 93304",
+      "offer": "$141,000",
+      "message": "Hello, I'm an investor interested in 213 T St, Bakersfield, CA 93304. Based on the work needed, I'm at $141,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "4401 Hughes Ln Spa",
+      "name": "Sylvia Cable",
+      "phone": "+16614770231",
+      "phoneDisplay": "661-477-0231",
+      "address": "4401 Hughes Ln Space 200, Bakersfield, CA 93304",
+      "offer": "$9,000",
+      "message": "Hello, I'm an investor interested in 4401 Hughes Ln Space 200, Bakersfield, CA 93304. Based on the work needed, I'm at $9,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1215 Oregon St, Ba",
+      "name": "Blodgie Marie Rodriguez",
+      "phone": "+16613192763",
+      "phoneDisplay": "661-319-2763",
+      "address": "1215 Oregon St, Bakersfield, CA 93305",
+      "offer": "$158,500",
+      "message": "Hello, I'm an investor interested in 1215 Oregon St, Bakersfield, CA 93305. Based on the work needed, I'm at $158,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "618 Dolores St, Ba",
+      "name": "Maria Maura Ojeda",
+      "phone": "+16613192912",
+      "phoneDisplay": "661-319-2912",
+      "address": "618 Dolores St, Bakersfield, CA 93305",
+      "offer": "$115,000",
+      "message": "Hello, I'm an investor interested in 618 Dolores St, Bakersfield, CA 93305. Based on the work needed, I'm at $115,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "139 Spruce St, Bak",
+      "name": "David Mercado",
+      "phone": "+16613489005",
+      "phoneDisplay": "661-348-9005",
+      "address": "139 Spruce St, Bakersfield, CA 93304",
+      "offer": "$155,000",
+      "message": "Hello! Regarding 139 Spruce St, Bakersfield, CA 93304, I'm a local investor. My numbers work at $155,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "600 Stirrup Ave, B",
+      "name": "Louis DiGonzini",
+      "phone": "+19496078543",
+      "phoneDisplay": "949-607-8543",
+      "address": "600 Stirrup Ave, Bakersfield, CA 93307",
+      "offer": "$189,500",
+      "message": "Hi Louis, is 600 Stirrup Ave, Bakersfield, CA 93307 still available? I'm interested in an as-is purchase. My max offer is $189,500. Thoughts?"
+    },
+    {
+      "id": "1033 Kern St, Bake",
+      "name": "Greg Giambo",
+      "phone": "+16613014723",
+      "phoneDisplay": "661-301-4723",
+      "address": "1033 Kern St, Bakersfield, CA 93305",
+      "offer": "$133,500",
+      "message": "Hey Greg, saw the listing at 1033 Kern St, Bakersfield, CA 93305. I'm looking for a fixer-upper in Bakersfield. Any chance they'd take $133,500 as-is?"
+    },
+    {
+      "id": "3419 SE 5th Ave, C",
+      "name": "Susan Ligmanowski",
+      "phone": "+18474143441",
+      "phoneDisplay": "847-414-3441",
+      "address": "3419 SE 5th Ave, Cape Coral, FL 33904",
+      "offer": "$151,500",
+      "message": "Hi there, regarding 3419 SE 5th Ave, Cape Coral, FL 33904 in Cape Coral. I'd like to submit a cash offer for $151,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "2923 SW 11th Ct, C",
+      "name": "Adrian Lammersdorf Sciolli",
+      "phone": "+14078080899",
+      "phoneDisplay": "407-808-0899",
+      "address": "2923 SW 11th Ct, Cape Coral, FL 33914",
+      "offer": "$104,500",
+      "message": "Hi Adrian, quick question on 2923 SW 11th Ct, Cape Coral, FL 33914. Would they be open to a $104,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "306 SW 29th St, Ca",
+      "name": "Judith Anglin",
+      "phone": "+12396346851",
+      "phoneDisplay": "239-634-6851",
+      "address": "306 SW 29th St, Cape Coral, FL 33914",
+      "offer": "$192,500",
+      "message": "Hi there, regarding 306 SW 29th St, Cape Coral, FL 33914 in Cape Coral. I'd like to submit a cash offer for $192,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "2009 NE 13th PL, C",
+      "name": "Elizabeth Mendez",
+      "phone": "+12397449405",
+      "phoneDisplay": "239-744-9405",
+      "address": "2009 NE 13th PL, Cape Coral, FL 33909",
+      "offer": "$144,500",
+      "message": "Hi Elizabeth, quick question on 2009 NE 13th PL, Cape Coral, FL 33909. Would they be open to a $144,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "4217 NW 32nd Ter, ",
+      "name": "Nancy Ammons",
+      "phone": "+12399106595",
+      "phoneDisplay": "239-910-6595",
+      "address": "4217 NW 32nd Ter, Cape Coral, FL 33993",
+      "offer": "$165,500",
+      "message": "Hello! Regarding 4217 NW 32nd Ter, Cape Coral, FL 33993, I'm a local investor. My numbers work at $165,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "2317 NW 30th Ter, ",
+      "name": "Alexander Izikson",
+      "phone": "+17819969676",
+      "phoneDisplay": "781-996-9676",
+      "address": "2317 NW 30th Ter, Cape Coral, FL 33993",
+      "offer": "$125,000",
+      "message": "Hi there, regarding 2317 NW 30th Ter, Cape Coral, FL 33993 in Cape Coral. I'd like to submit a cash offer for $125,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "3010 NE 6th Place ",
+      "name": "Marc Joseph",
+      "phone": "+12399391145",
+      "phoneDisplay": "239-939-1145",
+      "address": "3010 NE 6th Place Cpe, Coral, FL 33909",
+      "offer": "$56,500",
+      "message": "Hey Marc, saw the listing at 3010 NE 6th Place Cpe, Coral, FL 33909. I'm looking for a fixer-upper in Coral. Any chance they'd take $56,500 as-is?"
+    },
+    {
+      "id": "1404 SE 34th Ter, ",
+      "name": "Stephanie Davidson",
+      "phone": "+12393393977",
+      "phoneDisplay": "239-339-3977",
+      "address": "1404 SE 34th Ter, Cape Coral, FL 33904",
+      "offer": "$164,500",
+      "message": "Hey! Just saw 1404 SE 34th Ter, Cape Coral, FL 33904. It fits my criteria perfectly. I can do $164,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "703 Monterey Ave, ",
+      "name": "Nilsa Ferrer",
+      "phone": "+12398394043",
+      "phoneDisplay": "239-839-4043",
+      "address": "703 Monterey Ave, Cape Coral, FL 33904",
+      "offer": "$94,000",
+      "message": "Hi Nilsa, I'm interested in 703 Monterey Ave, Cape Coral, FL 33904. Would your seller consider a cash offer around $94,000? I can close quickly."
+    },
+    {
+      "id": "6559 Amanda Cir, F",
+      "name": "TRINITY FRENCH",
+      "phone": "+13522476482",
+      "phoneDisplay": "352-247-6482",
+      "address": "6559 Amanda Cir, Fayetteville, NC 28304",
+      "offer": "$106,000",
+      "message": "Greetings, I'm reaching out about the property on 6559 Amanda Cir, Fayetteville, NC 28304. We're looking for our next project. Would a $106,000 cash offer be of interest?"
+    },
+    {
+      "id": "1354 Worstead Dr, ",
+      "name": "TORANIQUE ADAMS",
+      "phone": "+19192508172",
+      "phoneDisplay": "919-250-8172",
+      "address": "1354 Worstead Dr, Fayetteville, NC 28314",
+      "offer": "$118,000",
+      "message": "Greetings, I'm reaching out about the property on 1354 Worstead Dr, Fayetteville, NC 28314. We're looking for our next project. Would a $118,000 cash offer be of interest?"
+    },
+    {
+      "id": "174 Bienville Dr, ",
+      "name": "HALEY KERNELLS",
+      "phone": "+19105877139",
+      "phoneDisplay": "910-587-7139",
+      "address": "174 Bienville Dr, Fayetteville, NC 28311",
+      "offer": "$141,000",
+      "message": "Hello, I'm an investor interested in 174 Bienville Dr, Fayetteville, NC 28311. Based on the work needed, I'm at $141,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1722 Berriedale Dr",
+      "name": "CYNDI LEE MCKINNEY",
+      "phone": "+19103911299",
+      "phoneDisplay": "910-391-1299",
+      "address": "1722 Berriedale Dr, Fayetteville, NC 28304",
+      "offer": "$125,000",
+      "message": "Hi there, regarding 1722 Berriedale Dr, Fayetteville, NC 28304 in Fayetteville. I'd like to submit a cash offer for $125,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "1007 Anarine Rd, F",
+      "name": "DIETCHI THOMAS",
+      "phone": "+19102610534",
+      "phoneDisplay": "910-261-0534",
+      "address": "1007 Anarine Rd, Fayetteville, NC 28303",
+      "offer": "$109,500",
+      "message": "Hey! Just saw 1007 Anarine Rd, Fayetteville, NC 28303. It fits my criteria perfectly. I can do $109,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "621 Ashboro St, Fa",
+      "name": "TIER ONE REAL ESTATE SERVICES",
+      "phone": "+19105686127",
+      "phoneDisplay": "910-568-6127",
+      "address": "621 Ashboro St, Fayetteville, NC 28311",
+      "offer": "$121,500",
+      "message": "Hi there, quick question on 621 Ashboro St, Fayetteville, NC 28311. Would they be open to a $121,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "6510 Portsmouth Dr",
+      "name": "April Stephens",
+      "phone": "+19196514663",
+      "phoneDisplay": "919-651-4663",
+      "address": "6510 Portsmouth Dr, Fayetteville, NC 28314",
+      "offer": "$104,500",
+      "message": "Hey April, saw the listing at 6510 Portsmouth Dr, Fayetteville, NC 28314. I'm looking for a fixer-upper in Fayetteville. Any chance they'd take $104,500 as-is?"
+    },
+    {
+      "id": "1113 Branson St, F",
+      "name": "KENNETH BAREFOOT",
+      "phone": "+19104835353",
+      "phoneDisplay": "910-483-5353",
+      "address": "1113 Branson St, Fayetteville, NC 28305",
+      "offer": "$93,500",
+      "message": "Hi KENNETH, I'm interested in 1113 Branson St, Fayetteville, NC 28305. Would your seller consider a cash offer around $93,500? I can close quickly."
+    },
+    {
+      "id": "235 Whitney Dr, Fa",
+      "name": "SHINESHA FALLON",
+      "phone": "+14079567166",
+      "phoneDisplay": "407-956-7166",
+      "address": "235 Whitney Dr, Fayetteville, NC 28314",
+      "offer": "$192,000",
+      "message": "Hello! Regarding 235 Whitney Dr, Fayetteville, NC 28314, I'm a local investor. My numbers work at $192,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "1009 Bugle Call Dr",
+      "name": "AMANDA WYNN",
+      "phone": "+19104955738",
+      "phoneDisplay": "910-495-5738",
+      "address": "1009 Bugle Call Dr, Fayetteville, NC 28314",
+      "offer": "$192,500",
+      "message": "Hi AMANDA, I'm interested in 1009 Bugle Call Dr, Fayetteville, NC 28314. Would your seller consider a cash offer around $192,500? I can close quickly."
+    },
+    {
+      "id": "1912 Blake St, Fay",
+      "name": "MITZIE NEWMAN",
+      "phone": "+19109782337",
+      "phoneDisplay": "910-978-2337",
+      "address": "1912 Blake St, Fayetteville, NC 28301",
+      "offer": "$114,500",
+      "message": "Hello! Regarding 1912 Blake St, Fayetteville, NC 28301, I'm a local investor. My numbers work at $114,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "609 Lufkin Circle,",
+      "name": "Terry Nanney",
+      "phone": "+19105282078",
+      "phoneDisplay": "910-528-2078",
+      "address": "609 Lufkin Circle, Fayetteville, NC 28311",
+      "offer": "$64,000",
+      "message": "Hello! Regarding 609 Lufkin Circle, Fayetteville, NC 28311, I'm a local investor. My numbers work at $64,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "603 Faison Ave, Fa",
+      "name": "WELCOME HOME TEAM POWERED BY KELLER WILLIAMS REALTY",
+      "phone": "+19109870989",
+      "phoneDisplay": "910-987-0989",
+      "address": "603 Faison Ave, Fayetteville, NC 28304",
+      "offer": "$87,500",
+      "message": "Hi there, I buy homes in Fayetteville in any condition. For 603 Faison Ave, Fayetteville, NC 28304 I can offer $87,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "1921 Ashridge Dr, ",
+      "name": "QUINNEICE PEURIFOY",
+      "phone": "+19107036167",
+      "phoneDisplay": "910-703-6167",
+      "address": "1921 Ashridge Dr, Fayetteville, NC 28304",
+      "offer": "$168,500",
+      "message": "Hi QUINNEICE, quick question on 1921 Ashridge Dr, Fayetteville, NC 28304. Would they be open to a $168,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "1181 Torrey Dr, Fa",
+      "name": "TRACEY JONES-BROOKS",
+      "phone": "+19105516041",
+      "phoneDisplay": "910-551-6041",
+      "address": "1181 Torrey Dr, Fayetteville, NC 28301",
+      "offer": "$73,000",
+      "message": "Hello! Regarding 1181 Torrey Dr, Fayetteville, NC 28301, I'm a local investor. My numbers work at $73,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "326 Conifer Dr, Fa",
+      "name": "AMBER BLACKWELL",
+      "phone": "+19109780579",
+      "phoneDisplay": "910-978-0579",
+      "address": "326 Conifer Dr, Fayetteville, NC 28314",
+      "offer": "$172,000",
+      "message": "Hi AMBER, quick question on 326 Conifer Dr, Fayetteville, NC 28314. Would they be open to a $172,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "1204 Patrick Dr, F",
+      "name": "MICHAEL CAMPBELL",
+      "phone": "+19103083143",
+      "phoneDisplay": "910-308-3143",
+      "address": "1204 Patrick Dr, Fayetteville, NC 28314",
+      "offer": "$158,500",
+      "message": "Hey! Just saw 1204 Patrick Dr, Fayetteville, NC 28314. It fits my criteria perfectly. I can do $158,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "1934 N Pearl St, F",
+      "name": "PATRICIA HEATH",
+      "phone": "+19102222800",
+      "phoneDisplay": "910-222-2800",
+      "address": "1934 N Pearl St, Fayetteville, NC 28303",
+      "offer": "$108,000",
+      "message": "Hey PATRICIA, saw the listing at 1934 N Pearl St, Fayetteville, NC 28303. I'm looking for a fixer-upper in Fayetteville. Any chance they'd take $108,000 as-is?"
+    },
+    {
+      "id": "113 Starhill Ave, ",
+      "name": "GARY BARRETT",
+      "phone": "+19108506230",
+      "phoneDisplay": "910-850-6230",
+      "address": "113 Starhill Ave, Fayetteville, NC 28303",
+      "offer": "$134,500",
+      "message": "Hi GARY, I'm interested in 113 Starhill Ave, Fayetteville, NC 28303. Would your seller consider a cash offer around $134,500? I can close quickly."
+    },
+    {
+      "id": "6206 Larue Ct, Fay",
+      "name": "WILLIAM MCNEILL",
+      "phone": "+19105839231",
+      "phoneDisplay": "910-583-9231",
+      "address": "6206 Larue Ct, Fayetteville, NC 28303",
+      "offer": "$88,000",
+      "message": "Hello! Regarding 6206 Larue Ct, Fayetteville, NC 28303, I'm a local investor. My numbers work at $88,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "5308 Foxfire Road,",
+      "name": "Elizabeth Brizuela",
+      "phone": "+19196047054",
+      "phoneDisplay": "919-604-7054",
+      "address": "5308 Foxfire Road, Fayetteville, NC 28303",
+      "offer": "$114,000",
+      "message": "Hello! Regarding 5308 Foxfire Road, Fayetteville, NC 28303, I'm a local investor. My numbers work at $114,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "1404 Valencia Dr, ",
+      "name": "CHRISTOPHER BAKER",
+      "phone": "+19109641450",
+      "phoneDisplay": "910-964-1450",
+      "address": "1404 Valencia Dr, Fayetteville, NC 28303",
+      "offer": "$134,500",
+      "message": "Hello CHRISTOPHER, following up on 1404 Valencia Dr, Fayetteville, NC 28303. My all-cash number is $134,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "1602 Gardenia Ave,",
+      "name": "CHRISTINA DOUGLAS",
+      "phone": "+19102731030",
+      "phoneDisplay": "910-273-1030",
+      "address": "1602 Gardenia Ave, Fayetteville, NC 28311",
+      "offer": "$77,000",
+      "message": "Greetings, I'm reaching out about the property on 1602 Gardenia Ave, Fayetteville, NC 28311. We're looking for our next project. Would a $77,000 cash offer be of interest?"
+    },
+    {
+      "id": "1412 Morganton Rd,",
+      "name": "MAE SIMPSON",
+      "phone": "+19106242720",
+      "phoneDisplay": "910-624-2720",
+      "address": "1412 Morganton Rd, Fayetteville, NC 28305",
+      "offer": "$165,000",
+      "message": "Hi MAE, I buy homes in Fayetteville in any condition. For 1412 Morganton Rd, Fayetteville, NC 28305 I can offer $165,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "5466 Maplewood Ct,",
+      "name": "TONYA MORRIS",
+      "phone": "+19109222655",
+      "phoneDisplay": "910-922-2655",
+      "address": "5466 Maplewood Ct, Fayetteville, NC 28314",
+      "offer": "$118,000",
+      "message": "Hey TONYA, love the potential of 5466 Maplewood Ct, Fayetteville, NC 28314. I can offer $118,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "502 Santa Fe Dr, F",
+      "name": "DENISE SINCLAIR",
+      "phone": "+19102584884",
+      "phoneDisplay": "910-258-4884",
+      "address": "502 Santa Fe Dr, Fayetteville, NC 28303",
+      "offer": "$95,000",
+      "message": "Hi DENISE, is 502 Santa Fe Dr, Fayetteville, NC 28303 still available? I'm interested in an as-is purchase. My max offer is $95,000. Thoughts?"
+    },
+    {
+      "id": "311 Glen Canyon Dr",
+      "name": "DAVID THOMAS",
+      "phone": "+19105848789",
+      "phoneDisplay": "910-584-8789",
+      "address": "311 Glen Canyon Dr, Fayetteville, NC 28303",
+      "offer": "$84,000",
+      "message": "Hi DAVID, I'm interested in 311 Glen Canyon Dr, Fayetteville, NC 28303. Would your seller consider a cash offer around $84,000? I can close quickly."
+    },
+    {
+      "id": "994 Wayside Rd, Fa",
+      "name": "JESSICA GOODE",
+      "phone": "+19109163700",
+      "phoneDisplay": "910-916-3700",
+      "address": "994 Wayside Rd, Fayetteville, NC 28314",
+      "offer": "$94,000",
+      "message": "Hello, I'm an investor interested in 994 Wayside Rd, Fayetteville, NC 28314. Based on the work needed, I'm at $94,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1716 Shaw Rd, Faye",
+      "name": "CHRISTINA DOUGLAS",
+      "phone": "+19102731030",
+      "phoneDisplay": "910-273-1030",
+      "address": "1716 Shaw Rd, Fayetteville, NC 28311",
+      "offer": "$73,500",
+      "message": "Hi CHRISTINA, I buy homes in Fayetteville in any condition. For 1716 Shaw Rd, Fayetteville, NC 28311 I can offer $73,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "115 Brookwood Ave,",
+      "name": "STEPHANIE JACKSON",
+      "phone": "+19103911404",
+      "phoneDisplay": "910-391-1404",
+      "address": "115 Brookwood Ave, Fayetteville, NC 28301",
+      "offer": "$117,000",
+      "message": "Hello STEPHANIE, following up on 115 Brookwood Ave, Fayetteville, NC 28301. My all-cash number is $117,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "7092 Pantego Dr, F",
+      "name": "AMY REYNOLDS",
+      "phone": "+19102299444",
+      "phoneDisplay": "910-229-9444",
+      "address": "7092 Pantego Dr, Fayetteville, NC 28314",
+      "offer": "$139,000",
+      "message": "Hi AMY, quick question on 7092 Pantego Dr, Fayetteville, NC 28314. Would they be open to a $139,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "1623 Gibson St, Fa",
+      "name": "DIETCHI THOMAS",
+      "phone": "+19102610534",
+      "phoneDisplay": "910-261-0534",
+      "address": "1623 Gibson St, Fayetteville, NC 28301",
+      "offer": "$79,500",
+      "message": "Hey DIETCHI, saw the listing at 1623 Gibson St, Fayetteville, NC 28301. I'm looking for a fixer-upper in Fayetteville. Any chance they'd take $79,500 as-is?"
+    },
+    {
+      "id": "1809 Manteo St, Fa",
+      "name": "TJ Blackwelder",
+      "phone": "+17047882255",
+      "phoneDisplay": "704-788-2255",
+      "address": "1809 Manteo St, Fayetteville, NC 28303",
+      "offer": "$134,500",
+      "message": "Hey TJ, love the potential of 1809 Manteo St, Fayetteville, NC 28303. I can offer $134,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "7314 Hyannis Dr, F",
+      "name": "DIETCHI THOMAS",
+      "phone": "+19102610534",
+      "phoneDisplay": "910-261-0534",
+      "address": "7314 Hyannis Dr, Fayetteville, NC 28304",
+      "offer": "$97,500",
+      "message": "Hey DIETCHI, love the potential of 7314 Hyannis Dr, Fayetteville, NC 28304. I can offer $97,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "2995 Coleman Rd, E",
+      "name": "WILLIAM MCNEILL",
+      "phone": "+19105839231",
+      "phoneDisplay": "910-583-9231",
+      "address": "2995 Coleman Rd, Eastover, NC 28312",
+      "offer": "$68,000",
+      "message": "Hi WILLIAM, is 2995 Coleman Rd, Eastover, NC 28312 still available? I'm interested in an as-is purchase. My max offer is $68,000. Thoughts?"
+    },
+    {
+      "id": "1928 Crestview Dr,",
+      "name": "MIKE GLASPIE",
+      "phone": "+18326137289",
+      "phoneDisplay": "832-613-7289",
+      "address": "1928 Crestview Dr, Fayetteville, NC 28304",
+      "offer": "$90,500",
+      "message": "Hello MIKE, following up on 1928 Crestview Dr, Fayetteville, NC 28304. My all-cash number is $90,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "7321 Tollhouse Dr,",
+      "name": "KEVIN DAVIS",
+      "phone": "+19103914653",
+      "phoneDisplay": "910-391-4653",
+      "address": "7321 Tollhouse Dr, Fayetteville, NC 28314",
+      "offer": "$124,500",
+      "message": "Hey KEVIN, love the potential of 7321 Tollhouse Dr, Fayetteville, NC 28314. I can offer $124,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "736 Tobermory Rd, ",
+      "name": "JAMES WALKER",
+      "phone": "+19109888578",
+      "phoneDisplay": "910-988-8578",
+      "address": "736 Tobermory Rd, Fayetteville, NC 28306",
+      "offer": "$84,000",
+      "message": "Hey! Just saw 736 Tobermory Rd, Fayetteville, NC 28306. It fits my criteria perfectly. I can do $84,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "846 W Carole St, L",
+      "name": "Kara Severit",
+      "phone": "+18636982022",
+      "phoneDisplay": "863-698-2022",
+      "address": "846 W Carole St, Lakeland, FL 33803",
+      "offer": "$138,000",
+      "message": "Hi Kara, quick question on 846 W Carole St, Lakeland, FL 33803. Would they be open to a $138,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "1013 N Ruth Ave, L",
+      "name": "Wes Fleming",
+      "phone": "+18636664136",
+      "phoneDisplay": "863-666-4136",
+      "address": "1013 N Ruth Ave, Lakeland, FL 33805",
+      "offer": "$79,000",
+      "message": "Hey Wes, saw the listing at 1013 N Ruth Ave, Lakeland, FL 33805. I'm looking for a fixer-upper in Lakeland. Any chance they'd take $79,000 as-is?"
+    },
+    {
+      "id": "1037 Lexington St,",
+      "name": "Jesse Carriedo",
+      "phone": "+18634386605",
+      "phoneDisplay": "863-438-6605",
+      "address": "1037 Lexington St, Lakeland, FL 33801",
+      "offer": "$175,500",
+      "message": "Hi Jesse, I'm interested in 1037 Lexington St, Lakeland, FL 33801. Would your seller consider a cash offer around $175,500? I can close quickly."
+    },
+    {
+      "id": "7039 Sheffield Dr,",
+      "name": "Mark D'Italia",
+      "phone": "+13213038219",
+      "phoneDisplay": "321-303-8219",
+      "address": "7039 Sheffield Dr, Lakeland, FL 33810",
+      "offer": "$125,000",
+      "message": "Hey Mark, love the potential of 7039 Sheffield Dr, Lakeland, FL 33810. I can offer $125,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "342 Creekwood Run,",
+      "name": "Luis Clemente",
+      "phone": "+19543267464",
+      "phoneDisplay": "954-326-7464",
+      "address": "342 Creekwood Run, Lakeland, FL 33809",
+      "offer": "$124,000",
+      "message": "Hey Luis, love the potential of 342 Creekwood Run, Lakeland, FL 33809. I can offer $124,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "3226 Decatur Ave, ",
+      "name": "Roberto Rodriguez",
+      "phone": "+18632862577",
+      "phoneDisplay": "863-286-2577",
+      "address": "3226 Decatur Ave, Lakeland, FL 33805",
+      "offer": "$128,500",
+      "message": "Hi Roberto, quick question on 3226 Decatur Ave, Lakeland, FL 33805. Would they be open to a $128,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "408 Longfellow Blv",
+      "name": "Nikhil Vashist",
+      "phone": "+13529013786",
+      "phoneDisplay": "352-901-3786",
+      "address": "408 Longfellow Blvd, Lakeland, FL 33801",
+      "offer": "$184,000",
+      "message": "Hey Nikhil, saw the listing at 408 Longfellow Blvd, Lakeland, FL 33801. I'm looking for a fixer-upper in Lakeland. Any chance they'd take $184,000 as-is?"
+    },
+    {
+      "id": "2018 Hallmark Ct, ",
+      "name": "Jamie Boone",
+      "phone": "+17866004465",
+      "phoneDisplay": "786-600-4465",
+      "address": "2018 Hallmark Ct, Lakeland, FL 33803",
+      "offer": "$0",
+      "message": "Hi Jamie, I buy homes in Lakeland in any condition. For 2018 Hallmark Ct, Lakeland, FL 33803 I can offer $0 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "3012 Skyview Dr, L",
+      "name": "Jerry Dunning, Jr",
+      "phone": "+18636025527",
+      "phoneDisplay": "863-602-5527",
+      "address": "3012 Skyview Dr, Lakeland, FL 33801",
+      "offer": "$141,000",
+      "message": "Hi Jerry, quick question on 3012 Skyview Dr, Lakeland, FL 33801. Would they be open to a $141,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "216 W 10th St, Lak",
+      "name": "Mamie Carter",
+      "phone": "+18635291387",
+      "phoneDisplay": "863-529-1387",
+      "address": "216 W 10th St, Lakeland, FL 33805",
+      "offer": "$158,500",
+      "message": "Hi there, regarding 216 W 10th St, Lakeland, FL 33805 in Lakeland. I'd like to submit a cash offer for $158,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "7145 SCENIC HILLS,",
+      "name": "STEVEN KOLENO",
+      "phone": "+18046565007",
+      "phoneDisplay": "804-656-5007",
+      "address": "7145 SCENIC HILLS, Lakeland, FL 33810",
+      "offer": "$163,000",
+      "message": "Hey STEVEN, love the potential of 7145 SCENIC HILLS, Lakeland, FL 33810. I can offer $163,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "842 Meridian Ave, ",
+      "name": "Ingrid Santaliz",
+      "phone": "+19419621238",
+      "phoneDisplay": "941-962-1238",
+      "address": "842 Meridian Ave, Lakeland, FL 33801",
+      "offer": "$97,500",
+      "message": "Hello Ingrid, following up on 842 Meridian Ave, Lakeland, FL 33801. My all-cash number is $97,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "1038 Canal Dr W, L",
+      "name": "Milton De La Cruz",
+      "phone": "+18638996030",
+      "phoneDisplay": "863-899-6030",
+      "address": "1038 Canal Dr W, Lakeland, FL 33801",
+      "offer": "$144,500",
+      "message": "Hey Milton, love the potential of 1038 Canal Dr W, Lakeland, FL 33801. I can offer $144,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "529 W 59TH Street,",
+      "name": "KAL ZALLOUM",
+      "phone": "+19049232194",
+      "phoneDisplay": "904-923-2194",
+      "address": "529 W 59TH Street, Jacksonville, FL 32208",
+      "offer": "$65,000",
+      "message": "Hi KAL, is 529 W 59TH Street, Jacksonville, FL 32208 still available? I'm interested in an as-is purchase. My max offer is $65,000. Thoughts?"
+    },
+    {
+      "id": "3252 THOMAS Street",
+      "name": "TONY CURRY, JR",
+      "phone": "+19046541692",
+      "phoneDisplay": "904-654-1692",
+      "address": "3252 THOMAS Street, Jacksonville, FL 32254",
+      "offer": "$37,500",
+      "message": "Hello TONY, following up on 3252 THOMAS Street, Jacksonville, FL 32254. My all-cash number is $37,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "3318 NOLAN Street,",
+      "name": "RYAN L COURSON",
+      "phone": "+19048536018",
+      "phoneDisplay": "904-853-6018",
+      "address": "3318 NOLAN Street, Jacksonville, FL 32254",
+      "offer": "$20,500",
+      "message": "Hello RYAN, following up on 3318 NOLAN Street, Jacksonville, FL 32254. My all-cash number is $20,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "5418 MINOSA Court,",
+      "name": "CC UNDERWOOD",
+      "phone": "+19044018481",
+      "phoneDisplay": "904-401-8481",
+      "address": "5418 MINOSA Court, Jacksonville, FL 32209",
+      "offer": "$108,000",
+      "message": "Hi CC, quick question on 5418 MINOSA Court, Jacksonville, FL 32209. Would they be open to a $108,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "5627 BELAFONTE Dri",
+      "name": "KAL ZALLOUM",
+      "phone": "+19049232194",
+      "phoneDisplay": "904-923-2194",
+      "address": "5627 BELAFONTE Drive, Jacksonville, FL 32209",
+      "offer": "$73,500",
+      "message": "Hello! Regarding 5627 BELAFONTE Drive, Jacksonville, FL 32209, I'm a local investor. My numbers work at $73,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "1603 W 14TH Street",
+      "name": "BARBARA COCKRELL",
+      "phone": "+19042105117",
+      "phoneDisplay": "904-210-5117",
+      "address": "1603 W 14TH Street, Jacksonville, FL 32209",
+      "offer": "$54,500",
+      "message": "Greetings, I'm reaching out about the property on 1603 W 14TH Street, Jacksonville, FL 32209. We're looking for our next project. Would a $54,500 cash offer be of interest?"
+    },
+    {
+      "id": "5919 SONORA Drive ",
+      "name": "DWAYNE LARKINS",
+      "phone": "+19042380119",
+      "phoneDisplay": "904-238-0119",
+      "address": "5919 SONORA Drive W, Jacksonville, FL 32244",
+      "offer": "$138,000",
+      "message": "Hello, I'm an investor interested in 5919 SONORA Drive W, Jacksonville, FL 32244. Based on the work needed, I'm at $138,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "4507 TRENTON Drive",
+      "name": "KEITH JONES",
+      "phone": "+19045548560",
+      "phoneDisplay": "904-554-8560",
+      "address": "4507 TRENTON Drive S, Jacksonville, FL 32209",
+      "offer": "$104,500",
+      "message": "Hi KEITH, I buy homes in Jacksonville in any condition. For 4507 TRENTON Drive S, Jacksonville, FL 32209 I can offer $104,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "3004 W 16TH Street",
+      "name": "LESLEY RESNICK",
+      "phone": "+19043164306",
+      "phoneDisplay": "904-316-4306",
+      "address": "3004 W 16TH Street, Jacksonville, FL 32254",
+      "offer": "$94,000",
+      "message": "Hey LESLEY, saw the listing at 3004 W 16TH Street, Jacksonville, FL 32254. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $94,000 as-is?"
+    },
+    {
+      "id": "412 CHESTNUT Drive",
+      "name": "JANET M PARRISH",
+      "phone": "+19047327053",
+      "phoneDisplay": "904-732-7053",
+      "address": "412 CHESTNUT Drive, Jacksonville, FL 32208",
+      "offer": "$77,000",
+      "message": "Hi there, regarding 412 CHESTNUT Drive, Jacksonville, FL 32208 in Jacksonville. I'd like to submit a cash offer for $77,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "4633 SUFFOLK Avenu",
+      "name": "LEANA PRATTIS",
+      "phone": "+19043006135",
+      "phoneDisplay": "904-300-6135",
+      "address": "4633 SUFFOLK Avenue, Jacksonville, FL 32208",
+      "offer": "$78,500",
+      "message": "Hey! Just saw 4633 SUFFOLK Avenue, Jacksonville, FL 32208. It fits my criteria perfectly. I can do $78,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "2121 EGNER Street,",
+      "name": "ELISABETH D'AUGEROT",
+      "phone": "+19044378122",
+      "phoneDisplay": "904-437-8122",
+      "address": "2121 EGNER Street, Jacksonville, FL 32206",
+      "offer": "$141,000",
+      "message": "Hello, I'm an investor interested in 2121 EGNER Street, Jacksonville, FL 32206. Based on the work needed, I'm at $141,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "5147 BROKEN ARROW ",
+      "name": "Gerilet Fanord",
+      "phone": "+19046008105",
+      "phoneDisplay": "904-600-8105",
+      "address": "5147 BROKEN ARROW Drive N, Jacksonville, FL 32244",
+      "offer": "$134,500",
+      "message": "Hi Gerilet, I buy homes in Jacksonville in any condition. For 5147 BROKEN ARROW Drive N, Jacksonville, FL 32244 I can offer $134,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "1232 RENSSELAER Av",
+      "name": "THOMAS WALDRIP",
+      "phone": "+19044347117",
+      "phoneDisplay": "904-434-7117",
+      "address": "1232 RENSSELAER Avenue, Jacksonville, FL 32205",
+      "offer": "$177,500",
+      "message": "Hello THOMAS, following up on 1232 RENSSELAER Avenue, Jacksonville, FL 32205. My all-cash number is $177,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "10592 HAVERFORD Ro",
+      "name": "WILLIAM DANE COUSSENS",
+      "phone": "+19048388275",
+      "phoneDisplay": "904-838-8275",
+      "address": "10592 HAVERFORD Road, Jacksonville, FL 32218",
+      "offer": "$80,500",
+      "message": "Hey! Just saw 10592 HAVERFORD Road, Jacksonville, FL 32218. It fits my criteria perfectly. I can do $80,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "2501 DOBY Street, ",
+      "name": "IRAN JONES",
+      "phone": "+19046079343",
+      "phoneDisplay": "904-607-9343",
+      "address": "2501 DOBY Street, Jacksonville, FL 32209",
+      "offer": "$127,500",
+      "message": "Hey! Just saw 2501 DOBY Street, Jacksonville, FL 32209. It fits my criteria perfectly. I can do $127,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "6116 SUDBURY Avenu",
+      "name": "CHAD NEUMANN",
+      "phone": "+19047208411",
+      "phoneDisplay": "904-720-8411",
+      "address": "6116 SUDBURY Avenue S, Jacksonville, FL 32210",
+      "offer": "$168,500",
+      "message": "Hello CHAD, following up on 6116 SUDBURY Avenue S, Jacksonville, FL 32210. My all-cash number is $168,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "2225 THIERVY Drive",
+      "name": "APRYL MURPHY",
+      "phone": "+19046543205",
+      "phoneDisplay": "904-654-3205",
+      "address": "2225 THIERVY Drive, Jacksonville, FL 32210",
+      "offer": "$125,000",
+      "message": "Hello, I'm an investor interested in 2225 THIERVY Drive, Jacksonville, FL 32210. Based on the work needed, I'm at $125,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "9604 WOODLAND Aven",
+      "name": "WILLIAM E RAMOS",
+      "phone": "+19049292007",
+      "phoneDisplay": "904-929-2007",
+      "address": "9604 WOODLAND Avenue, Jacksonville, FL 32208",
+      "offer": "$38,500",
+      "message": "Hi WILLIAM, I'm interested in 9604 WOODLAND Avenue, Jacksonville, FL 32208. Would your seller consider a cash offer around $38,500? I can close quickly."
+    },
+    {
+      "id": "510 W 19TH, Jackso",
+      "name": "STEVEN KOLENO",
+      "phone": "+18046565007",
+      "phoneDisplay": "804-656-5007",
+      "address": "510 W 19TH, Jacksonville, FL 32206",
+      "offer": "$17,000",
+      "message": "Hi STEVEN, is 510 W 19TH, Jacksonville, FL 32206 still available? I'm interested in an as-is purchase. My max offer is $17,000. Thoughts?"
+    },
+    {
+      "id": "8048 OLD PLANK Roa",
+      "name": "STEVEN CROY",
+      "phone": "+18888838509",
+      "phoneDisplay": "888-883-8509",
+      "address": "8048 OLD PLANK Road, Jacksonville, FL 32220",
+      "offer": "$107,000",
+      "message": "Hello, I'm an investor interested in 8048 OLD PLANK Road, Jacksonville, FL 32220. Based on the work needed, I'm at $107,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "3862 ORLANDO Circl",
+      "name": "SHAWN ONEILL",
+      "phone": "+19043703500",
+      "phoneDisplay": "904-370-3500",
+      "address": "3862 ORLANDO Circle W, Jacksonville, FL 32207",
+      "offer": "$192,500",
+      "message": "Hi SHAWN, is 3862 ORLANDO Circle W, Jacksonville, FL 32207 still available? I'm interested in an as-is purchase. My max offer is $192,500. Thoughts?"
+    },
+    {
+      "id": "957 ODESSA Drive E",
+      "name": "WILLIAM E RAMOS",
+      "phone": "+19049292007",
+      "phoneDisplay": "904-929-2007",
+      "address": "957 ODESSA Drive E, Jacksonville, FL 32254",
+      "offer": "$46,000",
+      "message": "Greetings, I'm reaching out about the property on 957 ODESSA Drive E, Jacksonville, FL 32254. We're looking for our next project. Would a $46,000 cash offer be of interest?"
+    },
+    {
+      "id": "2185 MOREHOUSE Roa",
+      "name": "PEPPER GREENWELL",
+      "phone": "+13524614523",
+      "phoneDisplay": "352-461-4523",
+      "address": "2185 MOREHOUSE Road, Jacksonville, FL 32209",
+      "offer": "$29,500",
+      "message": "Hi PEPPER, I buy homes in Jacksonville in any condition. For 2185 MOREHOUSE Road, Jacksonville, FL 32209 I can offer $29,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "4119 Sherman Hills",
+      "name": "Jaime L Boone",
+      "phone": "+17866004465",
+      "phoneDisplay": "786-600-4465",
+      "address": "4119 Sherman Hills Pkwy W, Jacksonville, FL 32210",
+      "offer": "$0",
+      "message": "Hi Jaime, I'm interested in 4119 Sherman Hills Pkwy W, Jacksonville, FL 32210. Would your seller consider a cash offer around $0? I can close quickly."
+    },
+    {
+      "id": "16228 TISONS BLUFF",
+      "name": "NAJI HASSAN",
+      "phone": "+19044258280",
+      "phoneDisplay": "904-425-8280",
+      "address": "16228 TISONS BLUFF Road, Jacksonville, FL 32218",
+      "offer": "$124,000",
+      "message": "Hey NAJI, love the potential of 16228 TISONS BLUFF Road, Jacksonville, FL 32218. I can offer $124,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "2846 YELLOW PINE D",
+      "name": "KALICA LEE",
+      "phone": "+19048810859",
+      "phoneDisplay": "904-881-0859",
+      "address": "2846 YELLOW PINE Drive, Jacksonville, FL 32277",
+      "offer": "$163,000",
+      "message": "Hey! Just saw 2846 YELLOW PINE Drive, Jacksonville, FL 32277. It fits my criteria perfectly. I can do $163,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "7004 DAYTON Road, ",
+      "name": "MAIDELYS MEDINA",
+      "phone": "+19049038351",
+      "phoneDisplay": "904-903-8351",
+      "address": "7004 DAYTON Road, Jacksonville, FL 32210",
+      "offer": "$77,000",
+      "message": "Hello, I'm an investor interested in 7004 DAYTON Road, Jacksonville, FL 32210. Based on the work needed, I'm at $77,000 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "9656 FLECHETTE Ave",
+      "name": "TASHELE NICOLE WALKER",
+      "phone": "+19047380899",
+      "phoneDisplay": "904-738-0899",
+      "address": "9656 FLECHETTE Avenue, Jacksonville, FL 32208",
+      "offer": "$70,000",
+      "message": "Hello TASHELE, following up on 9656 FLECHETTE Avenue, Jacksonville, FL 32208. My all-cash number is $70,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "541 Linwood Ave, J",
+      "name": "Jamie L Boone",
+      "phone": "+17866004465",
+      "phoneDisplay": "786-600-4465",
+      "address": "541 Linwood Ave, Jacksonville, FL 32206",
+      "offer": "$38,500",
+      "message": "Hello, I'm an investor interested in 541 Linwood Ave, Jacksonville, FL 32206. Based on the work needed, I'm at $38,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "27 W 44TH Street, ",
+      "name": "HENRY ANGELI III",
+      "phone": "+19044045303",
+      "phoneDisplay": "904-404-5303",
+      "address": "27 W 44TH Street, Jacksonville, FL 32208",
+      "offer": "$38,500",
+      "message": "Hi HENRY, I'm interested in 27 W 44TH Street, Jacksonville, FL 32208. Would your seller consider a cash offer around $38,500? I can close quickly."
+    },
+    {
+      "id": "6819 N PEARL Stree",
+      "name": "ATIFA ROSTAYEE",
+      "phone": "+19046169553",
+      "phoneDisplay": "904-616-9553",
+      "address": "6819 N PEARL Street, Jacksonville, FL 32208",
+      "offer": "$56,500",
+      "message": "Hello, I'm an investor interested in 6819 N PEARL Street, Jacksonville, FL 32208. Based on the work needed, I'm at $56,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1030 8TH Street W,",
+      "name": "MARK JENKS",
+      "phone": "+19042604550",
+      "phoneDisplay": "904-260-4550",
+      "address": "1030 8TH Street W, Jacksonville, FL 32209",
+      "offer": "$21,000",
+      "message": "Hi MARK, I'm interested in 1030 8TH Street W, Jacksonville, FL 32209. Would your seller consider a cash offer around $21,000? I can close quickly."
+    },
+    {
+      "id": "72 E 32 Street, Ja",
+      "name": "LOURDES DIAZ",
+      "phone": "+19045576288",
+      "phoneDisplay": "904-557-6288",
+      "address": "72 E 32 Street, Jacksonville, FL 32206",
+      "offer": "$79,500",
+      "message": "Hi LOURDES, I'm interested in 72 E 32 Street, Jacksonville, FL 32206. Would your seller consider a cash offer around $79,500? I can close quickly."
+    },
+    {
+      "id": "12283 DEEDER Lane,",
+      "name": "DANIEL SEFAIR",
+      "phone": "+18002335334",
+      "phoneDisplay": "800-233-5334",
+      "address": "12283 DEEDER Lane, Jacksonville, FL 32258",
+      "offer": "$151,500",
+      "message": "Hey DANIEL, love the potential of 12283 DEEDER Lane, Jacksonville, FL 32258. I can offer $151,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "339 METZ Street, J",
+      "name": "CATHLEEN CORNISH",
+      "phone": "+19049625431",
+      "phoneDisplay": "904-962-5431",
+      "address": "339 METZ Street, Jacksonville, FL 32211",
+      "offer": "$158,500",
+      "message": "Hi CATHLEEN, quick question on 339 METZ Street, Jacksonville, FL 32211. Would they be open to a $158,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "5050 SAN JUAN Aven",
+      "name": "DANIEL DANYUS",
+      "phone": "+19045028401",
+      "phoneDisplay": "904-502-8401",
+      "address": "5050 SAN JUAN Avenue, Jacksonville, FL 32210",
+      "offer": "$186,000",
+      "message": "Greetings, I'm reaching out about the property on 5050 SAN JUAN Avenue, Jacksonville, FL 32210. We're looking for our next project. Would a $186,000 cash offer be of interest?"
+    },
+    {
+      "id": "9711 SKYDIVE Court",
+      "name": "CHERYL STEWART",
+      "phone": "+19048380105",
+      "phoneDisplay": "904-838-0105",
+      "address": "9711 SKYDIVE Court, Jacksonville, FL 32221",
+      "offer": "$184,500",
+      "message": "Hello! Regarding 9711 SKYDIVE Court, Jacksonville, FL 32221, I'm a local investor. My numbers work at $184,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "3821 MIRUELO Circl",
+      "name": "CHARLEEN HENSHAW",
+      "phone": "+19048919020",
+      "phoneDisplay": "904-891-9020",
+      "address": "3821 MIRUELO Circle N, Jacksonville, FL 32217",
+      "offer": "$151,500",
+      "message": "Hi CHARLEEN, quick question on 3821 MIRUELO Circle N, Jacksonville, FL 32217. Would they be open to a $151,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "2203 SHERRINGTON S",
+      "name": "JAMES ARMSTRONG",
+      "phone": "+19046714161",
+      "phoneDisplay": "904-671-4161",
+      "address": "2203 SHERRINGTON Street, Jacksonville, FL 32209",
+      "offer": "$102,500",
+      "message": "Hey JAMES, saw the listing at 2203 SHERRINGTON Street, Jacksonville, FL 32209. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $102,500 as-is?"
+    },
+    {
+      "id": "752 ACOSTA Street,",
+      "name": "KIM KOWAL",
+      "phone": "+19045984365",
+      "phoneDisplay": "904-598-4365",
+      "address": "752 ACOSTA Street, Jacksonville, FL 32204",
+      "offer": "$144,500",
+      "message": "Hello KIM, following up on 752 ACOSTA Street, Jacksonville, FL 32204. My all-cash number is $144,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "3821 OLYMPIC Lane,",
+      "name": "PAIGE PACETTI DAVIDSON",
+      "phone": "+19044244656",
+      "phoneDisplay": "904-424-4656",
+      "address": "3821 OLYMPIC Lane, Jacksonville, FL 32223",
+      "offer": "$171,500",
+      "message": "Hey! Just saw 3821 OLYMPIC Lane, Jacksonville, FL 32223. It fits my criteria perfectly. I can do $171,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "9606 DEVONSHIRE Bo",
+      "name": "ANDREA BUTCHER",
+      "phone": "+17709375747",
+      "phoneDisplay": "770-937-5747",
+      "address": "9606 DEVONSHIRE Boulevard, Jacksonville, FL 32208",
+      "offer": "$61,500",
+      "message": "Hi there, regarding 9606 DEVONSHIRE Boulevard, Jacksonville, FL 32208 in Jacksonville. I'd like to submit a cash offer for $61,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "7216 OAKWOOD Drive",
+      "name": "Carmen Llontop",
+      "phone": "+19045346982",
+      "phoneDisplay": "904-534-6982",
+      "address": "7216 OAKWOOD Drive, Jacksonville, FL 32211",
+      "offer": "$175,500",
+      "message": "Hi there, regarding 7216 OAKWOOD Drive, Jacksonville, FL 32211 in Jacksonville. I'd like to submit a cash offer for $175,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "6146 BUCKING BRONC",
+      "name": "MATT DANIELL",
+      "phone": "+19042019598",
+      "phoneDisplay": "904-201-9598",
+      "address": "6146 BUCKING BRONCO Drive, Jacksonville, FL 32234",
+      "offer": "$158,500",
+      "message": "Hi there, regarding 6146 BUCKING BRONCO Drive, Jacksonville, FL 32234 in Jacksonville. I'd like to submit a cash offer for $158,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "111 E 54TH Street,",
+      "name": "STEVEN KOLENO",
+      "phone": "+18046565007",
+      "phoneDisplay": "804-656-5007",
+      "address": "111 E 54TH Street, Jacksonville, FL 32208",
+      "offer": "$107,000",
+      "message": "Hi STEVEN, I'm interested in 111 E 54TH Street, Jacksonville, FL 32208. Would your seller consider a cash offer around $107,000? I can close quickly."
+    },
+    {
+      "id": "1024 W 26TH Street",
+      "name": "MARK JENKS",
+      "phone": "+19042604550",
+      "phoneDisplay": "904-260-4550",
+      "address": "1024 W 26TH Street, Jacksonville, FL 32209",
+      "offer": "$8,000",
+      "message": "Hi there, regarding 1024 W 26TH Street, Jacksonville, FL 32209 in Jacksonville. I'd like to submit a cash offer for $8,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "9324 NORFOLK Boule",
+      "name": "ERIC PARSONS",
+      "phone": "+19047182761",
+      "phoneDisplay": "904-718-2761",
+      "address": "9324 NORFOLK Boulevard, Jacksonville, FL 32208",
+      "offer": "$42,500",
+      "message": "Hello ERIC, following up on 9324 NORFOLK Boulevard, Jacksonville, FL 32208. My all-cash number is $42,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "2540 HAYWOOD ESTAT",
+      "name": "KEITH JONES",
+      "phone": "+19045548560",
+      "phoneDisplay": "904-554-8560",
+      "address": "2540 HAYWOOD ESTATES Lane, Jacksonville, FL 32233",
+      "offer": "$130,500",
+      "message": "Hello KEITH, following up on 2540 HAYWOOD ESTATES Lane, Jacksonville, FL 32233. My all-cash number is $130,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "651 W 46TH Street,",
+      "name": "BARD ROCKENBACH JR",
+      "phone": "+19049904625",
+      "phoneDisplay": "904-990-4625",
+      "address": "651 W 46TH Street, Jacksonville, FL 32208",
+      "offer": "$46,000",
+      "message": "Hi BARD, I buy homes in Jacksonville in any condition. For 651 W 46TH Street, Jacksonville, FL 32208 I can offer $46,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "5250 SANTA MONICA ",
+      "name": "JOSEPH CAPARROS",
+      "phone": "+19048875778",
+      "phoneDisplay": "904-887-5778",
+      "address": "5250 SANTA MONICA Boulevard S, Jacksonville, FL 32207",
+      "offer": "$128,500",
+      "message": "Hi JOSEPH, is 5250 SANTA MONICA Boulevard S, Jacksonville, FL 32207 still available? I'm interested in an as-is purchase. My max offer is $128,500. Thoughts?"
+    },
+    {
+      "id": "3736 ROSE Street, ",
+      "name": "ANDREA BUTCHER",
+      "phone": "+17709375747",
+      "phoneDisplay": "770-937-5747",
+      "address": "3736 ROSE Street, Jacksonville, FL 32208",
+      "offer": "$52,000",
+      "message": "Hello! Regarding 3736 ROSE Street, Jacksonville, FL 32208, I'm a local investor. My numbers work at $52,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "3836 MARIANNA Road",
+      "name": "MARK JENKS",
+      "phone": "+19042604550",
+      "phoneDisplay": "904-260-4550",
+      "address": "3836 MARIANNA Road, Jacksonville, FL 32217",
+      "offer": "$172,000",
+      "message": "Hello MARK, following up on 3836 MARIANNA Road, Jacksonville, FL 32217. My all-cash number is $172,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "2332 BUTTONWOOD Dr",
+      "name": "CHRIS DUONG",
+      "phone": "+19044017826",
+      "phoneDisplay": "904-401-7826",
+      "address": "2332 BUTTONWOOD Drive, Jacksonville, FL 32216",
+      "offer": "$175,500",
+      "message": "Hello CHRIS, following up on 2332 BUTTONWOOD Drive, Jacksonville, FL 32216. My all-cash number is $175,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "12746 Woodland Dr,",
+      "name": "Tonya Rice",
+      "phone": "+19046081540",
+      "phoneDisplay": "904-608-1540",
+      "address": "12746 Woodland Dr, Jacksonville, FL 32218",
+      "offer": "$134,000",
+      "message": "Hi Tonya, quick question on 12746 Woodland Dr, Jacksonville, FL 32218. Would they be open to a $134,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "2837 LIPPIA Road, ",
+      "name": "SETH MICHAEL PETIT",
+      "phone": "+19043270520",
+      "phoneDisplay": "904-327-0520",
+      "address": "2837 LIPPIA Road, Jacksonville, FL 32209",
+      "offer": "$51,500",
+      "message": "Hello! Regarding 2837 LIPPIA Road, Jacksonville, FL 32209, I'm a local investor. My numbers work at $51,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "4840 COLONIAL Aven",
+      "name": "MATTHEW WESLEY BRADDY",
+      "phone": "+13523630237",
+      "phoneDisplay": "352-363-0237",
+      "address": "4840 COLONIAL Avenue, Jacksonville, FL 32210",
+      "offer": "$101,000",
+      "message": "Hi MATTHEW, is 4840 COLONIAL Avenue, Jacksonville, FL 32210 still available? I'm interested in an as-is purchase. My max offer is $101,000. Thoughts?"
+    },
+    {
+      "id": "2051 FRANK E Avenu",
+      "name": "KRAVIN C ELLISON",
+      "phone": "+19542924883",
+      "phoneDisplay": "954-292-4883",
+      "address": "2051 FRANK E Avenue, Jacksonville, FL 32208",
+      "offer": "$42,500",
+      "message": "Hey KRAVIN, saw the listing at 2051 FRANK E Avenue, Jacksonville, FL 32208. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $42,500 as-is?"
+    },
+    {
+      "id": "9720 STEAD Court, ",
+      "name": "JENNIFER HENDRY",
+      "phone": "+19044632828",
+      "phoneDisplay": "904-463-2828",
+      "address": "9720 STEAD Court, Jacksonville, FL 32221",
+      "offer": "$173,500",
+      "message": "Hello JENNIFER, following up on 9720 STEAD Court, Jacksonville, FL 32221. My all-cash number is $173,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "1837 BUCKMAN Stree",
+      "name": "JULIANA BAHRI",
+      "phone": "+19048748706",
+      "phoneDisplay": "904-874-8706",
+      "address": "1837 BUCKMAN Street, Jacksonville, FL 32206",
+      "offer": "$134,500",
+      "message": "Hi JULIANA, I buy homes in Jacksonville in any condition. For 1837 BUCKMAN Street, Jacksonville, FL 32206 I can offer $134,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "8342 BARRACUDA Roa",
+      "name": "SHAWANA BOYER",
+      "phone": "+19043304114",
+      "phoneDisplay": "904-330-4114",
+      "address": "8342 BARRACUDA Road, Jacksonville, FL 32244",
+      "offer": "$126,500",
+      "message": "Hi SHAWANA, I'm interested in 8342 BARRACUDA Road, Jacksonville, FL 32244. Would your seller consider a cash offer around $126,500? I can close quickly."
+    },
+    {
+      "id": "5527 MAXINE Drive,",
+      "name": "DMITRIY A KOVALENKO",
+      "phone": "+19042709062",
+      "phoneDisplay": "904-270-9062",
+      "address": "5527 MAXINE Drive, Jacksonville, FL 32277",
+      "offer": "$168,500",
+      "message": "Greetings, I'm reaching out about the property on 5527 MAXINE Drive, Jacksonville, FL 32277. We're looking for our next project. Would a $168,500 cash offer be of interest?"
+    },
+    {
+      "id": "525 W 66TH Street,",
+      "name": "MORGAN MCCOY LLC",
+      "phone": "+19046109118",
+      "phoneDisplay": "904-610-9118",
+      "address": "525 W 66TH Street, Jacksonville, FL 32208",
+      "offer": "$109,500",
+      "message": "Hello there, following up on 525 W 66TH Street, Jacksonville, FL 32208. My all-cash number is $109,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "5146 SUNDERLAND Ro",
+      "name": "JANET M PARRISH",
+      "phone": "+19047327053",
+      "phoneDisplay": "904-732-7053",
+      "address": "5146 SUNDERLAND Road, Jacksonville, FL 32210",
+      "offer": "$70,000",
+      "message": "Greetings, I'm reaching out about the property on 5146 SUNDERLAND Road, Jacksonville, FL 32210. We're looking for our next project. Would a $70,000 cash offer be of interest?"
+    },
+    {
+      "id": "2917 PARR Court E,",
+      "name": "ANTHONY MAGANA",
+      "phone": "+19048143550",
+      "phoneDisplay": "904-814-3550",
+      "address": "2917 PARR Court E, Jacksonville, FL 32216",
+      "offer": "$104,500",
+      "message": "Hello ANTHONY, following up on 2917 PARR Court E, Jacksonville, FL 32216. My all-cash number is $104,500 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "857 Benbow St, Jac",
+      "name": "Jaime L Boone",
+      "phone": "+17866004465",
+      "phoneDisplay": "786-600-4465",
+      "address": "857 Benbow St, Jacksonville, FL 32209",
+      "offer": "$0",
+      "message": "Hey! Just saw 857 Benbow St, Jacksonville, FL 32209. It fits my criteria perfectly. I can do $0 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "1010 KENMORE Stree",
+      "name": "ARTHUR COX",
+      "phone": "+19048604799",
+      "phoneDisplay": "904-860-4799",
+      "address": "1010 KENMORE Street, Jacksonville, FL 32208",
+      "offer": "$19,500",
+      "message": "Hi ARTHUR, quick question on 1010 KENMORE Street, Jacksonville, FL 32208. Would they be open to a $19,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "9852 OLIVIA Street",
+      "name": "MINNA REID",
+      "phone": "+18604161255",
+      "phoneDisplay": "860-416-1255",
+      "address": "9852 OLIVIA Street, Jacksonville, FL 32219",
+      "offer": "$192,000",
+      "message": "Hello MINNA, following up on 9852 OLIVIA Street, Jacksonville, FL 32219. My all-cash number is $192,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "7940 EATON Avenue,",
+      "name": "TIM LETTS",
+      "phone": "+19043232220",
+      "phoneDisplay": "904-323-2220",
+      "address": "7940 EATON Avenue, Jacksonville, FL 32211",
+      "offer": "$107,000",
+      "message": "Hey! Just saw 7940 EATON Avenue, Jacksonville, FL 32211. It fits my criteria perfectly. I can do $107,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "2425 HOLMES Street",
+      "name": "TANA MANKUS",
+      "phone": "+19045148890",
+      "phoneDisplay": "904-514-8890",
+      "address": "2425 HOLMES Street, Jacksonville, FL 32207",
+      "offer": "$137,500",
+      "message": "Hi there, regarding 2425 HOLMES Street, Jacksonville, FL 32207 in Jacksonville. I'd like to submit a cash offer for $137,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "6711 CAVALIER Road",
+      "name": "SCOTT LEHMBECK",
+      "phone": "+19042332190",
+      "phoneDisplay": "904-233-2190",
+      "address": "6711 CAVALIER Road, Jacksonville, FL 32208",
+      "offer": "$73,500",
+      "message": "Hi SCOTT, I'm interested in 6711 CAVALIER Road, Jacksonville, FL 32208. Would your seller consider a cash offer around $73,500? I can close quickly."
+    },
+    {
+      "id": "6818 MERRILL Court",
+      "name": "DEIRDRA (Dee Dee) M ROBINSON",
+      "phone": "+19042480422",
+      "phoneDisplay": "904-248-0422",
+      "address": "6818 MERRILL Court, Jacksonville, FL 32211",
+      "offer": "$158,500",
+      "message": "Hi DEIRDRA, I'm interested in 6818 MERRILL Court, Jacksonville, FL 32211. Would your seller consider a cash offer around $158,500? I can close quickly."
+    },
+    {
+      "id": "8456 BOYSENBERRY L",
+      "name": "GLEN HARE",
+      "phone": "+19043849807",
+      "phoneDisplay": "904-384-9807",
+      "address": "8456 BOYSENBERRY Lane W, Jacksonville, FL 32244",
+      "offer": "$130,500",
+      "message": "Hello! Regarding 8456 BOYSENBERRY Lane W, Jacksonville, FL 32244, I'm a local investor. My numbers work at $130,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "1546 RIVER HILLS C",
+      "name": "JULIANA BAHRI",
+      "phone": "+19048748706",
+      "phoneDisplay": "904-874-8706",
+      "address": "1546 RIVER HILLS Circle W, Jacksonville, FL 32211",
+      "offer": "$144,500",
+      "message": "Hello! Regarding 1546 RIVER HILLS Circle W, Jacksonville, FL 32211, I'm a local investor. My numbers work at $144,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "1730 AUDUBON Stree",
+      "name": "LASHAWN STEWART",
+      "phone": "+19045022691",
+      "phoneDisplay": "904-502-2691",
+      "address": "1730 AUDUBON Street, Jacksonville, FL 32208",
+      "offer": "$10,000",
+      "message": "Hey LASHAWN, love the potential of 1730 AUDUBON Street, Jacksonville, FL 32208. I can offer $10,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "4815 LYNBROOK Driv",
+      "name": "LINDA OSTOSKI",
+      "phone": "+19044221098",
+      "phoneDisplay": "904-422-1098",
+      "address": "4815 LYNBROOK Drive, Jacksonville, FL 32207",
+      "offer": "$121,500",
+      "message": "Hi LINDA, is 4815 LYNBROOK Drive, Jacksonville, FL 32207 still available? I'm interested in an as-is purchase. My max offer is $121,500. Thoughts?"
+    },
+    {
+      "id": "152 W 10TH Street,",
+      "name": "NAJI HASSAN",
+      "phone": "+19044258280",
+      "phoneDisplay": "904-425-8280",
+      "address": "152 W 10TH Street, Jacksonville, FL 32206",
+      "offer": "$158,500",
+      "message": "Hello! Regarding 152 W 10TH Street, Jacksonville, FL 32206, I'm a local investor. My numbers work at $158,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "4104 LEONARD Circl",
+      "name": "KONT LECI",
+      "phone": "+19048886446",
+      "phoneDisplay": "904-888-6446",
+      "address": "4104 LEONARD Circle E, Jacksonville, FL 32209",
+      "offer": "$70,000",
+      "message": "Hi KONT, quick question on 4104 LEONARD Circle E, Jacksonville, FL 32209. Would they be open to a $70,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "22 MONTE Street, J",
+      "name": "DANIEL LEE",
+      "phone": "+19044450683",
+      "phoneDisplay": "904-445-0683",
+      "address": "22 MONTE Street, Jacksonville, FL 32254",
+      "offer": "$52,500",
+      "message": "Greetings, I'm reaching out about the property on 22 MONTE Street, Jacksonville, FL 32254. We're looking for our next project. Would a $52,500 cash offer be of interest?"
+    },
+    {
+      "id": "3554 BROCKWAY Road",
+      "name": "JOHN WOLFEL",
+      "phone": "+19046998887",
+      "phoneDisplay": "904-699-8887",
+      "address": "3554 BROCKWAY Road, Jacksonville, FL 32250",
+      "offer": "$189,500",
+      "message": "Hey JOHN, saw the listing at 3554 BROCKWAY Road, Jacksonville, FL 32250. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $189,500 as-is?"
+    },
+    {
+      "id": "3053 RAY Road, Jac",
+      "name": "DANYELLE DENNARD",
+      "phone": "+19042078357",
+      "phoneDisplay": "904-207-8357",
+      "address": "3053 RAY Road, Jacksonville, FL 32209",
+      "offer": "$59,000",
+      "message": "Hi DANYELLE, I buy homes in Jacksonville in any condition. For 3053 RAY Road, Jacksonville, FL 32209 I can offer $59,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "162 E 54TH Street,",
+      "name": "LUCIE WELCH",
+      "phone": "+19045681882",
+      "phoneDisplay": "904-568-1882",
+      "address": "162 E 54TH Street, Jacksonville, FL 32208",
+      "offer": "$151,500",
+      "message": "Hi LUCIE, I'm interested in 162 E 54TH Street, Jacksonville, FL 32208. Would your seller consider a cash offer around $151,500? I can close quickly."
+    },
+    {
+      "id": "6228 BLUEBIRD Road",
+      "name": "KRAVIN C ELLISON",
+      "phone": "+19542924883",
+      "phoneDisplay": "954-292-4883",
+      "address": "6228 BLUEBIRD Road, Jacksonville, FL 32219",
+      "offer": "$41,500",
+      "message": "Hey KRAVIN, saw the listing at 6228 BLUEBIRD Road, Jacksonville, FL 32219. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $41,500 as-is?"
+    },
+    {
+      "id": "322 E 6TH Street, ",
+      "name": "NICOLE SMITH",
+      "phone": "+19048882148",
+      "phoneDisplay": "904-888-2148",
+      "address": "322 E 6TH Street, Jacksonville, FL 32206",
+      "offer": "$70,000",
+      "message": "Hello! Regarding 322 E 6TH Street, Jacksonville, FL 32206, I'm a local investor. My numbers work at $70,000 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "6978 PAUL HOWARD D",
+      "name": "MAIDELYS MEDINA",
+      "phone": "+19049038351",
+      "phoneDisplay": "904-903-8351",
+      "address": "6978 PAUL HOWARD Drive, Jacksonville, FL 32222",
+      "offer": "$111,500",
+      "message": "Hey MAIDELYS, love the potential of 6978 PAUL HOWARD Drive, Jacksonville, FL 32222. I can offer $111,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "2091 Yulee St, Jac",
+      "name": "Shon Sandy",
+      "phone": "+19048052592",
+      "phoneDisplay": "904-805-2592",
+      "address": "2091 Yulee St, Jacksonville, FL 32209",
+      "offer": "$46,000",
+      "message": "Hey Shon, love the potential of 2091 Yulee St, Jacksonville, FL 32209. I can offer $46,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "1145 E 14TH Street",
+      "name": "DEXTER BINDER",
+      "phone": "+19046085507",
+      "phoneDisplay": "904-608-5507",
+      "address": "1145 E 14TH Street, Jacksonville, FL 32206",
+      "offer": "$121,500",
+      "message": "Hello, I'm an investor interested in 1145 E 14TH Street, Jacksonville, FL 32206. Based on the work needed, I'm at $121,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1169 WOODRUFF Aven",
+      "name": "CHAD NEUMANN",
+      "phone": "+19047208411",
+      "phoneDisplay": "904-720-8411",
+      "address": "1169 WOODRUFF Avenue, Jacksonville, FL 32205",
+      "offer": "$132,500",
+      "message": "Hey! Just saw 1169 WOODRUFF Avenue, Jacksonville, FL 32205. It fits my criteria perfectly. I can do $132,500 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "2820 AUBREY Avenue",
+      "name": "RYAN ROBBINS",
+      "phone": "+19043820573",
+      "phoneDisplay": "904-382-0573",
+      "address": "2820 AUBREY Avenue, Jacksonville, FL 32208",
+      "offer": "$85,500",
+      "message": "Hi RYAN, is 2820 AUBREY Avenue, Jacksonville, FL 32208 still available? I'm interested in an as-is purchase. My max offer is $85,500. Thoughts?"
+    },
+    {
+      "id": "5926 DUNMIRE Avenu",
+      "name": "MOSES R NAE",
+      "phone": "+14074990240",
+      "phoneDisplay": "407-499-0240",
+      "address": "5926 DUNMIRE Avenue, Jacksonville, FL 32219",
+      "offer": "$51,500",
+      "message": "Hi MOSES, quick question on 5926 DUNMIRE Avenue, Jacksonville, FL 32219. Would they be open to a $51,500 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "144 SPRING Street,",
+      "name": "KAL ZALLOUM",
+      "phone": "+19049232194",
+      "phoneDisplay": "904-923-2194",
+      "address": "144 SPRING Street, Jacksonville, FL 32254",
+      "offer": "$73,500",
+      "message": "Hey KAL, love the potential of 144 SPRING Street, Jacksonville, FL 32254. I can offer $73,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "3116 2ND ST Circle",
+      "name": "LESLEY RESNICK",
+      "phone": "+19043164306",
+      "phoneDisplay": "904-316-4306",
+      "address": "3116 2ND ST Circle, Jacksonville, FL 32254",
+      "offer": "$66,500",
+      "message": "Hi LESLEY, I'm interested in 3116 2ND ST Circle, Jacksonville, FL 32254. Would your seller consider a cash offer around $66,500? I can close quickly."
+    },
+    {
+      "id": "8064 KILWINNING La",
+      "name": "DANA HANCOCK",
+      "phone": "+19042874252",
+      "phoneDisplay": "904-287-4252",
+      "address": "8064 KILWINNING Lane, Jacksonville, FL 32244",
+      "offer": "$165,000",
+      "message": "Hi there, regarding 8064 KILWINNING Lane, Jacksonville, FL 32244 in Jacksonville. I'd like to submit a cash offer for $165,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "1663 W 30th St, Ja",
+      "name": "Carrie Crowley",
+      "phone": "+14045995450",
+      "phoneDisplay": "404-599-5450",
+      "address": "1663 W 30th St, Jacksonville, FL 32209",
+      "offer": "$38,500",
+      "message": "Hey Carrie, saw the listing at 1663 W 30th St, Jacksonville, FL 32209. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $38,500 as-is?"
+    },
+    {
+      "id": "345 W 26TH Street,",
+      "name": "LESLEY RESNICK",
+      "phone": "+19043164306",
+      "phoneDisplay": "904-316-4306",
+      "address": "345 W 26TH Street, Jacksonville, FL 32206",
+      "offer": "$73,500",
+      "message": "Hey LESLEY, saw the listing at 345 W 26TH Street, Jacksonville, FL 32206. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $73,500 as-is?"
+    },
+    {
+      "id": "7007 LUCKY Drive E",
+      "name": "NARENDRA PATEL",
+      "phone": "+19042331997",
+      "phoneDisplay": "904-233-1997",
+      "address": "7007 LUCKY Drive E, Jacksonville, FL 32208",
+      "offer": "$49,500",
+      "message": "Hello! Regarding 7007 LUCKY Drive E, Jacksonville, FL 32208, I'm a local investor. My numbers work at $49,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "6109 STRAWFLOWER P",
+      "name": "MOSES R NAE",
+      "phone": "+14074990240",
+      "phoneDisplay": "407-499-0240",
+      "address": "6109 STRAWFLOWER Place, Jacksonville, FL 32209",
+      "offer": "$70,000",
+      "message": "Hey MOSES, love the potential of 6109 STRAWFLOWER Place, Jacksonville, FL 32209. I can offer $70,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "7330 ELWOOD Avenue",
+      "name": "DENISE DEMICO",
+      "phone": "+19046137004",
+      "phoneDisplay": "904-613-7004",
+      "address": "7330 ELWOOD Avenue, Jacksonville, FL 32208",
+      "offer": "$70,000",
+      "message": "Hi DENISE, quick question on 7330 ELWOOD Avenue, Jacksonville, FL 32208. Would they be open to a $70,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "5227 BUNCHE Drive,",
+      "name": "JOYOUS BURDEN",
+      "phone": "+19049033658",
+      "phoneDisplay": "904-903-3658",
+      "address": "5227 BUNCHE Drive, Jacksonville, FL 32209",
+      "offer": "$115,000",
+      "message": "Hi JOYOUS, I'm interested in 5227 BUNCHE Drive, Jacksonville, FL 32209. Would your seller consider a cash offer around $115,000? I can close quickly."
+    },
+    {
+      "id": "409 CRYSTAL Street",
+      "name": "JACQUELYN N CLARK",
+      "phone": "+19049550352",
+      "phoneDisplay": "904-955-0352",
+      "address": "409 CRYSTAL Street, Jacksonville, FL 32254",
+      "offer": "$49,500",
+      "message": "Hi JACQUELYN, is 409 CRYSTAL Street, Jacksonville, FL 32254 still available? I'm interested in an as-is purchase. My max offer is $49,500. Thoughts?"
+    },
+    {
+      "id": "5148 ATTLEBORO Str",
+      "name": "CHAD NEUMANN",
+      "phone": "+19047208411",
+      "phoneDisplay": "904-720-8411",
+      "address": "5148 ATTLEBORO Street, Jacksonville, FL 32205",
+      "offer": "$162,000",
+      "message": "Hi CHAD, I'm interested in 5148 ATTLEBORO Street, Jacksonville, FL 32205. Would your seller consider a cash offer around $162,000? I can close quickly."
+    },
+    {
+      "id": "5974 CHARLES D EVE",
+      "name": "MARIA TAVERA",
+      "phone": "+19548814542",
+      "phoneDisplay": "954-881-4542",
+      "address": "5974 CHARLES D EVERS Drive, Jacksonville, FL 32219",
+      "offer": "$125,500",
+      "message": "Hi MARIA, I buy homes in Jacksonville in any condition. For 5974 CHARLES D EVERS Drive, Jacksonville, FL 32219 I can offer $125,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "1150 E 16TH, Jacks",
+      "name": "STEVEN KOLENO",
+      "phone": "+18046565007",
+      "phoneDisplay": "804-656-5007",
+      "address": "1150 E 16TH, Jacksonville, FL 32206",
+      "offer": "$128,500",
+      "message": "Hi STEVEN, is 1150 E 16TH, Jacksonville, FL 32206 still available? I'm interested in an as-is purchase. My max offer is $128,500. Thoughts?"
+    },
+    {
+      "id": "1630 W 34TH Street",
+      "name": "KAL ZALLOUM",
+      "phone": "+19049232194",
+      "phoneDisplay": "904-923-2194",
+      "address": "1630 W 34TH Street, Jacksonville, FL 32209",
+      "offer": "$75,500",
+      "message": "Hey KAL, love the potential of 1630 W 34TH Street, Jacksonville, FL 32209. I can offer $75,500 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "2007 LAMBERT Stree",
+      "name": "MELISSA CHAVIS",
+      "phone": "+19049882202",
+      "phoneDisplay": "904-988-2202",
+      "address": "2007 LAMBERT Street, Jacksonville, FL 32206",
+      "offer": "$70,000",
+      "message": "Greetings, I'm reaching out about the property on 2007 LAMBERT Street, Jacksonville, FL 32206. We're looking for our next project. Would a $70,000 cash offer be of interest?"
+    },
+    {
+      "id": "6528 MITFORD Road,",
+      "name": "JAMES S DANNER",
+      "phone": "+19049104294",
+      "phoneDisplay": "904-910-4294",
+      "address": "6528 MITFORD Road, Jacksonville, FL 32210",
+      "offer": "$141,000",
+      "message": "Hello JAMES, following up on 6528 MITFORD Road, Jacksonville, FL 32210. My all-cash number is $141,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "9419 SCADLOCKE Roa",
+      "name": "ANTOINETTE JACKSON",
+      "phone": "+19044017858",
+      "phoneDisplay": "904-401-7858",
+      "address": "9419 SCADLOCKE Road, Jacksonville, FL 32208",
+      "offer": "$69,000",
+      "message": "Hello ANTOINETTE, following up on 9419 SCADLOCKE Road, Jacksonville, FL 32208. My all-cash number is $69,000 with a flexible close date. Happy to send proof of funds."
+    },
+    {
+      "id": "3072 BESSENT Road,",
+      "name": "LETICIA ABREU",
+      "phone": "+17546102343",
+      "phoneDisplay": "754-610-2343",
+      "address": "3072 BESSENT Road, Jacksonville, FL 32218",
+      "offer": "$101,000",
+      "message": "Greetings, I'm reaching out about the property on 3072 BESSENT Road, Jacksonville, FL 32218. We're looking for our next project. Would a $101,000 cash offer be of interest?"
+    },
+    {
+      "id": "725 W 16 Street, J",
+      "name": "KYLE RODRIGUEZ",
+      "phone": "+19046552435",
+      "phoneDisplay": "904-655-2435",
+      "address": "725 W 16 Street, Jacksonville, FL 32206",
+      "offer": "$115,000",
+      "message": "Hi KYLE, quick question on 725 W 16 Street, Jacksonville, FL 32206. Would they be open to a $115,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "1494 8TH Street W,",
+      "name": "DANIELE SUTTON",
+      "phone": "+19046292098",
+      "phoneDisplay": "904-629-2098",
+      "address": "1494 8TH Street W, Jacksonville, FL 32209",
+      "offer": "$104,500",
+      "message": "Greetings, I'm reaching out about the property on 1494 8TH Street W, Jacksonville, FL 32209. We're looking for our next project. Would a $104,500 cash offer be of interest?"
+    },
+    {
+      "id": "1711 30TH Street W",
+      "name": "RYAN ROBBINS",
+      "phone": "+19043820573",
+      "phoneDisplay": "904-382-0573",
+      "address": "1711 30TH Street W, Jacksonville, FL 32209",
+      "offer": "$63,000",
+      "message": "Hey RYAN, love the potential of 1711 30TH Street W, Jacksonville, FL 32209. I can offer $63,000 net to the seller. We're ready to move if they are."
+    },
+    {
+      "id": "6929 ROLLO Road, J",
+      "name": "KAREN ZAMBETTI",
+      "phone": "+19045374744",
+      "phoneDisplay": "904-537-4744",
+      "address": "6929 ROLLO Road, Jacksonville, FL 32205",
+      "offer": "$128,500",
+      "message": "Hi there, regarding 6929 ROLLO Road, Jacksonville, FL 32205 in Jacksonville. I'd like to submit a cash offer for $128,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "6811 LANGFORD Stre",
+      "name": "STACEY D BOGGS",
+      "phone": "+19046039483",
+      "phoneDisplay": "904-603-9483",
+      "address": "6811 LANGFORD Street, Jacksonville, FL 32219",
+      "offer": "$166,500",
+      "message": "Hello! Regarding 6811 LANGFORD Street, Jacksonville, FL 32219, I'm a local investor. My numbers work at $166,500 for a quick close. Let me know if that's a conversation worth having."
+    },
+    {
+      "id": "7035 ELWOOD Avenue",
+      "name": "ARTHUR COX",
+      "phone": "+19048604799",
+      "phoneDisplay": "904-860-4799",
+      "address": "7035 ELWOOD Avenue, Jacksonville, FL 32208",
+      "offer": "$84,000",
+      "message": "Hey! Just saw 7035 ELWOOD Avenue, Jacksonville, FL 32208. It fits my criteria perfectly. I can do $84,000 cash with no contingencies. Does that work for the seller?"
+    },
+    {
+      "id": "919 OBSERVATORY Pa",
+      "name": "PETER PESTANO",
+      "phone": "+19042219547",
+      "phoneDisplay": "904-221-9547",
+      "address": "919 OBSERVATORY Parkway, Jacksonville, FL 32218",
+      "offer": "$122,500",
+      "message": "Hi there, regarding 919 OBSERVATORY Parkway, Jacksonville, FL 32218 in Jacksonville. I'd like to submit a cash offer for $122,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "4022 TYNDALE Drive",
+      "name": "VANETTA JORDAN",
+      "phone": "+19046726537",
+      "phoneDisplay": "904-672-6537",
+      "address": "4022 TYNDALE Drive, Jacksonville, FL 32210",
+      "offer": "$110,000",
+      "message": "Hi VANETTA, quick question on 4022 TYNDALE Drive, Jacksonville, FL 32210. Would they be open to a $110,000 offer? We handle all repairs and close on your timeline."
+    },
+    {
+      "id": "5051 LEXINGTON Ave",
+      "name": "ELLEN WILSON",
+      "phone": "+19044451846",
+      "phoneDisplay": "904-445-1846",
+      "address": "5051 LEXINGTON Avenue, Jacksonville, FL 32210",
+      "offer": "$93,500",
+      "message": "Hey ELLEN, saw the listing at 5051 LEXINGTON Avenue, Jacksonville, FL 32210. I'm looking for a fixer-upper in Jacksonville. Any chance they'd take $93,500 as-is?"
+    },
+    {
+      "id": "12221 SAND LAKE Co",
+      "name": "GABRIELA KADAS",
+      "phone": "+19048945599",
+      "phoneDisplay": "904-894-5599",
+      "address": "12221 SAND LAKE Court, Jacksonville, FL 32218",
+      "offer": "$175,500",
+      "message": "Hi there, regarding 12221 SAND LAKE Court, Jacksonville, FL 32218 in Jacksonville. I'd like to submit a cash offer for $175,500. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "1334 W 32ND Street",
+      "name": "JOSEPH TARVER",
+      "phone": "+19045713041",
+      "phoneDisplay": "904-571-3041",
+      "address": "1334 W 32ND Street, Jacksonville, FL 32209",
+      "offer": "$64,500",
+      "message": "Hi JOSEPH, I buy homes in Jacksonville in any condition. For 1334 W 32ND Street, Jacksonville, FL 32209 I can offer $64,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "5511 CRUZ Road, Ja",
+      "name": "CRYSTAL ROBINSON",
+      "phone": "+19046772249",
+      "phoneDisplay": "904-677-2249",
+      "address": "5511 CRUZ Road, Jacksonville, FL 32207",
+      "offer": "$115,000",
+      "message": "Hi there, regarding 5511 CRUZ Road, Jacksonville, FL 32207 in Jacksonville. I'd like to submit a cash offer for $115,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "2205 COMMONWEALTH ",
+      "name": "STEPHANIE FERRATO PA",
+      "phone": "+19548501151",
+      "phoneDisplay": "954-850-1151",
+      "address": "2205 COMMONWEALTH Avenue, Jacksonville, FL 32209",
+      "offer": "$76,500",
+      "message": "Hello, I'm an investor interested in 2205 COMMONWEALTH Avenue, Jacksonville, FL 32209. Based on the work needed, I'm at $76,500 for a fast cash closing. Thanks!"
+    },
+    {
+      "id": "1311 GRANVDIEW Dri",
+      "name": "MATT DANIELL",
+      "phone": "+19042019598",
+      "phoneDisplay": "904-201-9598",
+      "address": "1311 GRANVDIEW Drive, Jacksonville, FL 32211",
+      "offer": "$141,000",
+      "message": "Greetings, I'm reaching out about the property on 1311 GRANVDIEW Drive, Jacksonville, FL 32211. We're looking for our next project. Would a $141,000 cash offer be of interest?"
+    },
+    {
+      "id": "4910 RHODE ISLAND ",
+      "name": "LESLEY RESNICK",
+      "phone": "+19043164306",
+      "phoneDisplay": "904-316-4306",
+      "address": "4910 RHODE ISLAND Drive N, Jacksonville, FL 32209",
+      "offer": "$77,000",
+      "message": "Hi there, regarding 4910 RHODE ISLAND Drive N, Jacksonville, FL 32209 in Jacksonville. I'd like to submit a cash offer for $77,000. Can we chat about the seller's situation?"
+    },
+    {
+      "id": "4173 DAVIE Court, ",
+      "name": "JELISSA STUBBS",
+      "phone": "+19048913820",
+      "phoneDisplay": "904-891-3820",
+      "address": "4173 DAVIE Court, Jacksonville, FL 32210",
+      "offer": "$175,500",
+      "message": "Hi JELISSA, I buy homes in Jacksonville in any condition. For 4173 DAVIE Court, Jacksonville, FL 32210 I can offer $175,500 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "2146 LOUISE Street",
+      "name": "JACOBE GERARD WILLIAMS SR",
+      "phone": "+19049969115",
+      "phoneDisplay": "904-996-9115",
+      "address": "2146 LOUISE Street, Jacksonville, FL 32206",
+      "offer": "$42,500",
+      "message": "Greetings, I'm reaching out about the property on 2146 LOUISE Street, Jacksonville, FL 32206. We're looking for our next project. Would a $42,500 cash offer be of interest?"
+    },
+    {
+      "id": "8384 DELAWARE Aven",
+      "name": "DENISE DEMICO",
+      "phone": "+19046137004",
+      "phoneDisplay": "904-613-7004",
+      "address": "8384 DELAWARE Avenue, Jacksonville, FL 32208",
+      "offer": "$94,000",
+      "message": "Hi DENISE, is 8384 DELAWARE Avenue, Jacksonville, FL 32208 still available? I'm interested in an as-is purchase. My max offer is $94,000. Thoughts?"
+    },
+    {
+      "id": "3218 PERRY Street,",
+      "name": "JON A DENYS",
+      "phone": "+19045344842",
+      "phoneDisplay": "904-534-4842",
+      "address": "3218 PERRY Street, Jacksonville, FL 32206",
+      "offer": "$73,500",
+      "message": "Greetings, I'm reaching out about the property on 3218 PERRY Street, Jacksonville, FL 32206. We're looking for our next project. Would a $73,500 cash offer be of interest?"
+    },
+    {
+      "id": "2371 JAYSON Avenue",
+      "name": "JACQUELYN N CLARK",
+      "phone": "+19049550352",
+      "phoneDisplay": "904-955-0352",
+      "address": "2371 JAYSON Avenue, Jacksonville, FL 32208",
+      "offer": "$46,000",
+      "message": "Hi JACQUELYN, I buy homes in Jacksonville in any condition. For 2371 JAYSON Avenue, Jacksonville, FL 32208 I can offer $46,000 cash, no repairs needed on your end. Open to it?"
+    },
+    {
+      "id": "10460 GAILWOOD Cir",
+      "name": "MILDRED BELLAMY",
+      "phone": "+19046991742",
+      "phoneDisplay": "904-699-1742",
+      "address": "10460 GAILWOOD Circle E, Jacksonville, FL 32218",
+      "offer": "$56,500",
+      "message": "Hi MILDRED, is 10460 GAILWOOD Circle E, Jacksonville, FL 32218 still available? I'm interested in an as-is purchase. My max offer is $56,500. Thoughts?"
+    }
+  ]
+}
