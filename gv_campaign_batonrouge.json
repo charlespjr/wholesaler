@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 38,
+  "count": 33,
   "messages": [
     {
       "id": "BR045",
@@ -68,15 +68,6 @@
       "address": "4410 Greenwood Ln, Baker, LA 70714",
       "offer": "$77,000",
       "message": "Hi Tawanda, is 4410 Greenwood Ln, Baker, LA 70714 still available? I'm interested in an as-is purchase. My max offer is $77,000. Thoughts?"
-    },
-    {
-      "id": "BR033",
-      "name": "Donna Harris",
-      "phone": "+12254136186",
-      "phoneDisplay": "225-413-6186",
-      "address": "735 Marcellious Ln, Baton Rouge, LA 70802",
-      "offer": "$0",
-      "message": "Hi Donna, quick question on 735 Marcellious Ln, Baton Rouge, LA 70802. Would they be open to a $0 offer? We handle all repairs and close on your timeline."
     },
     {
       "id": "BR005",
@@ -151,33 +142,6 @@
       "message": "Hey LaRicca, saw the listing at 3760 Uncas St, Baton Rouge, LA 70805. I'm looking for a fixer-upper in Baton Rouge. Any chance they'd take $42,500 as-is?"
     },
     {
-      "id": "BR006",
-      "name": "Donna Harris",
-      "phone": "+12254136186",
-      "phoneDisplay": "225-413-6186",
-      "address": "1032 N 30th St, Baton Rouge, LA 70802",
-      "offer": "$10,500",
-      "message": "Hello Donna, following up on 1032 N 30th St, Baton Rouge, LA 70802. My all-cash number is $10,500 with a flexible close date. Happy to send proof of funds."
-    },
-    {
-      "id": "BR034",
-      "name": "Donna Harris",
-      "phone": "+12254136186",
-      "phoneDisplay": "225-413-6186",
-      "address": "2612 Illinois St, Baton Rouge, LA 70802",
-      "offer": "$4,000",
-      "message": "Hey Donna, love the potential of 2612 Illinois St, Baton Rouge, LA 70802. I can offer $4,000 net to the seller. We're ready to move if they are."
-    },
-    {
-      "id": "BR043",
-      "name": "Donna Harris",
-      "phone": "+12254136186",
-      "phoneDisplay": "225-413-6186",
-      "address": "5540 Lavey Ln, Baker, LA 70714",
-      "offer": "$21,000",
-      "message": "Hello, I'm an investor interested in 5540 Lavey Ln, Baker, LA 70714. Based on the work needed, I'm at $21,000 for a fast cash closing. Thanks!"
-    },
-    {
       "id": "BR018",
       "name": "Melissa Bonnee Duncan",
       "phone": "+12257729236",
@@ -221,15 +185,6 @@
       "address": "2764 Dalton St, Baton Rouge, LA 70805",
       "offer": "$42,500",
       "message": "Hey Shemika, saw the listing at 2764 Dalton St, Baton Rouge, LA 70805. I'm looking for a fixer-upper in Baton Rouge. Any chance they'd take $42,500 as-is?"
-    },
-    {
-      "id": "BR017",
-      "name": "Donna Harris",
-      "phone": "+12254136186",
-      "phoneDisplay": "225-413-6186",
-      "address": "5710 Byron St, Baton Rouge, LA 70805",
-      "offer": "$0",
-      "message": "Hello, I'm an investor interested in 5710 Byron St, Baton Rouge, LA 70805. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
     },
     {
       "id": "BR027",
