@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 40,
+  "count": 39,
   "messages": [
     {
       "id": "BR045",
@@ -95,15 +95,6 @@
       "address": "9937 Golden Gate Ave, Baton Rouge, LA 70818",
       "offer": "$158,500",
       "message": "Hello! Regarding 9937 Golden Gate Ave, Baton Rouge, LA 70818, I'm a local investor. My numbers work at $158,500 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "BR011",
-      "name": "Ruba Thomas-Anderson",
-      "phone": "+12259331341",
-      "phoneDisplay": "225-933-1341",
-      "address": "5555 San Juan Dr, Baton Rouge, LA 70811",
-      "offer": "$87,500",
-      "message": "Hi there, regarding 5555 San Juan Dr, Baton Rouge, LA 70811 in Baton Rouge. I'd like to submit a cash offer for $87,500. Can we chat about the seller's situation?"
     },
     {
       "id": "BR020",
