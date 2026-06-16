@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 94,
+  "count": 93,
   "messages": [
     {
       "id": "Ciruela Rd NW, Albuq",
@@ -131,15 +131,6 @@
       "address": "712 Thaxton Ave SE, Albuquerque, NM 87102",
       "offer": "$111,500",
       "message": "Hello, I'm an investor interested in 712 Thaxton Ave SE, Albuquerque, NM 87102. Based on the work needed, I'm at $111,500 for a fast cash closing. Thanks!"
-    },
-    {
-      "id": "1204 Edith Blvd SE, ",
-      "name": "Kameo Layce Rodriguez",
-      "phone": "+15754189137",
-      "phoneDisplay": "575-418-9137",
-      "address": "1204 Edith Blvd SE, Albuquerque, NM 87102",
-      "offer": "$138,000",
-      "message": "Greetings, I'm reaching out about the property on 1204 Edith Blvd SE, Albuquerque, NM 87102. We're looking for our next project. Would a $138,000 cash offer be of interest?"
     },
     {
       "id": "1015 Barelas St SW, ",
