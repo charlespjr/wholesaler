@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 31,
+  "count": 30,
   "messages": [
     {
       "id": "BR045",
@@ -140,15 +140,6 @@
       "address": "5109 Cumberland Cove Dr, Baton Rouge, LA 70817",
       "offer": "$80,500",
       "message": "Hi Lisa, I'm interested in 5109 Cumberland Cove Dr, Baton Rouge, LA 70817. Would your seller consider a cash offer around $80,500? I can close quickly."
-    },
-    {
-      "id": "BR012",
-      "name": "Stephanie Black",
-      "phone": "+12253620891",
-      "phoneDisplay": "225-362-0891",
-      "address": "5223 Everett Ln APT D, Baton Rouge, LA 70809",
-      "offer": "$107,500",
-      "message": "Hey Stephanie, saw the listing at 5223 Everett Ln APT D, Baton Rouge, LA 70809. I'm looking for a fixer-upper in Baton Rouge. Any chance they'd take $107,500 as-is?"
     },
     {
       "id": "BR023",
