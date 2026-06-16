@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 93,
+  "count": 92,
   "messages": [
     {
       "id": "Ciruela Rd NW, Albuq",
@@ -14,15 +14,6 @@
       "address": "Ciruela Rd NW, Albuquerque, NM 87120",
       "offer": "$151,500",
       "message": "Hey! Just saw Ciruela Rd NW, Albuquerque, NM 87120. It fits my criteria perfectly. I can do $151,500 cash with no contingencies. Does that work for the seller?"
-    },
-    {
-      "id": "7443 Snowy Egret Pl ",
-      "name": "Jean A Chavez",
-      "phone": "+15056205326",
-      "phoneDisplay": "505-620-5326",
-      "address": "7443 Snowy Egret Pl NW, Albuquerque, NM 87114",
-      "offer": "$186,000",
-      "message": "Greetings, I'm reaching out about the property on 7443 Snowy Egret Pl NW, Albuquerque, NM 87114. We're looking for our next project. Would a $186,000 cash offer be of interest?"
     },
     {
       "id": "2 Prime Lots Volcano",
