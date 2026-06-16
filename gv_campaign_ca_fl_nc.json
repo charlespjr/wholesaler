@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 203,
+  "count": 202,
   "messages": [
     {
       "id": "230 Sterling Rd, B",
@@ -1103,15 +1103,6 @@
       "address": "9324 NORFOLK Boulevard, Jacksonville, FL 32208",
       "offer": "$42,500",
       "message": "Hello ERIC, following up on 9324 NORFOLK Boulevard, Jacksonville, FL 32208. My all-cash number is $42,500 with a flexible close date. Happy to send proof of funds."
-    },
-    {
-      "id": "2540 HAYWOOD ESTAT",
-      "name": "KEITH JONES",
-      "phone": "+19045548560",
-      "phoneDisplay": "904-554-8560",
-      "address": "2540 HAYWOOD ESTATES Lane, Jacksonville, FL 32233",
-      "offer": "$130,500",
-      "message": "Hello KEITH, following up on 2540 HAYWOOD ESTATES Lane, Jacksonville, FL 32233. My all-cash number is $130,500 with a flexible close date. Happy to send proof of funds."
     },
     {
       "id": "651 W 46TH Street,",
