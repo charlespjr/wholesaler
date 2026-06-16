@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 202,
+  "count": 199,
   "messages": [
     {
       "id": "230 Sterling Rd, B",
@@ -619,15 +619,6 @@
       "message": "Hey Nikhil, saw the listing at 408 Longfellow Blvd, Lakeland, FL 33801. I'm looking for a fixer-upper in Lakeland. Any chance they'd take $184,000 as-is?"
     },
     {
-      "id": "2018 Hallmark Ct, ",
-      "name": "Jamie Boone",
-      "phone": "+17866004465",
-      "phoneDisplay": "786-600-4465",
-      "address": "2018 Hallmark Ct, Lakeland, FL 33803",
-      "offer": "$0",
-      "message": "Hi Jamie, I buy homes in Lakeland in any condition. For 2018 Hallmark Ct, Lakeland, FL 33803 I can offer $0 cash, no repairs needed on your end. Open to it?"
-    },
-    {
       "id": "3012 Skyview Dr, L",
       "name": "Jerry Dunning, Jr",
       "phone": "+18636025527",
@@ -887,15 +878,6 @@
       "address": "2185 MOREHOUSE Road, Jacksonville, FL 32209",
       "offer": "$29,500",
       "message": "Hi PEPPER, I buy homes in Jacksonville in any condition. For 2185 MOREHOUSE Road, Jacksonville, FL 32209 I can offer $29,500 cash, no repairs needed on your end. Open to it?"
-    },
-    {
-      "id": "4119 Sherman Hills",
-      "name": "Jaime L Boone",
-      "phone": "+17866004465",
-      "phoneDisplay": "786-600-4465",
-      "address": "4119 Sherman Hills Pkwy W, Jacksonville, FL 32210",
-      "offer": "$0",
-      "message": "Hi Jaime, I'm interested in 4119 Sherman Hills Pkwy W, Jacksonville, FL 32210. Would your seller consider a cash offer around $0? I can close quickly."
     },
     {
       "id": "16228 TISONS BLUFF",
@@ -1247,15 +1229,6 @@
       "address": "2917 PARR Court E, Jacksonville, FL 32216",
       "offer": "$104,500",
       "message": "Hello ANTHONY, following up on 2917 PARR Court E, Jacksonville, FL 32216. My all-cash number is $104,500 with a flexible close date. Happy to send proof of funds."
-    },
-    {
-      "id": "857 Benbow St, Jac",
-      "name": "Jaime L Boone",
-      "phone": "+17866004465",
-      "phoneDisplay": "786-600-4465",
-      "address": "857 Benbow St, Jacksonville, FL 32209",
-      "offer": "$0",
-      "message": "Hey! Just saw 857 Benbow St, Jacksonville, FL 32209. It fits my criteria perfectly. I can do $0 cash with no contingencies. Does that work for the seller?"
     },
     {
       "id": "1010 KENMORE Stree",

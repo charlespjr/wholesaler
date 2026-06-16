@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 568,
+  "count": 527,
   "messages": [
     {
       "id": "3713 Mary Ave, Bal",
@@ -1420,15 +1420,6 @@
       "message": "Hi there, regarding 5936 Hillcrest St, Detroit, MI 48236 in Detroit. I'd like to submit a cash offer for $108,000. Can we chat about the seller's situation?"
     },
     {
-      "id": "5226 Coplin St, De",
-      "name": "Tarick M Salmaci",
-      "phone": "+13133330111",
-      "phoneDisplay": "313-333-0111",
-      "address": "5226 Coplin St, Detroit, MI 48213",
-      "offer": "$0",
-      "message": "Hello, I'm an investor interested in 5226 Coplin St, Detroit, MI 48213. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
-    },
-    {
       "id": "13150 Glenfield St",
       "name": "Derek C Lievens",
       "phone": "+15862510291",
@@ -1553,24 +1544,6 @@
       "address": "9824 Philip St, Detroit, MI 48224",
       "offer": "$27,000",
       "message": "Hello, I'm an investor interested in 9824 Philip St, Detroit, MI 48224. Based on the work needed, I'm at $27,000 for a fast cash closing. Thanks!"
-    },
-    {
-      "id": "17556 Riopelle St,",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "17556 Riopelle St, Detroit, MI 48203",
-      "offer": "$0",
-      "message": "Hi Keelie, is 17556 Riopelle St, Detroit, MI 48203 still available? I'm interested in an as-is purchase. My max offer is $0. Thoughts?"
-    },
-    {
-      "id": "12717 Indiana St, ",
-      "name": "Mark Poloney",
-      "phone": "+12483754000",
-      "phoneDisplay": "248-375-4000",
-      "address": "12717 Indiana St, Detroit, MI 48238",
-      "offer": "$0",
-      "message": "Greetings, I'm reaching out about the property on 12717 Indiana St, Detroit, MI 48238. We're looking for our next project. Would a $0 cash offer be of interest?"
     },
     {
       "id": "19261 Mitchell St,",
@@ -1825,15 +1798,6 @@
       "message": "Hi Mark, I buy homes in Grosse Pointe in any condition. For 12519 Laing St, Grosse Pointe, MI 48224 I can offer $34,000 cash, no repairs needed on your end. Open to it?"
     },
     {
-      "id": "10449 Sterritt St,",
-      "name": "Mikhail Grigoryan",
-      "phone": "+13138886060",
-      "phoneDisplay": "313-888-6060",
-      "address": "10449 Sterritt St, Detroit, MI 48213",
-      "offer": "$0",
-      "message": "Hey Mikhail, saw the listing at 10449 Sterritt St, Detroit, MI 48213. I'm looking for a fixer-upper in Detroit. Any chance they'd take $0 as-is?"
-    },
-    {
       "id": "3610 Haverhill St,",
       "name": "Tracey Leonard",
       "phone": "+15865304069",
@@ -1886,15 +1850,6 @@
       "address": "5540 Guilford St, Detroit, MI 48224",
       "offer": "$31,500",
       "message": "Hello! Regarding 5540 Guilford St, Detroit, MI 48224, I'm a local investor. My numbers work at $31,500 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "3859 Manistique St",
-      "name": "Scott Fader",
-      "phone": "+18882271009",
-      "phoneDisplay": "888-227-1009",
-      "address": "3859 Manistique St, Detroit, MI 48215",
-      "offer": "$0",
-      "message": "Hey Scott, love the potential of 3859 Manistique St, Detroit, MI 48215. I can offer $0 net to the seller. We're ready to move if they are."
     },
     {
       "id": "15003 Manor St, De",
@@ -1951,15 +1906,6 @@
       "message": "Greetings, I'm reaching out about the property on 15779 Wabash St, Detroit, MI 48238. We're looking for our next project. Would a $21,000 cash offer be of interest?"
     },
     {
-      "id": "12828 Strathmoor S",
-      "name": "S. Toni Jennings",
-      "phone": "+13135067711",
-      "phoneDisplay": "313-506-7711",
-      "address": "12828 Strathmoor St, Detroit, MI 48227",
-      "offer": "$0",
-      "message": "Hi S., is 12828 Strathmoor St, Detroit, MI 48227 still available? I'm interested in an as-is purchase. My max offer is $0. Thoughts?"
-    },
-    {
       "id": "11391 Saint Marys ",
       "name": "Anthony Djon",
       "phone": "+12487474834",
@@ -1987,24 +1933,6 @@
       "message": "Hey Branson, saw the listing at 19353 Runyon St, Detroit, MI 48234. I'm looking for a fixer-upper in Detroit. Any chance they'd take $12,500 as-is?"
     },
     {
-      "id": "9821 McQuade St, D",
-      "name": "Kita Montgomery",
-      "phone": "+18885017085",
-      "phoneDisplay": "888-501-7085",
-      "address": "9821 McQuade St, Detroit, MI 48206",
-      "offer": "$0",
-      "message": "Hello! Regarding 9821 McQuade St, Detroit, MI 48206, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "19614 Charest St, ",
-      "name": "Anthony Vitale",
-      "phone": "+15867264600",
-      "phoneDisplay": "586-726-4600",
-      "address": "19614 Charest St, Detroit, MI 48234",
-      "offer": "$0",
-      "message": "Hey Anthony, love the potential of 19614 Charest St, Detroit, MI 48234. I can offer $0 net to the seller. We're ready to move if they are."
-    },
-    {
       "id": "20185 Indiana St, ",
       "name": "Anthony R Raffin",
       "phone": "+15867734400",
@@ -2023,15 +1951,6 @@
       "message": "Hey Sam, saw the listing at 9925 Bishop St, Detroit, MI 48224. I'm looking for a fixer-upper in Detroit. Any chance they'd take $42,500 as-is?"
     },
     {
-      "id": "18819 Moross Rd, D",
-      "name": "TJ Brisbois",
-      "phone": "+17342379974",
-      "phoneDisplay": "734-237-9974",
-      "address": "18819 Moross Rd, Detroit, MI 48224",
-      "offer": "$0",
-      "message": "Hello TJ, following up on 18819 Moross Rd, Detroit, MI 48224. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
-    },
-    {
       "id": "16569 Woodbine St,",
       "name": "Scott Fader",
       "phone": "+18882271009",
@@ -2048,15 +1967,6 @@
       "address": "6036 Central St, Detroit, MI 48210",
       "offer": "$66,500",
       "message": "Hi Regina, I'm interested in 6036 Central St, Detroit, MI 48210. Would your seller consider a cash offer around $66,500? I can close quickly."
-    },
-    {
-      "id": "14711 Lappin St, D",
-      "name": "William Reid",
-      "phone": "+12486351489",
-      "phoneDisplay": "248-635-1489",
-      "address": "14711 Lappin St, Detroit, MI 48205",
-      "offer": "$0",
-      "message": "Hello William, following up on 14711 Lappin St, Detroit, MI 48205. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
     },
     {
       "id": "9394 Sorrento St, ",
@@ -2084,15 +1994,6 @@
       "address": "21530 W Davison St, Detroit, MI 48223",
       "offer": "$21,000",
       "message": "Hey Mark, saw the listing at 21530 W Davison St, Detroit, MI 48223. I'm looking for a fixer-upper in Detroit. Any chance they'd take $21,000 as-is?"
-    },
-    {
-      "id": "14176 Houston Whit",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "14176 Houston Whittier St, Detroit, MI 48205",
-      "offer": "$0",
-      "message": "Hey Keelie, saw the listing at 14176 Houston Whittier St, Detroit, MI 48205. I'm looking for a fixer-upper in Detroit. Any chance they'd take $0 as-is?"
     },
     {
       "id": "16503 Wisconsin St",
@@ -2158,15 +2059,6 @@
       "message": "Hey Shoaib, saw the listing at 5093 Garland St, Detroit, MI 48213. I'm looking for a fixer-upper in Detroit. Any chance they'd take $25,500 as-is?"
     },
     {
-      "id": "20145 Omira Ave, D",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "20145 Omira Ave, Detroit, MI 48203",
-      "offer": "$0",
-      "message": "Hi Keelie, quick question on 20145 Omira Ave, Detroit, MI 48203. Would they be open to a $0 offer? We handle all repairs and close on your timeline."
-    },
-    {
       "id": "18950 Blackmoor St",
       "name": "Mark Hutter",
       "phone": "+17348389197",
@@ -2219,24 +2111,6 @@
       "address": "16500 Eastburn St, Detroit, MI 48205",
       "offer": "$42,500",
       "message": "Hello! Regarding 16500 Eastburn St, Detroit, MI 48205, I'm a local investor. My numbers work at $42,500 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "15469 Wildemere St",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "15469 Wildemere St, Detroit, MI 48238",
-      "offer": "$0",
-      "message": "Hello! Regarding 15469 Wildemere St, Detroit, MI 48238, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "19760 Rowe St, Det",
-      "name": "Dean Gozowsky",
-      "phone": "+12483808800",
-      "phoneDisplay": "248-380-8800",
-      "address": "19760 Rowe St, Detroit, MI 48205",
-      "offer": "$0",
-      "message": "Hello Dean, following up on 19760 Rowe St, Detroit, MI 48205. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
     },
     {
       "id": "20315 Goulburn St,",
@@ -2383,15 +2257,6 @@
       "message": "Hello, I'm an investor interested in 8049 Wetherby St, Detroit, MI 48204. Based on the work needed, I'm at $46,000 for a fast cash closing. Thanks!"
     },
     {
-      "id": "16093 Liberal St, ",
-      "name": "Brandon Woodbeck",
-      "phone": "+12483027936",
-      "phoneDisplay": "248-302-7936",
-      "address": "16093 Liberal St, Detroit, MI 48205",
-      "offer": "$0",
-      "message": "Hi Brandon, I'm interested in 16093 Liberal St, Detroit, MI 48205. Would your seller consider a cash offer around $0? I can close quickly."
-    },
-    {
       "id": "19024 Riverview St",
       "name": "Neeta Kaur",
       "phone": "+17349812900",
@@ -2437,24 +2302,6 @@
       "message": "Hi there, regarding 21554 W Davison St, Detroit, MI 48223 in Detroit. I'd like to submit a cash offer for $16,500. Can we chat about the seller's situation?"
     },
     {
-      "id": "14170 Darcy St, De",
-      "name": "Steve Koleno",
-      "phone": "+18046565007",
-      "phoneDisplay": "804-656-5007",
-      "address": "14170 Darcy St, Detroit, MI 48223",
-      "offer": "$0",
-      "message": "Hello, I'm an investor interested in 14170 Darcy St, Detroit, MI 48223. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
-    },
-    {
-      "id": "5042 Pennsylvania ",
-      "name": "TJ Brisbois",
-      "phone": "+17342379974",
-      "phoneDisplay": "734-237-9974",
-      "address": "5042 Pennsylvania St, Detroit, MI 48213",
-      "offer": "$0",
-      "message": "Hi there, regarding 5042 Pennsylvania St, Detroit, MI 48213 in Detroit. I'd like to submit a cash offer for $0. Can we chat about the seller's situation?"
-    },
-    {
       "id": "10731 Roxbury St, ",
       "name": "Malaka Green",
       "phone": "+13137997245",
@@ -2489,15 +2336,6 @@
       "address": "15385 Stansbury St, Detroit, MI 48227",
       "offer": "$56,500",
       "message": "Hi Heather, I buy homes in Detroit in any condition. For 15385 Stansbury St, Detroit, MI 48227 I can offer $56,500 cash, no repairs needed on your end. Open to it?"
-    },
-    {
-      "id": "15373 Lamphere St,",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "15373 Lamphere St, Detroit, MI 48223",
-      "offer": "$0",
-      "message": "Hi Keelie, I'm interested in 15373 Lamphere St, Detroit, MI 48223. Would your seller consider a cash offer around $0? I can close quickly."
     },
     {
       "id": "17184 Dresden St, ",
@@ -2851,15 +2689,6 @@
       "message": "Hi David, quick question on 19182 Hickory St, Detroit, MI 48205. Would they be open to a $16,000 offer? We handle all repairs and close on your timeline."
     },
     {
-      "id": "8656 & 8560 Farmbr",
-      "name": "Thomas Hutt",
-      "phone": "+12486465000",
-      "phoneDisplay": "248-646-5000",
-      "address": "8656 & 8560 Farmbrook St, Detroit, MI 48224",
-      "offer": "$0",
-      "message": "Hello Thomas, following up on 8656 & 8560 Farmbrook St, Detroit, MI 48224. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
-    },
-    {
       "id": "18427 Braile St, D",
       "name": "Greg Majewski",
       "phone": "+12485641972",
@@ -2867,15 +2696,6 @@
       "address": "18427 Braile St, Detroit, MI 48219",
       "offer": "$6,000",
       "message": "Hi Greg, is 18427 Braile St, Detroit, MI 48219 still available? I'm interested in an as-is purchase. My max offer is $6,000. Thoughts?"
-    },
-    {
-      "id": "19170 Greeley St, ",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "19170 Greeley St, Detroit, MI 48203",
-      "offer": "$0",
-      "message": "Hello Keelie, following up on 19170 Greeley St, Detroit, MI 48203. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
     },
     {
       "id": "17360 Mansfield St",
@@ -2959,15 +2779,6 @@
       "message": "Hi there, regarding 3331 S Liddesdale St, Detroit, MI 48217 in Detroit. I'd like to submit a cash offer for $25,500. Can we chat about the seller's situation?"
     },
     {
-      "id": "14230 Saratoga St,",
-      "name": "Future D Davis",
-      "phone": "+18885017085",
-      "phoneDisplay": "888-501-7085",
-      "address": "14230 Saratoga St, Detroit, MI 48205",
-      "offer": "$0",
-      "message": "Hey! Just saw 14230 Saratoga St, Detroit, MI 48205. It fits my criteria perfectly. I can do $0 cash with no contingencies. Does that work for the seller?"
-    },
-    {
       "id": "20030 Ohio St, Det",
       "name": "Mark Hutter",
       "phone": "+17348389197",
@@ -2975,15 +2786,6 @@
       "address": "20030 Ohio St, Detroit, MI 48221",
       "offer": "$46,000",
       "message": "Hi Mark, is 20030 Ohio St, Detroit, MI 48221 still available? I'm interested in an as-is purchase. My max offer is $46,000. Thoughts?"
-    },
-    {
-      "id": "19301 Runyon St, D",
-      "name": "Mohamed Elkaluoby",
-      "phone": "+13138019744",
-      "phoneDisplay": "313-801-9744",
-      "address": "19301 Runyon St, Detroit, MI 48234",
-      "offer": "$0",
-      "message": "Hello! Regarding 19301 Runyon St, Detroit, MI 48234, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
     },
     {
       "id": "4336 Larchmont St,",
@@ -3110,15 +2912,6 @@
       "address": "15237 Carlisle St, Detroit, MI 48205",
       "offer": "$49,500",
       "message": "Hi Brandon, I'm interested in 15237 Carlisle St, Detroit, MI 48205. Would your seller consider a cash offer around $49,500? I can close quickly."
-    },
-    {
-      "id": "6463 Crane St, Det",
-      "name": "Michael J Krausman",
-      "phone": "+12483426516",
-      "phoneDisplay": "248-342-6516",
-      "address": "6463 Crane St, Detroit, MI 48213",
-      "offer": "$0",
-      "message": "Hello, I'm an investor interested in 6463 Crane St, Detroit, MI 48213. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
     },
     {
       "id": "7607 Dobel St, Det",
@@ -3364,24 +3157,6 @@
       "message": "Hi there, regarding 2937 Seyburn St, Detroit, MI 48214 in Detroit. I'd like to submit a cash offer for $42,500. Can we chat about the seller's situation?"
     },
     {
-      "id": "1956 Monterey St, ",
-      "name": "Brandon Woodbeck",
-      "phone": "+12483027936",
-      "phoneDisplay": "248-302-7936",
-      "address": "1956 Monterey St, Detroit, MI 48206",
-      "offer": "$0",
-      "message": "Hello! Regarding 1956 Monterey St, Detroit, MI 48206, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "19375 Danbury St, ",
-      "name": "Mikhail Grigoryan",
-      "phone": "+13138886060",
-      "phoneDisplay": "313-888-6060",
-      "address": "19375 Danbury St, Highland Park, MI 48203",
-      "offer": "$0",
-      "message": "Hello, I'm an investor interested in 19375 Danbury St, Highland Park, MI 48203. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
-    },
-    {
       "id": "14045 Sussex St, D",
       "name": "James T Silver",
       "phone": "+12485307292",
@@ -3436,15 +3211,6 @@
       "message": "Greetings, I'm reaching out about the property on 5969 Cadieux Rd, Detroit, MI 48224. We're looking for our next project. Would a $79,500 cash offer be of interest?"
     },
     {
-      "id": "11701 Winthrop St,",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "11701 Winthrop St, Detroit, MI 48227",
-      "offer": "$0",
-      "message": "Hi Keelie, I'm interested in 11701 Winthrop St, Detroit, MI 48227. Would your seller consider a cash offer around $0? I can close quickly."
-    },
-    {
       "id": "13027 Rosemary St,",
       "name": "Franco Moncada",
       "phone": "+12486473200",
@@ -3479,15 +3245,6 @@
       "address": "11981 Whitehill St, Detroit, MI 48224",
       "offer": "$46,000",
       "message": "Hello! Regarding 11981 Whitehill St, Detroit, MI 48224, I'm a local investor. My numbers work at $46,000 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "14210 Kilbourne St",
-      "name": "TJ Brisbois",
-      "phone": "+17342379974",
-      "phoneDisplay": "734-237-9974",
-      "address": "14210 Kilbourne St, Detroit, MI 48213",
-      "offer": "$0",
-      "message": "Hello TJ, following up on 14210 Kilbourne St, Detroit, MI 48213. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
     },
     {
       "id": "2510 Sturtevant St",
@@ -3553,15 +3310,6 @@
       "message": "Hey! Just saw 12257 W Jeffries Fwy, Detroit, MI 48204. It fits my criteria perfectly. I can do $25,500 cash with no contingencies. Does that work for the seller?"
     },
     {
-      "id": "18109 Justine St, ",
-      "name": "Sam Hantosh",
-      "phone": "+13135610900",
-      "phoneDisplay": "313-561-0900",
-      "address": "18109 Justine St, Detroit, MI 48234",
-      "offer": "$0",
-      "message": "Hi Sam, I'm interested in 18109 Justine St, Detroit, MI 48234. Would your seller consider a cash offer around $0? I can close quickly."
-    },
-    {
       "id": "3684 Hunt St, Detr",
       "name": "LaKendra Ford",
       "phone": "+18885017085",
@@ -3580,15 +3328,6 @@
       "message": "Hey Derek, saw the listing at 4224 W Davison, Detroit, MI 48238. I'm looking for a fixer-upper in Detroit. Any chance they'd take $42,000 as-is?"
     },
     {
-      "id": "13595 Wyoming Ave,",
-      "name": "Brandon Woodbeck",
-      "phone": "+12483027936",
-      "phoneDisplay": "248-302-7936",
-      "address": "13595 Wyoming Ave, Detroit, MI 48238",
-      "offer": "$0",
-      "message": "Hey Brandon, love the potential of 13595 Wyoming Ave, Detroit, MI 48238. I can offer $0 net to the seller. We're ready to move if they are."
-    },
-    {
       "id": "8245 Brace St, Det",
       "name": "Greg Majewski",
       "phone": "+12485641972",
@@ -3596,24 +3335,6 @@
       "address": "8245 Brace St, Detroit, MI 48228",
       "offer": "$30,500",
       "message": "Hello Greg, following up on 8245 Brace St, Detroit, MI 48228. My all-cash number is $30,500 with a flexible close date. Happy to send proof of funds."
-    },
-    {
-      "id": "20167 Yacama Rd, H",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "20167 Yacama Rd, Highland Park, MI 48203",
-      "offer": "$0",
-      "message": "Hello! Regarding 20167 Yacama Rd, Highland Park, MI 48203, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "10319 Violetlawn S",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "10319 Violetlawn St, Detroit, MI 48204",
-      "offer": "$0",
-      "message": "Hello Keelie, following up on 10319 Violetlawn St, Detroit, MI 48204. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
     },
     {
       "id": "13044 Wilshire Dr,",
@@ -3643,15 +3364,6 @@
       "message": "Hello Maribel, following up on 16560 La Salle Ave, Detroit, MI 48221. My all-cash number is $109,500 with a flexible close date. Happy to send proof of funds."
     },
     {
-      "id": "17805 Fleming St, ",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "17805 Fleming St, Detroit, MI 48212",
-      "offer": "$0",
-      "message": "Hi Keelie, is 17805 Fleming St, Detroit, MI 48212 still available? I'm interested in an as-is purchase. My max offer is $0. Thoughts?"
-    },
-    {
       "id": "12211 Ilene St, De",
       "name": "Greg Majewski",
       "phone": "+12485641972",
@@ -3661,15 +3373,6 @@
       "message": "Hey Greg, saw the listing at 12211 Ilene St, Detroit, MI 48204. I'm looking for a fixer-upper in Detroit. Any chance they'd take $49,500 as-is?"
     },
     {
-      "id": "20502 Caldwell St,",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "20502 Caldwell St, Detroit, MI 48234",
-      "offer": "$0",
-      "message": "Hi Keelie, I'm interested in 20502 Caldwell St, Detroit, MI 48234. Would your seller consider a cash offer around $0? I can close quickly."
-    },
-    {
       "id": "20505 Hamburg St, ",
       "name": "Joseph Bailey",
       "phone": "+13137223232",
@@ -3677,15 +3380,6 @@
       "address": "20505 Hamburg St, Detroit, MI 48205",
       "offer": "$21,000",
       "message": "Hi Joseph, I buy homes in Detroit in any condition. For 20505 Hamburg St, Detroit, MI 48205 I can offer $21,000 cash, no repairs needed on your end. Open to it?"
-    },
-    {
-      "id": "9613 American St, ",
-      "name": "Mark Poloney",
-      "phone": "+12483754000",
-      "phoneDisplay": "248-375-4000",
-      "address": "9613 American St, Detroit, MI 48204",
-      "offer": "$0",
-      "message": "Hey Mark, love the potential of 9613 American St, Detroit, MI 48204. I can offer $0 net to the seller. We're ready to move if they are."
     },
     {
       "id": "19783 Annott St, D",
@@ -3724,15 +3418,6 @@
       "message": "Hello Maricela, following up on 7667 Ellsworth St, Detroit, MI 48238. My all-cash number is $25,500 with a flexible close date. Happy to send proof of funds."
     },
     {
-      "id": "8127 E Hildale St,",
-      "name": "Leo Perchanok",
-      "phone": "+12489650949",
-      "phoneDisplay": "248-965-0949",
-      "address": "8127 E Hildale St, Detroit, MI 48234",
-      "offer": "$0",
-      "message": "Hello Leo, following up on 8127 E Hildale St, Detroit, MI 48234. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
-    },
-    {
       "id": "17003 Tireman St, ",
       "name": "Robin Martin",
       "phone": "+13135063009",
@@ -3740,15 +3425,6 @@
       "address": "17003 Tireman St, Detroit, MI 48228",
       "offer": "$42,500",
       "message": "Greetings, I'm reaching out about the property on 17003 Tireman St, Detroit, MI 48228. We're looking for our next project. Would a $42,500 cash offer be of interest?"
-    },
-    {
-      "id": "19234 Omira Ave, D",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "19234 Omira Ave, Detroit, MI 48203",
-      "offer": "$0",
-      "message": "Hi Keelie, I'm interested in 19234 Omira Ave, Detroit, MI 48203. Would your seller consider a cash offer around $0? I can close quickly."
     },
     {
       "id": "19151 Rowe St, Det",
@@ -3803,33 +3479,6 @@
       "address": "18918 Dresden St, Detroit, MI 48205",
       "offer": "$42,500",
       "message": "Hello Erica, following up on 18918 Dresden St, Detroit, MI 48205. My all-cash number is $42,500 with a flexible close date. Happy to send proof of funds."
-    },
-    {
-      "id": "20257 Omira St, Hi",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "20257 Omira St, Highland Park, MI 48203",
-      "offer": "$0",
-      "message": "Hi Keelie, is 20257 Omira St, Highland Park, MI 48203 still available? I'm interested in an as-is purchase. My max offer is $0. Thoughts?"
-    },
-    {
-      "id": "3417 Gray St, Detr",
-      "name": "Leo Perchanok",
-      "phone": "+12489650949",
-      "phoneDisplay": "248-965-0949",
-      "address": "3417 Gray St, Detroit, MI 48215",
-      "offer": "$0",
-      "message": "Hey Leo, saw the listing at 3417 Gray St, Detroit, MI 48215. I'm looking for a fixer-upper in Detroit. Any chance they'd take $0 as-is?"
-    },
-    {
-      "id": "14337 Dacosta St, ",
-      "name": "Keelie Thomas",
-      "phone": "+18103332732",
-      "phoneDisplay": "810-333-2732",
-      "address": "14337 Dacosta St, Detroit, MI 48223",
-      "offer": "$0",
-      "message": "Hello Keelie, following up on 14337 Dacosta St, Detroit, MI 48223. My all-cash number is $0 with a flexible close date. Happy to send proof of funds."
     },
     {
       "id": "12304 Wyoming Ave,",
@@ -4426,15 +4075,6 @@
       "message": "Hi Edward, I'm interested in 10407 Huntington Wood Dr, Houston, TX 77099. Would your seller consider a cash offer around $104,500? I can close quickly."
     },
     {
-      "id": "17414 Turquoise St",
-      "name": "Nancy Estes",
-      "phone": "+18324939398",
-      "phoneDisplay": "832-493-9398",
-      "address": "17414 Turquoise Stream Dr, Houston, TX 77095",
-      "offer": "$0",
-      "message": "Hello! Regarding 17414 Turquoise Stream Dr, Houston, TX 77095, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
       "id": "4103 Sablemist Ct,",
       "name": "Lache Harper",
       "phone": "+18049293688",
@@ -4442,15 +4082,6 @@
       "address": "4103 Sablemist Ct, Houston, TX 77014",
       "offer": "$126,500",
       "message": "Hi there, regarding 4103 Sablemist Ct, Houston, TX 77014 in Houston. I'd like to submit a cash offer for $126,500. Can we chat about the seller's situation?"
-    },
-    {
-      "id": "9426 Nyssa St, Hou",
-      "name": "Will Clark",
-      "phone": "+12814123030",
-      "phoneDisplay": "281-412-3030",
-      "address": "9426 Nyssa St, Houston, TX 77078",
-      "offer": "$0",
-      "message": "Hi Will, is 9426 Nyssa St, Houston, TX 77078 still available? I'm interested in an as-is purchase. My max offer is $0. Thoughts?"
     },
     {
       "id": "12739 Skyknoll Ln,",

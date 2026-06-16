@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 99,
+  "count": 96,
   "messages": [
     {
       "id": "Ciruela Rd NW, Albuq",
@@ -104,15 +104,6 @@
       "address": "3078 Benny Rd SW, Albuquerque, NM 87105",
       "offer": "$87,500",
       "message": "Hi Yvette, I'm interested in 3078 Benny Rd SW, Albuquerque, NM 87105. Would your seller consider a cash offer around $87,500? I can close quickly."
-    },
-    {
-      "id": "530 Utah St SE Trail",
-      "name": "Liliana Martinez",
-      "phone": "+15052260166",
-      "phoneDisplay": "505-226-0166",
-      "address": "530 Utah St SE Trailer 14A, Albuquerque, NM 87108",
-      "offer": "$0",
-      "message": "Hello, I'm an investor interested in 530 Utah St SE Trailer 14A, Albuquerque, NM 87108. Based on the work needed, I'm at $0 for a fast cash closing. Thanks!"
     },
     {
       "id": "316 General Bradley ",
@@ -457,15 +448,6 @@
       "message": "Hello, I'm an investor interested in 520 W CLARENDON Avenue #C3, Phoenix, AZ 85013. Based on the work needed, I'm at $110,500 for a fast cash closing. Thanks!"
     },
     {
-      "id": "5201 W Camelback Rd ",
-      "name": "Crystal Takacs",
-      "phone": "+16238467230",
-      "phoneDisplay": "623-846-7230",
-      "address": "5201 W Camelback Rd Lot A174, Phoenix, AZ 85031",
-      "offer": "$0",
-      "message": "Hi Crystal, quick question on 5201 W Camelback Rd Lot A174, Phoenix, AZ 85031. Would they be open to a $0 offer? We handle all repairs and close on your timeline."
-    },
-    {
       "id": "4009 W ORANGE Drive ",
       "name": "Natalie Matthews",
       "phone": "+14803640949",
@@ -698,15 +680,6 @@
       "address": "10121 Jasper Ave, Cleveland, OH 44111",
       "offer": "$121,500",
       "message": "Hello, I'm an investor interested in 10121 Jasper Ave, Cleveland, OH 44111. Based on the work needed, I'm at $121,500 for a fast cash closing. Thanks!"
-    },
-    {
-      "id": "3497 W 46th St, Clev",
-      "name": "Dean Fygetakes",
-      "phone": "+13304723750",
-      "phoneDisplay": "330-472-3750",
-      "address": "3497 W 46th St, Cleveland, OH 44102",
-      "offer": "$0",
-      "message": "Hey! Just saw 3497 W 46th St, Cleveland, OH 44102. It fits my criteria perfectly. I can do $0 cash with no contingencies. Does that work for the seller?"
     },
     {
       "id": "5906 Bower Ave, Clev",

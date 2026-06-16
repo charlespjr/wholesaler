@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 33,
+  "count": 31,
   "messages": [
     {
       "id": "BR045",
@@ -52,15 +52,6 @@
       "message": "Hey! Just saw 635 Marilyn Dr, Baton Rouge, LA 70815. It fits my criteria perfectly. I can do $124,000 cash with no contingencies. Does that work for the seller?"
     },
     {
-      "id": "BR032",
-      "name": "Brittany Harvey",
-      "phone": "+12259393936",
-      "phoneDisplay": "225-939-3936",
-      "address": "2065 Missouri St, Baton Rouge, LA 70802",
-      "offer": "$0",
-      "message": "Hi Brittany, I'm interested in 2065 Missouri St, Baton Rouge, LA 70802. Would your seller consider a cash offer around $0? I can close quickly."
-    },
-    {
       "id": "BR007",
       "name": "Tawanda Eddings",
       "phone": "+15013504527",
@@ -68,15 +59,6 @@
       "address": "4410 Greenwood Ln, Baker, LA 70714",
       "offer": "$77,000",
       "message": "Hi Tawanda, is 4410 Greenwood Ln, Baker, LA 70714 still available? I'm interested in an as-is purchase. My max offer is $77,000. Thoughts?"
-    },
-    {
-      "id": "BR005",
-      "name": "Nardu Castillo",
-      "phone": "+12253616750",
-      "phoneDisplay": "225-361-6750",
-      "address": "3250 Elm Dr, Baton Rouge, LA 70805",
-      "offer": "$0",
-      "message": "Hey Nardu, love the potential of 3250 Elm Dr, Baton Rouge, LA 70805. I can offer $0 net to the seller. We're ready to move if they are."
     },
     {
       "id": "BR044",
