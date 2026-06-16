@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 572,
+  "count": 571,
   "messages": [
     {
       "id": "3713 Mary Ave, Bal",
@@ -1733,15 +1733,6 @@
       "address": "19989 Coventry St, Highland Park, MI 48203",
       "offer": "$8,000",
       "message": "Hey Minhaz, saw the listing at 19989 Coventry St, Highland Park, MI 48203. I'm looking for a fixer-upper in Highland Park. Any chance they'd take $8,000 as-is?"
-    },
-    {
-      "id": "1333 Seward St, De",
-      "name": "Ahmed Arafa",
-      "phone": "+15862151208",
-      "phoneDisplay": "586-215-1208",
-      "address": "1333 Seward St, Detroit, MI 48202",
-      "offer": "$94,000",
-      "message": "Hi Ahmed, quick question on 1333 Seward St, Detroit, MI 48202. Would they be open to a $94,000 offer? We handle all repairs and close on your timeline."
     },
     {
       "id": "6444 Ashton Ave, D",
