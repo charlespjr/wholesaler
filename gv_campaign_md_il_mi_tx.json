@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 527,
+  "count": 526,
   "messages": [
     {
       "id": "3713 Mary Ave, Bal",
@@ -1796,15 +1796,6 @@
       "address": "12519 Laing St, Grosse Pointe, MI 48224",
       "offer": "$34,000",
       "message": "Hi Mark, I buy homes in Grosse Pointe in any condition. For 12519 Laing St, Grosse Pointe, MI 48224 I can offer $34,000 cash, no repairs needed on your end. Open to it?"
-    },
-    {
-      "id": "3610 Haverhill St,",
-      "name": "Tracey Leonard",
-      "phone": "+15865304069",
-      "phoneDisplay": "586-530-4069",
-      "address": "3610 Haverhill St, Detroit, MI 48224",
-      "offer": "$42,500",
-      "message": "Greetings, I'm reaching out about the property on 3610 Haverhill St, Detroit, MI 48224. We're looking for our next project. Would a $42,500 cash offer be of interest?"
     },
     {
       "id": "17142 Pembroke Ave",
