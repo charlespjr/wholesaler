@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 526,
+  "count": 525,
   "messages": [
     {
       "id": "3713 Mary Ave, Bal",
@@ -158,15 +158,6 @@
       "address": "5505 Hamlet Ave, Baltimore, MD 21214",
       "offer": "$103,000",
       "message": "Hi Kya, is 5505 Hamlet Ave, Baltimore, MD 21214 still available? I'm interested in an as-is purchase. My max offer is $103,000. Thoughts?"
-    },
-    {
-      "id": "7729 Bagley Ave, P",
-      "name": "J.R. Smith",
-      "phone": "+14105964485",
-      "phoneDisplay": "410-596-4485",
-      "address": "7729 Bagley Ave, Parkville, MD 21234",
-      "offer": "$182,500",
-      "message": "Greetings, I'm reaching out about the property on 7729 Bagley Ave, Parkville, MD 21234. We're looking for our next project. Would a $182,500 cash offer be of interest?"
     },
     {
       "id": "4500 Norfolk Ave, ",
