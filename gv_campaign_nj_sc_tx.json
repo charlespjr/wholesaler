@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 23,
+  "count": 22,
   "messages": [
     {
       "id": "2666 Olympia Ave, ",
@@ -77,15 +77,6 @@
       "address": "218 Sanhican Dr, Trenton, NJ 08618",
       "offer": "$216,500",
       "message": "Hi Shonda, I buy homes in Trenton in any condition. For 218 Sanhican Dr, Trenton, NJ 08618 I can offer $216,500 cash, no repairs needed on your end. Open to it?"
-    },
-    {
-      "id": "27 Marshall Ave W,",
-      "name": "Tatyane Teixeira",
-      "phone": "+19089373373",
-      "phoneDisplay": "908-937-3373",
-      "address": "27 Marshall Ave W, Hamilton, NJ 08610",
-      "offer": "$206,000",
-      "message": "Hi Tatyane, quick question on 27 Marshall Ave W, Hamilton, NJ 08610. Would they be open to a $206,000 offer? We handle all repairs and close on your timeline."
     },
     {
       "id": "10 Stacey Ave, Tre",
