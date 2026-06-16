@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 96,
+  "count": 95,
   "messages": [
     {
       "id": "Ciruela Rd NW, Albuq",
@@ -572,15 +572,6 @@
       "address": "4403 Fenwick Ave, Cleveland, OH 44113",
       "offer": "$59,000",
       "message": "Hey! Just saw 4403 Fenwick Ave, Cleveland, OH 44113. It fits my criteria perfectly. I can do $59,000 cash with no contingencies. Does that work for the seller?"
-    },
-    {
-      "id": "3810 Biddulph Ave, C",
-      "name": "Jeff Glover",
-      "phone": "+12163180231",
-      "phoneDisplay": "216-318-0231",
-      "address": "3810 Biddulph Ave, Cleveland, OH 44109",
-      "offer": "$121,000",
-      "message": "Hi there, regarding 3810 Biddulph Ave, Cleveland, OH 44109 in Cleveland. I'd like to submit a cash offer for $121,000. Can we chat about the seller's situation?"
     },
     {
       "id": "3879 W 21st St, Clev",
