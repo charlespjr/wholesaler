@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 571,
+  "count": 570,
   "messages": [
     {
       "id": "3713 Mary Ave, Bal",
@@ -3605,15 +3605,6 @@
       "address": "8245 Brace St, Detroit, MI 48228",
       "offer": "$30,500",
       "message": "Hello Greg, following up on 8245 Brace St, Detroit, MI 48228. My all-cash number is $30,500 with a flexible close date. Happy to send proof of funds."
-    },
-    {
-      "id": "4235 Van Dyke St, ",
-      "name": "Ryan Maceri",
-      "phone": "+15865196259",
-      "phoneDisplay": "586-519-6259",
-      "address": "4235 Van Dyke St, Detroit, MI 48214",
-      "offer": "$77,000",
-      "message": "Hi Ryan, is 4235 Van Dyke St, Detroit, MI 48214 still available? I'm interested in an as-is purchase. My max offer is $77,000. Thoughts?"
     },
     {
       "id": "20167 Yacama Rd, H",
