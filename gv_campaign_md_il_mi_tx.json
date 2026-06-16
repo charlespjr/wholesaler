@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 569,
+  "count": 568,
   "messages": [
     {
       "id": "3713 Mary Ave, Bal",
@@ -3605,15 +3605,6 @@
       "address": "20167 Yacama Rd, Highland Park, MI 48203",
       "offer": "$0",
       "message": "Hello! Regarding 20167 Yacama Rd, Highland Park, MI 48203, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "14851 Indiana St, ",
-      "name": "Daleik Vaughn",
-      "phone": "+13058149310",
-      "phoneDisplay": "305-814-9310",
-      "address": "14851 Indiana St, Detroit, MI 48238",
-      "offer": "$0",
-      "message": "Hello! Regarding 14851 Indiana St, Detroit, MI 48238, I'm a local investor. My numbers work at $0 for a quick close. Let me know if that's a conversation worth having."
     },
     {
       "id": "10319 Violetlawn S",
