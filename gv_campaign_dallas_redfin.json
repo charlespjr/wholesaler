@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-06-16",
+  "throttleSeconds": [
+    120,
+    180
+  ],
+  "count": 9,
+  "messages": [
+    {
+      "to": "2144491155",
+      "agent": "Steven Robertson",
+      "address": "3155 E Ledbetter Dr",
+      "message": "Hi Steven, is 3155 E Ledbetter Dr, Dallas, TX 75216 still available? I'm a cash investor interested in an as-is purchase. My max offer is $129,000. Open to it?"
+    },
+    {
+      "to": "8325990533",
+      "agent": "Steven Franco",
+      "address": "3102 Kellogg Ave",
+      "message": "Hi Steven, is 3102 Kellogg Ave, Dallas, TX 75216 still available? I'm a cash investor interested in an as-is purchase. My max offer is $106,500. Open to it?"
+    },
+    {
+      "to": "9727435667",
+      "agent": "Robby Setser",
+      "address": "815 Wood River Rd",
+      "message": "Hi Robby, is 815 Wood River Rd, Dallas, TX 75232 still available? I'm a cash investor interested in an as-is purchase. My max offer is $131,500. Open to it?"
+    },
+    {
+      "to": "2144507856",
+      "agent": "Chad Joyce",
+      "address": "3016 Loganwood",
+      "message": "Hi Chad, is 3016 Loganwood, Dallas, TX 75227 still available? I'm a cash investor interested in an as-is purchase. My max offer is $178,500. Open to it?"
+    },
+    {
+      "to": "2144491155",
+      "agent": "Steven Robertson",
+      "address": "1214 E Waco Ave",
+      "message": "Hi Steven, is 1214 E Waco Ave, Dallas, TX 75216 still available? I'm a cash investor interested in an as-is purchase. My max offer is $218,500. Open to it?"
+    },
+    {
+      "to": "2144491155",
+      "agent": "Steven Robertson",
+      "address": "5056 Urban Ave",
+      "message": "Hi Steven, is 5056 Urban Ave, Dallas, TX 75227 still available? I'm a cash investor interested in an as-is purchase. My max offer is $175,000. Open to it?"
+    },
+    {
+      "to": "4698686124",
+      "agent": "Floyd Stanmore; Mallane Scott",
+      "address": "6525 Palm Island St",
+      "message": "Hi Floyd, is 6525 Palm Island St, Dallas, TX 75241 still available? I'm a cash investor interested in an as-is purchase. My max offer is $117,000. Open to it?"
+    },
+    {
+      "to": "2149410707",
+      "agent": "Homero Duarte",
+      "address": "665 Cedarcliff Dr",
+      "message": "Hi Homero, is 665 Cedarcliff Dr, Dallas, TX 75217 still available? I'm a cash investor interested in an as-is purchase. My max offer is $164,500. Open to it?"
+    },
+    {
+      "to": "2144186845",
+      "agent": "Ray King",
+      "address": "522 Glencairn Dr",
+      "message": "Hi Ray, is 522 Glencairn Dr, Dallas, TX 75232 still available? I'm a cash investor interested in an as-is purchase. My max offer is $95,500. Open to it?"
+    }
+  ]
+}
