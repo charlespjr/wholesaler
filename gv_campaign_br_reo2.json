@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-06-16",
+  "throttleSeconds": [
+    120,
+    180
+  ],
+  "count": 2,
+  "messages": [
+    {
+      "to": "2256033559",
+      "agent": "Joy Russell",
+      "address": "2138 Minnesota St, Baton Rouge, LA 70802",
+      "message": "Hi Joy, calling about 2138 Minnesota St, Baton Rouge, LA 70802. Since it's listed REO/bank-owned, is the seller reviewing cash, as-is, quick-close offers? I'm a cash investor and can move fast. My opening is $63,000 - happy to discuss what range the bank would actually review."
+    },
+    {
+      "to": "5042566180",
+      "agent": "Heather Laughlin",
+      "address": "6040 W Perimeter Dr, Baton Rouge, LA 70811",
+      "message": "Hi Heather, calling about 6040 W Perimeter Dr, Baton Rouge, LA 70811. Since it's listed REO/bank-owned, is the seller reviewing cash, as-is, quick-close offers? I'm a cash investor and can move fast. My opening is $56,000 - happy to discuss what range the bank would actually review."
+    }
+  ]
+}
