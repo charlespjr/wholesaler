@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 92,
+  "count": 91,
   "messages": [
     {
       "id": "Ciruela Rd NW, Albuq",
@@ -95,15 +95,6 @@
       "address": "3078 Benny Rd SW, Albuquerque, NM 87105",
       "offer": "$87,500",
       "message": "Hi Yvette, I'm interested in 3078 Benny Rd SW, Albuquerque, NM 87105. Would your seller consider a cash offer around $87,500? I can close quickly."
-    },
-    {
-      "id": "316 General Bradley ",
-      "name": "Nancy Sharon Apodaca",
-      "phone": "+15055079953",
-      "phoneDisplay": "505-507-9953",
-      "address": "316 General Bradley St NE, Albuquerque, NM 87123",
-      "offer": "$151,500",
-      "message": "Hey Nancy, love the potential of 316 General Bradley St NE, Albuquerque, NM 87123. I can offer $151,500 net to the seller. We're ready to move if they are."
     },
     {
       "id": "1040 Kentucky St SE,",
