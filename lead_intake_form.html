@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sell Your House Fast for Cash — Paragon Government Solutions</title>
+<style>
+  :root{--navy:#2E4057;--gold:#E0A600;}
+  *{box-sizing:border-box;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  body{margin:0;background:#f4f6f8;color:#1d2733}
+  .hero{background:var(--navy);color:#fff;padding:38px 20px;text-align:center}
+  .hero h1{margin:0 0 8px;font-size:26px}
+  .hero p{margin:0;opacity:.9}
+  .card{max-width:560px;margin:-26px auto 40px;background:#fff;border-radius:12px;
+        box-shadow:0 8px 30px rgba(0,0,0,.12);padding:26px}
+  label{display:block;font-weight:600;margin:14px 0 5px;font-size:14px}
+  input,select,textarea{width:100%;padding:11px;border:1px solid #cdd6e0;border-radius:8px;font-size:15px}
+  textarea{min-height:70px;resize:vertical}
+  .row{display:flex;gap:12px}.row>div{flex:1}
+  button{margin-top:20px;width:100%;background:var(--gold);color:#1d2733;border:0;
+         padding:14px;font-size:16px;font-weight:700;border-radius:8px;cursor:pointer}
+  button:hover{filter:brightness(.96)}
+  .fine{font-size:11px;color:#7a8794;margin-top:12px;line-height:1.4}
+  .ok{display:none;text-align:center;padding:30px}
+  .ok h2{color:var(--navy)}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Sell Your House Fast — Cash Offer</h1>
+    <p>Any condition. No repairs, no fees, no agents. Close on your timeline.</p>
+  </div>
+
+  <div class="card" id="card">
+    <form id="leadForm">
+      <div class="row">
+        <div><label>First name*</label><input name="firstname" required></div>
+        <div><label>Last name*</label><input name="lastname" required></div>
+      </div>
+      <div class="row">
+        <div><label>Phone*</label><input name="phone" type="tel" required></div>
+        <div><label>Email</label><input name="email" type="email"></div>
+      </div>
+      <label>Property address*</label><input name="property_address" required>
+      <div class="row">
+        <div><label>City</label><input name="city"></div>
+        <div><label>State</label><input name="state"></div>
+        <div><label>ZIP</label><input name="zip"></div>
+      </div>
+      <label>Why are you selling? (optional)</label>
+      <select name="motivation">
+        <option value="">— select —</option>
+        <option>Foreclosure / behind on payments</option>
+        <option>Inherited / probate</option>
+        <option>Tired landlord / bad tenants</option>
+        <option>Needs major repairs</option>
+        <option>Relocating / job change</option>
+        <option>Divorce</option>
+        <option>Just want a fast cash sale</option>
+      </select>
+      <label>Condition / anything we should know? (optional)</label>
+      <textarea name="notes"></textarea>
+      <label>How soon do you want to sell?</label>
+      <select name="timeline">
+        <option>ASAP</option><option>30 days</option><option>60-90 days</option><option>Just exploring</option>
+      </select>
+      <button type="submit">Get My Cash Offer</button>
+      <p class="fine">By submitting you agree we may call/text you about your property.
+      We never sell your info. Standard message/data rates may apply.</p>
+    </form>
+  </div>
+
+  <div class="card ok" id="thanks">
+    <h2>Thank you!</h2>
+    <p>We received your info and will reach out shortly with next steps.</p>
+  </div>
+
+<script>
+/* ----------------------------------------------------------------------
+   CRM SYNC — choose ONE method, paste its endpoint in WEBHOOK_URL:
+
+   A) HubSpot Forms API (easiest, native):
+      https://forms.hubspot.com/uploads/form/v2/<PORTAL_ID>/<FORM_GUID>
+      (create a form in HubSpot, map fields to contact/deal properties)
+
+   B) Zapier Catch Hook (most flexible — routes to HubSpot + SMS alert):
+      Zapier > Webhooks by Zapier > "Catch Hook" > paste the given URL here.
+      Then Zap actions: 1) Create/Update HubSpot Contact + Deal,
+      2) Send SMS/Email alert to Charles (see automation_systems.md).
+---------------------------------------------------------------------- */
+const WEBHOOK_URL = "PASTE_YOUR_HUBSPOT_FORM_OR_ZAPIER_HOOK_URL_HERE";
+
+document.getElementById('leadForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const data = Object.fromEntries(new FormData(e.target).entries());
+  data.source = "Cash Offer Landing Page";
+  data.submitted_at = new Date().toISOString();
+  try{
+    await fetch(WEBHOOK_URL, {method:"POST",
+      headers:{"Content-Type":"application/json"}, body:JSON.stringify(data)});
+  }catch(err){ console.error(err); }
+  document.getElementById('card').style.display='none';
+  document.getElementById('thanks').style.display='block';
+});
+</script>
+</body>
+</html>
