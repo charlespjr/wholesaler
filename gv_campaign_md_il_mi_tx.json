@@ -4,7 +4,7 @@
     "min": 120,
     "max": 180
   },
-  "count": 570,
+  "count": 569,
   "messages": [
     {
       "id": "3713 Mary Ave, Bal",
@@ -2912,15 +2912,6 @@
       "address": "4337 Algonquin St, Detroit, MI 48215",
       "offer": "$58,500",
       "message": "Hello! Regarding 4337 Algonquin St, Detroit, MI 48215, I'm a local investor. My numbers work at $58,500 for a quick close. Let me know if that's a conversation worth having."
-    },
-    {
-      "id": "15355 Auburn St, D",
-      "name": "Mark W Brown",
-      "phone": "+13133339248",
-      "phoneDisplay": "313-333-9248",
-      "address": "15355 Auburn St, Detroit, MI 48223",
-      "offer": "$42,500",
-      "message": "Hi Mark, I'm interested in 15355 Auburn St, Detroit, MI 48223. Would your seller consider a cash offer around $42,500? I can close quickly."
     },
     {
       "id": "15470 Mapleridge S",
