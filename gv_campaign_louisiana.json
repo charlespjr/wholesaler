@@ -1,0 +1,158 @@
+{
+  "campaign": "louisiana_distressed",
+  "throttle_seconds": 150,
+  "dnc_honored": true,
+  "count": 15,
+  "leads": [
+    {
+      "to": "(318) 868-3600",
+      "contact": "Vinh Nguyen",
+      "address": "2503 Highland Ave, Shreveport, LA",
+      "offer": 10500,
+      "send_after_seconds": 0,
+      "message": "Hi Vinh, is 2503 Highland Ave in Shreveport still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $10,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/2503-Highland-Ave-Shreveport-LA-71104/51335784_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(337) 304-7749",
+      "contact": "McCall Nixon",
+      "address": "1802 Rose St, Lake Charles, LA",
+      "offer": 26000,
+      "send_after_seconds": 150,
+      "message": "Hi McCall, is 1802 Rose St in Lake Charles still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $26,000 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/1802-Rose-St-Lake-Charles-LA-70601/242823177_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(504) 616-6208",
+      "contact": "David Reso",
+      "address": "3708 Baker Dr, Houma, LA",
+      "offer": 24500,
+      "send_after_seconds": 300,
+      "message": "Hi David, is 3708 Baker Dr in Houma still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $24,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/3708-Baker-Dr-Houma-LA-70363/213681077_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(318) 308-6614",
+      "contact": "Barbara Bonnette",
+      "address": "2336 Albert St, Alexandria, LA",
+      "offer": 25500,
+      "send_after_seconds": 450,
+      "message": "Hi Barbara, is 2336 Albert St in Alexandria still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $25,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/2336-Albert-St-Alexandria-LA-71301/77702810_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(318) 233-1045",
+      "contact": "Megan Long",
+      "address": "7045 Elsie St, Shreveport, LA",
+      "offer": 31000,
+      "send_after_seconds": 600,
+      "message": "Hi Megan, is 7045 Elsie St in Shreveport still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $31,000 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/7045-Elsie-St-Shreveport-LA-71108/51372080_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(337) 563-9598",
+      "contact": "Rosy Hernandez",
+      "address": "205 Thelma Ln, Lake Charles, LA",
+      "offer": 34000,
+      "send_after_seconds": 750,
+      "message": "Hi Rosy, is 205 Thelma Ln in Lake Charles still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $34,000 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/205-Thelma-Ln-Lake-Charles-LA-70611/77617654_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(318) 233-1045",
+      "contact": "Sydney Cowgill",
+      "address": "425 Columbia St, Shreveport, LA",
+      "offer": 37500,
+      "send_after_seconds": 900,
+      "message": "Hi Sydney, is 425 Columbia St in Shreveport still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $37,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/425-Columbia-St-Shreveport-LA-71104/51336449_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(225) 921-1511",
+      "contact": "TLeice Beaulieu / Terrica Matthews",
+      "address": "2684 Iroquois St, Baton Rouge, LA",
+      "offer": 37500,
+      "send_after_seconds": 1050,
+      "message": "Hi TLeice, is 2684 Iroquois St in Baton Rouge still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $37,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/2684-Iroquois-St-Baton-Rouge-LA-70805/66245532_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(337) 304-7749",
+      "contact": "McCall Nixon",
+      "address": "1204 Vickie Ln, Lake Charles, LA",
+      "offer": 39500,
+      "send_after_seconds": 1200,
+      "message": "Hi McCall, is 1204 Vickie Ln in Lake Charles still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $39,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/1204-Vickie-Ln-Lake-Charles-LA-70607/443249470_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(504) 415-2652",
+      "contact": "Jeff Breland",
+      "address": "3218 College St, Slidell, LA",
+      "offer": 45500,
+      "send_after_seconds": 1350,
+      "message": "Hi Jeff, is 3218 College St in Slidell still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $45,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/3218-College-St-Slidell-LA-70458/96231395_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(337) 884-7646",
+      "contact": "Rohn J McManus",
+      "address": "1614 Kayouche St, Lake Charles, LA",
+      "offer": 51000,
+      "send_after_seconds": 1500,
+      "message": "Hi Rohn, is 1614 Kayouche St in Lake Charles still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $51,000 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/1614-Kayouche-St-Lake-Charles-LA-70615/77608076_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(504) 323-6211",
+      "contact": "Property Owner",
+      "address": "2737 Bristol Pl, New Orleans, LA",
+      "offer": 49000,
+      "send_after_seconds": 1650,
+      "message": "Hi Property, is 2737 Bristol Pl in New Orleans still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $49,000 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/2737-Bristol-Pl-New-Orleans-LA-70131/73826543_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(225) 768-1800",
+      "contact": "Michelle Knobloch / Tony Nguyen",
+      "address": "16438 Vermillion Dr, Baton Rouge, LA",
+      "offer": 60000,
+      "send_after_seconds": 1800,
+      "message": "Hi Michelle, is 16438 Vermillion Dr in Baton Rouge still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $60,000 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/16438-Vermillion-Dr-Baton-Rouge-LA-70819/66360785_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(337) 735-9300",
+      "contact": "Charles Ilonya / Nah Senpeng",
+      "address": "334 Carver St, Lafayette, LA",
+      "offer": 58500,
+      "send_after_seconds": 1950,
+      "message": "Hi Charles, is 334 Carver St in Lafayette still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $58,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/334-Carver-St-Lafayette-LA-70501/77677452_zpid/",
+      "status": "queued"
+    },
+    {
+      "to": "(225) 644-5577",
+      "contact": "Sharon Hebert",
+      "address": "515 W Main St, Gonzales, LA",
+      "offer": 94500,
+      "send_after_seconds": 2100,
+      "message": "Hi Sharon, is 515 W Main St in Gonzales still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $94,500 cash, subject to walkthrough and final due diligence?",
+      "listing_url": "https://www.zillow.com/homedetails/515-W-Main-St-Gonzales-LA-70737/72225456_zpid/",
+      "status": "queued"
+    }
+  ]
+}
