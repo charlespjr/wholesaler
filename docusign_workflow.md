@@ -1,6 +1,26 @@
 # DocuSign Offer Workflow (standing process)
 
-Approach chosen 6/17/2026: **template + email-subject** (start simple).
+## 🛑 HARD RULES (learned 6/17/2026 — Jason Gale / 5001 Beaucaire declined)
+1. **NEVER auto-send a DocuSign envelope.** Claude prepares it; CHARLES approves
+   and sends every single one. No exceptions.
+2. **The listing AGENT is NOT a signer.** Only the SELLER signs (and Charles as buyer).
+   The agent just receives the offer to review/present. Never put the agent in a
+   signer role.
+3. **The offer document must be COMPLETE** — all terms filled IN THE DOCUMENT
+   (price, property, buyer, earnest, closing, contingencies, as-is, assignment).
+   Terms in the email subject only = incomplete = rejected. The blank
+   "template + email-subject" approach FAILED and is abandoned.
+4. Agents often want to **meet virtually** before the seller entertains an offer.
+
+## Corrected approach
+- Claude generates a COMPLETE, filled offer document (LOI or PSA) per deal.
+- Charles reviews it, then sends it himself (or Claude sends ONLY on explicit
+  per-deal "send it" approval), addressed to the agent to present to the seller.
+- Signature routing: Buyer = Charles; Seller = the actual seller (not the agent).
+  For first contact, a buyer-signed LOI the agent can present is often cleaner.
+
+## OLD (abandoned) approach
+~~template + email-subject~~ — proved incomplete; agent declined.
 
 ## Account / template
 - Account: Charles Pleasant (`52c8cb04-d8d3-47aa-b1db-51a9f64eab61`)
