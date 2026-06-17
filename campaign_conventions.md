@@ -18,6 +18,15 @@ Apply these to EVERY campaign CSV built from a lead sheet, automatically.
 - Follow-up: "Following up on {Address}. Still active? Any feedback from the seller
   on my ${OpeningOffer} cash offer? Can review details and close fast."
 
+## Messaging rule — "no agent fees" (FIXED 6/17/2026)
+- DO NOT say "no agent fees" / "no agent on your end" on **LISTED (MLS) properties.**
+  Agents read it as trying to cut their commission (broker Irene Huang reacted this way
+  on 6436 S Vernon). On listed deals the SELLER already pays commission per the listing —
+  the agent keeps it, and we want them paid (they often double-end and push our offer).
+- "No agent fees" phrasing is ONLY for true **off-market / FSBO / direct-to-owner** leads.
+- Listed-property soft inquiry should say: "cash, as-is, quick close, seller nets a clean
+  sale" — NOT "no agent fees."
+
 ## Routing tags (in Notes/description)
 - Distressed/foreclosure/gut-rehab/land ≤60% value → **MaxDispo-fit** (builders/developers)
 - Turnkey/remodeled/tenant-occupied rentals → **BUY-HOLD (landlord buyer, not MaxDispo)**
