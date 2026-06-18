@@ -2,27 +2,16 @@
   "campaign": "louisiana_expanded_NEW",
   "throttle_seconds": 150,
   "dnc_honored": true,
-  "count": 27,
+  "count": 25,
   "note": "27 NEW leads only; original 15 already queued in gv_campaign_louisiana.json",
   "leads": [
-    {
-      "to": "(504) 228-6606",
-      "contact": "David Gilmore",
-      "address": "7726 Vanderkloot Ave, New Orleans, LA 70127",
-      "category": "Residential",
-      "offer": 11000,
-      "send_after_seconds": 0,
-      "message": "Hi David, is 7726 Vanderkloot Ave in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $11,000 cash on the property, subject to walkthrough and final due diligence?",
-      "listing_url": "https://www.zillow.com/homedetails/7726-Vanderkloot-Ave-New-Orleans-LA-70127/73796167_zpid/",
-      "status": "queued"
-    },
     {
       "to": "(225) 571-5958",
       "contact": "Kendall Plain",
       "address": "3819 Uncas St, Baton Rouge, LA 70805",
       "category": "Land",
       "offer": 4500,
-      "send_after_seconds": 150,
+      "send_after_seconds": 0,
       "message": "Hi Kendall, is 3819 Uncas St in Baton Rouge still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $4,500 cash on the lot, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/3819-Uncas-St-Baton-Rouge-LA-70805/66256549_zpid/",
       "status": "queued"
@@ -33,7 +22,7 @@
       "address": "5001 Beaucaire St, New Orleans, LA 70129",
       "category": "Residential",
       "offer": 44000,
-      "send_after_seconds": 300,
+      "send_after_seconds": 150,
       "message": "Hi Jason, is 5001 Beaucaire St in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $44,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/5001-Beaucaire-St-New-Orleans-LA-70129/84467910_zpid/",
       "status": "queued"
@@ -44,7 +33,7 @@
       "address": "33870 Perkins Crossing Rd, Walker, LA 70785",
       "category": "Land",
       "offer": 10000,
-      "send_after_seconds": 450,
+      "send_after_seconds": 300,
       "message": "Hi Robbie, is 33870 Perkins Crossing Rd in Walker still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $10,000 cash on the lot, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/33870-Perkins-Crossing-Rd-Walker-LA-70785/443317281_zpid/",
       "status": "queued"
@@ -55,7 +44,7 @@
       "address": "8 Kingsridge Loop, Houma, LA 70363",
       "category": "Residential",
       "offer": 37000,
-      "send_after_seconds": 600,
+      "send_after_seconds": 450,
       "message": "Hi David, is 8 Kingsridge Loop in Houma still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $37,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/8-Kingsridge-Loop-Houma-LA-70363/213679678_zpid/",
       "status": "queued"
@@ -66,7 +55,7 @@
       "address": "LOT 14 Jefferson Ave, Slidell, LA 70460",
       "category": "Land",
       "offer": 7000,
-      "send_after_seconds": 750,
+      "send_after_seconds": 600,
       "message": "Hi Megan, is LOT 14 Jefferson Ave in Slidell still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $7,000 cash on the lot, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/LOT-14-Jefferson-Ave-Slidell-LA-70460/452958408_zpid/",
       "status": "queued"
@@ -77,7 +66,7 @@
       "address": "2009 Bancroft St, Lake Charles, LA 70607",
       "category": "Land",
       "offer": 10000,
-      "send_after_seconds": 900,
+      "send_after_seconds": 750,
       "message": "Hi Lauren, is 2009 Bancroft St in Lake Charles still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $10,000 cash on the lot, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/2009-Bancroft-St-Lake-Charles-LA-70607/77596051_zpid/",
       "status": "queued"
@@ -88,7 +77,7 @@
       "address": "5404 Dixie Ln, Alexandria, LA 71301",
       "category": "Residential",
       "offer": 33000,
-      "send_after_seconds": 1050,
+      "send_after_seconds": 900,
       "message": "Hi Shawn, is 5404 Dixie Ln in Alexandria still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $33,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/5404-Dixie-Ln-Alexandria-LA-71301/77696634_zpid/",
       "status": "queued"
@@ -99,7 +88,7 @@
       "address": "3608 Thomasina Rd, Alexandria, LA 71302",
       "category": "Land",
       "offer": 15500,
-      "send_after_seconds": 1200,
+      "send_after_seconds": 1050,
       "message": "Hi Kirt, is 3608 Thomasina Rd in Alexandria still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $15,500 cash on the lot, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/3608-Thomasina-Rd-Alexandria-LA-71302/346249280_zpid/",
       "status": "queued"
@@ -110,20 +99,9 @@
       "address": "1065 Blanchard Pl, Shreveport, LA 71104",
       "category": "Multifamily",
       "offer": 71500,
-      "send_after_seconds": 1350,
+      "send_after_seconds": 1200,
       "message": "Hi Kerry, is 1065 Blanchard Pl in Shreveport still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $71,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/1065-Blanchard-Pl-Shreveport-LA-71104/462897840_zpid/",
-      "status": "queued"
-    },
-    {
-      "to": "(337) 304-0481",
-      "contact": "Robbie Ingle",
-      "address": "1023 17th St, Lake Charles, LA 70601",
-      "category": "Land",
-      "offer": 10500,
-      "send_after_seconds": 1500,
-      "message": "Hi Robbie, is 1023 17th St in Lake Charles still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $10,500 cash on the lot, subject to walkthrough and final due diligence?",
-      "listing_url": "https://www.zillow.com/homedetails/1023-17th-St-Lake-Charles-LA-70601/77618164_zpid/",
       "status": "queued"
     },
     {
@@ -132,7 +110,7 @@
       "address": "37985 Falcon Wood Dr, Denham Springs, LA 70706",
       "category": "Manufactured",
       "offer": 55500,
-      "send_after_seconds": 1650,
+      "send_after_seconds": 1350,
       "message": "Hi Rhonda, is 37985 Falcon Wood Dr in Denham Springs still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $55,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/37985-Falcon-Wood-Dr-Denham-Springs-LA-70706/95223085_zpid/",
       "status": "queued"
@@ -143,7 +121,7 @@
       "address": "5201 Saint Roch Ave, New Orleans, LA 70122",
       "category": "Residential",
       "offer": 72000,
-      "send_after_seconds": 1800,
+      "send_after_seconds": 1500,
       "message": "Hi David, is 5201 Saint Roch Ave in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $72,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/5201-Saint-Roch-Ave-New-Orleans-LA-70122/84456781_zpid/",
       "status": "queued"
@@ -154,7 +132,7 @@
       "address": "10136 Carlsbad Dr, Shreveport, LA 71115",
       "category": "Townhome",
       "offer": 80000,
-      "send_after_seconds": 1950,
+      "send_after_seconds": 1650,
       "message": "Hi Dana, is 10136 Carlsbad Dr in Shreveport still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $80,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/10136-Carlsbad-Dr-Shreveport-LA-71115/51348713_zpid/",
       "status": "queued"
@@ -165,7 +143,7 @@
       "address": "4220-22 S Miro St, New Orleans, LA 70125",
       "category": "Multifamily",
       "offer": 93000,
-      "send_after_seconds": 2100,
+      "send_after_seconds": 1800,
       "message": "Hi Austin, is 4220-22 S Miro St in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $93,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/4220-22-S-Miro-St-New-Orleans-LA-70125/462394311_zpid/",
       "status": "queued"
@@ -176,7 +154,7 @@
       "address": "1319 Reynes St, New Orleans, LA 70117",
       "category": "Land",
       "offer": 14000,
-      "send_after_seconds": 2250,
+      "send_after_seconds": 1950,
       "message": "Hi Schlanda, is 1319 Reynes St in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $14,000 cash on the lot, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/1319-Reynes-St-New-Orleans-LA-70117/84460273_zpid/",
       "status": "queued"
@@ -187,7 +165,7 @@
       "address": "1351 S Dilton St, Metairie, LA 70003",
       "category": "Residential",
       "offer": 52000,
-      "send_after_seconds": 2400,
+      "send_after_seconds": 2100,
       "message": "Hi David, is 1351 S Dilton St in Metairie still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $52,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/1351-S-Dilton-St-Metairie-LA-70003/2070014186_zpid/",
       "status": "queued"
@@ -198,7 +176,7 @@
       "address": "15560 Tiger Bend Rd, Baton Rouge, LA 70817",
       "category": "Residential",
       "offer": 69500,
-      "send_after_seconds": 2550,
+      "send_after_seconds": 2250,
       "message": "Hi Vanessa, is 15560 Tiger Bend Rd in Baton Rouge still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $69,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/15560-Tiger-Bend-Rd-Baton-Rouge-LA-70817/66362616_zpid/",
       "status": "queued"
@@ -209,7 +187,7 @@
       "address": "44327 Marie Dr, Hammond, LA 70403",
       "category": "Residential",
       "offer": 67500,
-      "send_after_seconds": 2700,
+      "send_after_seconds": 2400,
       "message": "Hi Sharif, is 44327 Marie Dr in Hammond still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $67,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/44327-Marie-Dr-Hammond-LA-70403/102692367_zpid/",
       "status": "queued"
@@ -220,7 +198,7 @@
       "address": "7400 Vanderkloot Ave, New Orleans, LA 70127",
       "category": "Residential",
       "offer": 82500,
-      "send_after_seconds": 2850,
+      "send_after_seconds": 2550,
       "message": "Hi Brittany, is 7400 Vanderkloot Ave in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $82,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/7400-Vanderkloot-Ave-New-Orleans-LA-70127/73800919_zpid/",
       "status": "queued"
@@ -231,7 +209,7 @@
       "address": "3220 Plymouth Pl, New Orleans, LA 70131",
       "category": "Residential",
       "offer": 80500,
-      "send_after_seconds": 3000,
+      "send_after_seconds": 2700,
       "message": "Hi Luan, is 3220 Plymouth Pl in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $80,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/3220-Plymouth-Pl-New-Orleans-LA-70131/73826156_zpid/",
       "status": "queued"
@@ -242,7 +220,7 @@
       "address": "2764 Dalton St, Baton Rouge, LA 70805",
       "category": "Residential",
       "offer": 46500,
-      "send_after_seconds": 3150,
+      "send_after_seconds": 2850,
       "message": "Hi Shemika, is 2764 Dalton St in Baton Rouge still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $46,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/2764-Dalton-St-Baton-Rouge-LA-70805/66242944_zpid/",
       "status": "queued"
@@ -253,7 +231,7 @@
       "address": "4384 Stumberg Ln, Baton Rouge, LA 70816",
       "category": "Townhome",
       "offer": 86500,
-      "send_after_seconds": 3300,
+      "send_after_seconds": 3000,
       "message": "Hi Brandon, is 4384 Stumberg Ln in Baton Rouge still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $86,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/4384-Stumberg-Ln-Baton-Rouge-LA-70816/66249080_zpid/",
       "status": "queued"
@@ -264,7 +242,7 @@
       "address": "2755 Palmyra St, New Orleans, LA 70119",
       "category": "Residential",
       "offer": 90500,
-      "send_after_seconds": 3450,
+      "send_after_seconds": 3150,
       "message": "Hi Carolyn, is 2755 Palmyra St in New Orleans still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $90,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/2755-Palmyra-St-New-Orleans-LA-70119/73773873_zpid/",
       "status": "queued"
@@ -275,7 +253,7 @@
       "address": "1201 Willow Dr, Lake Charles, LA 70611",
       "category": "Residential",
       "offer": 110500,
-      "send_after_seconds": 3600,
+      "send_after_seconds": 3300,
       "message": "Hi Summer, is 1201 Willow Dr in Lake Charles still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $110,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/1201-Willow-Dr-Lake-Charles-LA-70611/77611506_zpid/",
       "status": "queued"
@@ -286,7 +264,7 @@
       "address": "1905 E Kings Hwy, Shreveport, LA 71105",
       "category": "Townhome",
       "offer": 136500,
-      "send_after_seconds": 3750,
+      "send_after_seconds": 3450,
       "message": "Hi Chip, is 1905 E Kings Hwy in Shreveport still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $136,500 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/1905-E-Kings-Hwy-Shreveport-LA-71105/51345087_zpid/",
       "status": "queued"
@@ -297,7 +275,7 @@
       "address": "112 Willow Branch Dr, West Monroe, LA 71291",
       "category": "Townhome",
       "offer": 115000,
-      "send_after_seconds": 3900,
+      "send_after_seconds": 3600,
       "message": "Hi Keith, is 112 Willow Branch Dr in West Monroe still available? I'm a cash investor, buy as-is, quick close. Would the seller consider around $115,000 cash on the property, subject to walkthrough and final due diligence?",
       "listing_url": "https://www.zillow.com/homedetails/112-Willow-Branch-Dr-West-Monroe-LA-71291/92493413_zpid/",
       "status": "queued"

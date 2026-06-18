@@ -3,7 +3,7 @@
   "note": "8 Tier A already loaded; this GV queue = remaining 41",
   "throttle_seconds": 150,
   "dnc_honored": true,
-  "count": 41,
+  "count": 34,
   "leads": [
     {
       "to": "330-603-0192",
@@ -72,35 +72,13 @@
       "status": "queued"
     },
     {
-      "to": "513-323-6822",
-      "contact": "Adam Joseph Hagen-Stein",
-      "address": "620 Salisbury Rd, Columbus, OH 43204",
-      "list_price": 230000,
-      "type": "soft-inquiry",
-      "offer": "",
-      "send_after_seconds": 900,
-      "message": "Hi Adam, I'm a cash investor \u2014 is 620 Salisbury Rd in Columbus still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
-      "status": "queued"
-    },
-    {
-      "to": "614-638-4663",
-      "contact": "Laura A Lambert",
-      "address": "2581 Weeping Willow Ct, Columbus, OH 43207",
-      "list_price": 249214,
-      "type": "soft-inquiry",
-      "offer": "",
-      "send_after_seconds": 1050,
-      "message": "Hi Laura, I'm a cash investor \u2014 is 2581 Weeping Willow Ct in Columbus still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
-      "status": "queued"
-    },
-    {
       "to": "313-561-0900",
       "contact": "Sam Hantosh",
       "address": "18085 Warrington Dr, Detroit, MI 48221",
       "list_price": 219900,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 1200,
+      "send_after_seconds": 900,
       "message": "Hi Sam, I'm a cash investor \u2014 is 18085 Warrington Dr in Detroit still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -111,7 +89,7 @@
       "list_price": 250000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 1350,
+      "send_after_seconds": 1050,
       "message": "Hi Jamie, I'm a cash investor \u2014 is 2229 W 60th St in Indianapolis still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -122,7 +100,7 @@
       "list_price": 255000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 1500,
+      "send_after_seconds": 1200,
       "message": "Hi Scott, I'm a cash investor \u2014 is 6104 Franklin Villas Way in Indianapolis still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -133,19 +111,8 @@
       "list_price": 275000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 1650,
+      "send_after_seconds": 1350,
       "message": "Hi Ryan, I'm a cash investor \u2014 is 4630 Thrush Dr in Indianapolis still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
-      "status": "queued"
-    },
-    {
-      "to": "816-686-7499",
-      "contact": "Urban Cool KC Team / Franny Knight",
-      "address": "2252 E 77th Ter, Kansas City, MO 64132",
-      "list_price": 285000,
-      "type": "soft-inquiry",
-      "offer": "",
-      "send_after_seconds": 1800,
-      "message": "Hi Urban, I'm a cash investor \u2014 is 2252 E 77th Ter in Kansas City still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
     {
@@ -155,7 +122,7 @@
       "list_price": 199900,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 1950,
+      "send_after_seconds": 1500,
       "message": "Hi Donnie, I'm a cash investor \u2014 is 1778 Jackson Ave in Memphis still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -166,7 +133,7 @@
       "list_price": 325000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 2100,
+      "send_after_seconds": 1650,
       "message": "Hi Marcus, I'm a cash investor \u2014 is 4351 Spring Oak Cv in Memphis still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -177,7 +144,7 @@
       "list_price": 575000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 2250,
+      "send_after_seconds": 1800,
       "message": "Hi Shay, I'm a cash investor \u2014 is 180 Crestmere Pl in Memphis still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -188,7 +155,7 @@
       "list_price": 219900,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 2400,
+      "send_after_seconds": 1950,
       "message": "Hi Steven, I'm a cash investor \u2014 is 2514 W Ramsey Ave in Milwaukee still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -199,7 +166,7 @@
       "list_price": 549000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 2550,
+      "send_after_seconds": 2100,
       "message": "Hi Wally, I'm a cash investor \u2014 is 5604 Creekmore Dr in Oklahoma City still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -210,7 +177,7 @@
       "list_price": 330000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 2700,
+      "send_after_seconds": 2250,
       "message": "Hi Rachel, I'm a cash investor \u2014 is 330 Klamath Dr in Pittsburgh still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -221,7 +188,7 @@
       "list_price": 470000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 2850,
+      "send_after_seconds": 2400,
       "message": "Hi Lisa, I'm a cash investor \u2014 is 131 Elm Rd in Pittsburgh still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -232,7 +199,7 @@
       "list_price": 699000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 3000,
+      "send_after_seconds": 2550,
       "message": "Hi Colleen, I'm a cash investor \u2014 is 3945 Liberty Ave in Pittsburgh still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -243,7 +210,7 @@
       "list_price": 200000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 3150,
+      "send_after_seconds": 2700,
       "message": "Hi Mary, I'm a cash investor \u2014 is 511 Solar Dr in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -254,19 +221,8 @@
       "list_price": 225000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 3300,
+      "send_after_seconds": 2850,
       "message": "Hi Dayton, I'm a cash investor \u2014 is 6338 Firestone Pkwy in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
-      "status": "queued"
-    },
-    {
-      "to": "210-812-2599",
-      "contact": "Jacqueline Cardenas",
-      "address": "6507 Candlebrite Dr, San Antonio, TX 78244",
-      "list_price": 229000,
-      "type": "soft-inquiry",
-      "offer": "",
-      "send_after_seconds": 3450,
-      "message": "Hi Jacqueline, I'm a cash investor \u2014 is 6507 Candlebrite Dr in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
     {
@@ -276,7 +232,7 @@
       "list_price": 244900,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 3600,
+      "send_after_seconds": 3000,
       "message": "Hi Douglas, I'm a cash investor \u2014 is 7111 Bart Hollow in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -287,19 +243,8 @@
       "list_price": 249000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 3750,
+      "send_after_seconds": 3150,
       "message": "Hi Steven, I'm a cash investor \u2014 is 12008 Vista Nogal St in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
-      "status": "queued"
-    },
-    {
-      "to": "210-777-4097",
-      "contact": "Tiffany Forehand",
-      "address": "6606 Prescott Dam, San Antonio, TX 78233",
-      "list_price": 260000,
-      "type": "soft-inquiry",
-      "offer": "",
-      "send_after_seconds": 3900,
-      "message": "Hi Tiffany, I'm a cash investor \u2014 is 6606 Prescott Dam in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
     {
@@ -309,7 +254,7 @@
       "list_price": 269000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 4050,
+      "send_after_seconds": 3300,
       "message": "Hi Marie, I'm a cash investor \u2014 is 11927 Horse Canyon in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -320,7 +265,7 @@
       "list_price": 285000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 4200,
+      "send_after_seconds": 3450,
       "message": "Hi Kristen, I'm a cash investor \u2014 is 12018 Texana Cv in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -331,7 +276,7 @@
       "list_price": 313000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 4350,
+      "send_after_seconds": 3600,
       "message": "Hi Julio, I'm a cash investor \u2014 is 5626 Tranquil Cv in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -342,7 +287,7 @@
       "list_price": 315000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 4500,
+      "send_after_seconds": 3750,
       "message": "Hi Richard, I'm a cash investor \u2014 is 8327 Lou Gehrig St in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -353,7 +298,7 @@
       "list_price": 325000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 4650,
+      "send_after_seconds": 3900,
       "message": "Hi Steven, I'm a cash investor \u2014 is 3061 Horse Ranch Rd in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -364,19 +309,8 @@
       "list_price": 349900,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 4800,
+      "send_after_seconds": 4050,
       "message": "Hi Maricela, I'm a cash investor \u2014 is 124 Harriet Dr in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
-      "status": "queued"
-    },
-    {
-      "to": "210-852-8890",
-      "contact": "Daniel Lambert",
-      "address": "11611 Creek Ash, San Antonio, TX 78253",
-      "list_price": 389900,
-      "type": "soft-inquiry",
-      "offer": "",
-      "send_after_seconds": 4950,
-      "message": "Hi Daniel, I'm a cash investor \u2014 is 11611 Creek Ash in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
     {
@@ -386,19 +320,8 @@
       "list_price": 435000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 5100,
+      "send_after_seconds": 4200,
       "message": "Hi Kristofer, I'm a cash investor \u2014 is 602 Lightstone Dr in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
-      "status": "queued"
-    },
-    {
-      "to": "210-236-2736",
-      "contact": "Whitney Robinson",
-      "address": "3701 Menger Dr, San Antonio, TX 78259",
-      "list_price": 995000,
-      "type": "soft-inquiry",
-      "offer": "",
-      "send_after_seconds": 5250,
-      "message": "Hi Whitney, I'm a cash investor \u2014 is 3701 Menger Dr in San Antonio still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
     {
@@ -408,7 +331,7 @@
       "list_price": 179900,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 5400,
+      "send_after_seconds": 4350,
       "message": "Hi Adam, I'm a cash investor \u2014 is 195 Pomeroy Dr in Shreveport still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -419,7 +342,7 @@
       "list_price": 698500,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 5550,
+      "send_after_seconds": 4500,
       "message": "Hi Tammi, I'm a cash investor \u2014 is 323 Belle Winds Ct in Shreveport still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -430,7 +353,7 @@
       "list_price": 210000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 5700,
+      "send_after_seconds": 4650,
       "message": "Hi Nikole, I'm a cash investor \u2014 is 3450 Minnesota Ave in St. Louis still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -441,7 +364,7 @@
       "list_price": 239900,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 5850,
+      "send_after_seconds": 4800,
       "message": "Hi Tami, I'm a cash investor \u2014 is 6243 S 31st West Ave in Tulsa still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     },
@@ -452,7 +375,7 @@
       "list_price": 439000,
       "type": "soft-inquiry",
       "offer": "",
-      "send_after_seconds": 6000,
+      "send_after_seconds": 4950,
       "message": "Hi Jill, I'm a cash investor \u2014 is 5706 S Columbia Pl in Tulsa still available? Would the seller be open to a cash, as-is offer with a quick close and no agent fees? If there's any flexibility I can put together a strong offer quickly.",
       "status": "queued"
     }

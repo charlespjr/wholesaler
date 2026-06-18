@@ -2,23 +2,14 @@
   "campaign": "nationwide_tierA_distressed",
   "throttle_seconds": 150,
   "dnc_honored": true,
-  "count": 8,
+  "count": 7,
   "leads": [
-    {
-      "to": "330-322-6869",
-      "contact": "Rick Knight",
-      "address": "756 Brown St, Akron, OH 44311",
-      "offer": 35500,
-      "send_after_seconds": 0,
-      "message": "Hi Rick, is 756 Brown St in Akron still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $35,500 cash, subject to walkthrough and final due diligence?",
-      "status": "queued"
-    },
     {
       "to": "801-309-6531",
       "contact": "Kaden Myers",
       "address": "818 Euclid Ave, Akron, OH 44307",
       "offer": 42000,
-      "send_after_seconds": 150,
+      "send_after_seconds": 0,
       "message": "Hi Kaden, is 818 Euclid Ave in Akron still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $42,000 cash, subject to walkthrough and final due diligence?",
       "status": "queued"
     },
@@ -27,7 +18,7 @@
       "contact": "Arthur Mays",
       "address": "1987 W Melvina St, Milwaukee, WI 53206",
       "offer": 17000,
-      "send_after_seconds": 300,
+      "send_after_seconds": 150,
       "message": "Hi Arthur, is 1987 W Melvina St in Milwaukee still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $17,000 cash, subject to walkthrough and final due diligence?",
       "status": "queued"
     },
@@ -36,7 +27,7 @@
       "contact": "Arthur Mays",
       "address": "3729 N Vel R Phillips Ave, Milwaukee, WI 53212",
       "offer": 25500,
-      "send_after_seconds": 450,
+      "send_after_seconds": 300,
       "message": "Hi Arthur, is 3729 N Vel R Phillips Ave in Milwaukee still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $25,500 cash, subject to walkthrough and final due diligence?",
       "status": "queued"
     },
@@ -45,7 +36,7 @@
       "contact": "Ryan Shedlock",
       "address": "2258 Hawthorne Ave, Pittsburgh, PA 15218",
       "offer": 5500,
-      "send_after_seconds": 600,
+      "send_after_seconds": 450,
       "message": "Hi Ryan, is 2258 Hawthorne Ave in Pittsburgh still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $5,500 cash, subject to walkthrough and final due diligence?",
       "status": "queued"
     },
@@ -54,7 +45,7 @@
       "contact": "Patti Mersky",
       "address": "218 Florien St, Pittsburgh, PA 15204",
       "offer": 21000,
-      "send_after_seconds": 750,
+      "send_after_seconds": 600,
       "message": "Hi Patti, is 218 Florien St in Pittsburgh still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $21,000 cash, subject to walkthrough and final due diligence?",
       "status": "queued"
     },
@@ -63,7 +54,7 @@
       "contact": "John Adams",
       "address": "1002 Prouty Ave, Toledo, OH 43609",
       "offer": 16000,
-      "send_after_seconds": 900,
+      "send_after_seconds": 750,
       "message": "Hi John, is 1002 Prouty Ave in Toledo still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $16,000 cash, subject to walkthrough and final due diligence?",
       "status": "queued"
     },
@@ -72,7 +63,7 @@
       "contact": "Jeffrey Schultheis",
       "address": "1441 Milburn Ave, Toledo, OH 43606",
       "offer": 24500,
-      "send_after_seconds": 1050,
+      "send_after_seconds": 900,
       "message": "Hi Jeffrey, is 1441 Milburn Ave in Toledo still available? I'm a cash investor, buy as-is in any condition, quick close. Would the seller consider around $24,500 cash, subject to walkthrough and final due diligence?",
       "status": "queued"
     }
