@@ -27,6 +27,13 @@ Apply these to EVERY campaign CSV built from a lead sheet, automatically.
 - Listed-property soft inquiry should say: "cash, as-is, quick close, seller nets a clean
   sale" — NOT "no agent fees."
 
+## Suppression / opt-outs (HARD RULE — CAN-SPAM)
+- `suppression_do_not_contact.csv` is the master opt-out list. Anyone who replies
+  REMOVE / unsubscribe / "stop contacting me" gets added (name, email, phone, reason).
+- EVERY campaign (email + GV text queues) must be filtered against this list by
+  **email AND phone** before sending. Never re-contact a suppressed party, even if a
+  new lead import re-adds them.
+
 ## Routing tags (in Notes/description)
 - Distressed/foreclosure/gut-rehab/land ≤60% value → **MaxDispo-fit** (builders/developers)
 - Turnkey/remodeled/tenant-occupied rentals → **BUY-HOLD (landlord buyer, not MaxDispo)**
