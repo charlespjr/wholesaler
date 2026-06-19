@@ -41,7 +41,7 @@ def brand_footer(canvas, doc):
     canvas.setFont("Helvetica", 7)
     canvas.setFillColor(GREY)
     canvas.drawCentredString(w / 2, base + 10,
-                             "11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030  |  Phone: (888) 495-6935  |  Email: charles@paragongovsolutions.net")
+                             "11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030  |  Phone: (888) 495-6935  |  Email: charlesp@paragongovsolutions.net")
     canvas.drawCentredString(w / 2, base,
                              "UEI: FSCZBK8CBV82  |  CAGE Code: 9WX69  |  www.paragongovsolutions.net")
     canvas.restoreState()
