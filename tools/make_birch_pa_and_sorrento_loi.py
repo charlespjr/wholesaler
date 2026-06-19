@@ -16,6 +16,9 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_JUSTIFY
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table,
                                 TableStyle, HRFlowable)
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paragon_brand import brand_header, brand_footer
 
 NAVY = colors.HexColor("#2E4057")
 styles = getSampleStyleSheet()
@@ -29,11 +32,9 @@ SIG = ParagraphStyle("SIG", parent=styles["Normal"], fontName="Helvetica", fontS
 
 
 def birch_pa(out="Offer_1083_Birch_Purchase_Agreement.pdf"):
-    doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.85*inch, rightMargin=0.85*inch, topMargin=0.7*inch, bottomMargin=0.6*inch)
+    doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.85*inch, rightMargin=0.85*inch, topMargin=0.7*inch, bottomMargin=0.95*inch)
     e = []
-    e.append(Paragraph("PARAGON GOVERNMENT SOLUTIONS LLC", H))
-    e.append(Paragraph("11166 Fairfax Blvd STE 500, Fairfax, VA 22030 &middot; 888-495-6935 &middot; charles@paragongovsolutions.net", SUB))
-    e.append(HRFlowable(width="100%", thickness=1, color=NAVY, spaceBefore=2, spaceAfter=8))
+    e.extend(brand_header())
     e.append(Paragraph("RESIDENTIAL AGREEMENT TO PURCHASE AND SELL", TITLE))
     e.append(Paragraph("(Georgia &mdash; Cash Purchase, As-Is)", SUBT))
     e.append(Paragraph('This Agreement is made on June 19, 2026, between Paragon Government Solutions LLC, and/or assigns ("Buyer") and the Owner(s) of Record of the Property ("Seller").', BODY))
@@ -62,7 +63,7 @@ def birch_pa(out="Offer_1083_Birch_Purchase_Agreement.pdf"):
     ], colWidths=[3.2*inch, 3.2*inch])
     sig.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("TOPPADDING", (0, 1), (-1, 1), 10)]))
     e.append(sig)
-    doc.build(e)
+    doc.build(e, onFirstPage=brand_footer, onLaterPages=brand_footer)
     print("Saved:", out)
 
 
@@ -72,11 +73,9 @@ def sorrento_loi(out="Offer_9394_Sorrento_LOI.pdf"):
     FOOT = ParagraphStyle("FT", parent=styles["Normal"], fontName="Helvetica-Oblique", fontSize=7.5, textColor=colors.HexColor("#555555"), leading=10)
     BODY2 = ParagraphStyle("B2", parent=styles["Normal"], fontName="Helvetica", fontSize=10, leading=14, spaceAfter=8)
     def row(l, v): return [Paragraph(l, CELL_L), Paragraph(v, CELL_R)]
-    doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.85*inch, rightMargin=0.85*inch, topMargin=0.7*inch, bottomMargin=0.6*inch)
+    doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.85*inch, rightMargin=0.85*inch, topMargin=0.7*inch, bottomMargin=0.95*inch)
     e = []
-    e.append(Paragraph("PARAGON GOVERNMENT SOLUTIONS LLC", H))
-    e.append(Paragraph("11166 Fairfax Blvd STE 500, Fairfax, VA 22030 &middot; 888-495-6935 &middot; charles@paragongovsolutions.net", SUB))
-    e.append(HRFlowable(width="100%", thickness=1, color=NAVY, spaceBefore=2, spaceAfter=10))
+    e.extend(brand_header())
     e.append(Paragraph("LETTER OF INTENT TO PURCHASE", TITLE))
     e.append(Spacer(1, 8))
     e.append(Paragraph("Date: June 19, 2026", BODY2))
@@ -110,7 +109,7 @@ def sorrento_loi(out="Offer_9394_Sorrento_LOI.pdf"):
     e.append(Spacer(1, 12))
     e.append(HRFlowable(width="100%", thickness=0.5, color=colors.HexColor("#999999"), spaceBefore=2, spaceAfter=6))
     e.append(Paragraph("This Letter of Intent is non-binding and does not create a contract of sale. It is an expression of interest only; binding obligations arise only upon a fully executed Purchase Agreement.", FOOT))
-    doc.build(e)
+    doc.build(e, onFirstPage=brand_footer, onLaterPages=brand_footer)
     print("Saved:", out)
 
 

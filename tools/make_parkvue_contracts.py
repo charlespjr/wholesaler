@@ -9,6 +9,9 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table,
                                 TableStyle, HRFlowable)
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paragon_brand import brand_header, brand_footer
 
 NAVY = colors.HexColor("#2E4057")
 styles = getSampleStyleSheet()
@@ -29,11 +32,9 @@ PROPS = [
 
 
 def build(addr, price_str, out):
-    doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.85*inch, rightMargin=0.85*inch, topMargin=0.7*inch, bottomMargin=0.6*inch)
+    doc = SimpleDocTemplate(out, pagesize=letter, leftMargin=0.85*inch, rightMargin=0.85*inch, topMargin=0.7*inch, bottomMargin=0.95*inch)
     e = []
-    e.append(Paragraph("PARAGON GOVERNMENT SOLUTIONS LLC", H))
-    e.append(Paragraph("11166 Fairfax Blvd STE 500, Fairfax, VA 22030 &middot; 888-495-6935 &middot; charles@paragongovsolutions.net", SUB))
-    e.append(HRFlowable(width="100%", thickness=1, color=NAVY, spaceBefore=2, spaceAfter=8))
+    e.extend(brand_header())
     e.append(Paragraph("RESIDENTIAL AGREEMENT TO PURCHASE AND SELL", TITLE))
     e.append(Paragraph("(Illinois &mdash; Cash Purchase, As-Is)", SUBT))
     e.append(Paragraph('This Agreement is made on June 19, 2026, between Paragon Government Solutions LLC, and/or assigns ("Buyer") and the Owner(s) of Record of the Property ("Seller").', BODY))
@@ -62,7 +63,7 @@ def build(addr, price_str, out):
     ], colWidths=[3.2*inch, 3.2*inch])
     sig.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("TOPPADDING", (0, 1), (-1, 1), 10)]))
     e.append(sig)
-    doc.build(e)
+    doc.build(e, onFirstPage=brand_footer, onLaterPages=brand_footer)
     print("Saved:", out)
 
 
