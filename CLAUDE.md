@@ -10,6 +10,19 @@ This is a **wholesaling business**. Every offer must leave assignment spread + r
 - **Always justify the number** with condition / disclosure / rehab scope ("seller has no condition knowledge, full rehab, all risk on buyer, all cash, fast close").
 - **If it can't close at or under MAO, pass.** Don't chase firm sellers priced above MAO.
 
+## Deal evaluation format (run on EVERY deal, upfront — no back-and-forth)
+For each deal, lead with a tight numbers block, then profit, then dispo fit, then verdict:
+
+1. **Numbers:** Ask | ARV | Repairs | **Builder max** (0.70×ARV − repairs = what an end cash buyer/builder pays) | **My MAO ceiling** (builder max − assignment fee) | **My opening** (~15% below MAO, lower if heavy rehab / unknown disclosure / firm-overpriced / long DOM).
+2. **My profit (assignment fee)** = builder price − my contract price. Show it at the opening price AND at the ceiling. Target fee ~$8–15k.
+3. **MaxDispo fit** (their buyers = builders; need deep discount, contract ≤ ~60% of ARV, gut/teardown/distressed product). Test: builder all-in (my contract + repairs) should be ≤ ~70% of ARV (≥~30% builder margin). Tag the channel:
+   - **MaxDispo (builders)** ← deep-discount distressed, contract ≤60% ARV.
+   - **Buy-hold / landlord buyers** ← turnkey / tenant-occupied / cap-rate deals.
+   - **Pass** ← can't be contracted at/under MY MAO.
+4. **Verdict + recommended opening offer.** If it can't be contracted at/under my MAO, it's a pass — say so plainly.
+
+(See `maxdispo_buybox.md`. MaxDispo rejects anything only lightly under list — "30k under list is still retail.")
+
 ## Buyer / terms defaults
 - Buyer: **Paragon Government Solutions LLC, and/or assigns** (assignment rights always — except REO/bank deals that prohibit it).
 - $1,000 earnest money to title within 3 business days of acceptance.
