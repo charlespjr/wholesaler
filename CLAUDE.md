@@ -10,6 +10,11 @@ This is a **wholesaling business**. Every offer must leave assignment spread + r
 - **Always justify the number** with condition / disclosure / rehab scope ("seller has no condition knowledge, full rehab, all risk on buyer, all cash, fast close").
 - **If it can't close at or under MAO, pass.** Don't chase firm sellers priced above MAO.
 
+## Data integrity (HARD RULE)
+- **Pull every number — ARV, repairs, list price, rent, comps — straight from the deal's own docs / buyer package / dealsheet. NEVER estimate or back-into a figure that already exists in the files.** (Learned 6/20/26: estimated 7512 Saint Lawrence value at ~$140K when the buyer package clearly stated ARV $180K. Do not repeat.)
+- If a needed number genuinely isn't in any provided file, say so explicitly and label it an assumption — don't silently substitute a guess.
+- Evaluate every deal off **ARV**, not list/as-is price (MaxDispo and the 70% rule both work off ARV).
+
 ## Deal evaluation format (run on EVERY deal, upfront — no back-and-forth)
 For each deal, lead with a tight numbers block, then profit, then dispo fit, then verdict:
 
