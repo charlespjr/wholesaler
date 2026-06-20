@@ -10,6 +10,10 @@ This is a **wholesaling business**. Every offer must leave assignment spread + r
 - **Always justify the number** with condition / disclosure / rehab scope ("seller has no condition knowledge, full rehab, all risk on buyer, all cash, fast close").
 - **If it can't close at or under MAO, pass.** Don't chase firm sellers priced above MAO.
 
+## No address, no deal (HARD RULE)
+- **A lead with no specific property address is not a deal — skip it.** Never draft an offer, a "your listing" feeler, or a generic buyer-intro for a contact that has no address. (Learned 6/20/26: built 3 addressless "active cash buyer" intros for Deborah/Johnnie/Maria — Charles: "if no address, then i dont do business.")
+- If a lead is missing the address, drop it from the campaign — do not substitute a generic outreach to keep it in.
+
 ## Data integrity (HARD RULE)
 - **Pull every number — ARV, repairs, list price, rent, comps — straight from the deal's own docs / buyer package / dealsheet. NEVER estimate or back-into a figure that already exists in the files.** (Learned 6/20/26: estimated 7512 Saint Lawrence value at ~$140K when the buyer package clearly stated ARV $180K. Do not repeat.)
 - If a needed number genuinely isn't in any provided file, say so explicitly and label it an assumption — don't silently substitute a guess.
