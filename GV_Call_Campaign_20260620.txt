@@ -1,0 +1,44 @@
+GV + CALL CAMPAIGN — wholesale leads
+=============================================
+
+TEXT = cell (send via Google Voice).  CALL = brokerage office line.
+
+### 1. [TEXT (cell)] Arkadiusz Szejgiec  (773-701-3046)
+2459 E 74th St, Chicago IL | Offer: $39,000
+
+Hi Arkadiusz, this is Charles Pleasant with Paragon Government Solutions. I'm a cash buyer interested in 2459 E 74th St. Would the seller consider a cash, as-is offer around $39,000 with a quick close and short inspection? I can put it in writing today. Thanks!
+
+### 2. [TEXT (cell)] Liz Thompson  (702-368-4445)
+704 Bell Dr & 634 N 4th St, Las Vegas NV | Offer: $142k / $147k
+
+Hi Liz, this is Charles Pleasant with Paragon Government Solutions. I'm a cash buyer interested in two of your listings: 704 Bell Dr and 634 N 4th St. Would the seller take cash, as-is offers (around $142,000 / $147,000) with a quick close? I can send them in writing today. Thanks!
+
+### 3. [TEXT (cell)] Emma Douglass  (919-448-5506)
+1027 Saint Marys St, Raleigh NC | Offer: $243,000
+
+Hi Emma, this is Charles Pleasant with Paragon Government Solutions. I'm a cash buyer interested in 1027 Saint Marys St. Would the seller consider a cash, as-is offer around $243,000 with a quick close and short inspection? I can put it in writing today. Thanks!
+
+### 4. [TEXT (cell)] Sandy Ballesteros  (919-805-7008)
+1113 Mark St, Raleigh NC | Offer: $172,000
+
+Hi Sandy, this is Charles Pleasant with Paragon Government Solutions. I'm a cash buyer interested in 1113 Mark St. Would the seller consider a cash, as-is offer around $172,000 with a quick close and short inspection? I can put it in writing today. Thanks!
+
+### 5. [CALL (office)] Joseph Realty (Joe Joseph)  (863-680-8002)
+400 S Howard Ave, Lakeland FL | Offer: $154,000
+
+CALL SCRIPT: Hi, this is Charles Pleasant with Paragon Government Solutions - I'm a cash buyer interested in 400 S Howard Ave (your listing). Would the seller consider a cash, as-is offer around $154,000, quick close, short inspection? I can send it in writing today. Who's the listing agent and best email to send it to?
+
+### 6. [CALL (office)] Costello R.E. (Kevin Stephens)  (919-985-2530)
+301 N King Charles Rd, Raleigh NC | Offer: $270,000
+
+CALL SCRIPT: Hi, this is Charles Pleasant with Paragon Government Solutions - I'm a cash buyer interested in 301 N King Charles Rd (your listing). Would the seller consider a cash, as-is offer around $270,000, quick close, short inspection? I can send it in writing today. Who's the listing agent and best email to send it to?
+
+### 7. [CALL (office, verify still listed)] HomeSmart Momentum  (440-622-8695)
+12817 Lena Ave, Cleveland OH | Offer: $70,000
+
+CALL SCRIPT: Hi, this is Charles Pleasant with Paragon Government Solutions - I'm a cash buyer interested in 12817 Lena Ave (your listing). Would the seller consider a cash, as-is offer around $70,000, quick close, short inspection? I can send it in writing today. Who's the listing agent and best email to send it to?
+
+### 8. [CALL (office)] Brandywine Homes (institutional)  (888-652-2272)
+207 Idaho Ave, Lakeland FL | Offer: $43,000
+
+CALL SCRIPT: Hi, this is Charles Pleasant with Paragon Government Solutions - I'm a cash buyer interested in 207 Idaho Ave (your listing). Would the seller consider a cash, as-is offer around $43,000, quick close, short inspection? I can send it in writing today. Who's the listing agent and best email to send it to?
