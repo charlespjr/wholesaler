@@ -56,3 +56,18 @@ For each deal, lead with a tight numbers block, then profit, then dispo fit, the
 ## Branding
 - All outbound offer docs use the Paragon logo header + footer via `tools/paragon_brand.py`.
 - Contact on docs: 11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030 · (888) 495-6935 · charlesp@paragongovsolutions.net · UEI FSCZBK8CBV82 · CAGE 9WX69.
+
+## Lending — BF Loan Application defaults (REUSE every time)
+We finance acquisitions/flips/DSCR through **Brrrr Funder LLC, ISAOA/ATIMA** — the "Business Purpose Loan Application" (blank/sample saved at `reference/BF_Loan_Application.pdf`). Products: Bridge · Fix & Flip · Ground Up · 30-Year Rental (DSCR). **100% financing** (funds 100% of purchase + 100% rehab, capped at ~70% of ARV).
+
+**Standing borrower defaults — pre-fill these on every application:**
+- **Loan Originator / Referred by:** Jhanel Wilson · Referral source: Referral.
+- **Borrowing entity:** Paragon Government Solutions LLC — Limited Liability Company · State of Formation: **Virginia** · Business address: **11166 Fairfax Blvd, Ste 500, Fairfax, VA 22030** (Fairfax County) · closes in entity name · 1 guarantor.
+- **Primary guarantor / Managing Member (owns ≥20%):** Charles Pleasant — U.S. Citizen · Primary residence: **9450 Fairfax Blvd, Fairfax, VA 22031** · Phone **864-593-3763** · charlesp@paragongovsolutions.net.
+- **SENSITIVE fields NOT stored here** (SSN, EIN, DOB, Mid-FICO, bank account #/balance): pull from the secure copy each time — never commit these to the repo.
+
+**How to fill by deal type:**
+- **Turnkey DSCR rental** (e.g. 7512 S St Lawrence): Project Type = Purchase · Loan Type = 30-Year Rental (DSCR) · Construction Budget = **$0** · AIV = ARV = market value · Total Loan = Initial Loan = **100% of purchase** (within 70%-ARV cap). Enter property tax, homeowner's + flood insurance, management from the deal docs. DSCR must clear ≥1.0 at the in-place rent.
+- **Distressed fix/flip:** Project Type = Purchase · Loan Type = Bridge + Rehab (RTL) · Construction Budget = rehab estimate · Total Loan = purchase + rehab (≤70% ARV) · Initial Loan = purchase portion (rehab released in draws).
+- **Already bought cash → recover capital:** Transaction Type = Refinance Cash Out / Delayed Purchase.
+- Purchase Price = contract price to seller (assignment fee is separate, NOT loan basis).
