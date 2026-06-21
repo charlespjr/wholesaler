@@ -20,6 +20,10 @@ This is a **wholesaling business**. Every offer must leave assignment spread + r
 - **Distressed = work it.** Signals: needs full/heavy rehab, sold as-is, priced well below market comps, REO / short sale, vacant/abandoned, motivated or firm-low seller, value-add (list well under area median).
 - If condition/pricing is unclear, find out before drafting — don't default to sending an offer.
 
+## Lead channel routing (HARD RULE)
+- **Has an email → email** the formal offer/inquiry to that address.
+- **Phone number only (no email) → add to the GV (Google Voice) campaign** with a unique SMS opener. **Always output campaign files as CSV** (`GV_Campaign_NoEmail_*.csv`), columns: #, Contact, Phone, Property, Brokerage, SMS Script. Never just hand back a "call script." The opener intros Paragon + the property, asks for a cash/as-is look + quick close, and asks **where to email written terms** — the offer number follows once they engage (so we don't quote blind). (Learned 6/21/26: Charles — "when it's only a number, you need to do gv campaign"; "csv format always.")
+
 ## Data integrity (HARD RULE)
 - **Pull every number — ARV, repairs, list price, rent, comps — straight from the deal's own docs / buyer package / dealsheet. NEVER estimate or back-into a figure that already exists in the files.** (Learned 6/20/26: estimated 7512 Saint Lawrence value at ~$140K when the buyer package clearly stated ARV $180K. Do not repeat.)
 - If a needed number genuinely isn't in any provided file, say so explicitly and label it an assumption — don't silently substitute a guess.
