@@ -20,6 +20,11 @@ This is a **wholesaling business**. Every offer must leave assignment spread + r
 - **Distressed = work it.** Signals: needs full/heavy rehab, sold as-is, priced well below market comps, REO / short sale, vacant/abandoned, motivated or firm-low seller, value-add (list well under area median).
 - If condition/pricing is unclear, find out before drafting — don't default to sending an offer.
 
+## No walkthroughs (HARD RULE)
+- **We do NOT do in-person walkthroughs/tours — never promise or request to "walk it," "tour it," or "get someone through it" as our step.** We buy sight-unseen. (Learned 6/21/26: Charles — "you know fucking well u cant do no walkthrough.")
+- Verify condition via **current interior photos/video + seller disclosures**, and rely on the **10-day inspection/feasibility contingency** (order a local inspector/contractor during that window if needed) to confirm or terminate.
+- If a seller **requires** a walk before they'll consider an offer (e.g. 201 Sandhurst), that needs a local third party (buyer's agent/inspector) — flag it to Charles; don't commit Paragon to physically walking it.
+
 ## Lead channel routing (HARD RULE)
 - **Has an email → email** the formal offer/inquiry to that address.
 - **Phone number only (no email) → add to the GV (Google Voice) campaign** with a unique SMS opener. **Always output campaign files as CSV** (`GV_Campaign_NoEmail_*.csv`), columns: #, Contact, Phone, Property, Brokerage, SMS Script. Never just hand back a "call script." The opener intros Paragon + the property, asks for a cash/as-is look + quick close, and asks **where to email written terms** — the offer number follows once they engage (so we don't quote blind). (Learned 6/21/26: Charles — "when it's only a number, you need to do gv campaign"; "csv format always.")
