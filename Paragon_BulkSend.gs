@@ -29,8 +29,8 @@ var CONFIG = {
   SHEET_NAME:    '',          // '' = the active/first sheet tab; or put the tab name
   FROM_NAME:     'Charles Pleasant',
   REPLY_TO:      'charlesp@paragongovsolutions.net',
-  BATCH_SIZE:    60,          // emails per run (keep <= ~80 to stay under the 6-min limit)
-  DELAY_SECONDS: 4,           // pause between emails (human-like; 3–8 is good)
+  BATCH_SIZE:    25,          // emails per run (small = finishes fast, never hits the 6-min cap)
+  DELAY_SECONDS: 2,           // pause between emails (human-like; 1-4 is fine)
   DAILY_SAFETY_BUFFER: 10,    // leave this many in your daily quota untouched
   // CAN-SPAM required physical postal address (appended to every email):
   POSTAL_ADDRESS: 'Paragon Government Solutions LLC · 11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030'
@@ -92,12 +92,24 @@ function sendBatch() {
       sentThisRun++;
       remainingQuota--;
       SpreadsheetApp.flush();
+      ss.toast('Sent ' + sentThisRun + ' this run to ' + to, 'Paragon bulk send', 3);
       Utilities.sleep(CONFIG.DELAY_SECONDS * 1000);
     } catch (e) {
       sheet.getRange(i+1, cStatus+1).setValue('Error: ' + e.message);
     }
   }
   Logger.log('Run complete. Sent this run: ' + sentThisRun + '. Quota left: ' + MailApp.getRemainingDailyQuota());
+}
+
+/** TEST FIRST: sends ONE email to yourself so you can confirm it works before the real run.
+ *  Change the address below to your own, run sendTest, check your inbox. */
+function sendTest() {
+  GmailApp.sendEmail('charlesp@paragongovsolutions.net',
+    'TEST - Paragon bulk sender',
+    'This is a test from the Apps Script bulk sender. If you received this, you are ready to run sendBatch.\n\n'
+    + CONFIG.POSTAL_ADDRESS,
+    { name: CONFIG.FROM_NAME, replyTo: CONFIG.REPLY_TO });
+  Logger.log('Test sent. Check your inbox.');
 }
 
 /** Count how many are left to send. */
