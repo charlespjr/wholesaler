@@ -28,12 +28,17 @@
 var CONFIG = {
   SHEET_NAME:    '',          // '' = the active/first sheet tab; or put the tab name
   FROM_NAME:     'Charles Pleasant',
+  SEND_AS:       'charlesp@paragongovsolutions.net',  // sends FROM this address.
+                              // MUST be a verified "Send mail as" alias on the running account.
+                              // Run listAliases() to see what's available. Leave '' to send from
+                              // the account's own address.
   REPLY_TO:      'charlesp@paragongovsolutions.net',
+  SUPPRESSION_SHEET: 'Suppression',   // a tab with a column of emails to NEVER contact (REMOVE/opt-outs)
   BATCH_SIZE:    25,          // emails per run (small = finishes fast, never hits the 6-min cap)
   DELAY_SECONDS: 2,           // pause between emails (human-like; 1-4 is fine)
   DAILY_SAFETY_BUFFER: 10,    // leave this many in your daily quota untouched
-  // CAN-SPAM required physical postal address (appended to every email):
-  POSTAL_ADDRESS: 'Paragon Government Solutions LLC · 11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030'
+  // CAN-SPAM required physical postal address (appended only if not already in the body):
+  POSTAL_ADDRESS: 'Paragon Government Solutions LLC | 11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030'
 };
 // ====================================================
 
@@ -61,6 +66,22 @@ function sendBatch() {
   var remainingQuota = MailApp.getRemainingDailyQuota() - CONFIG.DAILY_SAFETY_BUFFER;
   if (remainingQuota <= 0) { Logger.log('Daily quota exhausted — try again tomorrow.'); return; }
 
+  // Resolve the From alias (only use it if it's actually verified on this account)
+  var sendAs = '';
+  if (CONFIG.SEND_AS) {
+    var aliases = GmailApp.getAliases();
+    if (aliases.indexOf(CONFIG.SEND_AS) >= 0) {
+      sendAs = CONFIG.SEND_AS;
+    } else {
+      throw new Error('SEND_AS "' + CONFIG.SEND_AS + '" is NOT a verified alias on this account. '
+        + 'Either add it in Gmail > Settings > Accounts > "Send mail as" and verify it, '
+        + 'or set SEND_AS to "" to send from this account. Verified aliases: ' + (aliases.join(', ') || 'none'));
+    }
+  }
+
+  // Load suppression list (emails to never contact)
+  var suppressed = loadSuppression_(ss);
+
   var sentThisRun = 0;
   for (var i = 1; i < data.length; i++) {
     if (sentThisRun >= CONFIG.BATCH_SIZE) break;
@@ -76,6 +97,10 @@ function sendBatch() {
       sheet.getRange(i+1, cStatus+1).setValue('Skipped (missing field)');
       continue;
     }
+    if (suppressed[to.toLowerCase()]) {            // opt-out / do-not-contact
+      sheet.getRange(i+1, cStatus+1).setValue('Suppressed');
+      continue;
+    }
 
     // Append CAN-SPAM postal address if not already present
     if (body.indexOf('Fairfax') < 0) {
@@ -83,10 +108,9 @@ function sendBatch() {
     }
 
     try {
-      GmailApp.sendEmail(to, subject, body, {
-        name: CONFIG.FROM_NAME,
-        replyTo: CONFIG.REPLY_TO
-      });
+      var opts = { name: CONFIG.FROM_NAME, replyTo: CONFIG.REPLY_TO };
+      if (sendAs) opts.from = sendAs;
+      GmailApp.sendEmail(to, subject, body, opts);
       sheet.getRange(i+1, cStatus+1).setValue('Sent');
       sheet.getRange(i+1, cSent+1).setValue(new Date());
       sentThisRun++;
@@ -104,12 +128,36 @@ function sendBatch() {
 /** TEST FIRST: sends ONE email to yourself so you can confirm it works before the real run.
  *  Change the address below to your own, run sendTest, check your inbox. */
 function sendTest() {
+  var opts = { name: CONFIG.FROM_NAME, replyTo: CONFIG.REPLY_TO };
+  if (CONFIG.SEND_AS && GmailApp.getAliases().indexOf(CONFIG.SEND_AS) >= 0) opts.from = CONFIG.SEND_AS;
   GmailApp.sendEmail('charlesp@paragongovsolutions.net',
     'TEST - Paragon bulk sender',
-    'This is a test from the Apps Script bulk sender. If you received this, you are ready to run sendBatch.\n\n'
-    + CONFIG.POSTAL_ADDRESS,
-    { name: CONFIG.FROM_NAME, replyTo: CONFIG.REPLY_TO });
-  Logger.log('Test sent. Check your inbox.');
+    'This is a test from the Apps Script bulk sender. Check the From address on this email — it should read '
+    + (opts.from || '(this account)') + '. If correct, you are ready to run sendBatch.\n\n' + CONFIG.POSTAL_ADDRESS,
+    opts);
+  Logger.log('Test sent FROM: ' + (opts.from || 'this account') + '. Check the From line on the email you receive.');
+}
+
+/** Lists the verified "Send mail as" aliases on this account (so you can confirm SEND_AS). */
+function listAliases() {
+  var a = GmailApp.getAliases();
+  Logger.log('Account: ' + Session.getActiveUser().getEmail());
+  Logger.log('Verified send-as aliases: ' + (a.length ? a.join(', ') : 'NONE (you can only send from the account address)'));
+}
+
+/** Reads the Suppression tab into a lookup of lowercased emails to skip. */
+function loadSuppression_(ss) {
+  var map = {};
+  var sh = ss.getSheetByName(CONFIG.SUPPRESSION_SHEET);
+  if (!sh) return map;
+  var vals = sh.getDataRange().getValues();
+  for (var i = 0; i < vals.length; i++) {
+    for (var j = 0; j < vals[i].length; j++) {
+      var v = String(vals[i][j]).trim().toLowerCase();
+      if (v.indexOf('@') > 0) map[v] = true;
+    }
+  }
+  return map;
 }
 
 /** Count how many are left to send. */
