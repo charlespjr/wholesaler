@@ -47,6 +47,12 @@ For each deal, lead with a tight numbers block, then profit, then dispo fit, the
 
 (See `maxdispo_buybox.md`. MaxDispo rejects anything only lightly under list — "30k under list is still retail.")
 
+## Voice / tone (HARD RULE — every reply Charles sends)
+- **Write like a real person, not an AI.** Charles is talking back to these people — keep it human, plain, and conversational. Use contractions, short sentences, a little informality. Sound like a busy investor firing off a reply, not a polished form letter.
+- **Avoid the AI tells:** no em-dash-heavy structured paragraphs, no "I want to be straight with you about why," no bulleted reasoning in a person-to-person reply, no overly formal sign-offs. Drop the corporate gloss.
+- Still professional and respectful, just real. Sign casually ("Charles" / "Thanks, Charles").
+- This applies to texts AND emails to sellers/agents. (Formal PA documents stay formal.)
+
 ## Buyer / terms defaults
 - Buyer: **Paragon Government Solutions LLC, and/or assigns** (assignment rights always — except REO/bank deals that prohibit it).
 - $1,000 earnest money to title within 3 business days of acceptance.
