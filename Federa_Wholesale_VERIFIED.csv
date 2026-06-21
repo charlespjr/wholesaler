@@ -1,68 +1,68 @@
 ﻿Rank,Address,City,ST,Zip,Bd/Ba,SqFt,Verified_ARV,Confidence,Platform_Value,Est_Repairs,OPENING_OFFER,Sec_Deposit_5pct(open),MAX_OFFER(MAO),Sec_Deposit_5pct(max),Days_to_Cancel,Days_to_Close,Auction_End,URL
-1,8451 Southwest 35th Terrace,Miami,FL,33155,3/2,1781,675000,med,320000,71240,202000,10100,367500,18375,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/981aadfc-ac6a-457c-86f8-305f492a0b31
-2,7590 SW 127th Dr,Miami,FL,33183,3/2,1612,620000,med,340000,64480,186000,9300,338000,16900,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000074492214
-3,12506 Mission Hills Dr S,Jacksonville,FL,32225,4/3.5,3400,725000,med,290000,136000,185000,9250,336000,16800,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/3452714000072528710
-4,548 Northwest 54th Street,Boca Raton,FL,33487,3/2,1447,560000,med,349000,57880,167500,8375,304500,15225,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/c45d14d2-9d61-4448-83a9-d56b20f02a84
-5,18480 Southwest 77th Court,Cutler Bay,FL,33157,4/3,3149,700000,low,520000,125960,162500,8125,295000,14750,10,30,"Tue, Jun 23, 2026 · 9:00 AM",https://federa.com/property/3452714000085710046
-6,756 Southwest 99th Court Cir,Miami,FL,33174,4/3,1747,560000,med,140000,69880,161000,8050,292500,14625,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/1f2aa75f-1c20-4393-8675-19246bef7b2a
-7,5231 NW Iredell St,Port St. Lucie,FL,34986,5/4,3939,620000,high,380000,157560,146500,7325,266500,13325,10,30,"Tue, Jun 23, 2026 · 8:00 AM",https://federa.com/property/3452714000081676485
-8,5028 Inshore Landing Drive,Apollo Beach,FL,33572,4/2,2402,560000,med,240000,96080,146500,7325,266500,13325,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/3452714000084393254
-9,20804 Northwest 9th Path,Miami Gardens,FL,33169,3/2,1524,470000,high,270000,60960,142000,7100,258000,12900,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/8f693eaf-ffe9-4444-8e11-e50353267c35
-10,11811 Gilmerton Drive,Riverview,FL,33579,6/4,5154,700000,med,450000,206160,137000,6850,249500,12475,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/33f15de9-c761-40a0-8efa-8aad77d0077c
-11,601 Southeast 37th Place,Homestead,FL,33033,4/2,2340,525000,med,290000,93600,135000,6750,245500,12275,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000081947116
-12,13712 Halliford Dr,Tampa,FL,33624,3/3,3295,580000,med,460000,131800,134000,6700,244000,12200,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/84c4c1aa-0dc4-4d81-949a-dd47f03f39b8
-13,3933 Northwest 81st Terrace,Coral Springs,FL,33065,3/2,1941,490000,med,215000,77640,131000,6550,238000,11900,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/fef45c5d-73aa-418c-a369-22ada8d24e20
-14,1447 Dunbrooke Loop,Longwood,FL,32779,4/3,3487,625000,low,400000,139480,129500,6475,235500,11775,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/dac9a08b-ee3a-461c-b25e-c89bcda397ab
-15,1441 Northeast 117th Street,Miami,FL,33161,3/1,1232,440000,med,130000,49280,128500,6425,233500,11675,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000082715146
-16,8330 NW 53rd St,Lauderhill,FL,33351,3/2,1849,470000,med,500000,73960,125500,6275,228500,11425,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/0dfef1fe-06be-4ed0-821d-01ddbeabd6fc
-17,12244 Castle Pines Road,Boynton Beach,FL,33437,3/2,1870,470000,med,469900,74800,125500,6275,228000,11400,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/f7a3fe5b-17ca-4ff6-8a32-f229dc24b0f5
-18,999 Northeast 159th Street,North Miami Beach,FL,33162,2/1,1468,480000,low,210000,58720,125000,6250,227000,11350,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000073691038
-19,10070 Brodbeck Boulevard,Orlando,FL,32832,5/3,2740,560000,low,340000,109600,124000,6200,225500,11275,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/3452714000074120777
-20,2408 West Carmen Street,Tampa,FL,33609,2/2,1636,445000,med,230000,65440,121500,6075,220500,11025,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/d65bbba1-04ae-4538-819b-8542c9b5cb60
-21,7020 NE 5th Ave,Miami,FL,33138,2/2,1227,450000,low,410000,49080,120000,6000,218000,10900,10,30,"Tue, Jun 23, 2026 · 9:00 AM",https://federa.com/property/dea5cc7f-2f95-43ea-b28f-af5663eb31e0
-22,6237 Ashley Drive,Lakeland,FL,33813,4/4,3645,560000,med,310000,145800,119000,5950,216500,10825,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/66d966f3-c6a4-4100-b5a7-719c856919c0
-23,2615 Royal Oaks Drive,Tallahassee,FL,32309,3/3,2346,475000,med,280000,93840,116500,5825,212000,10600,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/468e0879-8ac2-4e65-bee7-75bc2470cfa6
-24,2661 Laguna Way,Miramar,FL,33025,3/2,1879,480000,low,340900,75160,116000,5800,210500,10525,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/3452714000062174306
-25,6802 Arbor Oaks Drive,Bradenton,FL,34209,3/2,1844,430000,med,260000,73760,111000,5550,202000,10100,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/6e729a1d-b801-4495-aed6-acdbd14c954d
-26,1426 Southeast 24th Terrace,Homestead,FL,33035,3/2,1731,390000,high,150000,69240,106500,5325,194000,9700,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/fe6a5c1c-20dd-4cbd-b064-3de0b01cb444
-27,15743 Fairway Heights Boulevard,Miami,FL,33157,3/2,2272,440000,med,200000,90880,105500,5275,191500,9575,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000062862125
-28,2940 Northwest 214th Street,Miami Gardens,FL,33056,3/2,3606,560000,low,500000,144240,105000,5250,190500,9525,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/1e2d67a2-6382-4316-9142-e78ccd99e48d
-29,412 Belmont Street,Safety Harbor,FL,34695,2/2,1095,360000,med,150000,43800,102000,5100,185500,9275,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/dad7eacb-4d20-418d-886e-b98ffaf33f5d
-30,3058 Brandywine Drive,Orlando,FL,32806,4/2,2289,430000,med,320000,91560,101500,5075,184500,9225,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/cf71596e-9172-42e8-910e-73fd063f3932
-31,17711 Foxwood Way,Boca Raton,FL,33487,3/2,1614,420000,low,396125,64560,101500,5075,184000,9200,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/8bcf6a40-9530-40a5-a3ab-2c594e240cc8
-32,1251 Summit Run Circle,West Palm Beach,FL,33415,2/2,1176,360000,med,217500,47040,100500,5025,182500,9125,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/3452714000070587643
-33,4520 45th Way,West Palm Beach,FL,33407,2/2,1236,360000,med,315000,49440,99000,4950,180000,9000,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/20e5f558-57cc-4e0d-8926-476bf276b071
-34,3532 John Moore Rd,Brandon,FL,33511,3/2,1428,360000,med,250000,57120,95000,4750,172500,8625,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/3452714000081188034
-35,530 Buckshot Ln,Lakeland,FL,33809,3/2,2103,380000,high,190000,84120,94500,4725,172000,8600,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/bdd43d19-6c8e-4840-9721-6b6a72967b72
-36,6608 Northhaven Court,Riverview,FL,33578,3/2,1182,325000,high,150000,47280,93500,4675,170000,8500,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/19896f10-8420-43af-8800-8b3c313dce6d
-37,1009 E North Bay St,Tampa,FL,33603,3/1,832,320000,med,140000,33280,93000,4650,169500,8475,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/f8857eb2-8999-4cc6-84b0-d2021ea03564
-38,364 Briar Bay Circle,Orlando,FL,32825,3/2,1351,330000,high,230000,54040,92000,4600,167000,8350,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/b1fb1cee-0fb7-4889-8fc5-d95a14c1e8e7
-39,512 Boxwood Lane,Englewood,FL,34223,2/2,1660,360000,med,190000,66400,89500,4475,163000,8150,10,30,"Tue, Jun 23, 2026 · 9:00 AM",https://federa.com/property/a9ba7b3e-1a8e-45a6-a3a2-750cf3f0783c
-40,3921 West Cherry Street,Tampa,FL,33607,2/1,864,330000,low,140000,34560,87500,4375,158500,7925,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/3452714000084238550
+1,1447 Dunbrooke Loop,Longwood,FL,32779,4/3,3487,850000,med,400000,139480,228500,11425,416000,20800,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/dac9a08b-ee3a-461c-b25e-c89bcda397ab
+2,7020 NE 5th Ave,Miami,FL,33138,2/2,1227,700000,low,410000,49080,204500,10225,372000,18600,10,30,"Tue, Jun 23, 2026 · 9:00 AM",https://federa.com/property/dea5cc7f-2f95-43ea-b28f-af5663eb31e0
+3,8451 Southwest 35th Terrace,Miami,FL,33155,3/2,1781,675000,med,320000,71240,202000,10100,367500,18375,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/981aadfc-ac6a-457c-86f8-305f492a0b31
+4,7590 SW 127th Dr,Miami,FL,33183,3/2,1612,620000,med,340000,64480,186000,9300,338000,16900,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000074492214
+5,12506 Mission Hills Dr S,Jacksonville,FL,32225,4/3.5,3400,725000,med,290000,136000,185000,9250,336000,16800,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/3452714000072528710
+6,548 Northwest 54th Street,Boca Raton,FL,33487,3/2,1447,560000,med,349000,57880,167500,8375,304500,15225,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/c45d14d2-9d61-4448-83a9-d56b20f02a84
+7,756 Southwest 99th Court Cir,Miami,FL,33174,4/3,1747,560000,med,140000,69880,161000,8050,292500,14625,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/1f2aa75f-1c20-4393-8675-19246bef7b2a
+8,1037 N Bay Dr,Lynn Haven,FL,32444,3/2,2211,600000,low,410000,88440,149000,7450,271000,13550,10,30,"Mon, Jun 22, 2026 · 12:00 PM",https://federa.com/property/78a4b060-de88-47b0-a99c-cdec11807983
+9,17711 Foxwood Way,Boca Raton,FL,33487,3/2,1614,560000,low,396125,64560,148500,7425,270500,13525,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/8bcf6a40-9530-40a5-a3ab-2c594e240cc8
+10,5231 NW Iredell St,Port St. Lucie,FL,34986,5/4,3939,620000,high,380000,157560,146500,7325,266500,13325,10,30,"Tue, Jun 23, 2026 · 8:00 AM",https://federa.com/property/3452714000081676485
+11,5028 Inshore Landing Drive,Apollo Beach,FL,33572,4/2,2402,560000,med,240000,96080,146500,7325,266500,13325,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/3452714000084393254
+12,10070 Brodbeck Boulevard,Orlando,FL,32832,5/3,2740,620000,low,340000,109600,144500,7225,262500,13125,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/3452714000074120777
+13,18480 Southwest 77th Court,Cutler Bay,FL,33157,4/3,3149,640000,low,520000,125960,142000,7100,258500,12925,10,30,"Tue, Jun 23, 2026 · 9:00 AM",https://federa.com/property/3452714000085710046
+14,20804 Northwest 9th Path,Miami Gardens,FL,33169,3/2,1524,470000,high,270000,60960,142000,7100,258000,12900,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/8f693eaf-ffe9-4444-8e11-e50353267c35
+15,11811 Gilmerton Drive,Riverview,FL,33579,6/4,5154,700000,med,450000,206160,137000,6850,249500,12475,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/33f15de9-c761-40a0-8efa-8aad77d0077c
+16,601 Southeast 37th Place,Homestead,FL,33033,4/2,2340,525000,med,290000,93600,135000,6750,245500,12275,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000081947116
+17,13712 Halliford Dr,Tampa,FL,33624,3/3,3295,580000,med,460000,131800,134000,6700,244000,12200,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/84c4c1aa-0dc4-4d81-949a-dd47f03f39b8
+18,3933 Northwest 81st Terrace,Coral Springs,FL,33065,3/2,1941,490000,med,215000,77640,131000,6550,238000,11900,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/fef45c5d-73aa-418c-a369-22ada8d24e20
+19,1441 Northeast 117th Street,Miami,FL,33161,3/1,1232,440000,med,130000,49280,128500,6425,233500,11675,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000082715146
+20,8330 NW 53rd St,Lauderhill,FL,33351,3/2,1849,470000,med,500000,73960,125500,6275,228500,11425,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/0dfef1fe-06be-4ed0-821d-01ddbeabd6fc
+21,12244 Castle Pines Road,Boynton Beach,FL,33437,3/2,1870,470000,med,469900,74800,125500,6275,228000,11400,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/f7a3fe5b-17ca-4ff6-8a32-f229dc24b0f5
+22,2661 Laguna Way,Miramar,FL,33025,3/2,1879,470000,med,340900,75160,125000,6250,227500,11375,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/3452714000062174306
+23,2408 West Carmen Street,Tampa,FL,33609,2/2,1636,445000,med,230000,65440,121500,6075,220500,11025,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/d65bbba1-04ae-4538-819b-8542c9b5cb60
+24,6237 Ashley Drive,Lakeland,FL,33813,4/4,3645,560000,med,310000,145800,119000,5950,216500,10825,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/66d966f3-c6a4-4100-b5a7-719c856919c0
+25,2615 Royal Oaks Drive,Tallahassee,FL,32309,3/3,2346,475000,med,280000,93840,116500,5825,212000,10600,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/468e0879-8ac2-4e65-bee7-75bc2470cfa6
+26,2940 Northwest 214th Street,Miami Gardens,FL,33056,3/2,3606,540000,med,500000,144240,112500,5625,205000,10250,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/1e2d67a2-6382-4316-9142-e78ccd99e48d
+27,6802 Arbor Oaks Drive,Bradenton,FL,34209,3/2,1844,430000,med,260000,73760,111000,5550,202000,10100,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/6e729a1d-b801-4495-aed6-acdbd14c954d
+28,999 Northeast 159th Street,North Miami Beach,FL,33162,2/1,1468,400000,med,210000,58720,108500,5425,197500,9875,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000073691038
+29,1426 Southeast 24th Terrace,Homestead,FL,33035,3/2,1731,390000,high,150000,69240,106500,5325,194000,9700,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/fe6a5c1c-20dd-4cbd-b064-3de0b01cb444
+30,15743 Fairway Heights Boulevard,Miami,FL,33157,3/2,2272,440000,med,200000,90880,105500,5275,191500,9575,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/3452714000062862125
+31,412 Belmont Street,Safety Harbor,FL,34695,2/2,1095,360000,med,150000,43800,102000,5100,185500,9275,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/dad7eacb-4d20-418d-886e-b98ffaf33f5d
+32,3058 Brandywine Drive,Orlando,FL,32806,4/2,2289,430000,med,320000,91560,101500,5075,184500,9225,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/cf71596e-9172-42e8-910e-73fd063f3932
+33,1251 Summit Run Circle,West Palm Beach,FL,33415,2/2,1176,360000,med,217500,47040,100500,5025,182500,9125,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/3452714000070587643
+34,4520 45th Way,West Palm Beach,FL,33407,2/2,1236,360000,med,315000,49440,99000,4950,180000,9000,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/20e5f558-57cc-4e0d-8926-476bf276b071
+35,3532 John Moore Rd,Brandon,FL,33511,3/2,1428,360000,med,250000,57120,95000,4750,172500,8625,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/3452714000081188034
+36,530 Buckshot Ln,Lakeland,FL,33809,3/2,2103,380000,high,190000,84120,94500,4725,172000,8600,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/bdd43d19-6c8e-4840-9721-6b6a72967b72
+37,6608 Northhaven Court,Riverview,FL,33578,3/2,1182,325000,high,150000,47280,93500,4675,170000,8500,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/19896f10-8420-43af-8800-8b3c313dce6d
+38,1009 E North Bay St,Tampa,FL,33603,3/1,832,320000,med,140000,33280,93000,4650,169500,8475,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/f8857eb2-8999-4cc6-84b0-d2021ea03564
+39,364 Briar Bay Circle,Orlando,FL,32825,3/2,1351,330000,high,230000,54040,92000,4600,167000,8350,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/b1fb1cee-0fb7-4889-8fc5-d95a14c1e8e7
+40,512 Boxwood Lane,Englewood,FL,34223,2/2,1660,360000,med,190000,66400,89500,4475,163000,8150,10,30,"Tue, Jun 23, 2026 · 9:00 AM",https://federa.com/property/a9ba7b3e-1a8e-45a6-a3a2-750cf3f0783c
 41,1341 Florida Avenue,Palm Harbor,FL,34683,3/2,1532,345000,med,150000,61280,87000,4350,158000,7900,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/3452714000073595421
-42,1037 N Bay Dr,Lynn Haven,FL,32444,3/2,2211,400000,low,410000,88440,81500,4075,148000,7400,10,30,"Mon, Jun 22, 2026 · 12:00 PM",https://federa.com/property/78a4b060-de88-47b0-a99c-cdec11807983
+42,866 Kings Pine Court,Ruskin,FL,33570,4/2,1926,350000,med,190000,77040,80000,4000,145500,7275,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/0c5ddc44-89e9-426b-a1c9-e54293f3eeef
 43,3131 Juniper Drive,Edgewater,FL,32141,3/2,1560,325000,med,180000,62400,79000,3950,143500,7175,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/5a6f0939-efb4-4d21-9667-920d57ee3d94
-44,335 San Gabriel Street,Winter Springs,FL,32708,3/2,1089,290000,med,150000,43560,76500,3825,139500,6975,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/d0370d84-5505-4187-bb3a-2c7a7943f77c
-45,866 Kings Pine Court,Ruskin,FL,33570,4/2,1926,360000,low,190000,77040,74000,3700,134500,6725,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/0c5ddc44-89e9-426b-a1c9-e54293f3eeef
-46,15745 NW 23rd Avenue Rd,Opa Locka,FL,33054,3/1,864,290000,low,155000,34560,73500,3675,134000,6700,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/1bacc43f-461a-40ea-a2e5-ce253b87d856
-47,750 Concord Lane,Lakeland,FL,33809,3/2,1643,298000,high,160000,65720,73000,3650,133000,6650,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/07570094-b039-48b6-9dc3-151a3c2c6310
-48,1810 Pine Oak Trail,Sanford,FL,32773,2/2,1214,285000,med,150000,48560,72000,3600,131000,6550,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/c871f50f-f68c-4742-8cd5-98186f06bcb8
-49,12725 Sunland Ct,Tampa,FL,33625,3/2,1672,310000,med,200000,66880,71000,3550,129500,6475,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/8688a636-fcd2-4e0b-9366-c27a2b50acdf
-50,3608 Tam Drive,Orlando,FL,32808,4/2,1463,290000,med,160000,58520,68500,3425,124500,6225,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/54430e58-fcb7-469a-a4be-bf8c14847158
-51,11925 Cedarfield Drive,Riverview,FL,33579,3/2,1641,300000,med,190000,65640,68000,3400,124000,6200,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/885fe623-052b-43aa-bd2e-70698f3c3859
-52,8047 Echo Springs Rd,Jacksonville,FL,32256,3/2,1502,290000,med,170000,60080,67500,3375,123000,6150,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/547471b7-4c9f-48f3-aafd-81f7b263a2da
-53,5902 Southeast Riverboat Drive,Stuart,FL,34997,2/2,1288,290000,low,150000,51520,64500,3225,117000,5850,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/12541c0f-959d-42a0-8e9f-bc7472a21713
-54,147 Tracy Circle,Haines City,FL,33844,3/2,1753,295000,med,180000,70120,64000,3200,116000,5800,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/9001ff9c-58af-41da-b8a8-6e37a2121710
-55,105 Burchwood Avenue,Plant City,FL,33563,3/2,1851,300000,med,210000,74040,63500,3175,115500,5775,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/4f9f315f-2957-4d35-a446-20e5910b5768
-56,8747 Wolf Den Trail,Port Richey,FL,34668,4/2,1851,300000,med,170000,74040,63500,3175,115500,5775,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/3452714000078944987
-57,425 Kensington View Drive,Winter Haven,FL,33880,3/2,1604,270000,high,160000,64160,63000,3150,115000,5750,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/f774ffcd-f2af-4f46-882e-ab0c87a0ec8b
-58,5848 Windridge Dr,Winter Haven,FL,33881,4/3,3050,385000,low,210000,122000,58000,2900,105000,5250,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/3452714000080464713
-59,246 Dinner Lake Place,Lake Wales,FL,33859,4/2,1726,270000,med,150000,69040,55500,2775,100500,5025,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/196ce1a7-013f-41f8-8229-b9e57c222c2c
-60,343 Suzanne Dr,Kent,OH,44240,3/2,1988,245000,high,180000,79520,45000,2250,82000,4100,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/bbdb0ff8-bd6e-42a6-acea-59968fa6bcb5
-61,1321 Fountainhead Drive,Deltona,FL,32725,3/1,1050,200000,med,120000,42000,44500,2225,81000,4050,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/2bf97bb2-f5c6-4be9-8c12-200f4f7ee13d
-62,3249 Trask Drive,Holiday,FL,34691,2/2,1156,200000,med,130000,46240,42000,2100,77000,3850,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/b4f95cd8-3ab0-453c-bc30-91b75fb4656a
-63,12717 Woodchuck Way,Hudson,FL,34667,2/2,1176,195000,med,140000,47040,40000,2000,72500,3625,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/f947e72f-22b5-4183-a345-402ffbf383ee
-64,1706 Shore Acres Drive,Lakeland,FL,33801,4/2,1535,230000,low,150000,61400,38500,1925,70500,3525,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/0e196452-1819-4021-936d-9ec555f24705
+44,5902 Southeast Riverboat Drive,Stuart,FL,34997,2/2,1288,290000,high,150000,51520,78000,3900,141500,7075,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/12541c0f-959d-42a0-8e9f-bc7472a21713
+45,335 San Gabriel Street,Winter Springs,FL,32708,3/2,1089,290000,med,150000,43560,76500,3825,139500,6975,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/d0370d84-5505-4187-bb3a-2c7a7943f77c
+46,750 Concord Lane,Lakeland,FL,33809,3/2,1643,298000,high,160000,65720,73000,3650,133000,6650,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/07570094-b039-48b6-9dc3-151a3c2c6310
+47,1810 Pine Oak Trail,Sanford,FL,32773,2/2,1214,285000,med,150000,48560,72000,3600,131000,6550,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/c871f50f-f68c-4742-8cd5-98186f06bcb8
+48,12725 Sunland Ct,Tampa,FL,33625,3/2,1672,310000,med,200000,66880,71000,3550,129500,6475,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/8688a636-fcd2-4e0b-9366-c27a2b50acdf
+49,3608 Tam Drive,Orlando,FL,32808,4/2,1463,290000,med,160000,58520,68500,3425,124500,6225,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/54430e58-fcb7-469a-a4be-bf8c14847158
+50,11925 Cedarfield Drive,Riverview,FL,33579,3/2,1641,300000,med,190000,65640,68000,3400,124000,6200,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/885fe623-052b-43aa-bd2e-70698f3c3859
+51,8047 Echo Springs Rd,Jacksonville,FL,32256,3/2,1502,290000,med,170000,60080,67500,3375,123000,6150,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/547471b7-4c9f-48f3-aafd-81f7b263a2da
+52,147 Tracy Circle,Haines City,FL,33844,3/2,1753,295000,med,180000,70120,64000,3200,116000,5800,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/9001ff9c-58af-41da-b8a8-6e37a2121710
+53,105 Burchwood Avenue,Plant City,FL,33563,3/2,1851,300000,med,210000,74040,63500,3175,115500,5775,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/4f9f315f-2957-4d35-a446-20e5910b5768
+54,8747 Wolf Den Trail,Port Richey,FL,34668,4/2,1851,300000,med,170000,74040,63500,3175,115500,5775,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/3452714000078944987
+55,425 Kensington View Drive,Winter Haven,FL,33880,3/2,1604,270000,high,160000,64160,63000,3150,115000,5750,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/f774ffcd-f2af-4f46-882e-ab0c87a0ec8b
+56,15745 NW 23rd Avenue Rd,Opa Locka,FL,33054,3/1,864,250000,low,155000,34560,60000,3000,109500,5475,10,30,"Mon, Jun 22, 2026 · 9:00 AM",https://federa.com/property/1bacc43f-461a-40ea-a2e5-ce253b87d856
+57,1706 Shore Acres Drive,Lakeland,FL,33801,4/2,1535,270000,med,150000,61400,59500,2975,108000,5400,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/0e196452-1819-4021-936d-9ec555f24705
+58,246 Dinner Lake Place,Lake Wales,FL,33859,4/2,1726,270000,med,150000,69040,55500,2775,100500,5025,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/196ce1a7-013f-41f8-8229-b9e57c222c2c
+59,5848 Windridge Dr,Winter Haven,FL,33881,4/3,3050,330000,high,210000,122000,54500,2725,99000,4950,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/3452714000080464713
+60,3921 West Cherry Street,Tampa,FL,33607,2/1,864,215000,low,140000,34560,48500,2425,88000,4400,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/3452714000084238550
+61,343 Suzanne Dr,Kent,OH,44240,3/2,1988,245000,high,180000,79520,45000,2250,82000,4100,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/bbdb0ff8-bd6e-42a6-acea-59968fa6bcb5
+62,1321 Fountainhead Drive,Deltona,FL,32725,3/1,1050,200000,med,120000,42000,44500,2225,81000,4050,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/2bf97bb2-f5c6-4be9-8c12-200f4f7ee13d
+63,3249 Trask Drive,Holiday,FL,34691,2/2,1156,200000,med,130000,46240,42000,2100,77000,3850,10,30,"Tue, Jun 23, 2026 · 11:00 AM",https://federa.com/property/b4f95cd8-3ab0-453c-bc30-91b75fb4656a
+64,12717 Woodchuck Way,Hudson,FL,34667,2/2,1176,195000,med,140000,47040,40000,2000,72500,3625,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/f947e72f-22b5-4183-a345-402ffbf383ee
 65,440 37th Street Northwest,Canton,OH,44709,3/1,1272,185000,high,133800,50880,37500,1875,68500,3425,10,30,"Mon, Jun 22, 2026 · 10:00 AM",https://federa.com/property/b0967d18-9bc0-4fbf-a686-3e55a88417e8
 66,4601 Anvers Boulevard,Jacksonville,FL,32210,3/2,1131,175000,med,130000,45240,33500,1675,61000,3050,10,30,"Mon, Jun 22, 2026 · 11:00 AM",https://federa.com/property/2af53240-9b86-43b2-bc85-633ccdc80238
 67,4817 Mark Way,Bartow,FL,33830,3/2,1320,185000,med,140000,52800,33000,1650,60000,3000,10,30,"Tue, Jun 23, 2026 · 10:00 AM",https://federa.com/property/57d0ead4-ed42-4b4b-b3d4-ab5539313f67
