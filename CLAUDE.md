@@ -14,6 +14,12 @@ This is a **wholesaling business**. Every offer must leave assignment spread + r
 - **A lead with no specific property address is not a deal — skip it.** Never draft an offer, a "your listing" feeler, or a generic buyer-intro for a contact that has no address. (Learned 6/20/26: built 3 addressless "active cash buyer" intros for Deborah/Johnnie/Maria — Charles: "if no address, then i dont do business.")
 - If a lead is missing the address, drop it from the campaign — do not substitute a generic outreach to keep it in.
 
+## No retail listings (HARD RULE)
+- **Do not make offers on retail/turnkey/at-market listings — those are an automatic PASS.** Only draft an offer when the property is distressed AND there is real wholesale spread. (Learned 6/20/26: Juliana/River Hills and Woodshaw — both turnkey, agent-listed at market — declined as "significantly below market"; chasing them wasted engagement. Charles: "stop offering on retail.")
+- **Retail = pass.** Signals: turnkey/updated condition, priced at/near comps, listed by an agent at market, seller wants market value, no motivation. Don't manufacture a wholesale number for these.
+- **Distressed = work it.** Signals: needs full/heavy rehab, sold as-is, priced well below market comps, REO / short sale, vacant/abandoned, motivated or firm-low seller, value-add (list well under area median).
+- If condition/pricing is unclear, find out before drafting — don't default to sending an offer.
+
 ## Data integrity (HARD RULE)
 - **Pull every number — ARV, repairs, list price, rent, comps — straight from the deal's own docs / buyer package / dealsheet. NEVER estimate or back-into a figure that already exists in the files.** (Learned 6/20/26: estimated 7512 Saint Lawrence value at ~$140K when the buyer package clearly stated ARV $180K. Do not repeat.)
 - If a needed number genuinely isn't in any provided file, say so explicitly and label it an assumption — don't silently substitute a guess.
