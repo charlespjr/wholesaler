@@ -30,8 +30,10 @@ and a disclaimer. Built for emailing to cash buyers.
 - **Room classification** + priority ordering (front, rear, kitchen, living,
   beds, baths, basement, repair areas, yard, extras) — up to 15 photos.
 - **Professional PDF** (US Letter, ReportLab): cover, summary, deal-analysis
-  table, 4-up photo grid with captions, per-page header (address) + footer
-  (page numbers), disclaimer page.
+  table, 4-up photo grid with captions, **VA agent call script + agent Q&A**
+  (auto-built from the deal's numbers — talking points, the "are you
+  wholesaling?" answer, objection handling, hard stops), per-page header
+  (address) + footer (page numbers), disclaimer page.
 - **Batch-safe**: one failing listing never stops the run; a
   `processing_report.csv` records what happened to each property.
 - **Degrades gracefully**: works (PDF only) even if Playwright/httpx/pandas are

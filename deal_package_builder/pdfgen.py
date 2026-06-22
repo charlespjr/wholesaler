@@ -36,6 +36,9 @@ SMALL = ParagraphStyle("s", parent=_ss["BodyText"], textColor=GREY, fontSize=8.5
 CENTER = ParagraphStyle("c", parent=BODY, alignment=TA_CENTER)
 CAP = ParagraphStyle("cap", parent=_ss["BodyText"], textColor=GREY, fontSize=8.5,
                      leading=10, alignment=TA_CENTER)
+SAY = ParagraphStyle("say", parent=BODY, fontSize=10.5, leading=15, leftIndent=8, rightIndent=8,
+                     backColor=LIGHT, borderPadding=8, spaceAfter=8)
+BUL = ParagraphStyle("bul", parent=BODY, leftIndent=14, spaceAfter=3)
 
 
 @dataclass
@@ -114,6 +117,97 @@ def _fit_image(path: str, max_w: float, max_h: float):
         h = max_h
         w = h / ar
     return Image(path, width=w, height=h)
+
+
+def _va_call_script(prop: Property) -> list:
+    """VA agent call-script pages, driven by this deal's numbers + standing Q&A.
+    Included in every package so the VA has talking points + the agent Q&A."""
+    start = fmt_money(prop.offer_price)
+    ceiling = fmt_money(prop.mao)
+    listp = fmt_money(prop.asking_price)
+    agent = prop.listing_agent or "the listing agent"
+    agent_line = " — ".join([x for x in [prop.listing_agent, prop.agent_phone, prop.agent_email] if x]) or "Not provided"
+    addr = prop.property_address or prop.title
+
+    out = [Paragraph("VA Agent Call Script", H1),
+           Paragraph("How to work this deal on the phone with the listing agent. Plain language to relay.", SMALL),
+           HRFlowable(width="100%", thickness=1, color=NAVY, spaceBefore=4, spaceAfter=8)]
+
+    out.append(Paragraph("At a glance", H2))
+    out.append(_kv_table([
+        ("Property", addr),
+        ("Listing agent", agent_line),
+        ("Their list price", listp),
+        ("OUR OFFER", f"{start} cash (start here)"),
+        ("Most we can pay", f"{ceiling} cash — NEVER higher. Above that, stop and call Charles."),
+    ], col0=1.55 * inch, col1=4.55 * inch))
+
+    out.append(Paragraph("Our terms (have these ready)", H2))
+    out.append(_kv_table([
+        ("Price", f"{start} cash (opening); {ceiling} absolute max"),
+        ("Purchase", "All cash, as-is / where-is — we take all repair risk"),
+        ("Earnest money", "$1,000 to title within 3 business days of acceptance"),
+        ("Due diligence", "10-day inspection / feasibility period"),
+        ("Close", "21 days (about 3 weeks), or the seller's timeline"),
+        ("Contingencies", "NONE — no financing, no appraisal"),
+        ("Buyer", "Paragon Government Solutions LLC, and/or assigns"),
+        ("Proof of funds", "Yes — on request"),
+    ]))
+
+    if prop.arv and prop.repair_estimate and prop.builder_max:
+        out.append(Paragraph("Why we're offering this number (say it plainly)", H2))
+        out.append(Paragraph(
+            f"Fixed up it's worth about <b>{fmt_money(prop.arv)}</b>, but it needs roughly "
+            f"<b>{fmt_money(prop.repair_estimate)}</b> of work. After that a builder only pays about "
+            f"<b>{fmt_money(prop.builder_max)}</b> for it, so to do the deal and make a small fee we buy in the "
+            f"<b>{start}–{ceiling}</b> range. It's not a lowball — it's what the rehab allows.", BODY))
+
+    out.append(Paragraph("Call flow", H2))
+    out.append(Paragraph("<b>1. Open (returning the agent's call):</b>", BODY))
+    out.append(Paragraph(f'"Hi {agent}, this is [your name] with Paragon Government Solutions, returning your call '
+                         f'about {addr}. Thanks for getting back to me — is it still available?"', SAY))
+    out.append(Paragraph("<b>2. Confirm condition &amp; feel out the seller:</b>", BODY))
+    for b in ['"What kind of shape is it in — anything major done recently?"',
+              '"How long\'s it been listed, and are there other offers?"',
+              '"Is the seller flexible on price for a fast all-cash close? What\'s the lowest they\'d really take?"']:
+        out.append(Paragraph("• " + b, BUL))
+    out.append(Paragraph("<b>3. Make the offer:</b>", BODY))
+    out.append(Paragraph(f'"Here\'s what we can do: {start} cash, as-is. $1,000 earnest to title in 3 days, a 10-day '
+                         f'inspection, and we close in about 3 weeks or whenever the seller wants. No bank, no appraisal, '
+                         f'no contingencies, proof of funds ready. We take all the repair risk, so that\'s where our number '
+                         f'lands. If the seller wants a clean guaranteed close, we\'re ready to sign."', SAY))
+    out.append(Paragraph("<b>4. Close the call:</b>", BODY))
+    out.append(Paragraph('"What\'s the best email to send the written terms to? I\'ll get them over today."', SAY))
+
+    out.append(Paragraph("The big question: “Are you wholesaling / assigning this?”", H2))
+    out.append(Paragraph("Answer it <b>straight</b> — don't dodge, don't lie. Then pivot to performance:", BODY))
+    out.append(Paragraph('"I\'m a cash buyer. I buy through my company, Paragon, and it\'s written ‘and/or assigns,’ '
+                         'so I may bring in one of my funding partners to close — but either way you get a real close: '
+                         'earnest money up front, proof of funds, and we perform. You\'re not chasing me."', SAY))
+    for b in ["<b>Never deny it's assignable</b> — the contract literally says ‘and/or assigns.’",
+              "<b>Anchor on performance</b> — earnest money + proof of funds + we close. That's what wins agents.",
+              "<b>Keep the inspection tight (10 days)</b> — a long window makes agents think we're just shopping it.",
+              "<b>REO / bank-owned only:</b> assignment is usually prohibited — there we double-close instead (doubleclose.com)."]:
+        out.append(Paragraph("• " + b, BUL))
+
+    out.append(Paragraph("Other questions the agent will ask (and the answers)", H2))
+    for b in ['<b>"Proof of funds?"</b> &rarr; "Yes — I\'ll include it with the written terms."',
+              '<b>"How much earnest, is it hard?"</b> &rarr; "$1,000 to title in 3 days; happy to make it firm after inspection."',
+              '<b>"How fast can you close?"</b> &rarr; "About 3 weeks, or on the seller\'s timeline."',
+              '<b>"Cash, no financing?"</b> &rarr; "All cash — no loan, no appraisal contingency."',
+              '<b>"Come see it / walk it first?"</b> &rarr; "We don\'t do walkthroughs — we buy off photos and disclosures, then verify in our 10-day inspection."',
+              '<b>"Are you actually going to close?"</b> &rarr; "Earnest money and proof of funds up front — we perform. I won\'t tie up your listing and disappear."',
+              '<b>"Seller wants full list price."</b> &rarr; "Then we\'re probably not their buyer today — keep my number; if it sits and they get flexible, we close fast in cash."']:
+        out.append(Paragraph("• " + b, BUL))
+
+    out.append(Paragraph("Never do", H2))
+    for b in [f"Go above <b>{ceiling}</b>. Higher = stop and call Charles.",
+              "Promise to visit, tour, or walk the property.",
+              "Send written terms before you have the agent's email.",
+              "Send a signed offer without Charles okaying it first.",
+              "Deny we may assign — be honest, anchor on performance."]:
+        out.append(Paragraph("• " + b, BUL))
+    return out
 
 
 # -----------------------------------------------------------------------------
@@ -257,6 +351,10 @@ def build_pdf(prop: Property, photos: List[Photo], out_path: str,
                     story.append(PageBreak())
                     on_page = 0
         flush_row(row_buf)
+
+    # ---------- VA AGENT CALL SCRIPT ----------
+    story.append(PageBreak())
+    story += _va_call_script(prop)
 
     # ---------- FINAL PAGE: DISCLAIMER ----------
     story.append(PageBreak())

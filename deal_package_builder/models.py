@@ -76,6 +76,14 @@ class Property:
     property_type: str = ""
     notes: str = ""
 
+    # Optional sourcing fields (from the ChatGPT handoff CSV; safe to be blank).
+    condition: str = ""
+    motivation: str = ""
+    days_on_market: str = ""
+    listing_agent: str = ""
+    agent_phone: str = ""
+    agent_email: str = ""
+
     # Populated during processing.
     listing_status: str = ""
     source: str = ""  # 'zillow' | 'redfin' | 'unknown'
@@ -101,6 +109,12 @@ class Property:
             lot_size=g("lot_size"),
             property_type=g("property_type"),
             notes=g("notes"),
+            condition=g("condition"),
+            motivation=g("motivation"),
+            days_on_market=g("days_on_market"),
+            listing_agent=g("listing_agent"),
+            agent_phone=g("agent_phone"),
+            agent_email=g("agent_email"),
         )
 
     # ---- derived display helpers ----
@@ -125,6 +139,13 @@ class Property:
         return sanitize_filename(self.property_address or self.title)
 
     # ---- deal math ----
+
+    @property
+    def builder_max(self) -> Optional[float]:
+        """What an end builder pays = (ARV * 0.70) - Repairs."""
+        if self.arv is None or self.repair_estimate is None:
+            return None
+        return round(self.arv * 0.70 - self.repair_estimate, 2)
 
     @property
     def mao(self) -> Optional[float]:
