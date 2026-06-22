@@ -10,6 +10,12 @@ This is a **wholesaling business**. Every offer must leave assignment spread + r
 - **Always justify the number** with condition / disclosure / rehab scope ("seller has no condition knowledge, full rehab, all risk on buyer, all cash, fast close").
 - **If it can't close at or under MAO, pass.** Don't chase firm sellers priced above MAO.
 
+## VA deal sheet / agent call-back (HARD RULE)
+- **Every VA deal sheet / agent call-back MUST include the agent Q&A** from `Agent_Call_QA_Playbook.md` — the listing agent will probe a cash buyer, and the VA needs the answers in front of them. Tailor the numbers to the specific deal.
+- Lead the **"are you wholesaling/assigning?"** answer **honestly** (the contract says "and/or assigns") and pivot to **performance** (earnest money + proof of funds + fast clean close + short 10-day DD). Never deny assignability; never lie; never promise a walkthrough.
+- REO/bank-owned = assignment usually prohibited → drop "and/or assigns" and **double-close** (doubleclose.com). Regular seller listing = straight assignment is fine.
+- Deal sheets stay in plain, human language for the VA to relay. Include: list price, our offer + ceiling/MAO, the reason for the price, standing terms (earnest, 10-day DD, ~21-day close, no financing/appraisal contingency, and/or assigns, POF), the call flow, the **agent Q&A**, and the hard stops (never above ceiling, no walkthrough, get email before terms, Charles okays any signed offer).
+
 ## No address, no deal (HARD RULE)
 - **A lead with no specific property address is not a deal — skip it.** Never draft an offer, a "your listing" feeler, or a generic buyer-intro for a contact that has no address. (Learned 6/20/26: built 3 addressless "active cash buyer" intros for Deborah/Johnnie/Maria — Charles: "if no address, then i dont do business.")
 - If a lead is missing the address, drop it from the campaign — do not substitute a generic outreach to keep it in.
