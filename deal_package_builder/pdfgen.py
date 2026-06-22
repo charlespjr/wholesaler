@@ -3,7 +3,8 @@ from __future__ import annotations
 
 import logging
 import os
-from typing import List
+from dataclasses import dataclass, field
+from typing import List, Optional
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
@@ -37,7 +38,16 @@ CAP = ParagraphStyle("cap", parent=_ss["BodyText"], textColor=GREY, fontSize=8.5
                      leading=10, alignment=TA_CENTER)
 
 
-def _header_footer(address: str):
+@dataclass
+class Brand:
+    """Optional company branding for the package (e.g. Paragon letterhead)."""
+    logo_path: Optional[str] = None
+    company: str = ""
+    line2: str = ""   # address | phone | email
+    line3: str = ""   # identifiers | web
+
+
+def _header_footer(address: str, brand: Optional[Brand] = None):
     def draw(canvas, doc):
         canvas.saveState()
         w, h = letter
@@ -48,10 +58,30 @@ def _header_footer(address: str):
         canvas.setStrokeColor(RULE)
         canvas.setLineWidth(0.5)
         canvas.line(0.85 * inch, h - 0.58 * inch, w - 0.85 * inch, h - 0.58 * inch)
-        # footer: page number
-        canvas.setFont("Helvetica", 8)
-        canvas.setFillColor(GREY)
-        canvas.drawCentredString(w / 2, 0.45 * inch, f"Page {doc.page}")
+
+        if brand and (brand.company or brand.line2):
+            # branded footer block (company / address / identifiers) + page no.
+            base = 0.42 * inch
+            canvas.setStrokeColor(NAVY)
+            canvas.setLineWidth(0.6)
+            canvas.line(0.85 * inch, base + 30, w - 0.85 * inch, base + 30)
+            canvas.setFont("Helvetica-Bold", 8)
+            canvas.setFillColor(NAVY)
+            canvas.drawCentredString(w / 2, base + 20, brand.company)
+            canvas.setFont("Helvetica", 7)
+            canvas.setFillColor(GREY)
+            if brand.line2:
+                canvas.drawCentredString(w / 2, base + 10, brand.line2)
+            if brand.line3:
+                canvas.drawCentredString(w / 2, base, brand.line3)
+            canvas.setFont("Helvetica", 7)
+            canvas.setFillColor(GREY)
+            canvas.drawRightString(w - 0.85 * inch, base + 33, f"Page {doc.page}")
+        else:
+            # plain footer: page number only
+            canvas.setFont("Helvetica", 8)
+            canvas.setFillColor(GREY)
+            canvas.drawCentredString(w / 2, 0.45 * inch, f"Page {doc.page}")
         canvas.restoreState()
     return draw
 
@@ -88,12 +118,19 @@ def _fit_image(path: str, max_w: float, max_h: float):
 
 # -----------------------------------------------------------------------------
 def build_pdf(prop: Property, photos: List[Photo], out_path: str,
-              photos_note: str = "") -> str:
+              photos_note: str = "", brand: Optional[Brand] = None) -> str:
     story = []
     addr = prop.property_address or prop.title
 
     # ---------- PAGE 1: COVER ----------
-    story.append(Spacer(1, 0.2 * inch))
+    if brand and brand.logo_path and os.path.exists(brand.logo_path):
+        logo = Image(brand.logo_path, width=0.9 * inch, height=0.9 * inch)
+        logo.hAlign = "CENTER"
+        story.append(logo)
+        story.append(Spacer(1, 2))
+        story.append(HRFlowable(width="100%", thickness=1, color=NAVY, spaceBefore=2, spaceAfter=8))
+    else:
+        story.append(Spacer(1, 0.2 * inch))
     story.append(Paragraph("WHOLESALE INVESTMENT OPPORTUNITY", H2))
     story.append(Paragraph(addr, TITLE))
     if prop.full_location:
@@ -231,11 +268,12 @@ def build_pdf(prop: Property, photos: List[Photo], out_path: str,
         "independently verified. Photos remain the property of their respective owners or listing sources.",
         BODY))
 
+    bottom_margin = 0.95 * inch if (brand and (brand.company or brand.line2)) else 0.7 * inch
     doc = SimpleDocTemplate(out_path, pagesize=letter, topMargin=0.75 * inch,
-                            bottomMargin=0.7 * inch, leftMargin=0.85 * inch, rightMargin=0.85 * inch,
+                            bottomMargin=bottom_margin, leftMargin=0.85 * inch, rightMargin=0.85 * inch,
                             title=f"{addr} - Deal Package",
-                            author="Paragon Government Solutions LLC")
-    hf = _header_footer(addr)
+                            author=(brand.company if brand and brand.company else "Deal Package Builder"))
+    hf = _header_footer(addr, brand)
     doc.build(story, onFirstPage=hf, onLaterPages=hf)
     log.info("PDF written: %s", out_path)
     return out_path

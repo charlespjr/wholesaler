@@ -25,14 +25,34 @@ import csv
 import logging
 import os
 import sys
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from extractors import detect_source, extract_photo_urls
 from images import collect_photos
 from models import Property
-from pdfgen import build_pdf
+from pdfgen import Brand, build_pdf
 
 log = logging.getLogger("deal_packages")
+
+# Default company branding (Paragon letterhead). Logo auto-located relative to
+# this file at ../assets/paragon_logo.png unless --logo is given.
+PARAGON_BRAND = Brand(
+    company="Paragon Government Solutions LLC",
+    line2="11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030  |  (888) 495-6935  |  charlesp@paragongovsolutions.net",
+    line3="UEI: FSCZBK8CBV82  |  CAGE Code: 9WX69  |  www.paragongovsolutions.net",
+)
+_DEFAULT_LOGO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "paragon_logo.png")
+
+
+def resolve_brand(no_brand: bool, logo_path: str = "") -> Optional[Brand]:
+    if no_brand:
+        return None
+    brand = Brand(company=PARAGON_BRAND.company, line2=PARAGON_BRAND.line2, line3=PARAGON_BRAND.line3)
+    candidate = logo_path or _DEFAULT_LOGO
+    brand.logo_path = candidate if os.path.exists(candidate) else None
+    if not brand.logo_path:
+        log.warning("Brand logo not found at %s - building branded text footer without logo.", candidate)
+    return brand
 
 
 def _setup_logging(verbose: bool) -> None:
@@ -97,7 +117,7 @@ def _read_excel(path: str) -> List[Dict]:
 # Per-property processing
 # -----------------------------------------------------------------------------
 def process_property(prop: Property, output_dir: str, max_photos: int,
-                     headless: bool, min_width: int) -> Dict:
+                     headless: bool, min_width: int, brand: Optional[Brand] = None) -> Dict:
     report = {
         "property_address": prop.property_address,
         "listing_url": prop.listing_url,
@@ -136,7 +156,7 @@ def process_property(prop: Property, output_dir: str, max_photos: int,
         pkg_dir = os.path.join(output_dir, "deal_packages")
         os.makedirs(pkg_dir, exist_ok=True)
         out_path = os.path.join(pkg_dir, prop.package_basename())
-        build_pdf(prop, photos, out_path, photos_note=photos_note)
+        build_pdf(prop, photos, out_path, photos_note=photos_note, brand=brand)
         report["pdf_created"] = True
     except Exception as exc:  # noqa: BLE001
         log.exception("PDF build failed for %s", prop.title)
@@ -171,6 +191,8 @@ def main(argv=None) -> int:
     ap.add_argument("--max-photos", type=int, default=15, help="Max photos per property (default: 15).")
     ap.add_argument("--min-width", type=int, default=600, help="Skip images narrower than this (default: 600).")
     ap.add_argument("--no-headless", action="store_true", help="Show the browser window (debugging).")
+    ap.add_argument("--no-brand", action="store_true", help="Disable Paragon letterhead branding.")
+    ap.add_argument("--logo", default="", help="Path to a logo PNG (overrides the default Paragon logo).")
     ap.add_argument("--verbose", "-v", action="store_true", help="Verbose logging.")
     args = ap.parse_args(argv)
 
@@ -202,11 +224,15 @@ def main(argv=None) -> int:
         log.error("No properties to process.")
         return 2
 
-    log.info("Processing %d propert%s …", len(properties), "y" if len(properties) == 1 else "ies")
+    brand = resolve_brand(args.no_brand, args.logo)
+    log.info("Processing %d propert%s …  (branding: %s)", len(properties),
+             "y" if len(properties) == 1 else "ies",
+             "Paragon" if brand else "off")
     reports = []
     for i, prop in enumerate(properties, 1):
         log.info("[%d/%d] %s", i, len(properties), prop.title)
-        reports.append(process_property(prop, args.output, args.max_photos, headless, args.min_width))
+        reports.append(process_property(prop, args.output, args.max_photos, headless,
+                                        args.min_width, brand=brand))
 
     write_report(reports, args.output)
     ok = sum(1 for r in reports if r["pdf_created"])

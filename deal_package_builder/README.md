@@ -86,7 +86,18 @@ python build_deal_packages.py \
 | `--max-photos` | `15` | max photos per property |
 | `--min-width` | `600` | skip images narrower than this |
 | `--no-headless` | off | show the browser window (debugging) |
+| `--no-brand` | off | disable Paragon letterhead branding |
+| `--logo` | (Paragon) | path to a logo PNG (overrides the default) |
 | `--verbose` / `-v` | off | verbose logging |
+
+### Branding
+
+By default every package is produced on **Paragon letterhead** — the logo
+(`assets/paragon_logo.png`) on the cover and a footer block (company name,
+`11166 Fairfax Blvd, Suite 500, Fairfax, VA 22030`, phone/email, UEI/CAGE) on
+every page. Use `--no-brand` for a plain package, or `--logo /path/to/logo.png`
+to use a different mark. The contact lines live in `PARAGON_BRAND` in
+`build_deal_packages.py`.
 
 ## Input columns
 
