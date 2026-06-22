@@ -1,5 +1,37 @@
 # Paragon Wholesaling — working rules for Claude
 
+## Autopilot — run the whole workflow without being asked (STANDING SOP)
+**Charles should never have to narrate the steps.** When any of the triggers below
+arrive, run the FULL chain end-to-end on your own, apply every hard rule, produce the
+files, and stop only for Charles's approval **before sending anything externally**.
+Lead your reply with the numbers block, then say what's ready to send.
+
+**Trigger A — a deal comes in** (a single address, a Zillow/Redfin URL, or an
+`incoming_deals` CSV from the ChatGPT scout). For EACH property, automatically:
+1. **Guard:** no address / placeholder → skip. Retail / at-market listing → PASS (say why).
+2. **Comps → ARV:** pull via Nimble; conservative ARV (haircut aggressive AVMs). Never quote without real comps.
+3. **Repairs:** estimate by condition ($/sqft — light ~$37-40, dated ~$45-55, full gut ~$60-80). If interior condition is unknown, **ask the agent/seller for it** (don't bake a guessed number into a sent offer); still compute an internal range.
+4. **Numbers:** builder_max = 0.70×ARV − repairs · MAO = builder_max − fee ($10k) · opening ≈ 15% below MAO (lower for full rehab / unknown / firm-overpriced / long DOM).
+5. **Classify + dispo tag:** MaxDispo (≤60% ARV, builders) / buy-hold landlord / pass.
+6. **REO check:** bank-owned → close in Paragon's name, **double-close**, drop "and/or assigns".
+7. **Photos → package:** pull listing photos via Nimble; build the branded Paragon deal-package PDF (cover, summary, deal analysis, photos, **VA call script auto-included**, disclaimer) with `deal_package_builder`.
+8. **Outreach draft:** seller/agent message — **email if they have email, GV text (CSV) if phone-only** — in human voice; answer "are you wholesaling?" honestly → pivot to performance; never promise a walkthrough.
+9. **Commit/push** the artifacts to the working branch.
+10. **Present for approval.** Do NOT send externally without Charles's okay.
+
+**Trigger B — an inbound seller/agent reply** (pasted or via Gmail/GV): map it to the
+property, re-underwrite off real comps, draft the next **human-voice** response. Never
+exceed MAO; recommend PASS if they counter above MAO or it's retail. If they ask a price
+and we lack condition/comps, ask for condition — don't quote blind.
+
+**Trigger C — a skip-trace lead drop** (owner CSV): dedup by (address, zip), apply the
+suppression list + DNC, net-new only, **exclude LLC/entity owners**, route email vs GV,
+output the campaign CSVs, update `owner_leads_consolidated.json`.
+
+All of this is governed by the hard rules below (data integrity, no retail, no
+walkthroughs, channel routing, MAO ceiling, human voice, VA deal-sheet Q&A, REO =
+double-close). Just do it and report — don't ask Charles to walk you through it.
+
 ## Offer pricing (STANDING RULE — apply to every offer, always)
 This is a **wholesaling business**. Every offer must leave assignment spread + room to negotiate up. Never anchor at the max.
 
