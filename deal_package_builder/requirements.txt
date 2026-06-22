@@ -1,0 +1,9 @@
+# Core
+playwright>=1.44      # headless Chromium rendering of listing pages
+httpx>=0.27           # image downloads (falls back to urllib if absent)
+Pillow>=10.0          # image validation, resize, compression, perceptual dedup
+reportlab>=4.0        # PDF generation
+
+# Input parsing
+pandas>=2.0           # read CSV/Excel (falls back to csv/openpyxl if absent)
+openpyxl>=3.1         # Excel (.xlsx) support
